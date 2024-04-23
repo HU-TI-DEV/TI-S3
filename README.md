@@ -7,7 +7,7 @@
 - [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
-  - [Beroepstaak](#beroepstaak)
+  - [Leeruitkomst](#leeruitkomst)
   - [Context](#context)
   - [Sustainable Development Goals](#sustainable-development-goals)
   - [Leeruitkomsten](#leeruitkomsten)
@@ -16,15 +16,19 @@
 
 ---
 
-**v0.1.0 [](version-id)** Semester 3 TI door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Semester 3 TI door HU IICT[](author-id).
 
 ---
 
 ## Een introductie
 
-## Beroepstaak
+## Leeruitkomst
 
-In semester 3 van de richting Technische Informatica staat de volgende beroepstaak centraal:
+In semester 3 van de richting Technische Informatica staat de volgende leeruitkomst centraal:
+
+De student ontwerpt met behulp van gestructureerde voorgeschreven ontwikkelmethoden in een team een hybride systeem bestaande uit een real-time embedded subsysteem en een frontend, backend en een database. 
+
+Hiertoe analyseert de student een deels afgebakend vraagstuk van de opdrachtgever en mogelijke gebruikers, rekening houdend met relevant SDG’s. De student realiseert en test het systeem volgens een zelf op te stellen planning en levert de product iteraties op aan de opdrachtgever zodanig dat een volgend ontwikkelteam ermee verder kan, volgens een voorgeschreven vorm. 
 
 
 ## Context
