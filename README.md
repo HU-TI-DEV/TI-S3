@@ -7,7 +7,7 @@
 - [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
-  - [Leeruitkomst](#leeruitkomst)
+  - [Semester leeruitkomst](#semester-leeruitkomst)
   - [Context](#context)
   - [Sustainable Development Goals](#sustainable-development-goals)
   - [Leeruitkomsten](#leeruitkomsten)
@@ -22,9 +22,9 @@
 
 ## Een introductie
 
-## Leeruitkomst
+## Semester leeruitkomst
 
-In semester 3 van de richting Technische Informatica staat de volgende leeruitkomst centraal:
+In semester 3 van de richting Technische Informatica staat de volgende semester leeruitkomst centraal:
 
 De student ontwerpt met behulp van gestructureerde voorgeschreven ontwikkelmethoden in een team een hybride systeem bestaande uit een real-time embedded subsysteem en een frontend, backend en een database. 
 
