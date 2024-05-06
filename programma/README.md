@@ -34,7 +34,6 @@ De docenten zijn:
 
 * (**TM**) Teun Pieter Moddermann
 * (**HS**) Harm Snippe
-* (**GP**) Gera Pronk
 * (**MV**) Marius Versteegen
 * (**HP**) Hagen Patzke
 * (**NG**) Nick Goris
