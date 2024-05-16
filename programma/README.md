@@ -274,7 +274,7 @@ Werkend prototype presenteren en demonstreren
 | ma | Verbeterperiode |
 | di | Verbeterperiode |
 | wo | Verbeterperiode |
-| do |  |
+| do | Verbeterperiode |
 
 
 #### Docenten-info:
