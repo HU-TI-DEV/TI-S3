@@ -119,7 +119,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | di | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) |
 | wo | Flask, MongoDb, NoIP, Reverse Proxy, docker composer |
 | do |  |
-#### Week A8<br style="border-color: var(--border-color);">(21-10-2024)
+#### Week A8 (21-10-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -133,7 +133,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 
 RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br>(requirements, usecases,&nbsp; storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
 
-#### Week A9<br style="border-color: var(--border-color);">(28-10-2024)
+#### Week A9 (28-10-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -141,7 +141,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | di | vakantie |
 | wo | vakantie |
 | do | vakantie |
-#### Week A10<br style="border-color: var(--border-color);">(4-11-2024)
+#### Week A10 (4-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -155,7 +155,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
-#### Week B1<br style="border-color: var(--border-color);">(11-11-2024)
+#### Week B1 (11-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -163,7 +163,7 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 | di | Compact and Clean |
 | wo | Digitale simulatie (logisim) |
 | do |  |
-#### Week B2<br style="border-color: var(--border-color);">(18-11-2024)
+#### Week B2 (18-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -177,7 +177,7 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 Werkend prototype
 
-#### Week B3<br style="border-color: var(--border-color);">(25-11-2024)
+#### Week B3 (25-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -185,7 +185,7 @@ Werkend prototype
 | di | Opamp versterkertrappen |
 | wo | Hartslagmeter 1/2 |
 | do | Hartslagmeter 2/2 |
-#### Week B4<br style="border-color: var(--border-color);">(2-12-2024)
+#### Week B4 (2-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -199,7 +199,7 @@ Werkend prototype
 
 UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 
-#### Week B5<br style="border-color: var(--border-color);">(9-12-2024)
+#### Week B5 (9-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -207,7 +207,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di |  |
 | wo |  |
 | do |  |
-#### Week B6<br style="border-color: var(--border-color);">(16-12-2024)
+#### Week B6 (16-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -215,7 +215,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di |  |
 | wo |  |
 | do |  |
-#### Week B7<br style="border-color: var(--border-color);">(23-12-2024)
+#### Week B7 (23-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -223,7 +223,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di | Vakantie |
 | wo | Vakantie |
 | do | Vakantie |
-#### Week B8<br style="border-color: var(--border-color);">(30-12-2024)
+#### Week B8 (30-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -231,7 +231,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di | Vakantie |
 | wo | Vakantie |
 | do | Vakantie |
-#### Week B9<br style="border-color: var(--border-color);">(6-1-2024)
+#### Week B9 (6-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -245,7 +245,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 
 Werkend prototype presenteren en demonstreren
 
-#### Week B10<br style="border-color: var(--border-color);">(13-1-2024)
+#### Week B10 (13-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -259,7 +259,7 @@ Werkend prototype presenteren en demonstreren
 
 Repareren
 
-#### Week B11<br style="border-color: var(--border-color);">(20-1-2024)
+#### Week B11 (20-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -267,7 +267,7 @@ Repareren
 | di |  |
 | wo |  |
 | do |  |
-#### Week B12<br style="border-color: var(--border-color);">(27-1-2024)
+#### Week B12 (27-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|

@@ -1,36 +1,25 @@
 import os
 import xml.etree.ElementTree as ET
 
-def get_unique_filename(base_filename, extension):
-    counter = 0
-    while True:
-        if counter == 0:
-            filename = f"{base_filename}.{extension}"
-        else:
-            filename = f"{base_filename}_{counter}.{extension}"
+# Inputs:
+# intro.md          (header text van de pagina)
+# Programma.drawio  (programma tabel)
 
-        # Check if filename already exists
-        if not os.path.isfile(filename):
-            return filename
+# Output:
+# README.md
 
-        counter += 1
+# Gebruiksaanwijzing:
+# 1. Update Programma.drawio met de desktop versie van drawio.
+# 2. Klik op het batchbestand dat onderstaande script uitvoert.
+#
+# Binnen een seconde is README.md gesynct met de content in Programma.drawio
+# en intro.md
 
-def read_drawio_file_into_tree(base_filename, extension):
+def read_drawio_file_into_tree(filename):
     # Parse the XML content into an ElementTree
-    filename = base_filename+"."+extension
     tree = ET.parse(filename)
     root = tree.getroot()
     return tree,root
-
-def testje(root):
-    # Now you can access elements in the XML as a dictionary-like structure
-    # For example, to get the 'name' attribute of a 'diagram' element:
-    for diagram in root.findall('diagram'):
-        print(diagram.get('name'))
-        mxGraphModel=diagram.find('mxGraphModel')
-        aRoot=mxGraphModel.find('root')
-        for mxCell in aRoot.findall('mxCell'):
-            print(mxCell.get('value'))
 
 # Voorbeeld: een blok in de swimlane met de naam "Onderwijsvrij" met een
 # hoogte van 80, terwijl itemheight=20, beslaat 4 tijds-items/delen.
@@ -120,7 +109,11 @@ def generate_markdown(intro, sprints, projects, weeks, sessions):
             # Verwerk de week
             if weeks:
                 week_days, week_name = weeks.pop(0)
+
+                # In .md willen we de week namen zonder carriage returns:
                 week_name = week_name.replace('<br>',' ')
+                week_name = week_name.replace('<br style="border-color: var(--border-color);">',' ')
+                
                 md_content.append(f"#### {week_name}\n")
                 total_week_days += week_days
             
@@ -151,15 +144,14 @@ def save_string_to_md(content, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(content)
 
-#base_filename="D:\GoogleDrive\Dev\Code Dev\Python\Graphical\DrawIo\KanBanNaarMd\Programma"
-
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-input_filename = os.path.join(script_dir, "Programma")
-intro_filename = os.path.join(script_dir, "intro.md")
+input_fullpath = os.path.join(script_dir, "Programma.drawio")
+intro_fullpath = os.path.join(script_dir, "intro.md")
 
-tree, root = read_drawio_file_into_tree(input_filename, 'drawio')
+tree, root = read_drawio_file_into_tree(input_fullpath)
 
+# Extraheer de data uit de swimlanes en print voor debugging/verificatie.
 print("kennissessie_list")
 kennissessie_list = SwimlaneSplitupToList(root,"Kennissessies",splitupHeight=20)
 print(kennissessie_list)
@@ -175,15 +167,10 @@ print("project_list")
 project_list = SwimLaneExtractCollapsableItemTuples(root,"Project, MVP",itemHeight=20)
 print(project_list)
 
-intro = read_md_file(intro_filename)
+# Presenteer de data samen in README.md
+intro = read_md_file(intro_fullpath)
 markdown = generate_markdown(intro, sprint_list, project_list, week_list, kennissessie_list)
 print(markdown)
 
-output_filename = os.path.join(script_dir, "README")
-save_string_to_md(markdown,output_filename+'.md')
-
-# testje(root)
-
-# Write the ElementTree back to an XML file
-#outputFilename = get_unique_filename(base_filename, 'drawio')
-#tree.write(outputFilename)
+output_fullpath = os.path.join(script_dir, "README.md")
+save_string_to_md(markdown,output_fullpath)
