@@ -10,7 +10,8 @@ import xml.etree.ElementTree as ET
 
 # Gebruiksaanwijzing:
 # 1. Update Programma.drawio met de desktop versie van drawio.
-# 2. Klik op het batchbestand dat onderstaande script uitvoert.
+# 2. Export naar html
+# 3. Klik op het batchbestand dat onderstaande script uitvoert.
 #
 # Binnen een seconde is README.md gesynct met de content in Programma.drawio
 # en intro.md
