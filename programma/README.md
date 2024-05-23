@@ -49,9 +49,9 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Kickoff - Teamvorming |
-| di | Klant-praatjes (2 klanten). Laat teams key drivers achterhalen |
-| wo | Overige stakeholders (gebruiker) met key drivers, prioriteren |
+| ma | <a href="programmas/programma-kickoff.md">Kickoff - Teamvorming</a> |
+| di | <a href="programmas/programma-klantpraatjes.md">Klant-praatjes (2 klanten). Laat teams key drivers achterhalen</a> |
+| wo | <a href="programmas/programma-systemcontext-keydrivers-applicationdrivers.md">System Context Diagram, Stakeholders, Application Drivers</a> |
 | do | {recap FR, NFR} |
 
 
@@ -146,7 +146,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | Combinatoriek |
-| di | <a href="https://canvas.hu.nl/courses/39674/files/4346542?wrap=1">Karnaugh</a> |
+| di | Karnaugh |
 | wo | Karnaugh |
 | do | {<b>Peil 2</b>} |
 

@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-16T07:54:17.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="F2w3IhPeOOOae2SOCg5k" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-05-23T09:31:05.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="ajz6isUMX8Yc5V6zFF0H" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="778" dy="5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,13 +9,13 @@
             <mxGeometry x="480" y="1230" width="350" height="1901" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-3" value="Kickoff - Teamvorming" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-3" value="&lt;a href=&quot;programmas/programma-kickoff.md&quot;&gt;Kickoff - Teamvorming&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="Klant-praatjes (2 klanten). Laat teams key drivers achterhalen" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="&lt;a href=&quot;programmas/programma-klantpraatjes.md&quot;&gt;Klant-praatjes (2 klanten). Laat teams key drivers achterhalen&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="21" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-5" value="Overige stakeholders (gebruiker) met key drivers, prioriteren" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-5" value="&lt;a href=&quot;programmas/programma-systemcontext-keydrivers-applicationdrivers.md&quot;&gt;System Context Diagram, Stakeholders, Application Drivers&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="41" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-6" value="{recap FR, NFR}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -111,7 +111,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-36" value="Combinatoriek" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="721" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-37" value="&lt;a href=&quot;https://canvas.hu.nl/courses/39674/files/4346542?wrap=1&quot;&gt;Karnaugh&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-37" value="Karnaugh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="741" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-38" value="Karnaugh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
