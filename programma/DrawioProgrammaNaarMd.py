@@ -179,7 +179,7 @@ write_file(markdown,output_fullpath)
 # Vanuit de html in github pages linken we terug naar non-github pages... wat vermoedelijk vaker wordt gebruikt.
 drawio_for_export_html_fullpath = os.path.join(script_dir, "Programma_for_export_html.drawio")
 drawioContent = read_file(input_fullpath)
-drawioContent.replace('&lt;a href=&quot;./','&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/')
+drawioContent = drawioContent.replace('&lt;a href=&quot;./','&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/')
 write_file(drawioContent,drawio_for_export_html_fullpath)
 
 print("****************************************")
