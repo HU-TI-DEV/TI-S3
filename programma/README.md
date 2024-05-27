@@ -39,7 +39,8 @@ De docenten zijn:
 * (**NG**) Nick Goris
 
 ## Programma
-[(alternatieve view)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.drawio.html)
+[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.drawio.html)
+[(alternatieve view svg)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.svg)
 
 ### Opstarten
 
