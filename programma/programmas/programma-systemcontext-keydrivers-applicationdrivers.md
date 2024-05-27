@@ -1,6 +1,6 @@
 # Programma System Context Diagram, Stakeholders, Key Drivers, Application Drivers
 ## Voorbereiding
-- Lees [reader-system-engineering, pg 15 tm 26](../onderwijsmateriaal/readers/reader-system-engineering.pdf).
+- Lees [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 
 ### Topics
 - Korte behandeling van System Context Diagram.

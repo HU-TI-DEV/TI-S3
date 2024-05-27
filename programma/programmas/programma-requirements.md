@@ -1,7 +1,7 @@
 # Functionele en Niet-Functionele Requirements
 
 ## Voorbereiding
-- Lees van [reader-system-engineering, pg 26 tm 29](../onderwijsmateriaal/readers/reader-system-engineering.pdf), het stukje over (Functionele-) Requirements.
+- Lees van [reader-system-engineering, pg 26 tm 29](../../onderwijsmateriaal/readers/reader-system-engineering.pdf), het stukje over (Functionele-) Requirements.
 - Highlights daarvan zijn ook beschikbaar als [video](https://www.youtube.com/watch?v=IJ0bIVxbi04).
 
 - TODO: UPDATE DIT DOC ZODAT OOK NIET-FUNCTIONELE REQS GECOVERED ZIJN.
