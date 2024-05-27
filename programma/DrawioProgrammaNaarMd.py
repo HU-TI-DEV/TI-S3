@@ -92,8 +92,10 @@ def generate_markdown(intro, sprints, projects, weeks, sessions):
     md_content = []
     md_content.append(intro)
     md_content.append("## Programma")
-    md_content.append("[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.drawio.html)")
-    md_content.append("[(alternatieve view svg)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.svg)")
+    #md_content.append("[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.drawio.html)")
+    #md_content.append("[(alternatieve view svg)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.svg)")
+    md_content.append("[(alternatieve view html)](Programma.drawio.html)")
+    md_content.append("[(alternatieve view svg)](Programma.svg)")
     md_content.append("")
 
     while sprints:
