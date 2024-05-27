@@ -10,8 +10,8 @@ import xml.etree.ElementTree as ET
 
 # Gebruiksaanwijzing:
 # 1. Update Programma.drawio met de desktop versie van drawio.
-# 2. Export naar html
-# 3. Klik op het batchbestand dat onderstaande script uitvoert.
+# 2. Klik op het batchbestand dat onderstaande script uitvoert.
+# 3. Export vanuit het gegenereerde Programma_for_export_html.drawio een html
 #
 # Binnen een seconde is README.md gesynct met de content in Programma.drawio
 # en intro.md
@@ -92,7 +92,7 @@ def generate_markdown(intro, sprints, projects, weeks, sessions):
     md_content = []
     md_content.append(intro)
     md_content.append("## Programma")
-    md_content.append("[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma.drawio.html)")
+    md_content.append("[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma_for_export_html.drawio.html)")
     md_content.append("")
 
     while sprints:
@@ -136,12 +136,12 @@ def generate_markdown(intro, sprints, projects, weeks, sessions):
 
     return "\n".join(md_content)
 
-def read_md_file(file_path):
+def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
     return content
 
-def save_string_to_md(content, filename):
+def write_file(content, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(content)
 
@@ -169,9 +169,19 @@ project_list = SwimLaneExtractCollapsableItemTuples(root,"Project, MVP",itemHeig
 print(project_list)
 
 # Presenteer de data samen in README.md
-intro = read_md_file(intro_fullpath)
+intro = read_file(intro_fullpath)
 markdown = generate_markdown(intro, sprint_list, project_list, week_list, kennissessie_list)
 print(markdown)
 
 output_fullpath = os.path.join(script_dir, "README.md")
-save_string_to_md(markdown,output_fullpath)
+write_file(markdown,output_fullpath)
+
+# Vanuit de html in github pages linken we terug naar non-github pages... wat vermoedelijk vaker wordt gebruikt.
+drawio_for_export_html_fullpath = os.path.join(script_dir, "Programma_for_export_html.drawio")
+drawioContent = read_file(input_fullpath)
+drawioContent.replace('&lt;a href=&quot;./','&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/')
+write_file(drawioContent,drawio_for_export_html_fullpath)
+
+print("****************************************")
+print(" !!! LET OP !!! Vergeet AUB niet vanuit de file Programma_for_export_html.drawio naar html te exporteren voor github pages (disable lightbox).")
+print("****************************************")

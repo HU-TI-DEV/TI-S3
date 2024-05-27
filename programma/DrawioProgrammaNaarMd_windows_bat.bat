@@ -1,1 +1,2 @@
 python DrawIoProgrammaNaarMd.py
+pause
