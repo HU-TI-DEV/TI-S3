@@ -9,13 +9,13 @@
             <mxGeometry x="560" y="1230" width="350" height="1770" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-3" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-kickoff.md&quot;&gt;Kickoff - Teamvorming&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-3" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-kickoff.md&quot; target=&quot;_self&quot;&gt;Kickoff - Teamvorming&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klantpraatjes.md&quot;&gt;Klant-praatjes (2 klanten). Laat teams key drivers achterhalen&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klantpraatjes.md&quot; target=&quot;_self&quot;&gt;Klant-praatjes (2 klanten). Laat teams key drivers achterhalen&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="21" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-5" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-systemcontext-keydrivers-applicationdrivers.md&quot;&gt;Overige stakeholders (gebruiker) met key drivers, prioriteren&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-5" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-systemcontext-keydrivers-applicationdrivers.md&quot; target=&quot;_self&quot;&gt;Overige stakeholders (gebruiker) met key drivers, prioriteren&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="41" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-6" value="{recap FR, NFR}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
