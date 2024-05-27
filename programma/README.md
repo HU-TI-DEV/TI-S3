@@ -49,9 +49,9 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | <a href="programmas/programma-kickoff.md">Kickoff - Teamvorming</a> |
-| di | <a href="programmas/programma-klantpraatjes.md">Klant-praatjes (2 klanten). Laat teams key drivers achterhalen</a> |
-| wo | <a href="programmas/programma-systemcontext-keydrivers-applicationdrivers.md">System Context Diagram, Stakeholders, Application Drivers</a> |
+| ma | Kickoff - Teamvorming |
+| di | Klant-praatjes (2 klanten). Laat teams key drivers achterhalen |
+| wo | Overige stakeholders (gebruiker) met key drivers, prioriteren |
 | do | {recap FR, NFR} |
 
 
@@ -146,7 +146,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | Combinatoriek |
-| di | Karnaugh |
+| di | <a href="https://canvas.hu.nl/courses/39674/files/4346542?wrap=1">Karnaugh</a> |
 | wo | Karnaugh |
 | do | {<b>Peil 2</b>} |
 
@@ -257,24 +257,24 @@ Werkend prototype presenteren en demonstreren
 
 ### Reparatie
 
-Repareren
+<span style="color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; font-weight: 400; background-color: rgb(255, 255, 255);">Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.</span>
 
 #### Week B11 (20-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma |  |
-| di |  |
-| wo |  |
-| do |  |
+| ma | Verbeterperiode |
+| di | Verbeterperiode |
+| wo | Verbeterperiode |
+| do | Verbeterperiode |
 #### Week B12 (27-1-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma |  |
-| di |  |
-| wo |  |
-| do |  |
+| ma | Verbeterperiode |
+| di | Verbeterperiode |
+| wo | Verbeterperiode |
+| do | Verbeterperiode |
 
 
 #### Docenten-info:
