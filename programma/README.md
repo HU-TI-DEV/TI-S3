@@ -73,8 +73,8 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 |---|---|
 | ma | Functionele decompositie |
 | di | Networking basics |
-| wo |  |
-| do |  |
+| wo | Const expressions + Templates, SFINAE |
+| do | RAII |
 
 
 ### Sprint 2
@@ -119,6 +119,12 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | di | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) |
 | wo | Flask, MongoDb, NoIP, Reverse Proxy, docker composer |
 | do |  |
+
+
+### Sprint 4
+
+RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br>(requirements, usecases,&nbsp; storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
+
 #### Week A8 (21-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -127,12 +133,6 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | di | {Javascript} (pointer naar zelfstudie) |
 | wo | Webarchitectuur |
 | do |  |
-
-
-### Sprint 4
-
-RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br>(requirements, usecases,&nbsp; storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
-
 #### Week A9 (28-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -231,6 +231,12 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di | Vakantie |
 | wo | Vakantie |
 | do | Vakantie |
+
+
+### Oplevering
+
+Werkend eindproduct presenteren en demonstreren. Documentatie opleveren.
+
 #### Week B9 (6-1-2024)
 
 | **Dag** | **Kennissessie** |
@@ -241,9 +247,9 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | do | {<b>Peil 4</b>} |
 
 
-### Oplevering
+### Evaluaties
 
-Werkend prototype presenteren en demonstreren
+Evaluaties<br>Op een aparte branch kan alvast gewerkt worden aan eventuele verbeteringen.
 
 #### Week B10 (13-1-2024)
 

@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-27T17:32:57.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" version="22.0.2" etag="Kwjz7dzYFs3Eb63bGpSW" type="device">
+<mxfile host="Electron" modified="2024-06-10T10:14:16.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="mUWp2lzv7oG4uYHedQK4" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1178" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,10 +39,10 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-12" value="Networking basics" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="181" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-13" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-13" value="Const expressions + Templates, SFINAE" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="201" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-14" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-14" value="RAII" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="221" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-15" value="Oefening Object Model" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -326,7 +326,7 @@
           <mxGeometry y="160" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-103" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken" style="fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=0;strokeWidth=2;spacingBottom=0;spacingTop=-3;" parent="5CiSqYk4vTxB8dpWyrSt-81" vertex="1" collapsed="1">
-          <mxGeometry y="1121" width="260" height="400" as="geometry">
+          <mxGeometry y="1121" width="260" height="320" as="geometry">
             <mxRectangle y="641" width="180" height="168" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -336,8 +336,8 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5CiSqYk4vTxB8dpWyrSt-103" vertex="1">
           <mxGeometry y="160" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-106" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Werkend prototype presenteren en demonstreren" style="fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=0;strokeWidth=2;spacingBottom=0;spacingTop=-3;" parent="5CiSqYk4vTxB8dpWyrSt-81" vertex="1" collapsed="1">
-          <mxGeometry y="1521" width="260" height="80" as="geometry">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-106" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Werkend eindproduct presenteren en demonstreren. Documentatie opleveren." style="fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=0;strokeWidth=2;spacingBottom=0;spacingTop=-3;" parent="5CiSqYk4vTxB8dpWyrSt-81" vertex="1" collapsed="1">
+          <mxGeometry y="1441" width="260" height="80" as="geometry">
             <mxRectangle y="641" width="180" height="168" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -345,6 +345,17 @@
           <mxGeometry width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-108" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5CiSqYk4vTxB8dpWyrSt-106" vertex="1">
+          <mxGeometry y="160" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gW_q8luc5zNe1rZbBMK--2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Evaluaties&lt;br&gt;Op een aparte branch kan alvast gewerkt worden aan eventuele verbeteringen." style="fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=0;strokeWidth=2;spacingBottom=0;spacingTop=-3;" vertex="1" collapsed="1" parent="5CiSqYk4vTxB8dpWyrSt-81">
+          <mxGeometry y="1521" width="260" height="80" as="geometry">
+            <mxRectangle y="641" width="180" height="168" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW_q8luc5zNe1rZbBMK--3" value="" style="text;strokeColor=#808080;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeWidth=2;" vertex="1" parent="gW_q8luc5zNe1rZbBMK--2">
+          <mxGeometry width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gW_q8luc5zNe1rZbBMK--4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gW_q8luc5zNe1rZbBMK--2">
           <mxGeometry y="160" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-109" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen." style="fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=0;strokeWidth=2;spacingBottom=0;spacingTop=-3;" parent="5CiSqYk4vTxB8dpWyrSt-81" vertex="1" collapsed="1">
@@ -373,10 +384,10 @@
           <mxGeometry y="241" width="70" height="160" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-17" value="Sprint 3" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
-          <mxGeometry y="401" width="70" height="240" as="geometry" />
+          <mxGeometry y="401" width="70" height="160" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-16" value="Sprint 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
-          <mxGeometry y="641" width="70" height="160" as="geometry" />
+          <mxGeometry y="561" width="70" height="240" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-15" value="Sprint 5" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
           <mxGeometry y="801" width="70" height="160" as="geometry" />
@@ -385,9 +396,12 @@
           <mxGeometry y="961" width="70" height="160" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-13" value="Sprint 7" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
-          <mxGeometry y="1121" width="70" height="400" as="geometry" />
+          <mxGeometry y="1121" width="70" height="320" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-12" value="Oplevering" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
+          <mxGeometry y="1441" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gW_q8luc5zNe1rZbBMK--1" value="Evaluaties" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="5CiSqYk4vTxB8dpWyrSt-112">
           <mxGeometry y="1521" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tLLD9eW_2KKGqX_0wR2b-11" value="Reparatie" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="5CiSqYk4vTxB8dpWyrSt-112" vertex="1">
