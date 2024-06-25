@@ -17,7 +17,7 @@ Om precies te zijn, zijn er **3 typen** portfolio items:
 
 - [Workflow voor Oefenopdracht Portfolio Item](werkwijze_s3-Oefenopdracht.svg)
 - [Workflow voor Projectbijdrage Portfolio Item](werkwijze_s3-Projectbijdrage.svg)
-- [Workflow voor Gegeven Review Feedback Portfolio Item](werkwijze_s3-Oefenopdracht.svg)
+- [Workflow voor Gegeven Review Feedback Portfolio Item](werkwijze_s3-Feedback.svg)
 
 ## Inhoudelijke feedback van docenten = mondeling
 
