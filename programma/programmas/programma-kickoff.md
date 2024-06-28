@@ -1,4 +1,4 @@
-# Programma Kickoff, Journalling
+# Programma Kickoff
 ## Voorbereiding
 - Bestudeer [Leeruitkomsten](../../README.md)
 - Bestudeer [Werkwijze](../../organisatorisch/README.md)

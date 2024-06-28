@@ -5,11 +5,11 @@
 ### Inhoud[](toc-id)
 
 - [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
-  - [Inhoud](#inhoud)
-    - [Een introductie](#een-introductie)
-  - [Organisatie](#organisatie)
-    - [Programma](#programma)
-  - [Onderwijsweek A1 (2-9-2024)](#onderwijsweek-a1-2-9-2024)
+    - [Inhoud](#inhoud)
+  - [Een introductie](#een-introductie)
+    - [Organisatie](#organisatie)
+  - [Programma](#programma)
+    - [Onderwijsweek A1 (2-9-2024)](#onderwijsweek-a1-2-9-2024)
 
 ---
 
@@ -39,7 +39,6 @@ De docenten zijn:
 * (**NG**) Nick Goris
 
 ## Programma
-
 [(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma_for_export_html.drawio.html)
 
 ### Opstarten
@@ -48,12 +47,13 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 
 #### Week A1 (2-9-2024)
 
-| **Dag** | **Kennissessie**                                                                                                                                  |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ma      | <a href="./programmas/programma-kickoff.md">Kickoff - Teamvorming</a>                                                                             |
-| di      | <a href="./programmas/programma-klantpraatjes.md">Klant-praatjes (2 klanten). Laat teams key drivers achterhalen</a>                              |
-| wo      | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Overige stakeholders (gebruiker) met key drivers, prioriteren</a> |
-| do      | {recap FR, NFR}                                                                                                                                   |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
+| di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (MV, HP, BB) |
+| wo | {recap FR, NFR}&nbsp; (MV,HP, BB) |
+| do | Uitje naar lasfabriek? |
+
 
 ### Sprint 1
 
@@ -61,21 +61,21 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 
 #### Week A2 (9-9-2024)
 
-| **Dag** | **Kennissessie**                                 |
-| ------- | ------------------------------------------------ |
-| ma      | {recap UCD, UC beschrijvingen}, Key Driver Graph |
-| di      | {recap AD}                                       |
-| wo      | ESP32-IDF basic installatie                      |
-| do      | {ESP32-IDF mesh installatie + CleanRTOS}         |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | {recap UCD, UC beschrijvingen}, Key Driver Graph&nbsp; (MV,HP,&nbsp;BB) |
+| di | {recap AD}&nbsp; (MV,HP,&nbsp;BB) |
+| wo | ESP32-IDF basic installatie&nbsp; (MV,HP,&nbsp;BB) |
+| do | {ESP32-IDF mesh installatie + CleanRTOS}&nbsp; (MV,HP,&nbsp;BB) |
 #### Week A3  (16-9-2024)
 
-| **Dag** | **Kennissessie**                      |
-| ------- | ------------------------------------- |
-| ma      | Functionele decompositie              |
-| di      | Networking basics                     |
-| wo      | Const expressions + Templates, SFINAE |
-| do      | RAII                                  |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Functionele decompositie&nbsp; (MV,HP,&nbsp;BB) |
+| di | Networking basics&nbsp; (MV,&nbsp;BB, HP) |
+| wo | Oefening Object Model&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | Concurrency (pc), mutex&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+
 
 ### Sprint 2
 
@@ -83,21 +83,21 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 
 #### Week A4 (23-9-2024)
 
-| **Dag** | **Kennissessie**           |
-| ------- | -------------------------- |
-| ma      | Oefening Object Model      |
-| di      | Concurrency (pc), mutex    |
-| wo      | Oefening Object Model      |
-| do      | Oefening Taakstructurering |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Oefening Object Model&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | Oefening Taakstructurering&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | Oefening Klassediagram&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | Const expressions + Templates, SFINAE&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 #### Week A5 (30-9-2024)
 
-| **Dag** | **Kennissessie**                           |
-| ------- | ------------------------------------------ |
-| ma      | Oefening Klassediagram                     |
-| di      | Oefening Observer Pattern, Handler Pattern |
-| wo      | Synchronisatiemechanismen                  |
-| do      | {<b>Peil 1</b>}                            |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Oefening Observer Pattern, Handler Pattern&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | Synchronisatiemechanismen&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | RAII&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | {<b>Peil 1</b>} |
+
 
 ### Sprint 3
 
@@ -105,21 +105,21 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 
 #### Week A6 (7-10-2024)
 
-| **Dag** | **Kennissessie**                          |
-| ------- | ----------------------------------------- |
-| ma      | {CleanRtos, FreeRtos, Logger / Debugging} |
-| di      | STD                                       |
-| wo      | STD naar code                             |
-| do      | Oefening STD                              |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| di | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| wo | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| do | Oefening STD&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 #### Week A7 (14-10-2024)
 
-| **Dag** | **Kennissessie**                                               |
-| ------- | -------------------------------------------------------------- |
-| ma      | Signalen in het frequentiedomein, fir filter, median filter    |
-| di      | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) |
-| wo      | Flask, MongoDb, NoIP, Reverse Proxy, docker composer           |
-| do      |                                                                |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
+| di | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
+| wo | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
+| do |  |
+
 
 ### Sprint 4
 
@@ -127,30 +127,29 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 #### Week A8 (21-10-2024)
 
-| **Dag** | **Kennissessie**                       |
-| ------- | -------------------------------------- |
-| ma      | {HTML, CSS} (pointer naar zelfstudie)  |
-| di      | {Javascript} (pointer naar zelfstudie) |
-| wo      | Webarchitectuur                        |
-| do      |                                        |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
+| di | {Javascript} (pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
+| wo | Webarchitectuur&nbsp; &nbsp; (MV, HP, BB) |
+| do |  |
 #### Week A9 (28-10-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | vakantie         |
-| di      | vakantie         |
-| wo      | vakantie         |
-| do      | vakantie         |
-
+|---|---|
+| ma | vakantie |
+| di | vakantie |
+| wo | vakantie |
+| do | vakantie |
 #### Week A10 (4-11-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | Combinatoriek    |
-| di      | Karnaugh         |
-| wo      | Karnaugh         |
-| do      | {<b>Peil 2</b>}  |
+|---|---|
+| ma | Combinatoriek&nbsp; &nbsp; (MV, BB, HP) |
+| di | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| wo | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| do | {<b>Peil 2</b>} |
+
 
 ### Sprint 5
 
@@ -158,21 +157,21 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 #### Week B1 (11-11-2024)
 
-| **Dag** | **Kennissessie**             |
-| ------- | ---------------------------- |
-| ma      | Quick and Dirty              |
-| di      | Compact and Clean            |
-| wo      | Digitale simulatie (logisim) |
-| do      |                              |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Quick and Dirty&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
+| di | Compact and Clean&nbsp; &nbsp;(MV, BB, HP) |
+| wo | Digitale simulatie (logisim)&nbsp; &nbsp;(MV, BB, HP) |
+| do |  |
 #### Week B2 (18-11-2024)
 
-| **Dag** | **Kennissessie**                                               |
-| ------- | -------------------------------------------------------------- |
-| ma      | Bouwen en debuggen van digitale electronica (evt (ook) in plc) |
-| di      |                                                                |
-| wo      | Recap Rekenen                                                  |
-| do      | Recap Electro                                                  |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Bouwen en debuggen van digitale electronica (evt (ook) in plc)&nbsp; (MV, BB, HP) |
+| di |  |
+| wo | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
+| do | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
+
 
 ### Sprint 6
 
@@ -180,21 +179,21 @@ Werkend prototype
 
 #### Week B3 (25-11-2024)
 
-| **Dag** | **Kennissessie**        |
-| ------- | ----------------------- |
-| ma      | AC / DC                 |
-| di      | Opamp versterkertrappen |
-| wo      | Hartslagmeter 1/2       |
-| do      | Hartslagmeter 2/2       |
-
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
+| di | Opamp versterkertrappen&nbsp; &nbsp; (MV, BB, HP) |
+| wo | Hartslagmeter 1/2&nbsp; &nbsp; (MV, BB, HP) |
+| do | Hartslagmeter 2/2&nbsp; &nbsp; (MV, BB, HP) |
 #### Week B4 (2-12-2024)
 
-| **Dag** | **Kennissessie**                               |
-| ------- | ---------------------------------------------- |
-| ma      |                                                |
-| di      | plc workshop (bij electro) 1/3                 |
-| wo      | plc workshop (bij electro) 2/3                 |
-| do      | {<b>Peil 3</b>} plc workshop (bij electro) 3/3 |
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma |  |
+| di | plc workshop (bij electro) 1/4&nbsp; (MV, HP) |
+| wo | plc workshop (bij electro) 2/4&nbsp; &nbsp;(MV, HP) |
+| do | {<b>Peil 3</b>} plc workshop (bij electro) 3/4&nbsp; &nbsp;(MV, HP) |
+
 
 ### Sprint 7
 
@@ -203,38 +202,36 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 #### Week B5 (9-12-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      |                  |
-| di      |                  |
-| wo      |                  |
-| do      |                  |
-
+|---|---|
+| ma | plc workshop (bij electro) 4/4&nbsp; &nbsp; (MV, HP) |
+| di |  |
+| wo |  |
+| do |  |
 #### Week B6 (16-12-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      |                  |
-| di      |                  |
-| wo      |                  |
-| do      |                  |
-
+|---|---|
+| ma |  |
+| di |  |
+| wo |  |
+| do |  |
 #### Week B7 (23-12-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | Vakantie         |
-| di      | Vakantie         |
-| wo      | Vakantie         |
-| do      | Vakantie         |
-
+|---|---|
+| ma | Vakantie |
+| di | Vakantie |
+| wo | Vakantie |
+| do | Vakantie |
 #### Week B8 (30-12-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | Vakantie         |
-| di      | Vakantie         |
-| wo      | Vakantie         |
-| do      | Vakantie         |
+|---|---|
+| ma | Vakantie |
+| di | Vakantie |
+| wo | Vakantie |
+| do | Vakantie |
+
 
 ### Oplevering
 
@@ -243,11 +240,12 @@ Werkend eindproduct presenteren en demonstreren. Documentatie opleveren.
 #### Week B9 (6-1-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      |                  |
-| di      |                  |
-| wo      |                  |
-| do      | {<b>Peil 4</b>}  |
+|---|---|
+| ma |  |
+| di |  |
+| wo |  |
+| do | {<b>Peil 4</b>} |
+
 
 ### Evaluaties
 
@@ -256,11 +254,12 @@ Evaluaties<br>Op een aparte branch kan alvast gewerkt worden aan eventuele verbe
 #### Week B10 (13-1-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      |                  |
-| di      |                  |
-| wo      |                  |
-| do      |                  |
+|---|---|
+| ma |  |
+| di |  |
+| wo |  |
+| do |  |
+
 
 ### Reparatie
 
@@ -269,20 +268,20 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 #### Week B11 (20-1-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | Verbeterperiode  |
-| di      | Verbeterperiode  |
-| wo      | Verbeterperiode  |
-| do      | Verbeterperiode  |
-
+|---|---|
+| ma | Verbeterperiode |
+| di | Verbeterperiode |
+| wo | Verbeterperiode |
+| do | Verbeterperiode |
 #### Week B12 (27-1-2024)
 
 | **Dag** | **Kennissessie** |
-| ------- | ---------------- |
-| ma      | Verbeterperiode  |
-| di      | Verbeterperiode  |
-| wo      | Verbeterperiode  |
-| do      | Verbeterperiode  |
+|---|---|
+| ma | Verbeterperiode |
+| di | Verbeterperiode |
+| wo | Verbeterperiode |
+| do | Verbeterperiode |
+
 
 #### Docenten-info:
 
