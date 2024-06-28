@@ -1,11 +1,14 @@
 # Programma System Context Diagram, Stakeholders, Key Drivers, Application Drivers
 ## Voorbereiding
-- Lees [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
+- Bestudeer [Journalling](../../onderwijsmateriaal/readers/Journalling.pdf)
+- Bestudeer [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 
 ### Topics
-- Korte behandeling van System Context Diagram.
-- Korte behandeling van Stakeholders.
-- Korte behandeling van Application Drivers.
+Korte behandeling van:
+- [Journalling](../../onderwijsmateriaal/readers/Journalling.pdf)
+- System Context Diagram
+- Stakeholders
+- Application Drivers
 
 ### Canvas Opdracht
 - Maak met je team een System Context Diagram voor je product. Voeg het toe aan het ontwikkeldocument en upload het naar [Opdracht System Context Diagram (TODO add link!)]()()
