@@ -34,7 +34,7 @@ Inhoudelijke feedback van de docenten zelf kun je **mondeling** ophalen tijdens 
 ## Leerdoelen annoteren
 
 De samenhang van de leerdoelen van semester 3 is te vinden in de volgende leerdoelenkaart:
-[leerdoelenkaart s3](leerdoelenkaart_s3.svg)
+[leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svgleerdoelenkaart_s3.svg)
 
 Je ziet bijvoorbeeld een **ellips** gelabeld: "L17_Functionele Requirements". Dat betekent dat "Functionele Requirements" gelabeld zijn als "Leerdoel 17".
 Als je nu een **portfolio item** hebt ingeleverd dat dat leerdoel "**volledig raakt**", zoals bijvoorbeeld "Oefenopdracht Functionele Requirements", dan kun je na de docentenfeedback op die opdracht een annotatieregel toevoegen om voor jezelf te registreren dat je meters hebt gemaakt op dat leerdoel: **@17:1.0**.
@@ -57,3 +57,22 @@ Nominaal kleurt een leerdoel met een totaal aantal "meters" van 1.0 groen op de 
 
 Voor een aantal leerdoelen (zoals L42_Debuggen) **verwachten we gemiddeld meer inleveringen**, bijvoorbeeld 10. In dat geval is de "deelfactor" van dat leerdoel 10.
 Dat betekent dat de totale score op dat leerdoel door 10 wordt gedeeld voordat bepaald wordt welke kleur het wordt. Bijvoorbeeld bij een totaal aantal van 5 "meters" tot dusver bij deelfactor 10 is het resultaat 5/10 = 0.5. De betreffende leerdoel zal dus geel kleuren.
+
+## Documenteren, documenteren, documenteren...
+
+Helder documenteren van belang voor vrijwel alle leeruitkomsten. Het is essentieel om met de klant, met je team, en met jezelf (in de toekomst) af te stemmen wat het plan is, welke afwegingen er zijn gemaakt en hoe het ervoor staat.
+Tijdens S3 zijn er enkele centrale documenten die voortdurend geupdate dienen te worden:
+
+- Individueel
+
+  - Een persoonlijk logboek / journal
+
+- Als team
+  - Een scrumlogboek, met daarin
+    - Notulen van de standups
+    - Retrospectives
+    - Notulen van de sprint review (-feedback)
+  - Een Technisch Ontwerp Document, met daarin
+    - Requirements en verantwoording daarvan.
+    - Ontwerp en verantwoording daarvan.
+    - Realisatie gerelateerde topics.
