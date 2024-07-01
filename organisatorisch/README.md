@@ -34,7 +34,7 @@ Inhoudelijke feedback van de docenten zelf kun je **mondeling** ophalen tijdens 
 ## Leerdoelen annoteren
 
 De samenhang van de leerdoelen van semester 3 is te vinden in de volgende leerdoelenkaart:
-[leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svgleerdoelenkaart_s3.svg)
+[leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
 
 Je ziet bijvoorbeeld een **ellips** gelabeld: "L17_Functionele Requirements". Dat betekent dat "Functionele Requirements" gelabeld zijn als "Leerdoel 17".
 Als je nu een **portfolio item** hebt ingeleverd dat dat leerdoel "**volledig raakt**", zoals bijvoorbeeld "Oefenopdracht Functionele Requirements", dan kun je na de docentenfeedback op die opdracht een annotatieregel toevoegen om voor jezelf te registreren dat je meters hebt gemaakt op dat leerdoel: **@17:1.0**.
