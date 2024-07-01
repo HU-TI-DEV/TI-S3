@@ -5,14 +5,16 @@
 ### Inhoud[](toc-id)
 
 - [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
-  - [Inhoud](#inhoud)
-    - [Een introductie](#een-introductie)
-    - [Semester leeruitkomst](#semester-leeruitkomst)
-    - [Context](#context)
-    - [Sustainable Development Goals](#sustainable-development-goals)
-    - [Leeruitkomsten](#leeruitkomsten)
-    - [Referenties](#referenties)
-    - [Licentie informatie](#licentie-informatie)
+    - [Inhoud](#inhoud)
+  - [Een introductie](#een-introductie)
+  - [Semester leeruitkomst](#semester-leeruitkomst)
+  - [Context](#context)
+  - [Sustainable Development Goals](#sustainable-development-goals)
+  - [Leeruitkomsten](#leeruitkomsten)
+  - [Werkwijze](#werkwijze)
+  - [Programma](#programma)
+  - [Referenties](#referenties)
+  - [Licentie informatie](#licentie-informatie)
 
 ---
 
@@ -50,7 +52,7 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 | S3.6   | Student is in staat om bij zichzelf en/of binnen het projectteam vast te stellen welke kennis ontbreekt om het project adequaat af te ronden. Hij is in staat om de betreffende kennis met kritische houding op een doordachte wijze op te doen.                                                                                                                                                                                                                         | Onderzoekend Vermogen |
 | S3.7   | Student kan zelfstandig een planning opstellen voor een (groeps)project  met het oog op implementatie van de oplossing, rekening houdend met beschikbare middelen, tijd, ethische en duurzaamheidskwesties en te verwachten risico's.                                                                                                                                                                                                                                    | Organiserend Vermogen |
 | S3.8   | Student kan zich zowel mondeling als schriftelijk in begrijpelijk en correct Nederlands, gericht op het doel, uiten; daarnaast neemt student geregeld het initiatief voor een gesprek met betrokkenen om tijdens dit gesprek relevante input te geven en vragen adequaat te beantwoorden.                                                                                                                                                                                | Interactief Vermogen  |
-| S3.9   | Student kijkt terug op de afgelopen periode om het eigen gedrag ook in relatie tot andermans waarden en normen te analyseren en bepaalt of dat toereikend was. Student past zo nodig het eigen handelen aan, bijv. nav feedback van anderen, doet dit periodiek en op systematische wijze, bijvoorbeeld op basis van bestaande reflectiemethoden.                                                                                                                        | Zelflerend Vermogen   |
+| S3.9   | Student kijkt terug op de afgelopen periode om het eigen gedrag ook in relatie tot andermans waarden en normen te analyseren en bepaalt of dat toereikend was. Student past zo nodig het eigen handelen aan, bijvoorbeeld naar aanleiding van feedback van anderen, doet dit periodiek en op systematische wijze, bijvoorbeeld op basis van bestaande reflectiemethoden.                                                                                                                        | Zelflerend Vermogen   |
 
 ## Werkwijze
 
