@@ -6,9 +6,5 @@ De leerdoelen geven in meer detail de terreinen van beoogde voortgang weer die w
 
 ### Interactieve Leerdoelenkaart
 
-Via deze [interactieve leerdoelenkaart](interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.drawio.html) zie je de samenhang van de leerdoelen grafisch weergegeven.
+Via deze [interactieve leerdoelenkaart](interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg) zie je de samenhang van de leerdoelen en grofweg hun koppeling met de verschillende leeruitkomsten grafisch weergegeven.
 
-### Koppeling tussen leeruitkomst en leerdoelen
-
-De onderstaande tabel laat zien welke leerdoelen zijn gekoppeld aan welke leeruitkomst.
-|S3.1 
