@@ -11,3 +11,4 @@
 - Doorvragen naar key-drivers
 - Klanten vertellen over de opdrachten en hun bedrijf
 - Voorkeuren aangeven via poll
+- Gratis verzorgde lunch van de HU
