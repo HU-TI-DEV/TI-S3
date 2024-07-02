@@ -1,5 +1,5 @@
 # Werkwijze S3
-Hoe haal je S3? Voor S3 wordt van je verwacht dat je qua professioneel gedrag een belangrijke stap vooruit maakt. Onderstaand wordt dat in detail beschreven.
+Hoe haal je S3? Voor **S3** wordt van je verwacht dat je qua **professioneel gedrag** een belangrijke stap vooruit maakt. Onderstaand wordt dat in detail beschreven.
 
 # Dagdeel-indeling
 Tenzij expliciet anders vermeld wordt, zien de indelingen van de dagdelen er als volgt uit:
@@ -9,7 +9,8 @@ Tenzij expliciet anders vermeld wordt, zien de indelingen van de dagdelen er als
   - Van iedereen wordt verwacht **op tijd** te zijn.
 - 2 uur voor een **kennissessie**
   - Meestal een practicum of workshop. **Van iedereen wordt verwacht dan mee te doen.**
-- 1 uur voor in het lokaal (onbegeleid-) **verder werken** aan het project.
+- 1 uur voor in het lokaal (onbegeleid-) **verder werken** aan het project.  
+We verwachten van **iedereen** dat die mogenlijkheid wordt benut.
 
 Met 4 dagdelen per week komt dat neer op 16 uur werken in de vooraf ingeroosterde lokalen. De **overige** 42-16 = **26 uur per week** bereid je lessen voor, maak je oefenopdrachten af en werk je aan het project. Dat kan op de gang of in zelf gereserveerde lokalen.
 
