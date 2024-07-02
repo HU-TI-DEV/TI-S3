@@ -1,4 +1,4 @@
-# Programma Kickoff, Journalling
+# Programma Kickoff, Teamvorming
 ## Voorbereiding
 - Bestudeer [Journalling](../../onderwijsmateriaal/readers/Journalling.pdf)
 - Bestudeer: [Key drivers (pg 24-25)](../../onderwijsmateriaal/readers/reader-system-engineering.pdf)
