@@ -1,6 +1,6 @@
 # Programma System Context Diagram, Stakeholders, Key Drivers, Application Drivers
 ## Voorbereiding
-- Bestudeer [Journalling](../../onderwijsmateriaal/readers/Journalling.pdf)
+- Bestudeer [Journaliseren](../../organisatorisch/journaliseren.md)
 - Bestudeer [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 
 ### Topics
