@@ -10,17 +10,23 @@
   - [Algemeen](#algemeen)
   - [Leeruitkomsten](#leeruitkomsten)
     - [Leeruitkomst 1](#leeruitkomst-1)
+      - [Indicatoren](#indicatoren)
     - [Leeruitkomst 2](#leeruitkomst-2)
+      - [Indicatoren](#indicatoren-1)
     - [Leeruitkomst 3](#leeruitkomst-3)
+      - [Indicatoren](#indicatoren-2)
     - [Leeruitkomst 4](#leeruitkomst-4)
+      - [Indicatoren](#indicatoren-3)
     - [Leeruitkomst 5](#leeruitkomst-5)
-  - [Indicatoren](#indicatoren)
+      - [Indicatoren](#indicatoren-4)
     - [Leeruitkomst 6](#leeruitkomst-6)
-  - [Indicatoren](#indicatoren-1)
+      - [Indicatoren](#indicatoren-5)
     - [Leeruitkomst 7](#leeruitkomst-7)
+      - [Indicatoren](#indicatoren-6)
     - [Leeruitkomst 8](#leeruitkomst-8)
+      - [Indicatoren](#indicatoren-7)
     - [Leeruitkomst 9](#leeruitkomst-9)
-  - [Indicatoren](#indicatoren-2)
+      - [Indicatoren](#indicatoren-8)
 
 ---
 
@@ -50,7 +56,7 @@ Belangrijk is dat bij elk portfolio-item dat je gebruikt in je onderbouwing ook 
 
 Jouw docenten gebruiken deze verantwoording om te bepalen in hoeverre je op schema ligt en aan welke leeruitkomsten je nog (extra) aandacht moet besteden. Zij zullen je hier feedback op geven zoals tops (feedback) over wat er al goed gaat en tips (feed forward) over wat je kunt doen om je nog verder te ontwikkelen ten opzichte van die leeruitkomst. 
 
-Per leeruikomst is er een algemene beschrijving van de leeruitkomst en bijbehorende indicatoren.
+Per leeruikomst is er een algemene beschrijving van de leeruitkomst en bijbehorende indicatoren. Indicatoren zijn dingen waar je portfolio-items van kunt maken.
 
 Succes met de uitwerking van de verantwoording!
 
@@ -78,16 +84,20 @@ Succes met de uitwerking van de verantwoording!
 
 ## Leeruitkomsten
 
-### Leeruitkomst 1
+### Leeruitkomst 1 : Analyseren
 
 Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffende een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem. Op basis hiervan en rekening houdend met de mogelijke gebruikers deduceert de student requirements volgens een voorgeschreven methode. Deze requirements dienen na validatie door de opdrachtgever als basis voor het ontwerp..
 
-Indicatoren
-- Lijst van requirements (functionele en één niet-functionele)
-- Use Case diagram, Use Case beschrijvingen
-- Gespreksverslag
-- Interview
-- Terugkoppeling van de opdrachtgever
+#### Indicatoren
+- Lijst van **zelf** opgestelde Functionele Requirements
+- Lijst van **zelf** opgestelde Non-Functionele Requirements
+- **Zelf** gemaakt Use Case diagram, Use Case beschrijvingen
+- **Zelf** gemaakt Activity diagram ter verduidelijking van een Use Case beschrijving.
+- **Zelf** gemaakte initiele key driver chart
+- **Zelf** geprioriteerde key drivers (inclusief toelichting).
+- **Zelf** gemaakt gespreksverslag van interview met klant.
+- **Zelf** geleverde peer-feedback op een van bovenstaande items van een medestudent.
+- Het **samenvoegen** van zelf opgestelde items van de individuele studenten tot een samenhangend geheel, en het **team-ontwikkeldocument** daarmee updaten.
 
 ---
 
@@ -129,16 +139,23 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 2
+### Leeruitkomst 2 : Adviseren
 
 Student adviseert opdrachtgever na de analyse van diens vereisten en doelstellingen over de te implementeren requirements. Het advies is helder onderbouwd en gepresenteerd. Het is goed uit te leggen aan niet-ICT-ers. Het er uit voortvloeiende ontwerp is degelijk onderbouwd en helder gedocumenteerd volgens een voorgeschreven methode, goed uit te leggen aan een volgend ontwikkelteam.
 
-Indicatoren
-- Gebruikte componenten, zowel software als hardware
-- Ontwerpdiagrammen (electrisch schema, klassediagram, ..)
-- Vastgelegde keuzes
-- Redenatieketen
-- Gebruikte onderzoeksmethode
+#### Indicatoren
+- Zelf gegeven review feedback ter verbetering van de samenhang en onderbouwing van de gekozen requirements in het Team-Ontwikkeldocument.
+- Verwerking van dergelijke door een ander gegenereerde feedback.
+- Zelf gegeven review feedback ter verbetering van de samenhang en onderbouwing van het gekozen ontwerp in het Team-Ontwikkeldocument.
+- Verwerking van dergelijke door een ander gegenereerde feedback.
+- Zelf gegeven review feedback ter verbetering van de samenhang en onderbouwing van de gekozen realisatie in het Team-Ontwikkeldocument.
+- Verwerking van dergelijke door een ander gegenereerde feedback.
+- Zelf gegeven review feedback ter verbetering van de samenhang en onderbouwing van de gekozen tests in het Team-Ontwikkeldocument.
+- Verwerking van dergelijke door een ander gegenereerde feedback.
+- Zelf gegeven advies op basis van een zelf uitgevoerd en gedocumenteerd verbeteronderzoekje.
+- Verwerking van dergelijke door een ander gegenereerde feedback.
+- **Zelf** geleverde peer-feedback daarop.
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -179,20 +196,51 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 3
+### Leeruitkomst 3 : Ontwerpen
 
 Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem.
 
-Indicatoren
-- Goed gestructureerde code
-- Commentaar waar nodig
+#### Indicatoren
+- Zelf gemaakt (deel van een-) Functionele Decompositie.
+- Zelf gemaakt (deel van een-) Object Model.
+- Zelf gemaakt (deel van een-) Klasse diagram.
+- Zelf gemaakte State Transition diagram.
+- Zelf gemaakte Taakstructurering.
+- Zelf geschreven goed gestructureerde code vanuit een STD.
+- Zelf geschreven goed gestructureerde code die gebruik maakt van MongoDB.
+- Zelf geschreven goed gestructureerde flask code.
+- Zelf geschreven goed gestructureerde javascript code.
+- Zelf geschreven goed gestructureerde html code.
+- Zelf geschreven goed gestructureerde CSS code.
+- Zelf gemaakt (deel van een-) webapp architectuur.
+- Zelf geschreven code met CleanRTOS.
+- Zelf geschreven overige code.
+- Zelf geschreven code voor een PLC.
+- Zelf toegepaste refactoring, toevoeging met het Observer Pattern.
+- Zelf toegepaste refactoring, toevoeging van een Handler Pattern.
+- Zelf toegepaste refactoring, toevoeging van templating.
+- Zelf toegepaste refactoring, anderszins.
+- Zelf gemaakte Berekeningen aan electronica (stromen, spanningen, energieverbruik). Controle via simulatie en/of meting
+- Zelf gemaakte simulatie van electronisch schema met uitleg.
+- Zelf gemaakt toestandsdiagram van digitale schakeling.
+- Zelf gemaakt karnaughdiagram van digitale schakeling.
+- Zelf gemaakt ontwerp van digitale schakeling middels Compact and Clean methode.
+- Zelf gemaakt ontwerp van digitale schakeling middels Quick and Dirty methode.
+- Beschrijving van zelf toegepast RC filter.
+- Beschrijving van zelf toegepast FIR filter.
+- Beschrijving van zelf toegepast Median filter.
+- Beschrijving van zelf toegepaste Opamp versterkertrap.
+- **Zelf** geleverde peer-feedback op een van bovenstaande items van een medestudent.
+- Het **samenvoegen** van zelf opgestelde items van de individuele studenten tot een samenhangend geheel, en het **team-ontwikkeldocument** daarmee updaten.
+
+Let op bij onderdelen van het Team Ontwikkeldocument:
+- Houdt de diverse modellen in sync met elkaar en met de code. 
+
+Let verder bij de codeer onderdelen op:
 - Opgeleverde code in repository
-- Voldoen aan codestandaarden
+- Voldoet aan codestandaarden
 - Herbruikbare modules
-- Gerealiseerde code en hardware, in sync met de bijbehorende diagrammen en schemas
-- Berekeningen aan electronica (stromen, spanningen, energieverbruik). Controle via simulatie en/of meting
-- Simulatie van electronisch schema met uitleg
-- Samenvatting van de voor de toepassing relevante gegevens uit een datasheet
+- Gerealiseerde code en hardware in sync met de bijbehorende diagrammen en schemas
   
 ---
 
@@ -234,14 +282,21 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 4
+### Leeruitkomst 4 : Realiseren
 
 Student realiseert vanuit het ontwerp een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem. Hij test daarbij de subsystemen zoveel mogelijk apart, alvorens het systeem als geheel te testen. De tests worden uitgevoerd volgens een vooraf beschreven testplan. Testresultaten worden helder gedocumenteerd, evenals de testcontext. De test moet daarmee desgewenst op een later moment gereproduceerd kunnen worden.
 
-Indicatoren
-- Resultaten uit Catch2
-- Testresultaten
+#### Indicatoren
+- Zelf ontworpen unit-test.
+- Beschrijving van testresultaten van zelf uitgevoerde unit-test.
+- Zelf ontworpen integratie-test.
+- Beschrijving van testresultaten van zelf uitgevoerde integratie-test.
 
+Let hierbij op:
+- Goede reproduceerbaarheid
+- Goede dekking
+- Volgens testplan
+- Helder gedocumenteerd
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -282,14 +337,14 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 5
+### Leeruitkomst 5 : Beheren
 
 Student zet een professionele ontwikkelomgeving op. Hij debugt daarmee zijn software op een gestructureerde manier. Een uitdaging daarbij is dat de code van de diverse subsystemen verschillende programmeertalen gebruiken, en het totale systeem dus niet binnen een enkele debugger gedebugd kan worden. De student debugt tevens hardware door efficiënt gebruik te maken van daarvoor geëigende tooling.
 
-Indicatoren
-- 
-- 
-
+#### Indicatoren
+- Zelf geschreven journaal tijdens/over het opzetten en testen van de eigen WSL-linux test-server, met docker, docker-compose, flask server, reverse proxy, mongodb, voorzien van goede, begrijpelijke uitleg.
+- Zelf geschreven verslagje van hoe een taak om een bepaalde lastige bug op te lossen is aangepakt en opgelost.
+- Zelf geschreven journaal tijdens/over het opzetten en testen van de ESP32-IDF, Mesh update en CleanRTOS.
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -330,14 +385,17 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 6
+### Leeruitkomst 6 : Onderzoekend Vermogen
 
 Student is in staat om bij zichzelf en/of binnen het projectteam vast te stellen welke kennis ontbreekt om het project adequaat af te ronden. Hij is in staat om de betreffende kennis met kritische houding op een doordachte wijze op te doen.
 
-Indicatoren
-- 
-- 
-
+#### Indicatoren
+- Verslag van een verbeterings / onderzoeks opdracht voor het team project (keuze in overleg met teamleden en docent) .
+- Een review van een dergelijk verslag van een medestudent.
+- Zelf gemaakte en geduide beslissingstabel tbv realisatievraagstukken.
+- Zelf geschreven journaals over diverse topics.
+- Zelf geschreven bijdragen aan reflectie in het Scrum Logboek.
+- Zelf geschreven notulen van (sprint-)review feedback in het Scrum Logboek.
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -378,15 +436,15 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 7
+### Leeruitkomst 7 : Organiserend Vermogen
 
 Student kan zelfstandig een planning opstellen voor een (groeps)project met het oog op implementatie van de oplossing, rekening houdend met beschikbare middelen, tijd, ethische en duurzaamheidskwesties en te verwachten risico's.
 
-Indicatoren
-- Planning
-- SCRUM-board
-- Taakverdeling
-- Aanpassingen
+#### Indicatoren
+- Eigen planningen en TODO-lists in eigen Journaal(s)
+- Goed bijgehouden SCRUM-board
+- Evenwichtige Taakverdeling
+- Tijdsschattingen maken en daarop plannen
 
 ---
 
@@ -428,15 +486,17 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 8
+### Leeruitkomst 8 : Interactief Vermogen
 
 Student kan zich zowel mondeling als schriftelijk in begrijpelijk en correct Nederlands, gericht op het doel, uiten; daarnaast neemt student geregeld het initiatief voor een gesprek met betrokkenen om tijdens dit gesprek relevante input te geven en vragen adequaat te beantwoorden.
 
-Indicatoren
-- Sprint review
-- Presentatie
-- Emails
-
+#### Indicatoren
+- Alle zelfgeschreven documentatie
+- Alle eigen presentaties, posters
+- Zelfgeschreven emails
+- Teksten zelfgeschreven, niet door ChatGPT oid.
+  Controle op taalfouten met computer is wel aangeraden.
+- Mogelijkheden maximaal benutten om (mondelinge-) feedback op te halen bij docenten.
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -477,12 +537,15 @@ Feedback vragen en verwerken.
 
 ---
 
-### Leeruitkomst 9
+### Leeruitkomst 9 : Zelflerend Vermogen
 
 Student kijkt terug op de afgelopen periode om het eigen gedrag ook in relatie tot andermans waarden en normen te analyseren en bepaalt of dat toereikend was. Student past zo nodig het eigen handelen aan, bijvoorbeeld naar aanleiding van feedback van anderen, doet dit periodiek en op systematische wijze, bijvoorbeeld op basis van bestaande reflectiemethoden.
 
-Indicatoren
-- 
+#### Indicatoren
+- Geen/weinig te laat meldingen
+- Gekregen review feedback serieus nemen.
+- Serieus reflecteren op eigen gedrag en daar concrete vervolgacties aan verbinden.
+- Professionele houding: respectvolle toon, op tijd, houden aan afspraken, aanpassen waar nodig.
 
 ---
 
