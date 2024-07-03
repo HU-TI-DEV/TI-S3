@@ -26,7 +26,7 @@ Je vindt er per dag:
 Er wordt er van je verwacht dat je oefenopdrachten in principe dezelfde middag nog afrondt en uiterlijk de zaterdagavond van de betreffende week op canvas upload.
 
 ## Portfolio items en feedback
-Net als binnen S2 staat voor de beoordeling in S3 een **verantwoordingsdocument** met **portfolio items** centraal. Op de pagina [Portfolio Items en Feedback](./portfolio_items_en_feedback.md) wordt uitgelegd hoe je binnen S3 aan portfolio items kunt komen via een één-tweetje tussen je persoonlijke repo en Canvas.
+Net als binnen S2 staat voor de beoordeling in S3 een **[verantwoordingsdocument](../Verantwoordingsdocument_TI_S3.md)** met **[portfolio items](../Portfolio-items.md)** centraal. Op de pagina [Portfolio Items en Feedback](./portfolio_items_en_feedback.md) wordt uitgelegd hoe je binnen S3 aan portfolio items kunt komen via een één-tweetje tussen je persoonlijke repo en Canvas.
 
 ## Documenteren, documenteren, documenteren...
 Helder documenteren is van belang voor vrijwel alle leeruitkomsten. Het is essentieel om met de klant, met je team, en met jezelf (in de toekomst) **af te stemmen** wat het plan is, welke **afwegingen** er zijn gemaakt en **hoe het ervoor staat**.
