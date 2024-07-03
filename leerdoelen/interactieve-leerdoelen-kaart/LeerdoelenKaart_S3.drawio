@@ -1,17 +1,17 @@
-<mxfile host="Electron" modified="2024-07-02T19:46:24.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="xCSPVibXWpEOAAEaD4qZ" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-07-03T10:01:33.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="oewbFl6PKqFVqdgqIZ9g" version="22.0.2" type="device">
   <diagram name="Copy of Page-1" id="SG1n7jbUNAIGO0vn6a7n">
     <mxGraphModel dx="135" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VXFz6mvKQ9PJlcC3uVo2-0" />
         <mxCell id="clzne2ab7s1gdpi-WBzJ-6" value="Organiserend Vermogen" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
         <mxCell id="clzne2ab7s1gdpi-WBzJ-12" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6ECFFF;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;" parent="clzne2ab7s1gdpi-WBzJ-6" vertex="1">
-          <mxGeometry x="1775" y="725" width="122.19" height="240" as="geometry" />
+          <mxGeometry x="1752.5" y="727.5" width="122.19" height="235" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-16" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6ECFFF;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;" parent="clzne2ab7s1gdpi-WBzJ-6" vertex="1">
-          <mxGeometry x="1750" y="770" width="122.19" height="280" as="geometry" />
+          <mxGeometry x="1752.5" y="767.5" width="112.19" height="275" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-8" value="Leeruitkomst&lt;br&gt;Organiserend&lt;br&gt;Vermogen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="clzne2ab7s1gdpi-WBzJ-6" vertex="1">
-          <mxGeometry x="1741" y="823.5699999999999" width="60" height="30" as="geometry" />
+          <mxGeometry x="1721" y="823.5699999999999" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-0" value="Zelflerend Vermogen" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
         <mxCell id="clzne2ab7s1gdpi-WBzJ-24" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#75FF6B;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;" parent="clzne2ab7s1gdpi-WBzJ-0" vertex="1">
@@ -24,7 +24,7 @@
           <mxGeometry x="1870" y="880" width="100" height="220.34" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#75FF6B;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;" parent="clzne2ab7s1gdpi-WBzJ-0" vertex="1">
-          <mxGeometry x="1934.07" y="849.07" width="115" height="137.22" as="geometry" />
+          <mxGeometry x="1937.25" y="897.96" width="55.93" height="98.49" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-23" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#75FF6B;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;" parent="clzne2ab7s1gdpi-WBzJ-0" vertex="1">
           <mxGeometry x="2320" y="849.66" width="140" height="260" as="geometry" />
@@ -32,20 +32,20 @@
         <mxCell id="clzne2ab7s1gdpi-WBzJ-2" value="Leeruitkomst&lt;br&gt;Zelflerend&lt;br&gt;vermogen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="clzne2ab7s1gdpi-WBzJ-0" vertex="1">
           <mxGeometry x="2198" y="979" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clzne2ab7s1gdpi-WBzJ-27" value="Onderzoekend Vermogen" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
+        <mxCell id="clzne2ab7s1gdpi-WBzJ-27" value="Onderzoekend Vermogen" style="" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
         <mxCell id="clzne2ab7s1gdpi-WBzJ-28" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4952CC;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;hachureAngle=41;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
-          <mxGeometry x="2220" y="720" width="110" height="260" as="geometry" />
+          <mxGeometry x="2225" y="715" width="110" height="270" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-29" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7A7ACC;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;hachureAngle=41;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
-          <mxGeometry x="2060" y="760" width="110" height="260" as="geometry" />
+          <mxGeometry x="2064" y="776" width="110" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="clzne2ab7s1gdpi-WBzJ-30" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7A7ACC;strokeColor=none;rotation=-90;hachureAngle=-30;sketch=1;curveFitting=1;jiggle=2;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
-          <mxGeometry x="1976.32" y="732.07" width="161.75" height="255.63" as="geometry" />
+        <mxCell id="clzne2ab7s1gdpi-WBzJ-30" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7A7ACC;strokeColor=none;rotation=-90;hachureAngle=40;sketch=1;curveFitting=1;jiggle=2;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
+          <mxGeometry x="1992.86" y="728.33" width="81.3" height="192.37" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-31" value="Leeruitkomst&lt;br&gt;Onderzoekend&lt;br&gt;vermogen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;shadow=0;glass=0;labelBorderColor=none;labelBackgroundColor=none;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
-          <mxGeometry x="1961" y="804" width="60" height="30" as="geometry" />
+          <mxGeometry x="1961" y="807" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clzne2ab7s1gdpi-WBzJ-32" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7A7ACC;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;hachureAngle=25;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
+        <mxCell id="clzne2ab7s1gdpi-WBzJ-32" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7A7ACC;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;rotation=-90;hachureAngle=41;" parent="clzne2ab7s1gdpi-WBzJ-27" vertex="1">
           <mxGeometry x="2140" y="685" width="60" height="200" as="geometry" />
         </mxCell>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-18" value="Leeruitkomst Interactief Vermogen" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
@@ -192,7 +192,7 @@
         <mxCell id="nxFp810dqUB2siuAqltj-12" value="Leeruitkomst&lt;br&gt;Analyseren" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" parent="nxFp810dqUB2siuAqltj-0" vertex="1">
           <mxGeometry x="1685" y="541.46" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VXFz6mvKQ9PJlcC3uVo2-1" value="leerdoelenkaart" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
+        <mxCell id="VXFz6mvKQ9PJlcC3uVo2-1" value="leerdoelenkaart" style="" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L1_&lt;/font&gt;RC filters" id="VXFz6mvKQ9PJlcC3uVo2-2">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
             <mxGeometry x="1722.5" y="172" width="85" height="30" as="geometry" />
@@ -1072,7 +1072,7 @@
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L60_&lt;/font&gt;zelfstandig plannen, rekening &lt;br&gt;houdend met de beoogde implementatie, beschikbare middelen, tijd, ethische en duurzaamheidsaspecten" id="VXFz6mvKQ9PJlcC3uVo2-158">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1690.25" y="873" width="248.75" height="80.5" as="geometry" />
+            <mxGeometry x="1685.25" y="870" width="248.75" height="80.5" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VXFz6mvKQ9PJlcC3uVo2-159" value="Interactief&lt;br&gt;Vermogen" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#333333;strokeWidth=2;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
@@ -1113,7 +1113,7 @@
         </mxCell>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L63_&lt;/font&gt;Systematisch toepassen &lt;br&gt;van reflectie van eigen gedrag in relatie tot andermans waarden en normen" id="VXFz6mvKQ9PJlcC3uVo2-166">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1965" y="951" width="225" height="70" as="geometry" />
+            <mxGeometry x="1965" y="957" width="225" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L64_&lt;/font&gt;Eigen handelen zo nodig aanpassen" id="VXFz6mvKQ9PJlcC3uVo2-167">
@@ -1129,7 +1129,7 @@
         </mxCell>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L61_&lt;/font&gt;Scrum logboek" id="VXFz6mvKQ9PJlcC3uVo2-169">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1942.88" y="858.75" width="90" height="49" as="geometry" />
+            <mxGeometry x="1916" y="924" width="90" height="49" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L62_&lt;/font&gt;Persoonlijk logboek" id="VXFz6mvKQ9PJlcC3uVo2-170">
@@ -1306,7 +1306,7 @@
         </mxCell>
         <UserObject label="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#999999&quot;&gt;L73_&lt;/font&gt;Scrum Board" id="clzne2ab7s1gdpi-WBzJ-34">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1820" y="810" width="116.25" height="49.25" as="geometry" />
+            <mxGeometry x="1800" y="810" width="116.25" height="49.25" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="clzne2ab7s1gdpi-WBzJ-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="VXFz6mvKQ9PJlcC3uVo2-158" target="clzne2ab7s1gdpi-WBzJ-34" edge="1">
