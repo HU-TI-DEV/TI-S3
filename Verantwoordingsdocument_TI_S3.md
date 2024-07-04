@@ -308,11 +308,11 @@ Feedback vragen en verwerken.
 Student zet een professionele ontwikkelomgeving op. Hij debugt daarmee zijn software op een gestructureerde manier. Een uitdaging daarbij is dat de code van de diverse subsystemen verschillende programmeertalen gebruiken, en het totale systeem dus niet binnen een enkele debugger gedebugd kan worden. De student debugt tevens hardware door efficiënt gebruik te maken van daarvoor geëigende tooling.
 
 #### Indicatoren
-- Bekwaamheid t.a.v. het opzetten van een operating system.
-- Bekwaamheid t.a.v. het opzetten van een docker en docker-compose.
-- Bekwaamheid t.a.v. het opzetten van flask server, reverse proxy, mongodb.
-- Bekwaamheid t.a.v. het opzetten van ESP32-IDF, Mesh update en CleanRTOS.
-- Bekwaamheid t.a.v. het debuggen op de diverse platforms.
+- Bekwaamheid in het opzetten van een operating system.
+- Bekwaamheid in het opzetten van een docker en docker-compose.
+- Bekwaamheid in het opzetten van flask server, reverse proxy, mongodb.
+- Bekwaamheid in het opzetten van ESP32-IDF, Mesh update en CleanRTOS.
+- Bekwaamheid in het debuggen op de diverse platforms.
 
 ---
 
