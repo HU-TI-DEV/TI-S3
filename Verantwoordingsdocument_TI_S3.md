@@ -88,7 +88,7 @@ Succes met de uitwerking van de verantwoording!
 
 ### Leeruitkomst 1 : Analyseren
 
-Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffende een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem. Op basis hiervan en rekening houdend met de mogelijke gebruikers deduceert de student requirements volgens een voorgeschreven methode. Deze requirements dienen na validatie door de opdrachtgever als basis voor het ontwerp..
+Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffende een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem. Op basis hiervan en rekening houdend met de mogelijke gebruikers deduceert de student requirements volgens een voorgeschreven methode. Deze requirements dienen na validatie door de opdrachtgever als basis voor het ontwerp.
 
 #### Indicatoren
 - Key drivers opstellen aan de hand van gesprek met opdrachtgever.
@@ -190,33 +190,26 @@ Feedback vragen en verwerken.
 Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden een hybride systeem met een real-time embedded subsysteem en een frontend/backend/database subsysteem.
 
 #### Indicatoren
-- Bekwaamheid in het ontwerpen van functionele decompositie op basis van functionele requirements.
-- Bekwaamheid in het ontwerpen van een object model op basis van requirements en usecase beschrijvingen.
-- Bekwaamheid in het ontwerpen van een klasse diagram op basis van een object model.
-- Bekwaamheid in het ontwerpen van een taakstructurering.
+- Bekwaamheid in het ontwerpen van :
+  - functionele decompositie op basis van functionele requirements.
+  - een object model op basis van requirements en usecase beschrijvingen.
+  - een klasse diagram op basis van een object model.
+  - een taakstructurering.
 - Bekwaamheid in het schrijven van code uitgaande van een STD.
-- Houdt de diverse modellen in sync met elkaar en met de code. 
-- Opgeleverde code met commit in repository.
-- Opgeleverde code voldoet aan codestandaarden.
+- De diverse modellen worden in sync met elkaar en met de code gehouden. 
+- Opgeleverde code voldoet aan codestandaarden en voorzien van commit in repository.
 - Modules zijn herbruikbaar waar dat logisch is.
 - Gerealiseerde code en hardware zijn in sync met de bijbehorende diagrammen en schemas.
-- Bekwaamheid in het schrijven van code voor gebruik van MongoDB.
-- Bekwaamheid in het schrijven van Flask code.
-- Bekwaamheid in het schrijven van Javascript code.
-- Bekwaamheid in het schrijven van Html code.
-- Bekwaamheid in het schrijven van Css code.
+- Bekwaamheid in het schrijven van : 
+  - code voor gebruik van MongoDB.
+  - flask, Javascript, HTML en CSS code.
+  - code met CleanRTOS.
 - Bekwaamheid in het ontwerpen van Webapp architectuur.
-- Bekwaamheid in het coderen met CleanRTOS.
-- Bekwaamheid in het ontwerpen van code voor een PLC.
-- Bekwaamheid in het toepassen van het Oberver Pattern.
-- Bekwaamheid in het toepassen van het Handler Pattern.
-- Bekwaamheid in het toepassen van templating.
-- Bekwaamheid in het rekenen aan analoge electronica.
-- Bekwaamheid in het simuleren van analog electronica.
-- Bekwaamheid in het ontwerpen van digitale schakelingen.
-- Bekwaamheid in het simuleren van digitale electronica.
-- Bekwaamheid in analoge filtertechnieken.
-- Bekwaamheid in digitatle filtertechnieken.
+- Bekwaamheid in het ontwerpen van programma voor een PLC.
+- Bekwaamheid in het toepassen van Oberver Pattern, Handler Pattern en Templating.
+- Bekwaamheid in het rekenen en simuleren aan analoge electronica.
+- Bekwaamheid in het ontwerpen en simuleren van digitale schakelingen.
+- Bekwaamheid in analoge en digitale filtertechnieken.
   
 ---
 
@@ -315,10 +308,11 @@ Feedback vragen en verwerken.
 Student zet een professionele ontwikkelomgeving op. Hij debugt daarmee zijn software op een gestructureerde manier. Een uitdaging daarbij is dat de code van de diverse subsystemen verschillende programmeertalen gebruiken, en het totale systeem dus niet binnen een enkele debugger gedebugd kan worden. De student debugt tevens hardware door efficiënt gebruik te maken van daarvoor geëigende tooling.
 
 #### Indicatoren
-- Bekwaamheid t.a.v. het opzetten van een operating system
-- Bekwaamheid t.a.v. het opzetten van een docker en docker-compose
+- Bekwaamheid t.a.v. het opzetten van een operating system.
+- Bekwaamheid t.a.v. het opzetten van een docker en docker-compose.
 - Bekwaamheid t.a.v. het opzetten van flask server, reverse proxy, mongodb.
 - Bekwaamheid t.a.v. het opzetten van ESP32-IDF, Mesh update en CleanRTOS.
+- Bekwaamheid t.a.v. het debuggen op de diverse platforms.
 
 ---
 
@@ -365,8 +359,8 @@ Feedback vragen en verwerken.
 Student is in staat om bij zichzelf en/of binnen het projectteam vast te stellen welke kennis ontbreekt om het project adequaat af te ronden. Hij is in staat om de betreffende kennis met kritische houding op een doordachte wijze op te doen.
 
 #### Indicatoren
-- Bekwaamheid in het ontwerpen, uitvoeren en vastleggen van een onderzoek.
-- Bekwaamheid in het verantwoorden van gemaakte beslissingen a.d.v. onderzoek.
+- Bekwaamheid in het ontwerpen, uitvoeren en vastleggen van een (mini-)onderzoek.
+- Bekwaamheid in het verantwoorden van gemaakte beslissingen a.d.v. (mini-)onderzoek.
 - Bekwaamheid en discipline in het journaliseren.
 
 ---
@@ -417,8 +411,8 @@ Student kan zelfstandig een planning opstellen voor een (groeps)project met het 
 - Bekwaamheid in het gebruik van TODO-lists in eigen Journaals.
 - Bekwaamheid in het gebruik van het SCRUM-board.
 - Evenwichtige verdeling van op zich genomen taken op het SCRUM-board.
-- Bekwaamheid in het maken van tijdsschattingen.
-- Bekwaamheid in het plannen op basis van gemaakte tijdsschattingen.
+- Bekwaamheid in het maken van tijdsinschattingen.
+- Bekwaamheid in het plannen op basis van gemaakte tijdsinschattingen.
 
 ---
 

@@ -52,11 +52,7 @@ Onderstaand vind je een lijst met aanbevolen portfolio items, ruwweg gegroepeerd
 ### Voor Leeruitkomst 2 : Adviseren
 - **Zelf** gegeven **review feedback** ter verbetering van de **samenhang en onderbouwing** van de gekozen **requirements** in het Team-Ontwikkeldocument.
 - **Verwerking** van dergelijke door een ander gegenereerde **feedback**.
-- **Zelf** gegeven **review feedback** ter verbetering van de samenhang en onderbouwing van het gekozen **ontwerp** in het Team-Ontwikkeldocument.
-- Verwerking van dergelijke door een ander gegenereerde feedback.
-- **Zelf** gegeven **review feedback** ter verbetering van de samenhang en onderbouwing van de gekozen **realisatie** in het Team-Ontwikkeldocument.
-- Verwerking van dergelijke door een ander gegenereerde feedback.
-- **Zelf** gegeven **review feedback** ter verbetering van de samenhang en onderbouwing van de gekozen **tests** in het Team-Ontwikkeldocument.
+- **Zelf** gegeven **review feedback** ter verbetering van de samenhang en onderbouwing van **de requirements**, het gekozen **ontwerp**, de gekozen **realisatie** of de gekozen **tests** in het Team-Ontwikkeldocument.
 - Verwerking van dergelijke door een ander gegenereerde feedback.
 - **Zelf** gegeven **advies** op basis van een **zelf** uitgevoerd en gedocumenteerd **verbeteronderzoek**.
 - **Verwerking** van dergelijke door een ander gegenereerde **feedback**.
@@ -70,26 +66,18 @@ Onderstaand vind je een lijst met aanbevolen portfolio items, ruwweg gegroepeerd
 - **Zelf** gemaakte **Taakstructurering**.
 - **Zelf** geschreven goed gestructureerde **[code](./leerdoelen/portfolio-items/code.md) vanuit een STD**.
 - **Zelf** geschreven goed gestructureerde **[code](./leerdoelen/portfolio-items/code.md)** die gebruik maakt van **MongoDB**.
-- **Zelf** geschreven goed gestructureerde **flask [code](./leerdoelen/portfolio-items/code.md)**.
-- **Zelf** geschreven goed gestructureerde **javascript [code](./leerdoelen/portfolio-items/code.md)**.
-- **Zelf** geschreven goed gestructureerde **html**.
-- **Zelf** geschreven goed gestructureerde **CSS**.
+- **Zelf** geschreven goed gestructureerde **[flask](./leerdoelen/portfolio-items/code.md)**, **[javascript](./leerdoelen/portfolio-items/code.md)**, **html** en **CSS** code.
 - **Zelf** gemaakt (deel van een-) **webapp architectuur**.
 - **Zelf** geschreven **[code](./leerdoelen/portfolio-items/code.md) met CleanRTOS**.
 - **Zelf** geschreven **programma voor een PLC**.
 - **Zelf** geschreven **overige [code](./leerdoelen/portfolio-items/code.md)**.
-- **Zelf** toegepaste refactoring, toevoeging met het **Observer Pattern**.
-- **Zelf** toegepaste refactoring, toevoeging van een **Handler Pattern**.
-- **Zelf** toegepaste refactoring, toevoeging van **templating**.
+- **Zelf** toegepaste refactoring, toevoeging van een **Observer Pattern**, **Handler Pattern** of **templating**.
 - **Zelf** gemaakte [**berekeningen aan electronica**](./leerdoelen/portfolio-items/berekeningen-aan-electronica.md) (stromen, spanningen, energieverbruik). **Controle** via simulatie en/of meting
 - **Zelf** gemaakte **simulatie** van electronisch schema met uitleg.
 - **Zelf** gemaakt **toestandsdiagram** van digitale schakeling.
 - **Zelf** gemaakt **karnaughdiagram** van digitale schakeling.
-- **Zelf** gemaakt ontwerp van digitale schakeling middels **Compact and Clean** methode.
-- **Zelf** gemaakt ontwerp van digitale schakeling middels **Quick and Dirty** methode.
-- Beschrijving van **zelf** toegepast **RC filter** [(electrisch schema)](./leerdoelen/portfolio-items/electrisch-schema.md).
-- Beschrijving van **zelf** toegepast **FIR filter**.
-- Beschrijving van **zelf** toegepast **Median filter**.
+- **Zelf** gemaakt ontwerp van digitale schakeling middels **Compact and Clean** of **Quick and Dirty** methode.
+- Beschrijving van **zelf** toegepast **RC filter** [(electrisch schema)](./leerdoelen/portfolio-items/electrisch-schema.md), **FIR filter** of **Median filter**.
 - Beschrijving van **zelf** toegepaste **Opamp versterkertrap** [(electrisch schema)](./leerdoelen/portfolio-items/electrisch-schema.md).
 - **Zelf** geleverde **peer-feedback** op een van bovenstaande items van een medestudent.
 - Het **samenvoegen** van **zelf** opgestelde items van de individuele studenten tot een samenhangend geheel, en het **team-ontwikkeldocument** daarmee updaten.
@@ -100,16 +88,14 @@ Onderstaand vind je een lijst met aanbevolen portfolio items, ruwweg gegroepeerd
 - **Zelf** ontworpen **integratie-test**.
 - Beschrijving van testresultaten van **zelf** uitgevoerde **integratie-test**.
 - **Zelf** toegepaste code **refactoring**.
-- Beschrijving van **debugging**-proces van **software** (extract uit een Journaal).
-- Beschrijving van **debugging**-proces van **hardware** (extract uit een Journaal).
-- Beschrijving van **performance metingen** van **software**.
-- Beschrijving van **performance metingen** van **hardware**.
+- Beschrijving van **debugging**-proces van **hardware** of **software** (extract uit een Journaal).
+- Beschrijving van **performance metingen** van **hardware** of **software**.
 - [**Simulatie aan electronica**](./leerdoelen/portfolio-items/simulatie-aan-electronica.md).
 - **Zelf** gemaakte beslissingstabel met realisatie-keuzes voor het Project-Ontwikkeldocument en toelichting daarbij.
 - **Zelf** ontworpen **Fritzing schema** van het initiele prototype[(hardware realisatie)](./leerdoelen/portfolio-items/.hardware-realisatie.md).
-- **Zelf** gemaakt **printplaatje** (PCB) [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md).
-- **Zelf** gemaakte **3D print** [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md).
-- **Zelf** gemaakt **gelasercut object** [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md).
+- **Zelf** gemaakt **printplaatje** (PCB) [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md),
+**3D print** [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md) of 
+**gelasercut object** [(hardware realisatie)](./leerdoelen/portfolio-items/hardware-realisatie.md).
 
 ### Voor Leeruitkomst 5 : Beheren
 - **Zelf** geschreven **[journaal](./organisatorisch/journaliseren.md)** tijdens/over het **opzetten** en **testen** van de **eigen WSL-linux test-server, met docker, docker-compose, flask server, reverse proxy, mongodb**, voorzien van goede, begrijpelijke uitleg.
