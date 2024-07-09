@@ -57,6 +57,7 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 ## Werkwijze
 
 [Werkwijze](./organisatorisch/README.md)
+
 Shortcuts naar de onderliggende links:
 - [Portfolio Items en Feedback](./organisatorisch/portfolio_items_en_feedback.md)
   - [leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
