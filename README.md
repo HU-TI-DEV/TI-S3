@@ -57,6 +57,14 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 ## Werkwijze
 
 [Werkwijze](./organisatorisch/README.md)
+- [Portfolio Items en Feedback](./organisatorisch/portfolio_items_en_feedback.md)
+- [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
+- [portfolio items](./Portfolio-items.md)
+- [Documenteren](./organisatorisch/documenteren.md)
+  - [Persoonlijk logboek / journal](./organisatorisch/journaliseren.md)
+  - [Verbeteropdracht](./skills/Verbeteropdracht-template.md)
+  - [Scrumlogboek](./skills/Scrum%20Logboek.md)
+  - [Ontwikkeldocument](./software/Ontwikkeldocument-template.md)
 
 ## Programma
 

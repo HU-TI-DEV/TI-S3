@@ -33,7 +33,7 @@ Helder documenteren is van belang voor vrijwel alle leeruitkomsten. Het is essen
 Op de pagina [documenteren](./documenteren.md) wordt uitgelegd om welke documentatie het gaat.
 
 ## Scrum
-Net als in S2 staat de [Scrum](../TeunHelp.md) methodiek centraal bij het maken van planningen en het coordineren van activiteiten met het team.
+Net als in S2 staat de [Scrum](../skills/Scrum%20Logboek.md) methodiek centraal bij het maken van planningen en het coordineren van activiteiten met het team.
 
 ## Goed Nederlands - guidelines
 - Wanneer je een **chatgpt-prompt** gebruikt hebt voor het maken van een stuk tekst, wordt er van je verwacht dat je dat meldt.
