@@ -47,7 +47,7 @@ Team ``naam``
 
 ## Leeswijzer
 
-``leg uit wat er in de hoofdstukken wordt behandeld en hoe deze onderwerpen met elkaar in verband staan``
+``leg uit wat er in de hoogste-niveau-hoofdstukken wordt behandeld en hoe deze onderwerpen met elkaar in verband staan``
 
 ## Uitgangspunten
 
@@ -63,7 +63,7 @@ Team ``naam``
 
 ## Requirements
 
-``Leg het nut van requirements uit en de samenhang met de omliggende hoofdstukken``
+``leg uit hoe de requirements opgesteld worden door de samenhang te verwoorden van de onderwerpen uit de sub-hoofdstukken.``
 
 ### Functionele Requirements
 
@@ -123,6 +123,8 @@ Team ``naam``
 
 ## Ontwerp
 
+``leg uit hoe het ontwerp volgt door het volgen van de stappen die in de sub-hoofdstukken worden behandeld en hoe deze onderwerpen met elkaar in verband staan``
+
 ### Functionele decompositie
 
 `` Geef met een functionele decompositie van het systeem grafisch weer hoe de verschillende functies (uit de functionele requirements) van het systeem met elkaar samenhangen. Dat geeft goede handvaten voor de decompositie van software en hardware verder op de rit. ``
@@ -142,6 +144,7 @@ Team ``naam``
 | etc..         |            |                                                                 |
 
 ### Taakstructurering
+``leg uit wat het doel is van taakstructurering en hoe de deelstappen (sub-hoofdstukken) samen dat doel reliseren``
 
 #### Taaksoort en deadline
 
@@ -172,6 +175,7 @@ Team ``naam``
 ``Ontwerp voor elke Taak de STD van de bijbehorende klasse(n), indien van toepassing vanuit activity diagram of usecase beschrijving, protocol of anderszins. Belangrijk: alle toestanden moeten gerepresenteerd worden in het diagram. Code zonder toestanden en zonder directe invloed op de flow tussen de toestanden kunnen gerepresenteerd worden door calls naar helper-functies. Vergeet niet bovenaan een geschikte STD-interface toe te voegen``
 
 ## Realisatie
+``leg uit waarin de realisatie zich onderscheidt van het ontwerp, en noem kort de rollen van de subhoofdstukken``
 
 ### Fysieke View
 
