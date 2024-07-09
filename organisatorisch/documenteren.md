@@ -13,14 +13,14 @@ Tijdens S3 zijn er enkele centrale documenten die goed bijgehouden dienen te wor
   - Een [persoonlijk logboek / journal](./journaliseren.md)
   - Tijdige inleveringen van oefenopdrachten
     - Probeer die dezelfde middag nog af te maken.
-    - Inleveren voor zaterdagavond.
+    - Op Canvas inleveren voor zaterdagavond.
 
 - Als team
-  - Een scrumlogboek, met daarin
+  - Een [scrumlogboek](../skills/Scrum%20Logboek.md), met daarin
     - Notulen van de standups
     - Sprint retrospectives
     - Notulen van de sprint review (-feedback)
-  - Een Technisch Ontwerp Document, met daarin
+  - Een [ontwikkeldocument](../software/Ontwikkeldocument-template.md), met daarin
     - Requirements en verantwoording daarvan.
     - Ontwerp en verantwoording daarvan.
     - Realisatie gerelateerde topics.
