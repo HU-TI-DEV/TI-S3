@@ -65,9 +65,9 @@ Shortcuts naar onderliggende links:
 - [Portfolio items](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
   - [Persoonlijk logboek / journal](./organisatorisch/journaliseren.md)
-  - [Verbeteropdracht](./skills/Verbeteropdracht-template.md)
-  - [Scrumlogboek](./skills/Scrum%20Logboek.md)
-  - [Ontwikkeldocument](./software/Ontwikkeldocument-template.md)
+  - [Verbeteropdracht-template](./skills/Verbeteropdracht-template.md)
+  - [Scrumlogboek-template](./skills/Scrum%20Logboek.md)
+  - [Ontwikkeldocument-template](./software/Ontwikkeldocument-template.md)
 
 ## Programma
 
