@@ -14,9 +14,10 @@ Tijdens S3 zijn er enkele centrale documenten die goed bijgehouden dienen te wor
 - **Individueel**
   
   - Een [persoonlijk logboek / journal](./journaliseren.md)
-  - Tijdige inleveringen van <u>oefenopdrachten</u>
+  - Tijdige inleveringen van **<u>**oefenopdrachten**
     - Probeer die dezelfde middag nog af te maken.
     - Op Canvas inleveren voor zaterdagavond.
+  - Een [verbeteropdracht](../skills/Verbeteropdracht-template.md)
 
 - **Als team**
   
