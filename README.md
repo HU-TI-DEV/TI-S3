@@ -60,7 +60,7 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 
 Shortcuts naar de onderliggende links:
 - [Portfolio Items en Feedback](./organisatorisch/portfolio_items_en_feedback.md)
-  - [leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
+  - [Leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
 - [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
 - [Portfolio items](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
