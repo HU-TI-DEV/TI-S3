@@ -54,3 +54,10 @@ De docenten zijn:
 - (**HP**) Hagen Patzke
 - (**MV**) Marius Versteegen
 - (**BB**) Bart Bozon
+
+De studentassistenten zijn:
+
+- (**TB**) Tobias Bosch
+- (**LH**) Loïs den Hartogh
+- (**LK**) Liam Kortekaas
+- (**TM**) Tim van Mourik
