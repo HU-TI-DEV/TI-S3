@@ -58,6 +58,7 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 
 [Werkwijze](./organisatorisch/README.md)
 - [Portfolio Items en Feedback](./organisatorisch/portfolio_items_en_feedback.md)
+  - [leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
 - [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
 - [portfolio items](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
