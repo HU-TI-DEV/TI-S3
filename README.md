@@ -36,9 +36,6 @@ Hiertoe analyseert de student een deels afgebakend vraagstuk van de opdrachtgeve
 
 In dit semester van Technische Informatica is het project **probleemgestuurd**.
 
-## Sustainable Development Goals
-Ook bij dit semester proberen we bij onze projecten rekening te houden met [Sustainable Development Goals](https://sdgs.un.org/goals), de door de verenigde naties opgestelde lijst met wereldverbeterende doelen.
-
 ## Leeruitkomsten
 
 In semester 3 van de richting Technische Informatica zijn de volgende leeruitkomsten gedefineerd:
