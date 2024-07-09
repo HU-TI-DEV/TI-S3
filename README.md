@@ -30,13 +30,14 @@ In semester 3 van de richting Technische Informatica staat de volgende semester 
 
 De student ontwerpt met behulp van gestructureerde voorgeschreven ontwikkelmethoden in een team een hybride systeem bestaande uit een real-time embedded subsysteem en een frontend, backend en een database. 
 
-Hiertoe analyseert de student een deels afgebakend vraagstuk van de opdrachtgever en mogelijke gebruikers, rekening houdend met relevant [SDG’s](SDG.md). De student realiseert en test het systeem volgens een zelf op te stellen planning en levert de product iteraties op aan de opdrachtgever zodanig dat een volgend ontwikkelteam ermee verder kan, volgens een voorgeschreven vorm. 
+Hiertoe analyseert de student een deels afgebakend vraagstuk van de opdrachtgever en mogelijke gebruikers, rekening houdend met relevante [SDG’s](SDG.md). De student realiseert en test het systeem volgens een zelf op te stellen planning en levert de product iteraties op aan de opdrachtgever zodanig dat een volgend ontwikkelteam ermee verder kan, volgens een voorgeschreven vorm. 
 
 ## Context
 
 In dit semester van Technische Informatica is het project **probleemgestuurd**.
 
 ## Sustainable Development Goals
+Ook bij dit semester proberen we bij onze projecten rekening te houden met [Sustainable Development Goals](https://sdgs.un.org/goals), de door de verenigde naties opgestelde lijst met wereldverbeterende doelen.
 
 ## Leeruitkomsten
 
