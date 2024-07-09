@@ -12,150 +12,52 @@
 
 [Neem hier een link op naar het Planbord van de team repo.]
 
-## Standup Logs
+## Sprints
 
 Vul deze logs in, elke ochtend dat je elkaar als team weer ziet.
 
-### Standup Ochtend 1
+### Sprint 1
 
-#### Is iedereen aanwezig?
+#### Ruwe Backlog
 
-(zo niet, wie niet en waarom)
+(wat zijn de hoofddoelen voor de komende sprint?)
 
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
+#### Standup Ochtend 1
 
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 2
-
-#### Is iedereen aanwezig?
+##### Is iedereen aanwezig?
 
 (zo niet, wie niet en waarom)
 
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
+##### Is er volgens planning voldoende klaar sinds de vorige standup?
 
 (zo niet, wat is de reden en wat is de oplossing)
 
-#### Zijn er verder problemen?
+##### Zijn er verder problemen?
 
 (zo ja, wat is het obstakel en wat is de oplossing)
 
-----
+#### Standup Ochtend 2
 
-### Standup Ochtend 3
-
-#### Is iedereen aanwezig?
+##### Is iedereen aanwezig?
 
 (zo niet, wie niet en waarom)
 
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
+##### Is er volgens planning voldoende klaar sinds de vorige standup?
 
 (zo niet, wat is de reden en wat is de oplossing)
 
-#### Zijn er verder problemen?
+##### Zijn er verder problemen?
 
 (zo ja, wat is het obstakel en wat is de oplossing)
 
-----
+... etc
 
-### Standup Ochtend 4
+#### Sprint Review
 
-#### Is iedereen aanwezig?
+(noteer hier de feedback en de analyse ervan)
 
-(zo niet, wie niet en waarom)
+#### Sprint Retro
 
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
+(ga na wat er procesmatig nog verbeterd kan worden in het team. kies er 1 actiepunt uit voor de volgende sprint )
 
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 5
-
-#### Is iedereen aanwezig?
-
-(zo niet, wie niet en waarom)
-
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
-
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 6
-
-#### Is iedereen aanwezig?
-
-(zo niet, wie niet en waarom)
-
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
-
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 7
-
-#### Is iedereen aanwezig?
-
-(zo niet, wie niet en waarom)
-
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
-
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 8
-
-#### Is iedereen aanwezig?
-
-(zo niet, wie niet en waarom)
-
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
-
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
-
-### Standup Ochtend 9
-
-#### Is iedereen aanwezig?
-
-(zo niet, wie niet en waarom)
-
-#### Is er volgens planning voldoende klaar sinds de vorige standup?
-
-(zo niet, wat is de reden en wat is de oplossing)
-
-#### Zijn er verder problemen?
-
-(zo ja, wat is het obstakel en wat is de oplossing)
-
-----
+### Sprint 2
