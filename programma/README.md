@@ -55,6 +55,13 @@ De docenten zijn:
 - (**MV**) Marius Versteegen
 - (**BB**) Bart Bozon
 
+De studentassistenten zijn:
+
+- (**TB**) Tobias Bosch
+- (**LH**) Loïs den Hartogh
+- (**LK**) Liam Kortekaas
+- (**TM**) Tim van Mourik
+
 ## Programma
 [(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma_for_export_html.drawio.html)
 
