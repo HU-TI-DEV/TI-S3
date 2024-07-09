@@ -62,7 +62,7 @@ Shortcuts naar de onderliggende links:
 - [Portfolio Items en Feedback](./organisatorisch/portfolio_items_en_feedback.md)
   - [leerdoelenkaart s3](../leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
 - [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
-- [portfolio items](./Portfolio-items.md)
+- [Portfolio items](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
   - [Persoonlijk logboek / journal](./organisatorisch/journaliseren.md)
   - [Verbeteropdracht](./skills/Verbeteropdracht-template.md)
