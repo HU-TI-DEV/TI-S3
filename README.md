@@ -64,10 +64,6 @@ Shortcuts naar onderliggende links:
 - [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
 - [Portfolio items](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
-  - [Persoonlijk logboek / journal](./organisatorisch/journaliseren.md)
-  - [Verbeteropdracht-template](./skills/Verbeteropdracht-template.md)
-  - [Scrumlogboek-template](./skills/Scrum%20Logboek.md)
-  - [Ontwikkeldocument-template](./software/Ontwikkeldocument-template.md)
 
 ## Programma
 
