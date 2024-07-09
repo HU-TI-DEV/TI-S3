@@ -32,6 +32,13 @@ Team ``naam``
   - [Fysieke View](#fysieke-view)
   - [Unit-Tests](#unit-tests)
   - [Integratie-Tests](#integratie-tests)
+  - [Eindresultaat](#eindresultaat)
+- [Conclusie en Advies](#conclusie-en-advies)
+- [Appendices](#appendices)
+  - [Appendix 1: Mindmaps](#appendix-1-mindmaps)
+  - [Appendix 2: Gespreksverslagen](#notities-bij-kickoff-meeting)
+  - [Appendix 3: Verbeteronderzoeksverslagen](#appendix-3-verbeteronderzoeksverslagen)
+  - [Appendix 4: Referenties](#appendix-4-referenties)
 
 ## Inleiding
 
