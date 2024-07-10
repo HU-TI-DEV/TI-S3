@@ -1,4 +1,5 @@
 # Use Case beschrijving
+Een tabel met de eigenschappen van een use case.
 ## Criteria 
 - Voldoende gedetailleerd.
 - Stapsgewijs.
