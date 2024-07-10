@@ -87,8 +87,8 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | {recap UCD, UC beschrijvingen}, Key Driver Graph&nbsp; (MV,HP,&nbsp;BB) |
-| di | {recap AD}&nbsp; (MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (MV,HP,&nbsp;BB) |
+| di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | wo | ESP32-IDF basic installatie&nbsp; (MV,HP,&nbsp;BB) |
 | do | {ESP32-IDF mesh installatie + CleanRTOS}&nbsp; (MV,HP,&nbsp;BB) |
 #### Week A3 (16-9-2024)
