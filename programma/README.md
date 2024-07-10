@@ -75,8 +75,8 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 |---|---|
 | ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
 | di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (MV, HP, BB) |
-| wo | {recap FR, NFR}&nbsp; (MV,HP, BB) |
-| do | Uitje naar lasfabriek? |
+| wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (MV,HP, BB) |
+| do | Uitje naar lasfabriek |
 
 
 ### Sprint 1
