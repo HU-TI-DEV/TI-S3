@@ -11,7 +11,8 @@ In S2 heb je al ervaring opgedaan met het opstellen van Functionele en Niet-Func
 
 ## Tijdens en na de les
 
-- Bedenk en documenteer, uitgaande van de Key drivers voor je product enkele goede, relevante functionele requirements voor het team-project. Ieder teamlid werkt er een aantal uit in tabellen. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. Update het ontwikkeldocument met de de genoemde tabellen.
+- Bedenk en documenteer, uitgaande van de Key drivers voor je product enkele goede, relevante functionele requirements voor het team-project. Ieder teamlid werkt er een aantal uit in tabellen, en slaat deze apart op (zie canvas opdracht verderop). Geef elkaar er binnen het team kritische feedback op. Criteria: [criteria functionele requirements](../../leerdoelen/portfolio-items/functionele-requirements.md). Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. Update het ontwikkeldocument met de de genoemde tabellen.
+- Volg hetzelfde procedé voor de niet-functionele requirements. Criteria: [criteria niet-functionele requirements](../../leerdoelen/portfolio-items/niet-functionele-requirements.md)
 
 ### Canvas Opdracht
 - Upload de door jou zelf uitgewerkte tabellen met functionele requirements naar de Canvas team-bijdrage-opdracht "Functionele Requirements".
