@@ -15,5 +15,5 @@ In S2 heb je al ervaring opgedaan met het opstellen van Functionele en Niet-Func
 - Volg hetzelfde procedé voor de niet-functionele requirements. Criteria: [criteria niet-functionele requirements](../../leerdoelen/portfolio-items/niet-functionele-requirements.md)
 
 ### Canvas Opdracht
-- Upload de door jou zelf uitgewerkte tabellen met functionele requirements naar de Canvas team-bijdrage-opdracht "Functionele Requirements".
-- Upload de door jou zelf uitgewerkte tabellen met niet-functionele requirements naar de Canvas team-bijdrage-opdracht "niet-functionele Requirements".
+- Upload de door jou zelf uitgewerkte tabellen met functionele requirements naar de Canvas team-bijdrage-opdracht "Functionele Requirements". Vermeld ook de team-feedback. Upload ook de eindversie, waarin de feedback verwerkt is.
+- Upload de door jou zelf uitgewerkte tabellen met niet-functionele requirements naar de Canvas team-bijdrage-opdracht "niet-functionele Requirements". Vermeld ook de team-feedback. Upload ook de eindversie, waarin de feedback verwerkt is.
