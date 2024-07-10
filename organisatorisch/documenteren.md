@@ -17,7 +17,7 @@ Tijdens S3 zijn er enkele centrale documenten die goed bijgehouden dienen te wor
   - Tijdige inleveringen van **oefenopdrachten**
     - Probeer die dezelfde middag nog af te maken.
     - Op Canvas inleveren voor zaterdagavond.
-  - Een [verbeteropdracht](../skills/Verbeteropdracht-template.md)
+  - Een [upgrade-opdracht](../skills/Upgrade-opdracht-template.md)
 
 - **Als team**
   
