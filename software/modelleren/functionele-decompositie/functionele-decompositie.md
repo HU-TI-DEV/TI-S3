@@ -1,6 +1,6 @@
 # Functionele Decompositie
 
-Een functionele decompositie geeft weer hoe de verschillende functies van het systeem kunnen worden opgesplitst in deelfuncties. Onderstaand is een mooi voorbeeld van zo'n functionele decompositie. Merk de volgende eigenschappen op:
+Een functionele decompositie geeft weer hoe de verschillende functies van het systeem kunnen worden opgesplitst in deelfuncties. Onderstaand is een voorbeeld gegeven van een functionele decompositie van een kattenvoermachine. Merk de volgende eigenschappen op:
 
 - De blokken geven zuiver de functies weer, dus wat het systeem doet. Wat in hardware dan wel in software geimplementeerd zal gaan worden is hier nog niet van belang.
 
