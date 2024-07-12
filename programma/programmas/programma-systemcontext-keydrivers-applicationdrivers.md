@@ -5,7 +5,7 @@
 
 ### Topics
 Korte behandeling van:
-- [Journalling](../../onderwijsmateriaal/readers/Journalling.pdf)
+- Journaliseren / Logboek bijhouden
 - System Context Diagram
 - Stakeholders
 - Application Drivers
