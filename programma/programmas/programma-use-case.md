@@ -1,4 +1,4 @@
-# Use case, Use case diagram, Use case beschrijving
+# Programma Use case, Use case diagram, Use case beschrijving
 
 Use cases beschrijven samenhangende reeksen interacties. Ze vormen een belangrijk onderdeel van de requirements. Ze helpen om helder vast te leggen wat de software moet gaan doen. Daarmee verkleint het de kans op teleurstelling achteraf en weet het ontwikkelteam wat het moet maken.
 

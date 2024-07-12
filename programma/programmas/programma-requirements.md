@@ -1,4 +1,4 @@
-# Functionele en Niet-Functionele Requirements
+# Programma Functionele en Niet-Functionele Requirements
 
 ## Voorbereiding
 - Lees van [reader-system-engineering, pg 26 tm 30](../../onderwijsmateriaal/readers/reader-system-engineering.pdf), over Functionele en Niet-Funtionele Requirements.
