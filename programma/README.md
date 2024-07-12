@@ -95,9 +95,9 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Functionele decompositie&nbsp; (MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (MV,HP,&nbsp;BB) |
 | di | Networking basics&nbsp; (MV,&nbsp;BB, HP) |
-| wo | Oefening Object Model&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | <a href="./programmas/programma-object-model.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | Concurrency (pc), mutex&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 
 
@@ -119,7 +119,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 |---|---|
 | ma | Oefening Observer Pattern, Handler Pattern&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | Synchronisatiemechanismen&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| wo | RAII&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | wo 2 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 1/4&nbsp;&nbsp; |
 | do | {<b>Peil 1</b>} |
 
 
@@ -131,18 +131,18 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
-| di | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
-| wo | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
-| do | Oefening STD&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| ma | RAII&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| wo | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| do | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 #### Week A7 (14-10-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
-| di | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
-| wo | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
-| do |  |
+| ma | Oefening STD&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
+| wo | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
+| do | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
 
 
 ### Sprint 4
@@ -153,9 +153,9 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
-| di | {Javascript} (pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
-| wo | Webarchitectuur&nbsp; &nbsp; (MV, HP, BB) |
+| ma | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
+| di | di 22 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 3/4&nbsp;&nbsp; |
+| wo | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
 | do |  |
 #### Week A9 (28-10-2024)
 
@@ -169,9 +169,9 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Combinatoriek&nbsp; &nbsp; (MV, BB, HP) |
-| di | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
-| wo | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| ma | {Javascript} (pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
+| di | Webarchitectuur&nbsp; &nbsp; (MV, HP, BB) |
+| wo | Combinatoriek&nbsp; &nbsp; (MV, BB, HP) |
 | do | {<b>Peil 2</b>} |
 
 
@@ -183,18 +183,18 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Quick and Dirty&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
-| di | Compact and Clean&nbsp; &nbsp;(MV, BB, HP) |
-| wo | Digitale simulatie (logisim)&nbsp; &nbsp;(MV, BB, HP) |
+| ma | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| di | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| wo | Quick and Dirty&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
 | do |  |
 #### Week B2 (18-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Bouwen en debuggen van digitale electronica (evt (ook) in plc)&nbsp; (MV, BB, HP) |
-| di |  |
-| wo | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
-| do | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
+| ma | Compact and Clean&nbsp; &nbsp;(MV, BB, HP) |
+| di | Digitale simulatie (logisim)&nbsp; &nbsp;(MV, BB, HP) |
+| wo | Bouwen en debuggen van digitale electronica (evt (ook) in plc)&nbsp; (MV, BB, HP) |
+| do |  |
 
 
 ### Sprint 6
@@ -205,18 +205,18 @@ Werkend prototype
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
-| di | Opamp versterkertrappen&nbsp; &nbsp; (MV, BB, HP) |
-| wo | Hartslagmeter 1/2&nbsp; &nbsp; (MV, BB, HP) |
-| do | Hartslagmeter 2/2&nbsp; &nbsp; (MV, BB, HP) |
+| ma | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
+| di | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
+| wo | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
+| do |  |
 #### Week B4 (2-12-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma |  |
-| di | plc workshop (bij electro) 1/4&nbsp; (MV, HP) |
-| wo | plc workshop (bij electro) 2/4&nbsp; &nbsp;(MV, HP) |
-| do | {<b>Peil 3</b>} plc workshop (bij electro) 3/4&nbsp; &nbsp;(MV, HP) |
+| ma | Opamp versterkertrappen&nbsp; &nbsp; (MV, BB, HP) |
+| di | Hartslagmeter 1/2&nbsp; &nbsp; (MV, BB, HP) |
+| wo | Hartslagmeter 2/2&nbsp; &nbsp; (MV, BB, HP) |
+| do | {<b>Peil 3</b>} |
 
 
 ### Sprint 7
