@@ -27,7 +27,7 @@ Je ziet dus dat de op canvas geregistreerde feedback voornamelijk bestaat uit:
 - **Thumbs up** van docent
 
 **Docenten** geven dus weinig tot geen schriftelijk inhoudelijke feedback op canvas.
-Inhoudelijke feedback van de docenten zelf kun je **mondeling** ophalen tijdens de contacturen. Maak daar dus zoveel mogelijk gebruik van.
+Inhoudelijke feedback van de docenten zelf kun je **mondeling** ophalen tijdens de contacturen. Maak daar dus zoveel mogelijk gebruik van. Pas bij de peilmomenten kijken de docenten voor hun beeldvorming steekproefsgewijs inhoudelijk dieper naar het ingeleverde materiaal.
 
 ## Leerdoelen annoteren
 
