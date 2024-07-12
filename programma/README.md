@@ -110,7 +110,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | Oefening Object Model&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | Oefening Taakstructurering&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | Oefening Klassediagram&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | Const expressions + Templates, SFINAE&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 #### Week A5 (30-9-2024)
