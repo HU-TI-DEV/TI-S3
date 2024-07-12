@@ -1,4 +1,4 @@
-# Functionele Decompositie
+# Programma Functionele Decompositie
 
 Een functionele decompositie geeft weer hoe de verschillende functies van het systeem kunnen worden opgesplitst in deelfuncties. 
 
