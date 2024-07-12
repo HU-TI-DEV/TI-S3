@@ -1,4 +1,4 @@
-# Activity Diagrammen
+# Programma Activity Diagrammen
 
 Een gestructureerde, visuele manier om vast te leggen **wat** het systeem moet gaan doen. Activity diagrammen kunnen bijvoorbeeld gebruikt worden om usecase beschrijvingen visueel te verduidelijken.
 
