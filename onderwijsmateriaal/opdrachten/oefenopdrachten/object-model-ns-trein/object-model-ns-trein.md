@@ -25,6 +25,8 @@ Beschouw voor een NS-trein de volgende twee usecases:
 **NB:** Eigenlijk zijn dit geen optimale use case beschrijvingen, omdat er nodeloos veel ontwerpbeslissingen zijn opgenomen (het gebruik van een schuif, het knipperen van een rood lampje, het knipperen van een geel lampje). Voor een oefenopgave is dat echter handig, omdat de achteraf vrijgegeven uitwerkingen dan gebaseerd zijn op dezelfde ontwerpkeuzes.
 
 ## Object Model + Object beschrijvingen
-Werk nu een **Objectmodel** met bijbehorende lijst van **Object beschrijvingen** uit op basis van die twee usecases. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+Werk nu een **Objectmodel** met bijbehorende lijst van **Object beschrijvingen** uit op basis van die twee usecases. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 
-Let daarbij op deze [criteria](../../../leerdoelen/portfolio-items/object-model-met-lijst.md).
+Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/object-model-met-lijst.md).
+
+Probeer het eerst zonder, maar maak vervolgens ook gebruik van de eerder gemaakte [functionele decompositie van de NS](FD_NS.drawio.svg). Welk deel ervan is relevant voor deze opdracht?. Helpt de functionele decompositie bij het ontwerpen van het objectmodel?
