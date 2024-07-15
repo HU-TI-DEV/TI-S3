@@ -144,6 +144,7 @@ Team ``naam``
 | etc..         |            |                                                                 |
 
 ### Taakstructurering
+
 ``leg uit wat het doel is van taakstructurering en hoe de deelstappen (sub-hoofdstukken) samen dat doel reliseren``
 
 #### Taaksoort en deadline
@@ -175,6 +176,7 @@ Team ``naam``
 ``Ontwerp voor elke Taak de STD van de bijbehorende klasse(n), indien van toepassing vanuit activity diagram of usecase beschrijving, protocol of anderszins. Belangrijk: alle toestanden moeten gerepresenteerd worden in het diagram. Code zonder toestanden en zonder directe invloed op de flow tussen de toestanden kunnen gerepresenteerd worden door calls naar helper-functies. Vergeet niet bovenaan een geschikte STD-interface toe te voegen``
 
 ## Realisatie
+
 ``leg uit waarin de realisatie zich onderscheidt van het ontwerp, en noem kort de rollen van de subhoofdstukken``
 
 ### Fysieke View
@@ -215,9 +217,9 @@ Team ``naam``
 
 ``... etc``
 
-### Appendix 3: Verbeteronderzoeksverslagen
+### Appendix 3: Upgradeonderzoeksverslagen
 
-``zet hier een lijst met links naar de verbeteronderzoeksverslagen. Licht het toe met wat tekst met de belangrijkste samenvatttingen ervan.``
+``zet hier een lijst met links naar de upgradeonderzoeksverslagen. Licht het toe met wat tekst met de belangrijkste samenvatttingen ervan.``
 
 ### Appendix 4: Referenties
 
