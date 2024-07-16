@@ -76,7 +76,7 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 | ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
 | di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (MV, HP, BB) |
 | wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (MV,HP, BB) |
-| do | Uitje naar lasfabriek |
+| do | VRIJDAG ochtend - Uitje naar lasfabriek |
 
 
 ### Sprint 1
@@ -98,7 +98,7 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 | ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (MV,HP,&nbsp;BB) |
 | di | Networking basics&nbsp; (MV,&nbsp;BB, HP) |
 | wo | <a href="./programmas/programma-object-model-1.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | Concurrency (pc), mutex&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-concurrency-mutex.md">Concurrency (pc), mutex</a>&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 
 
 ### Sprint 2
@@ -109,7 +109,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Oefening Object Model&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-object-model-2.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | Oefening Klassediagram&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | Const expressions + Templates, SFINAE&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
