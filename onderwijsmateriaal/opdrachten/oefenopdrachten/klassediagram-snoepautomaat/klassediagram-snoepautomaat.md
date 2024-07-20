@@ -1,6 +1,6 @@
 # Oefenopdracht Klassediagram Snoepautomaat
 
-Beschouw het onderstaande object model voor de use case "Instellen" van de duivenschreck:
+Beschouw het onderstaande object model voor de use case "Snoep Verkopen" van de snoepautomaat:
 <img title="" src="om-snoepautomaat.svg" alt="" width="552">
 
 ## Klassediagram + Observer Pattern + Handler Pattern
