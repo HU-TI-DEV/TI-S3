@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-16T12:12:34.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="QF0I9IXPySj-0vqW_Rla" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-07-20T10:28:01.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="40P5MY1is8Idy2AFPg2E" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1022" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-6" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-requirements.md&quot; target=&quot;_self&quot;&gt;Functionele en Niet-Functionele Requirements&lt;/a&gt;&amp;nbsp; (MV,HP, BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="41" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="VRIJDAG ochtend - Uitje naar lasfabriek" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-4" value="project&amp;nbsp; (en VRIJDAG ochtend - Uitje naar lasfabriek)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="61" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-7" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-use-case.md&quot; target=&quot;_self&quot;&gt;Use Case Diagram, Use Case Beschrijvingen&lt;/a&gt;&amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -51,13 +51,13 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-18" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-taakstructurering.md&quot; target=&quot;_self&quot;&gt;Oefening Taakstructurering&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="261" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-19" value="Oefening Klassediagram&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-19" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klassediagram-observer.md&quot; target=&quot;_self&quot;&gt;Oefening Klassediagram + Observer Pattern&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="281" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-13" value="Const expressions + Templates, SFINAE&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="301" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-20" value="Oefening Observer Pattern, Handler Pattern&amp;nbsp; &amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-20" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klassediagram-handler.md&quot; target=&quot;_self&quot;&gt;Oefening Klassediagram + Handler Pattern&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="321" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-21" value="Synchronisatiemechanismen&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -87,22 +87,22 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-54" value="do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="501" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-28" value="Signalen in het frequentiedomein, fir filter, median filter&amp;nbsp; (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-31" value="IR ontvanger" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="521" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-29" value="pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-28" value="Signalen in het frequentiedomein, fir filter, median filter&amp;nbsp; (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="541" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-30" value="Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-29" value="pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="561" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-57" value="di 22 okt, 9:00-17:00, PL99-0.237:&amp;nbsp;plc workshop (bij electro) 3/4&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-30" value="Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="581" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-32" value="{HTML, CSS} (pointer naar zelfstudie)&amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-57" value="di 22 okt, 9:00-17:00, PL99-0.237:&amp;nbsp;plc workshop (bij electro) 3/4&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="601" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-32" value="{HTML, CSS} (pointer naar zelfstudie)&amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="621" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-27" value="vakantie" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">

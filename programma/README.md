@@ -76,7 +76,7 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 | ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
 | di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (MV, HP, BB) |
 | wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (MV,HP, BB) |
-| do | VRIJDAG ochtend - Uitje naar lasfabriek |
+| do | project&nbsp; (en VRIJDAG ochtend - Uitje naar lasfabriek) |
 
 
 ### Sprint 1
@@ -111,13 +111,13 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 |---|---|
 | ma | <a href="./programmas/programma-object-model-2.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| wo | Oefening Klassediagram&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | <a href="./programmas/programma-klassediagram-observer.md">Oefening Klassediagram + Observer Pattern</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | Const expressions + Templates, SFINAE&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 #### Week A5 (30-9-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Oefening Observer Pattern, Handler Pattern&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-klassediagram-handler.md">Oefening Klassediagram + Handler Pattern</a>&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | Synchronisatiemechanismen&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | wo 2 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 1/4&nbsp;&nbsp; |
 | do | {<b>Peil 1</b>} |
@@ -141,8 +141,8 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 |---|---|
 | ma | Oefening STD&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
-| wo | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
-| do | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
+| wo | IR ontvanger |
+| do | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
 
 
 ### Sprint 4
@@ -153,10 +153,10 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
-| di | di 22 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 3/4&nbsp;&nbsp; |
-| wo | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
-| do |  |
+| ma | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
+| di | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
+| wo | di 22 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 3/4&nbsp;&nbsp; |
+| do | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
 #### Week A9 (28-10-2024)
 
 | **Dag** | **Kennissessie** |
