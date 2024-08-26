@@ -96,7 +96,7 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (MV,HP,&nbsp;BB) |
-| di | Networking basics&nbsp; (MV,&nbsp;BB, HP) |
+| di | <a href="./programmas/programma-networking-basics.md" style="border-color: var(--border-color);">Networking Basics</a>&nbsp; (MV,&nbsp;BB, HP) |
 | wo | <a href="./programmas/programma-object-model-1.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | <a href="./programmas/programma-concurrency-mutex.md">Concurrency (pc), mutex</a>&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 
