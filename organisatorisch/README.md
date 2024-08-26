@@ -23,7 +23,7 @@ Je vindt er per dag:
 - Links naar de **bijbehorende oefenopdracht(en)**.
 
 ### Oefenopdrachten voor zaterdag inleveren
-Er wordt er van je verwacht dat je oefenopdrachten in principe dezelfde middag nog afrondt en uiterlijk de zaterdagavond van de betreffende week op canvas upload.
+Er wordt van je verwacht dat je oefenopdrachten in principe dezelfde middag nog afrondt en uiterlijk de zaterdagavond van de betreffende week op Canvas upload.
 
 ## Portfolio items en feedback
 Net als binnen S2 staat voor de beoordeling in S3 een **[verantwoordingsdocument](../Verantwoordingsdocument_TI_S3.md)** met **[portfolio items](../Portfolio-items.md)** centraal. Op de pagina [Portfolio Items en Feedback](./portfolio_items_en_feedback.md) wordt uitgelegd hoe je binnen S3 aan portfolio items kunt komen via een één-tweetje tussen je persoonlijke repo en Canvas.
@@ -38,4 +38,4 @@ Net als in S2 staat de [Scrum](../skills/Scrum%20Logboek.md) methodiek centraal 
 ## Goed Nederlands - guidelines
 - Wanneer je een **chatgpt-prompt** gebruikt hebt voor het maken van een stuk tekst, wordt er van je verwacht dat je dat meldt.
 - Gebruik echter in het algemeen geen chatgpt-prompt, maar schrijf je teksten **zelf**.
-- Eventueel laten nakijken door een spellingschecker, chatgpt of anderszins, maar niet laten herschrijven: voer daarentegen **zelf** de aanpassingen in de tekst door. Daardoor leer je er maximaal van, en verbetert je Nederlands.
+- Eventueel laten nakijken door een spellingschecker, chatgpt of anderszins, maar niet laten herschrijven: voer daarentegen **zelf** de aanpassingen in de tekst door. Daardoor leer je er maximaal van en verbetert je Nederlands.
