@@ -62,7 +62,7 @@ De "poortwachter" van de docker containers is een container waarop een zogenaamd
 Zo kun je een heel serverpark in je huiskamer achter je reverse proxy hangen. In mijn buurt wordt binnenkort glasvezel van Open Dutch Fiber aangelegd. Je kunt dan een Odido abonnement nemen met maar liefst 8Gbs up en down. Bandbreedte is dan niet zo gauw een beperkende factor meer.
 
 ## Andere handige containers
-Handige containers die we al genoemd hebben zijn de flask (python-backend) server en de nginx (html-frontend) server. Een database is ook vrijwel altijd van de partij. Zelf gebruik ik daarvoor ene container met MongoDB server. Als laatste is er nog een certbot applicatie. Die zorgt voor automatische certificaatuitgiftes, zodat je niet elk jaar voor elke domein naam een certificaat(-verlenging) hoeft te kopen.
+Handige containers die we al genoemd hebben zijn de flask (python-backend) server en de nginx (html-frontend) server. Een database is ook vrijwel altijd van de partij. Zelf gebruik ik daarvoor een container met MongoDB server. Als laatste is er nog een certbot applicatie. Die zorgt voor automatische certificaatuitgiftes, zodat je niet elk jaar voor elke domein naam een certificaat(-verlenging) hoeft te kopen.
 
 ## www
 Waarom starten al mijn domeinnamen met www, vraag je je vast af? De reden is dat de eerder genoemde truc waarmee je kunt voorkomen een statisch ip adres aan te schaffen, anders niet lijkt te kunnen werken.
