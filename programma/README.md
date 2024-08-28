@@ -118,7 +118,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a href="./programmas/programma-klassediagram-handler.md">Oefening Klassediagram + Handler Pattern</a>&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | Synchronisatiemechanismen&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| di | <a href="./programmas/programma-synchronisatiemechanismen.md" style="border-color: var(--border-color);">Synchronisatiemechanismen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | wo | wo 2 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 1/4&nbsp;&nbsp; |
 | do | {<b>Peil 1</b>} |
 
