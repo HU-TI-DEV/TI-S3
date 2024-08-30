@@ -21,10 +21,11 @@ Tijdens S3 zijn er enkele centrale documenten die goed bijgehouden dienen te wor
 
 - **Als team**
   
-  - Een [scrumlogboek](../skills/Scrum%20Logboek.md), met daarin
+  - Sprintverslagen, met daarin
     - Notulen van de standups
     - Sprint retrospectives
     - Notulen van de sprint review (-feedback)
+
   - Een [ontwikkeldocument](../software/Ontwikkeldocument-template.md), met daarin
     - Requirements en verantwoording daarvan.
     - Ontwerp en verantwoording daarvan.
