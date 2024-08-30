@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-08-28T15:48:35.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="ZTO40bIY8p7wxgUrkwwj" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-08-30T14:24:23.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="hB33O6os_aeSRY-65z45" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
     <mxGraphModel dx="1218" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-19" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klassediagram-observer.md&quot; target=&quot;_self&quot;&gt;Oefening Klassediagram + Observer Pattern&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="281" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-13" value="Const expressions + Templates, SFINAE&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-13" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-constexpr_templates.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Constexpr + Numerieke wiskunde + Templates&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="301" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-20" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-klassediagram-handler.md&quot; target=&quot;_self&quot;&gt;Oefening Klassediagram + Handler Pattern&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -69,7 +69,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-22" value="{&lt;b&gt;Peil 1&lt;/b&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="381" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-14" value="RAII&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-14" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-raii-sfinae.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;RAII + SFINAE&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="401" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-23" value="{CleanRtos, FreeRtos, Logger / Debugging}&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">

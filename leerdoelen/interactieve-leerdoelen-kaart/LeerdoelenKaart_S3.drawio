@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-03T10:01:33.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="oewbFl6PKqFVqdgqIZ9g" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-08-30T14:50:57.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="I4sVMuFaJiwRdXxHwBQZ" version="22.0.2" type="device">
   <diagram name="Copy of Page-1" id="SG1n7jbUNAIGO0vn6a7n">
-    <mxGraphModel dx="135" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-436" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VXFz6mvKQ9PJlcC3uVo2-0" />
         <mxCell id="clzne2ab7s1gdpi-WBzJ-6" value="Organiserend Vermogen" style="locked=1;" parent="VXFz6mvKQ9PJlcC3uVo2-0" />
@@ -306,7 +306,7 @@
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L23_&lt;/font&gt;Klassediagram" id="VXFz6mvKQ9PJlcC3uVo2-24">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="2022.88" y="546.5" width="118.75" height="66.5" as="geometry" />
+            <mxGeometry x="2020" y="543.5" width="118.75" height="56.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L22_&lt;/font&gt;Object Model" id="VXFz6mvKQ9PJlcC3uVo2-25">
@@ -581,12 +581,12 @@
         </mxCell>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L24_&lt;/font&gt;Observer Pattern" id="VXFz6mvKQ9PJlcC3uVo2-73">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1940.88" y="596" width="90" height="40" as="geometry" />
+            <mxGeometry x="1936.88" y="583" width="90" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L25_&lt;/font&gt;Handler&lt;br&gt;Pattern" id="VXFz6mvKQ9PJlcC3uVo2-74">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1992.5" y="647" width="90" height="40" as="geometry" />
+            <mxGeometry x="1955.5" y="627" width="86.5" height="37" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VXFz6mvKQ9PJlcC3uVo2-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="VXFz6mvKQ9PJlcC3uVo2-73" target="VXFz6mvKQ9PJlcC3uVo2-24" edge="1">
@@ -898,7 +898,7 @@
         </mxCell>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L27_&lt;/font&gt;Helder onderbouwd advies requirements" id="VXFz6mvKQ9PJlcC3uVo2-129">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="1801" y="626" width="155" height="48.5" as="geometry" />
+            <mxGeometry x="1795" y="623" width="155" height="48.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L28_&lt;/font&gt;Geprioriteerde&lt;br&gt;key drivers" id="VXFz6mvKQ9PJlcC3uVo2-130">
@@ -984,7 +984,7 @@
             <mxPoint x="1928" y="569" as="sourcePoint" />
             <mxPoint x="2048" y="501" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2240" y="650" />
+              <mxPoint x="2250" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1209,7 +1209,7 @@
         </mxCell>
         <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L40_&lt;/font&gt;Templates" id="VXFz6mvKQ9PJlcC3uVo2-184">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
-            <mxGeometry x="2095" y="622.5" width="90" height="40" as="geometry" />
+            <mxGeometry x="1993" y="665" width="90" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VXFz6mvKQ9PJlcC3uVo2-185" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="VXFz6mvKQ9PJlcC3uVo2-184" target="VXFz6mvKQ9PJlcC3uVo2-24" edge="1">
@@ -1315,7 +1315,7 @@
             <mxPoint x="1955" y="901" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#999999&quot;&gt;L73_&lt;/font&gt;Presenteren" id="dbincIEXr-wDsOjFCKaT-0">
+        <UserObject label="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#999999&quot;&gt;L74_&lt;/font&gt;Presenteren" id="dbincIEXr-wDsOjFCKaT-0">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="VXFz6mvKQ9PJlcC3uVo2-1" vertex="1">
             <mxGeometry x="2479" y="865" width="116.25" height="49.25" as="geometry" />
           </mxCell>
@@ -1324,6 +1324,39 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2484" y="868" as="sourcePoint" />
             <mxPoint x="2459" y="887" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L75_&lt;/font&gt;RAII" id="B4wGRtVJ6L5orRmCuEjx-0">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VXFz6mvKQ9PJlcC3uVo2-1">
+            <mxGeometry x="2117" y="591" width="60" height="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4wGRtVJ6L5orRmCuEjx-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="B4wGRtVJ6L5orRmCuEjx-0" target="VXFz6mvKQ9PJlcC3uVo2-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2037" y="648" as="sourcePoint" />
+            <mxPoint x="2066" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L76_&lt;/font&gt;SFINAE" id="B4wGRtVJ6L5orRmCuEjx-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VXFz6mvKQ9PJlcC3uVo2-1">
+            <mxGeometry x="2116" y="646" width="80" height="31.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4wGRtVJ6L5orRmCuEjx-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="VXFz6mvKQ9PJlcC3uVo2-184" target="B4wGRtVJ6L5orRmCuEjx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2053" y="676" as="sourcePoint" />
+            <mxPoint x="2078" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#999999&quot;&gt;L77_&lt;/font&gt;constexpr" id="B4wGRtVJ6L5orRmCuEjx-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VXFz6mvKQ9PJlcC3uVo2-1">
+            <mxGeometry x="2058" y="620" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B4wGRtVJ6L5orRmCuEjx-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="VXFz6mvKQ9PJlcC3uVo2-1" source="VXFz6mvKQ9PJlcC3uVo2-184" target="B4wGRtVJ6L5orRmCuEjx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2054" y="675" as="sourcePoint" />
+            <mxPoint x="2079" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

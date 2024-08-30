@@ -112,7 +112,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 | ma | <a href="./programmas/programma-object-model-2.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | <a href="./programmas/programma-klassediagram-observer.md">Oefening Klassediagram + Observer Pattern</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | Const expressions + Templates, SFINAE&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-constexpr_templates.md" style="border-color: var(--border-color);">Constexpr + Numerieke wiskunde + Templates</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 #### Week A5 (30-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -131,7 +131,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | RAII&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-raii-sfinae.md" style="border-color: var(--border-color);">RAII + SFINAE</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 | wo | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 | do | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
