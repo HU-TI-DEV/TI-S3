@@ -57,10 +57,10 @@ In semester 3 van de richting Technische Informatica zijn de volgende leeruitkom
 [Werkwijze](./organisatorisch/README.md)
 
 Shortcuts naar onderliggende links:
-- [Portfolio Items en Feedback (hoe te maken)](./organisatorisch/portfolio_items_en_feedback.md)
+- [Portfolio Items en Feedback maken](./organisatorisch/portfolio_items_en_feedback.md)
   - [Leerdoelenkaart s3](./leerdoelen/interactieve-leerdoelen-kaart/LeerdoelenKaart_S3.svg)
 - [Verantwoordingsdocument](./Verantwoordingsdocument_TI_S3.md)
-- [Portfolio items (algemeen verhaal)](./Portfolio-items.md)
+- [Portfolio items - algemeen](./Portfolio-items.md)
 - [Documenteren](./organisatorisch/documenteren.md)
 
 ## Programma
