@@ -115,7 +115,7 @@ def generate_markdown(intro, sprints, projects, weeks, sessions):
                 week_name = week_name.replace('<br>',' ')
                 week_name = week_name.replace('<br style="border-color: var(--border-color);">',' ')
                 
-                md_content.append(f"#### {week_name}\n")
+                md_content.append(f"\n#### {week_name}\n")
                 total_week_days += week_days
             
                 # Maak een tabel met sessies

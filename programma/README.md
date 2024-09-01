@@ -69,6 +69,7 @@ De studentassistenten zijn:
 
 Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de klant, Mindmap gemaakt. Start FR.
 
+
 #### Week A1 (2-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -83,6 +84,7 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 
 Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, UCD, UCBeschr, Activity Diagrammen en Functionele decompositie. + ESP32-IDF + mesh operationeel, evt. Hello Worlds van boundary objects.
 
+
 #### Week A2 (9-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -91,6 +93,7 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 | di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | wo | ESP32-IDF basic installatie&nbsp; (MV,HP,&nbsp;BB) |
 | do | {ESP32-IDF mesh installatie + CleanRTOS}&nbsp; (MV,HP,&nbsp;BB) |
+
 #### Week A3 (16-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -105,6 +108,7 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 
 Object Model en klassediagram van het RTOS subsysteem<br>
 
+
 #### Week A4 (23-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -113,6 +117,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 | di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | <a href="./programmas/programma-klassediagram-observer.md">Oefening Klassediagram + Observer Pattern</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | <a href="./programmas/programma-constexpr_templates.md" style="border-color: var(--border-color);">Constexpr + Numerieke wiskunde + Templates</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+
 #### Week A5 (30-9-2024)
 
 | **Dag** | **Kennissessie** |
@@ -127,6 +132,7 @@ Object Model en klassediagram van het RTOS subsysteem<br>
 
 Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van (gegeven) STD NEC protocol, start implementatie van core functionaliteit van RTOS subsysteem.
 
+
 #### Week A6 (7-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -135,6 +141,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | di | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 | wo | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
 | do | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+
 #### Week A7 (14-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -149,6 +156,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 
 RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br>(requirements, usecases,&nbsp; storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
 
+
 #### Week A8 (21-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -157,6 +165,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | di | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
 | wo | di 22 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 3/4&nbsp;&nbsp; |
 | do | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
+
 #### Week A9 (28-10-2024)
 
 | **Dag** | **Kennissessie** |
@@ -165,6 +174,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | di | vakantie |
 | wo | vakantie |
 | do | vakantie |
+
 #### Week A10 (4-11-2024)
 
 | **Dag** | **Kennissessie** |
@@ -179,6 +189,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
+
 #### Week B1 (11-11-2024)
 
 | **Dag** | **Kennissessie** |
@@ -187,6 +198,7 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 | di | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
 | wo | Quick and Dirty&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
 | do |  |
+
 #### Week B2 (18-11-2024)
 
 | **Dag** | **Kennissessie** |
@@ -201,6 +213,7 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 Werkend prototype
 
+
 #### Week B3 (25-11-2024)
 
 | **Dag** | **Kennissessie** |
@@ -209,6 +222,7 @@ Werkend prototype
 | di | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
 | wo | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
 | do |  |
+
 #### Week B4 (2-12-2024)
 
 | **Dag** | **Kennissessie** |
@@ -223,6 +237,7 @@ Werkend prototype
 
 UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 
+
 #### Week B5 (9-12-2024)
 
 | **Dag** | **Kennissessie** |
@@ -231,6 +246,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di |  |
 | wo |  |
 | do |  |
+
 #### Week B6 (16-12-2024)
 
 | **Dag** | **Kennissessie** |
@@ -239,6 +255,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di |  |
 | wo |  |
 | do |  |
+
 #### Week B7 (23-12-2024)
 
 | **Dag** | **Kennissessie** |
@@ -247,6 +264,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 | di | Vakantie |
 | wo | Vakantie |
 | do | Vakantie |
+
 #### Week B8 (30-12-2024)
 
 | **Dag** | **Kennissessie** |
@@ -260,6 +278,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 ### Oplevering
 
 Werkend eindproduct presenteren en demonstreren. Documentatie opleveren.
+
 
 #### Week B9 (6-1-2025)
 
@@ -275,6 +294,7 @@ Werkend eindproduct presenteren en demonstreren. Documentatie opleveren.
 
 Evaluaties<br>Op een aparte branch kan alvast gewerkt worden aan eventuele verbeteringen.
 
+
 #### Week B10 (13-1-2025)
 
 | **Dag** | **Kennissessie** |
@@ -289,6 +309,7 @@ Evaluaties<br>Op een aparte branch kan alvast gewerkt worden aan eventuele verbe
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
+
 #### Week B11 (20-1-2025)
 
 | **Dag** | **Kennissessie** |
@@ -297,6 +318,7 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 | di | Verbeterperiode |
 | wo | Verbeterperiode |
 | do | Verbeterperiode |
+
 #### Week B12 (27-1-2025)
 
 | **Dag** | **Kennissessie** |
