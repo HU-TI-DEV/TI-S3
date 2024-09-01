@@ -12,3 +12,8 @@ Newton Raphson is een andere numerieke methode, waarmee je in veel gevallen een 
 [Deze pagina](https://www.geeksforgeeks.org/newton-raphson-method/) legt het denk ik wel overzichtelijk uit.
 Kanttekening: bij de eerste examples passen ze maar een iteratiestap toe. Typisch pas je (zoals bij Problem 4) meerdere iteratiestappen toe, en stop je als de absolute verandering van het benaderde antwoord onder een bepaalde drempel komt.
 Ook voor het benaderen van een eenvoudige functie kan Newton Raphson afhankelijk van de functie waar het om gaat sneller convergeren dan een Tailor ontwikkeling. Je kunt dat wiskundig bewijzen of gewoon uitproberen met wat testcode.
+
+### Combinatie met geachte tabel
+Ingewikkelde wiskundige operaties of zelfs complete formules kun je mogelijk maken en/of versnellen door ze te cachen in een tabel. Stel we willen in onze software de formule log(cos(x)-tan(x)) snel uitrekenen. We kunnen dan (bijvoorbeeld compile time, via constexpr) een tabel uitrekenen voor een bereik van x. Bijvoorbeeld voor x in het bereik van 1 tot 10 in stapjes van 0.1.
+De tabel is dan 100 entries groot. Het kan zijn dat een nauwkeurigheid van 0.1 voor x niet nauwkeurig genoeg is. Je wilt bijvoorbeeld de formule nauwkeurig kunnen uitrekenen voor x=2.0237, dus met een nauwkeurigheid van x van 0.0001, factor 1000 nauwkeuriger dan in de tabel. Stel dat de tabel 1000 keer zo groot te maken (met stapjes van 0.0001) ivm memory footprint geen optie is. Wat je dan kunt doen, is in de tabel de dichtstbijzijnde oplossing opzoeken (dus in dit geval voor x=2.0), en vervolgens rond die dichtsbijzijnde oplossing een (veel) nauwkeuriger oplossing uitrekenen met ofwel een Tailor reeks, ofwel met Newton Raphson.
+
