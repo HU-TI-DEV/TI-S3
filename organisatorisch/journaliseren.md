@@ -43,3 +43,6 @@ Naast, of in plaats van per topic, kun je ook een algemeen journaal bijhouden wa
 Onderstaand is een bladzijde te zien uit zo'n Journaal.
 
 ![](img/2024-07-02-09-24-29-image.png)
+
+Onderstaand zijn nog wat voorbeelden van authentieke logboeken die ik maakte met esp32 als topic. Misschien dat een deel van de genoteerde problemen en oplossingen nog van pas kunnen komen:
+[Wat oude logboeken over esp32(-IDF)](../onderwijsmateriaal/voorbeeld-oude-logboeken-esp32/) 
