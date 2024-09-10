@@ -8,6 +8,7 @@ Een mooi 'bewijs' van een succesvolle installatie is een screenshot nadat je de 
 Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF Installatie" de link in naar dat kopje in je logboek (dus bijvoorbeeld https://github.com/bla/persoonlijk_logboek.md#esp-idf-installatie).
 
 ## Voorbereiding
+- Kijk eventueel even [deze inleidende video](https://youtu.be/DKVyf8Wh0kE)
 - Lees eventueel alvast wat in [ESP32-IDF-opzet](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet.md).
 - Als je team een zigbee mesh gaat gebruiken, lees dan vervolgens wat in [ESP32-C6, Zigbee](../../onderwijsmateriaal/
 voorbeeld-oude-logboeken-esp32/zigbee/ESP32-C6.md)
