@@ -13,7 +13,7 @@ Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF I
 - Als je team een zigbee mesh gaat gebruiken, lees dan vervolgens wat in [ESP32-C6, Zigbee](../../onderwijsmateriaal/
 voorbeeld-oude-logboeken-esp32/zigbee/ESP32-C6.md)
 - Neem voor de zekerheid mee:
-    - Een breadboard
+    - **Twee** breadboards (een ESP32 heeft er 2 nodig..)
     - Een drukknopje
     - Een weerstand van 1 a 2 kOhm
     - Een 470uF condensator
