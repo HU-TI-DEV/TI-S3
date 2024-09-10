@@ -91,8 +91,8 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 |---|---|
 | ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (MV,HP,&nbsp;BB) |
-| wo | ESP32-IDF basic installatie&nbsp; (MV,HP,&nbsp;BB) |
-| do | {ESP32-IDF mesh installatie + CleanRTOS}&nbsp; (MV,HP,&nbsp;BB) |
+| wo | <a href="./programmas/programma-esp32-IDF-1.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie</a>&nbsp; (MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie + CleanRTOS, zigbee</a>&nbsp; (MV,HP,&nbsp;BB) |
 
 #### Week A3 (16-9-2024)
 
