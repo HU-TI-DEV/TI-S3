@@ -197,3 +197,43 @@ littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan inst
 ### Zigbee
 
 Enfin, voor IDF5.1 heb ik in een ander log al zigbee getest. voor IDF5.3 gaat het vast vergelijkbaar, dus zie [ESP32-C6.md op S3 github](https://github.com/HU-TI-DEV/TI-S3/blob/main/onderwijsmateriaal/voorbeeld-oude-logboeken-esp32/zigbee/ESP32-C6.md).
+
+# Appendix format specifiers
+
+Het kan zijn dat een deel van de code uit het project test_lasergame_2 nog niet helemaal werkt op esp-idf 5.3 (de code werd gemaakt in 4.4).
+Als er nog iets aangepast moet worden, zijn het vermoedelijk format specifiers binnen de ELogV() of ELogi() commandos.
+
+Dat blijkt dan wel uit de foutmeldingen.
+
+Ik heb chatgpt 4.o een mappings-tabel laten maken (er kunnen dus fouten in zitten):
+
+| **Type**                 | **Format Specifier** |
+| ------------------------ | -------------------- |
+| `int`                    | `%d`                 |
+| `unsigned int`           | `%u`                 |
+| `long int`               | `%ld`                |
+| `unsigned long int`      | `%lu`                |
+| `long long int`          | `%lld`               |
+| `unsigned long long int` | `%llu`               |
+| `short int`              | `%hd`                |
+| `unsigned short int`     | `%hu`                |
+| `char`                   | `%c`                 |
+| `unsigned char`          | `%hhu`               |
+| `signed char`            | `%hhd`               |
+| `float`                  | `%f`                 |
+| `double`                 | `%lf`                |
+| `long double`            | `%Lf`                |
+| `int8_t`                 | `%" PRIi8 "`         |
+| `uint8_t`                | `%" PRIu8 "`         |
+| `int16_t`                | `%" PRIi16 "`        |
+| `uint16_t`               | `%" PRIu16 "`        |
+| `int32_t`                | `%" PRIi32 "`        |
+| `uint32_t`               | `%" PRIu32 "`        |
+| `int64_t`                | `%" PRIi64 "`        |
+| `uint64_t`               | `%" PRIu64 "`        |
+| `size_t`                 | `%zu`                |
+| `ptrdiff_t`              | `%zd`                |
+| `uintptr_t`              | `%zu`                |
+| `intptr_t`               | `%zd`                |
+| `void*` (pointer)        | `%p`                 |
+| `string` (`char*`)       | `%s`                 |
