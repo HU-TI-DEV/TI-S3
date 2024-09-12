@@ -98,6 +98,10 @@ Team ``naam``
 | Omschrijving | ``quantificeerbare of anderszins meetbare omschrijving `` |
 | Rationale    | ``reden: waarom kan het niet anders?``                    |
 
+### Key Driver Graph
+
+``Zet op deze plek de Key Driver Graph. Een horizontaal weergegeven hierarchie die de onderlinge afhankelijkheden tussen key drivers, derived application drivers, functionele en non-functionele requirements``.
+
 ### Use Cases
 
 `` Een of meerdere use case diagram(men) met bijbehorende use case beschrijvingen ``
