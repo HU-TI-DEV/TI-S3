@@ -25,3 +25,4 @@ Vergelijk als team elkaars resultaat. Gebruik die teamfeedback als feedback. Lev
 
 #### Traceability Diagram
 Maak op dezelfde manier de canvas opdracht voor het Traceability Diagram.
+     
