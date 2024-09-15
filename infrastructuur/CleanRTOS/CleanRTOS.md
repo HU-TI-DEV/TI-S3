@@ -58,3 +58,25 @@ Daarnaast bevat CleanRTOS nog een paar handige Utility klassen.
   - Dit is een razendsnelle logger. Een log kost slechts een paar clock-cycli. Handig bij het debuggen. Zodra je op een 'Dump Button' klikt, wordt de gecachte log informatie naar het scherm geschreven.
 - Handler
   - Dit is een generieke Handler klasse. Je kunt daarmee periodieke taken met dezelfde periode samenvoegen in een enkele taak. Dat bespaart resources en task-switch tijd.
+
+## Uitleg via Video Serie
+Via de volgende video serie kun je je vanuit je luie stoel laten uitleggen hoe een en ander met CleanRTOS werkt. Het bestaat uit videos die het eenvoudige gebruik/toepassen van CleanRTOS laten zien. Er zijn ook videos die uitleggen hoe het onder de motorkap werkt, zodat je een-op-een de relatie met FreeRTOS kunt zien.
+
+- [CleanRTOS overview](https://youtu.be/P5RiUsPRDdY)
+- [CleanRTOS Task gebruik](https://youtu.be/3W2uBrb0YAI)
+- [CleanRTOS Flag gebruik en highwatermark check](https://youtu.be/j3TUx1L2b-8)
+  - [CleanRTOS Task Waitable Flag Onder de motorkap](https://youtu.be/I1adj-1ucKg)
+- [CleanRTOS Queue gebruik](https://youtu.be/6gtzlrYGRNo)
+  - [CleanRTOS Queue onder de motorkap](https://youtu.be/69_BV3WDosI)
+- [CleanRTOS Timer gebruik](https://youtu.be/gYyz0YWCRuk)
+  - [CleanRTOS Timer onder de motorkap](https://youtu.be/ISTA7LL_qOo)
+- [CleanRTOS MutexSection gebruik](https://youtu.be/SHOObIFtfrE)
+  - [CleanRTOS Mutex Pool onder de motorkap](https://youtu.be/CShOFS78phQ)
+- [CleanRTOS Pool gebruik](https://youtu.be/KUTgI4alVLw)
+- [CleanRTOS Logger gebruik](https://youtu.be/XdClbnqFyQM)
+  - [CleanRTOS Logger onder de motorkap](https://youtu.be/iMpHRoj--sA)
+- [CleanRTOS Handler gebruik](https://youtu.be/8YMu4JQdMy8)
+  - [CleanRTOS Handler onder de motorkap](https://youtu.be/tc_VfyLXJcc)
+- [CleanRTOS wachten op meerdere waitables tegelijk](https://youtu.be/VneJ876W3KA)
+
+

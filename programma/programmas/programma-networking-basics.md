@@ -10,9 +10,8 @@ In deze les kijken we daar nog eens naar, met als topics:
 Bestudeer het volgende:
 - [REST video](https://www.youtube.com/watch?v=-mN3VyJuCjM&t=47s)
 - [OSI model video](https://www.youtube.com/watch?v=0y6FtKsg6J4)
-- [evt. alternatieve video over REST en OSI]()
-- [Het grote plaatje](../../infrastructuur//networking-voorbeeld/networking-voorbeeld.md)
-- [Video bij het grote plaatje]()
+- [evt. alternatieve video van opa over Internet, REST en OSI](https://youtu.be/KRQ9wSHRSqM)
+- [Een voorbeeld](../../infrastructuur//networking-voorbeeld/networking-voorbeeld.md)
 - [Sheets](../../onderwijsmateriaal/presentaties/Communication_Protocols_v1.0.pptx)
 
 ## Tijdens en na de les

@@ -6,6 +6,8 @@ Om een snel overzicht te krijgen van wat daarbij komt kijken, bestuderen we een 
 
 [Dit plaatje](./img/Networking_Personal_Example.drawio.svg) geeft zo'n voorbeeld. Dit voorbeeld laat zien hoe het surfen werkt naar mijn persoonlijk gehoste website www.pikido.com.
 
+In deze [video](https://youtu.be/86l5Zo-UacA) wordt een en ander toegelicht. Als je die eerst kijkt, leest het hiernavolgende vermoedelijk makkelijker.
+
 Het is een vrij groot plaatje. Scroll eerst eens naar links, dan bespreken we dat eerst.
 
 ## Client-Server
