@@ -6,7 +6,7 @@ Taakstructurering bestaat uit 2 delen:
 ## Voorbereiding
 - Lees blz 23 tm blz 26 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 - Lees ook de [criteria van taakstructurering](../../leerdoelen/portfolio-items/taakstructurering.md) door.
-- Wat highlights kun je ook in video-vorm bestuderen: **TODO**
+- Wat highlights kun je ook [in video-vorm](https://youtu.be/YYCMcCfnlgo) bestuderen.
 
 ## Tijdens en na de les
 Maak individueel de oefenopdracht [Taakstructurering van een NS Trein](../../onderwijsmateriaal/opdrachten/oefenopdrachten/taakstructurering-ns-trein.md). Upload je resultaat naar de **Canvas oefenopdracht "Taakstructurering NS Trein"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
