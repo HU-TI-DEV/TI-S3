@@ -7,6 +7,6 @@ Een Object Model is een diagram dat laat zien hoe software objecten met afgebake
 - Wat highlights kun je ook in video-vorm bestuderen: [Video Keukenweegschaal - Object Model maken](https://youtu.be/HQtPEt8f9As)
 
 ## Tijdens en na de les
-- Tijdens de les oefenen we kort door o.a. het maken van een Object Model voor de usecse Instelcontrol van een Duivenschreck systeem.
+- Tijdens de les oefenen we kort door o.a. het maken van een Object Model voor de usecase Instelcontrol van een Duivenschreck systeem.
 
 - Maak individueel de oefenopdracht [Object Model van een snoepautomaat](../../onderwijsmateriaal/opdrachten/oefenopdrachten/object-model-snoepautomaat/object-model-snoepautomaat.md). Upload je resultaat naar de **Canvas oefenopdracht "Object Model Snoepautomaat"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
