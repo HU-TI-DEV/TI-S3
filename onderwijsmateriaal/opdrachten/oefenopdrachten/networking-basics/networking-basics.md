@@ -1,5 +1,5 @@
 # Oefenopdracht Networking Basics - Spelen met de ESP32
-Doel van deze opdracht is om kennis te maken met de ESP32 en er meteen zoveel mogelijk networking ervaring ermee op te doen. Maak daarbij gebruik van de Arduino IDE. Noteer je ervaringen, leerpunten e.d. zoals gewoonlijk in je persoonlijke logboek.
+Doel van deze opdracht is om kennis te maken met de ESP32 en er meteen zoveel mogelijk networking ervaring ermee op te doen. Je mag gebruik maken van de Arduino IDE, of van de Arduino IDE examples van de arduino ide component die je binnen het test_lasergame_2 ESP32-IDF project hebt geinstalleerd. In bijvoorbeeld `test_lasergame_2\main\main_for_wifi_scan_ard_ide_with_nvs.cpp` zie je bijvoorbeeld hoe dat kan voor een wifi scan een een accesspoint. Natuurlijk ook altijd het pad naar de betreffende examples folder aan de CMakeList.txt file toevoegen. Noteer je ervaringen, leerpunten e.d. zoals gewoonlijk in je persoonlijke logboek.
 
 ## Examples
 Begin met het uitproberen van de bij de ESP32 library behorende standaard examples
@@ -9,6 +9,8 @@ Begin met het uitproberen van de bij de ESP32 library behorende standaard exampl
 - Accesspoint
 - Webserver - bedien led met GET.
 - Webserver - bedien led met POST (via postman)
+
+Vraagje daarbij: waarom is het bedienen van de led via GET vragen om problemen? (hint: denk aan caching)
 
 ## Extra opdracht: 
 Bij beide webserver voorbeelden moest je de wifi-credentials hardcoden.
