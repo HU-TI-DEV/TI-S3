@@ -1,5 +1,5 @@
 # Oefenopdracht Taakstructurering NS Trein
-Deze opdracht bouwt voort op de opdracht [Object model van een NS-trein](./object-model-ns-trein.md)
+Deze opdracht bouwt voort op de opdracht [Object model van een NS-trein](./object-model-ns-trein/object-model-ns-trein.md)
 
 Gebruik de betreffende use case beschrijvingen, het resulterende objectmodel en de objecten lijst als uitgangspunt, en maak daaruit de **taakstructureringstabel** en de **taaksamenvoegingstabel**. Voeg ook **toelichting** toe waar de gekozen deadlines en prioriteiten worden toegelicht.
 
