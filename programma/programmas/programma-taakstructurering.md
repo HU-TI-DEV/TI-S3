@@ -6,7 +6,12 @@ Taakstructurering bestaat uit 2 delen:
 ## Voorbereiding
 - Lees blz 23 tm blz 26 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 - Lees ook de [criteria van taakstructurering](../../leerdoelen/portfolio-items/taakstructurering.md) door.
-- Wat highlights kun je ook [in video-vorm](https://youtu.be/YYCMcCfnlgo) bestuderen.
+- Hoe dat is toegepast bij het ontwerp van een keukenweegschaal zie je in de volgende videos:
+  - [Keukenweegschaal - Deadlines en prioriteiten](https://youtu.be/wCvsCxmSr6k)
+  - [Keukenweegschaal - Taaksamenvoeging](https://youtu.be/1BVqezTzjec)
+
+- Lees over taaksamenvoeging ook [dit overzicht](../../software/modelleren/taaksamenvoeging/taaksamenvoeging.md)
+- Dat wordt ook besproken in deze video: [Taaksamenvoeging - 3 manieren uitgelegd a.d.v. activitydiagrammen](https://youtu.be/M3ZLOdGXcnc)
 
 ## Tijdens en na de les
 Maak individueel de oefenopdracht [Taakstructurering van een NS Trein](../../onderwijsmateriaal/opdrachten/oefenopdrachten/taakstructurering-ns-trein.md). Upload je resultaat naar de **Canvas oefenopdracht "Taakstructurering NS Trein"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
