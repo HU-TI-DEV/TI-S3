@@ -4,6 +4,7 @@ Synchronisatiemechanismen vormen het hart van de communicatie tussen meerdere ta
 ## Voorbereiding
 - Lees van [Reader Design Like a Robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) het stukje over synchronisatiemechanismen (blz 46 tm 47).
 - Kijk ook alvast [Sheets Synchronisatiemechanismen](../../onderwijsmateriaal/presentaties/Synchronisatie-mechanismen.pptx) door.
+- Bekijk eventueel deze [verhandeling van opa](https://youtu.be/VeqHdJ1uMZo)
 
 ## Tijdens en na de les
 - Maak de formatieve Canvas-Quizz "Quiz Synchronisatiemechanismen" (onder "Toetsen", dus niet bij "Opdrachten").
