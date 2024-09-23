@@ -35,9 +35,7 @@ De Webapplicatie is een vreemde eend in de bijt. Die bestaat uit meerdere applic
 
 De "Design like a robot" methode is daar niet een op een op toepasbaar.
 
-Voor de web-applicaties krijg je bij een latere le s
-
-Bij een latere les krijg je wat voorbeelden (inclusief code). Die geven een voorbeeld van hoe zo'n webapplicatie op te zetten.  
+Voor de web-applicaties krijg je bij een latere les wat voorbeelden (inclusief code). Die geven een voorbeeld van hoe zo'n webapplicatie op te zetten.  
 Als voorschot daarop kan ik al van twee webapplicaties een model tonen.
 Dan heb je een idee van hoe je het ontwerp (en het resultaat) van zo'n web-applicatie in een model zou kunnen weergeven.
 
