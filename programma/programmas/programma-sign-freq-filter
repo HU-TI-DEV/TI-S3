@@ -1,14 +1,8 @@
-# Programma RAII en SFINAE
-## RAII 
-RAII (Resource Acquisition Is Instantiation) is een algemene designpattern. Ze is toepasbaar in c++ en ook de meeste andere programmeertalen.
+# Programma ESP32 IDF en CleanRTOS installeren
 
-## SFINAE 
-SFINAE (Substitution Failure Is Not An Error) is een geavanceerd c++ template concept.
-
-## Voorbereiding
-- Bestudeer [deze webpagina](https://www.geeksforgeeks.org/resource-acquisition-is-initialization/?ref=gcse_ind) over RAII.
-- Bestudeer [deze webpagina](../../software/sfinae/sfinae.md) over SFINAE.
-
-## Oefenopdrachten
-- Maak [deze oefenopdracht](../../onderwijsmateriaal/opdrachten/oefenopdrachten/raii/raii.md) over RAII en lever hem in op Canvas.
-- Maak [deze oefenopdracht](../../onderwijsmateriaal/opdrachten/oefenopdrachten/sfinae/sfinae.md) over SFINAE en lever hem in op Canvas.
+Deze les gaan we de ESP32 IDF programmeeromgeving installeren, (team-)project voor de code aanmaken.
+### Logboek bijhouden, Canvas opdracht
+Start een nieuw kopje in je persoonlijk logboek, bijvoorbeeld genaamd "ESP32 IDF Installatie".
+Houdt tijdens het proces goed bij in je logboek wat je leert, waar je tegenaan loopt en hoe je het oploste.
+Een mooi 'bewijs' van een succesvolle installatie is een screenshot nadat je de "dump log" button hebt ingedrukt tijdens het CleanRTOS testprogramma "AllWaitables.ino".
+Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF Installatie" de link in naar dat kopje in je logboek (dus bijvoorbeeld 
