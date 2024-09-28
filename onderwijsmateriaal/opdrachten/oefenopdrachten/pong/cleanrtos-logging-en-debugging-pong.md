@@ -31,7 +31,11 @@ Het debuggen kun je doen met de volgende cycli:
 
 - Test wat het spel doet.
 
-- Voeg logs toe op verdachte plaatsen (voor zover niet al aanwezig).
+- Voeg logs toe (voor zover niet al aanwezig). Vuistregel voor goede plekken daarvoor:
+  - In elke publieke functie loggen dat ze is aangeroepen, inclusief de paramaters erbij.
+    Daarmee krijg je goed beeld van wat de taken tegen elkaar zeggen.
+  - Aan het begin van elke state-handling (na een case statement) de naam van de state loggen.
+    Daarmee krijg je een goed beeld van in welke state taken zich bevinden.
 
 - Bedenk (met hulp van het Object Model) wat er zou moeten gebeuren.
 
