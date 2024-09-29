@@ -8,3 +8,7 @@ Bij deze opdracht zet je zelf een **STD van een communicatieprotocol** om **naar
 - Lever de uiteindelijke code (de tweede commit) pas in op de bijbehorende canvas opdracht **zodra de test succesvol is**.
 
 Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/code.md).
+
+## Tips: 
+- Gebruik een **logic analyser** om het signaal dat op de input-pin van je microcontroller staat (die is aangesloten op de TSOP IR ontvanger) terwijl je met de afstandsbediening er berichten naartoe stuurt. Dan weet je meteen zeker of die goed is aangesloten en de batterij van je afstandsbediening nog vol is.
+- Houd er rekening mee dat deze opdracht meestal **meer dan een middag** in beslag neemt. Vermoedelijk heb je ook de vrijdag nodig.
