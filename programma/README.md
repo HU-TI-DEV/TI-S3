@@ -140,7 +140,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | ma | <a href="./programmas/programma-raii-sfinae.md" style="border-color: var(--border-color);">RAII + SFINAE</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-cleanrtos-debugging.md" style="border-color: var(--border-color);">CleanRtos, FreeRtos, Logger / Debugging</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | wo | <a href="./programmas/programma-std-1.md" style="border-color: var(--border-color);">STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a style="border-color: var(--border-color);" href="./programmas/programma-std-1.md">STD naar Code</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-std-naar-code.md" style="border-color: var(--border-color);">STD naar Code</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 
 #### Week A7 (14-10-2024)
 

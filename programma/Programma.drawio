@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-09-29T17:21:04.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="GeCgIp0xG2q40_gc11ak" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-09-29T18:08:29.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="2MLOnLKx4c7unPtv19vh" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1210" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-24" value="&lt;a href=&quot;./programmas/programma-std-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;STD&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="441" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-25" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-std-1.md&quot;&gt;STD naar Code&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-25" value="&lt;a href=&quot;./programmas/programma-std-naar-code.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;STD naar Code&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="461" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-26" value="&lt;a href=&quot;./programmas/programma-std-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Meer STD&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">

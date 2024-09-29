@@ -7,7 +7,7 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 - Bestudeer ook het [voorbeeld op basis van een keukenweegschaal in video-vorm](TODO !!).
 
 ## Tijdens en na de les
-Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de **Canvas oefenopdracht "KD_Duivensch_Instellen"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
+Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de bijbehorende **Canvas oefenopdracht**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
 ## Extra oefenopdrachten
 Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van std's aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt).
