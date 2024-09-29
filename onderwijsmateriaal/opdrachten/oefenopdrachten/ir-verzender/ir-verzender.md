@@ -7,4 +7,4 @@ Deze opdracht gaat ervan uit dat je eerder een werkende oplossing voor een [ir-o
 - Implementeer het in code met behulp van CleanRTOS.
 - **Test** het resultaat door de informatie te ontvangen met de eerder gerealiseerde NEC-infrarood-ontvanger (op een andere esp32, of als je die niet hebt, op een andere thread op dezelfde esp32).
 Verzend bijvoorbeeld teksten tot 8 karakters.
-- Lever de uiteindelijke code (de tweede commit) pas in op de bijbehorende canvas opdracht **zodra de test succesvol is**.
+- Lever de uiteindelijke code, inclusief de testcode (de tweede commit) pas in op de bijbehorende canvas opdracht **zodra de test succesvol is**.
