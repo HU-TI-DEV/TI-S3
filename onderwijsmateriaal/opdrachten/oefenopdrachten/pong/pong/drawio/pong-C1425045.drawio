@@ -1,0 +1,113 @@
+<mxfile host="Electron" modified="2024-09-25T19:34:19.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="MrSRJqZrNxToO_C9sNjD" version="21.5.1" type="device">
+  <diagram name="OM" id="V-jEEJNZSsZUfbnBuUTJ">
+    <mxGraphModel dx="340" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ewIldfsRc9I-6hI0bzat-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:7px;text-align:left;&quot;&gt;&lt;b&gt;om&lt;/b&gt;  Pong&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=68;strokeWidth=2;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="150" width="570" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-7" value="print(str)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-1" target="ewIldfsRc9I-6hI0bzat-6" edge="1">
+          <mxGeometry x="-0.1111" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-14" value="startBall" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="ewIldfsRc9I-6hI0bzat-1" target="ewIldfsRc9I-6hI0bzat-8" edge="1">
+          <mxGeometry y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-30" value="enable,&lt;br&gt;disable" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-1" target="ewIldfsRc9I-6hI0bzat-9" edge="1">
+          <mxGeometry x="0.0031" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-1" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;br&gt;gameControl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-4" value="buttonPressed&lt;br&gt;(pButton)" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-2" target="ewIldfsRc9I-6hI0bzat-1" edge="1">
+          <mxGeometry x="-0.1153" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-2" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;buttonLeft" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-5" value="buttonPressed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(pButton)" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-3" target="ewIldfsRc9I-6hI0bzat-1" edge="1">
+          <mxGeometry x="-0.0614" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-3" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;buttonRight" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="380" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-6" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;console&lt;br&gt;display" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="280" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-29" value="ballMissedByPaddle" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-8" target="ewIldfsRc9I-6hI0bzat-1" edge="1">
+          <mxGeometry x="-0.3333" y="-40" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="250" />
+              <mxPoint x="410" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-8" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;br&gt;ballControl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="170" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-9" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;br&gt;SceneDisplayControl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-11" value="print(str)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-9" target="ewIldfsRc9I-6hI0bzat-6" edge="1">
+          <mxGeometry x="0.1111" y="15" relative="1" as="geometry">
+            <mxPoint x="500" y="315" as="sourcePoint" />
+            <mxPoint x="590" y="315" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-12" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;br&gt;paddleControl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="380" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-17" value="buttonPressed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(pButton)" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-2" target="ewIldfsRc9I-6hI0bzat-12" edge="1">
+          <mxGeometry x="-0.254" y="6" relative="1" as="geometry">
+            <mxPoint x="290" y="276" as="sourcePoint" />
+            <mxPoint x="410" y="304" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-18" value="buttonPressed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(pButton)" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ewIldfsRc9I-6hI0bzat-3" target="ewIldfsRc9I-6hI0bzat-12" edge="1">
+          <mxGeometry x="-0.2328" y="-17" relative="1" as="geometry">
+            <mxPoint x="260" y="372" as="sourcePoint" />
+            <mxPoint x="410" y="328" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-26" value="getSize,&lt;br&gt;updateBallPos(x,y)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="ewIldfsRc9I-6hI0bzat-8" target="ewIldfsRc9I-6hI0bzat-9" edge="1">
+          <mxGeometry x="-0.1111" y="-15" relative="1" as="geometry">
+            <mxPoint x="491" y="290" as="sourcePoint" />
+            <mxPoint x="610" y="195" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ewIldfsRc9I-6hI0bzat-28" value="getSize,&lt;br&gt;updatePaddlePos(x)" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ewIldfsRc9I-6hI0bzat-12" target="ewIldfsRc9I-6hI0bzat-9" edge="1">
+          <mxGeometry x="-0.4725" y="-36" relative="1" as="geometry">
+            <mxPoint x="500" y="205" as="sourcePoint" />
+            <mxPoint x="630" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3AtgtseziqyLVPxcTQ0-1" value="updatePaddlePos(x)" style="orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ewIldfsRc9I-6hI0bzat-12" target="ewIldfsRc9I-6hI0bzat-8">
+          <mxGeometry x="-0.524" y="7" relative="1" as="geometry">
+            <mxPoint x="500" y="415" as="sourcePoint" />
+            <mxPoint x="663" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

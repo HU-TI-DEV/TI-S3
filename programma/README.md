@@ -92,7 +92,7 @@ Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, U
 | ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (MV,HP,&nbsp;BB) |
 | wo | <a href="./programmas/programma-esp32-IDF-1.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie</a>&nbsp; (MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie + CleanRTOS, zigbee</a>&nbsp; (MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram</a>&nbsp; (MV,HP,&nbsp;BB) |
 
 #### Week A3 (16-9-2024)
 
@@ -138,18 +138,18 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a href="./programmas/programma-raii-sfinae.md" style="border-color: var(--border-color);">RAII + SFINAE</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | {CleanRtos, FreeRtos, Logger / Debugging}&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
-| wo | STD&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
-| do | STD naar code&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| di | <a href="./programmas/programma-cleanrtos-debugging.md" style="border-color: var(--border-color);">CleanRtos, FreeRtos, Logger / Debugging</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| wo | <a href="./programmas/programma-std-1.md" style="border-color: var(--border-color);">STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | <a style="border-color: var(--border-color);" href="./programmas/programma-std-1.md">STD naar Code</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 
 #### Week A7 (14-10-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Oefening STD&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-std-2.md" style="border-color: var(--border-color);">Meer STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
-| wo | IR ontvanger |
-| do | Signalen in het frequentiedomein, fir filter, median filter&nbsp; (BB, MV) |
+| wo | <a href="./programmas/programma-std-naar-code-ir-ontvanger.md" style="border-color: var(--border-color);">IR ontvanger</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| do | <a href="./programmas/programma-sign-freq-filter.md" style="border-color: var(--border-color);">Signalen in het frequentiedomein, fir filter, median filter</a>&nbsp; &nbsp;(BB, MV) |
 
 
 ### Sprint 4

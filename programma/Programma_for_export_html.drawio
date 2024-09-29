@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-09-10T15:22:52.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="0HBoThoQh_8ycrniXT30" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-09-29T17:21:04.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="GeCgIp0xG2q40_gc11ak" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1012" dy="5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-9" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-esp32-IDF-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;ESP32-IDF basic installatie&lt;/a&gt;&amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="121" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-10" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-esp32-IDF-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;ESP32-IDF basic installatie + CleanRTOS, zigbee&lt;/a&gt;&amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-10" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-esp32-IDF-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram&lt;/a&gt;&amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="141" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-11" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-functionele-decompositie.md&quot; target=&quot;_self&quot;&gt;Functionele decompositie&lt;/a&gt;&amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -72,25 +72,25 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-14" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-raii-sfinae.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;RAII + SFINAE&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="401" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-23" value="{CleanRtos, FreeRtos, Logger / Debugging}&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-23" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-cleanrtos-debugging.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;CleanRtos, FreeRtos, Logger / Debugging&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="421" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-24" value="STD&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-24" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-std-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;STD&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="441" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-25" value="STD naar code&amp;nbsp; &amp;nbsp; (MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-25" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-std-1.md&quot; target=&quot;_self&quot;&gt;STD naar Code&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="461" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-26" value="Oefening STD&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-26" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-std-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Meer STD&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="481" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-54" value="do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="501" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-31" value="IR ontvanger" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-31" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-std-naar-code-ir-ontvanger.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;IR ontvanger&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="521" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-28" value="Signalen in het frequentiedomein, fir filter, median filter&amp;nbsp; (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-28" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-sign-freq-filter.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Signalen in het frequentiedomein, fir filter, median filter&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="541" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-29" value="pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
