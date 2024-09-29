@@ -25,13 +25,14 @@ Maak daarbij gebruik van het log object om tussentijdse resultaten te loggen, en
 
 Als het goed is, flasht de applicatie (na idf.py flash monitor in de test_lasergame_2 project folder) zonder compilefouten. Alleen werkt de applicatie (nog-) niet naar behoren. Aan jou de taak om de fouten op te lossen.
 
-Goddank is de codeur niet als een kip zonder kop begonnen te programmeren, maar heeft eerst een [Object Model](./pong/pong_objectmodel.html) gemaakt. Dat geeft je zonder een regel code bestudeerd te hebben een snelle indruk van hoe een en ander zou moeten werken. (STD's erbij zou natuurlijk helemaal ideaal geweest zijn)
+Goddank is de codeur niet als een kip zonder kop begonnen te programmeren, maar heeft eerst een [Object Model](./pong/pong_objectmodel.svg) gemaakt. Dat geeft je zonder een regel code bestudeerd te hebben een snelle indruk van hoe een en ander zou moeten werken. (STD's erbij zou natuurlijk helemaal ideaal geweest zijn)
 
 Het debuggen kun je doen met de volgende cycli:
 
 - Test wat het spel doet.
 
 - Voeg logs toe (voor zover niet al aanwezig). Vuistregel voor goede plekken daarvoor:
+  
   - In elke publieke functie loggen dat ze is aangeroepen, inclusief de paramaters erbij.
     Daarmee krijg je goed beeld van wat de taken tegen elkaar zeggen.
   - Aan het begin van elke state-handling (na een case statement) de naam van de state loggen.
