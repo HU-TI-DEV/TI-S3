@@ -2,6 +2,7 @@
 
 ## Voorbereiding
 - Lees [deze inleiding over infrarood communicatie](../../hardware-interfacing/infraroodcommunicatie/infraroodcommunicatie.md)
+- Kijk ook [de voorbereidende video](https://youtu.be/0M3hKepjMBg).
 
 ## Tijdens en na de les: canvas opdracht IR ontvanger
 - Maak de opdracht [std-naar-code-ir-ontvanger](./../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-code-ir-ontvanger/std-code-ir-ontvanger.md)
