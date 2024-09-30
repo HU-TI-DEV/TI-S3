@@ -1,8 +1,9 @@
 # Programma Signalen in het Frequentiedomein, Fir filter, Median filter
 
 ## Voorbereiding
-- Fourier, bestudeer dit filmpje https://www.youtube.com/watch?v=ku39-1nrLEY
-- Digitaal filteren, bestudeer de volgende filmpjes:
+Fourier, bestudeer dit filmpje 
+- https://www.youtube.com/watch?v=ku39-1nrLEY
+Digitaal filteren, bestudeer de volgende filmpjes:
 -  https://youtu.be/Ao4cgxQIQrw?si=_-uKQsK79rTFXIwS
 -  https://youtu.be/IklFHadApFI?si=zVBgie5ILE9iiNdr
 -  https://youtu.be/-M1EfbZ8xWs?si=l3oNQc-mpJcG5LrG
