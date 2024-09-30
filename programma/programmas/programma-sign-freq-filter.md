@@ -2,7 +2,7 @@
 
 ## Voorbereiding
 Fourier, bestudeer dit filmpje 
-- https://www.youtube.com/watch?v=ku39-1nrLEY
+- https://www.youtube.com/watch?v=ku39-1nrLEY<br>
 Digitaal filteren, bestudeer de volgende filmpjes:
 -  https://youtu.be/Ao4cgxQIQrw?si=_-uKQsK79rTFXIwS
 -  https://youtu.be/IklFHadApFI?si=zVBgie5ILE9iiNdr
