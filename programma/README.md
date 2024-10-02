@@ -147,7 +147,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a href="./programmas/programma-std-2.md" style="border-color: var(--border-color);">Meer STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
+| di | <a href="./programmas/programma-PLC.md" style="border-color: var(--border-color);">do 15 okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
 | wo | <a href="./programmas/programma-std-naar-code-ir-ontvanger.md" style="border-color: var(--border-color);">IR ontvanger</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | <a href="./programmas/programma-sign-freq-filter.md" style="border-color: var(--border-color);">Signalen in het frequentiedomein, fir filter, median filter</a>&nbsp; &nbsp;(BB, MV) |
 
