@@ -12,7 +12,11 @@ Digitaal filteren, bestudeer de volgende filmpjes:
 -  https://youtu.be/IklFHadApFI?si=zVBgie5ILE9iiNdr
 -  https://youtu.be/-M1EfbZ8xWs?si=l3oNQc-mpJcG5LrG
 -  https://youtu.be/M79_tzuWiLQ
--  https://youtu.be/_vvIPFmNQD8?si=MvneLlWZjhwuV2Ux
+-  https://youtu.be/_vvIPFmNQD8?si=MvneLlWZjhwuV2Ux<br>
+
+En het nut van dit alles!:
+- https://youtu.be/hG2-fehhcig
+  
 ## Tijdens en na de les
 - Bestudeer & lever deze Canvas opdracht in: https://canvas.hu.nl/courses/44569/assignments/329471
 
