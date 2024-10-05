@@ -9,8 +9,8 @@ Een Object Model is een diagram dat laat zien hoe software objecten met afgebake
 - Wat ze tegen elkaar zeggen zijn **mededelingen** - knopIngedrukt(knopId), **commando's** - activeerSolenoid, of **vragen** - isKnopNeer.
 - **Meegegeven informatie** bij een mededeling of commando wordt **tussen haakjes** meegegeven, zoals bij:
   knopIngedrukt(knopId) 
-- Laat wat er tegen een ander object "gezegd wordt" van toepassing zijn op dat losstaande object. Zeg dus niet tegen het object RodeLamp "onveiligeSituatieGedetecteerd", maar "enable" of "gaAan".
-- In ieder geval een control object per use case.
+- Laat wat er tegen een ander object "gezegd wordt" van toepassing zijn **op dat losstaande object**. Zeg dus niet tegen het object RodeLamp "onveiligeSituatieGedetecteerd", maar "enable" of "gaAan".
+- In ieder geval **een control object per use case**.
 
 # Object lijst
 
