@@ -9,3 +9,4 @@ Een "hack en slash" document waar je je gedachtengang in ordent.
 - Korte termijn planningen gebruikt.
 - Lange termijn planningen gebruikt.
 - Overwegingen, gedachtengangen en conclusies zijn genoteerd en goed te volgen.
+- Vooral dingen die mis gingen wil je goed documenteren: (screenshots van-) de exacte error-codes, in detail hoe het opgelost is. 
