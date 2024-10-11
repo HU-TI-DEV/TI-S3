@@ -1,4 +1,4 @@
-# Programma Signalen in het Frequentiedomein, Fir filter, Median filter
+# Programma PID control (regeltechniek)
 
 ## Voorbereiding
 Bestudeer deze filmpjes:
