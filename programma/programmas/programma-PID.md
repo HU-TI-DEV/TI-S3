@@ -1,7 +1,7 @@
 # Programma Signalen in het Frequentiedomein, Fir filter, Median filter
 
 ## Voorbereiding
-1) Bestudeer deze filmpje:
+Bestudeer deze filmpjes:
 - https://www.youtube.com/watch?v=PJKI_-K5iGk<br>
 - https://www.youtube.com/watch?v=7C77m7qwhs4<br>
 - https://www.youtube.com/watch?v=8hbh8vUTaEk<br>
