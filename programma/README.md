@@ -162,7 +162,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP) |
-| di | pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV) |
+| di | <a href="./programmas/programma-PID.md" style="border-color: var(--border-color);">PID (regektechniek) </a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) (BB, MV) |
 | wo | di 22 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 3/4&nbsp;&nbsp; |
 | do | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
 
