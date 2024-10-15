@@ -96,7 +96,7 @@ Het is handig om die als referentie te bewaren.
 Verder is het handig als je **als team één enkele** (lege) repo aanmaakt, bijvoorbeeld "Rollatornavigatie", en die ook **cloned** in de docker folder. Je docker folder heeft dan dus twee subfolders: VoorbeeldWebApp_Gomoku en RollatorNavigatie.
 
 De folder home/username/docker/VoorbeeldWebApp_Gomoku_ bevat dan een referentie-webapplicatie inclusief documentatie, iets gedocumenteerds en werkends waar je altijd naar kunt terugkijken.  
-Lees [de documentatie in de bijbhorende readme](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/bl.ob/main/README.md)
+Lees [de documentatie in de bijbhorende readme](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/README.md).
 
 In de folder home/username/docker/RollatorNavigatie kopieer je dan initieel de inhoud van VoorbeeldWebApps (behalve de folder .git)(bijvoorbeeld dmv copy-paste in de windows verkenner), en pusht die zodat het hele team het kan clonen.
 
