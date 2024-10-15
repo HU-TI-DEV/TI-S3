@@ -161,7 +161,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | <a href="programma-webapp-flask-docker-mongodb.md" style="border-color: var(--border-color);">Flask, MongoDb, Docker Composer, WebApp</a>&nbsp;(MV, HP) |
+| ma | <a style="border-color: var(--border-color);" href="./programmas/programma-webapp-flask-docker-mongodb.md">Flask, MongoDb, Docker Composer en Voorbeeld WebApp</a>&nbsp;(MV, HP) |
 | di | di 22 okt, PL99-0.237:&nbsp;plc workshop 3/4 en&nbsp;<a style="border-color: var(--border-color);" href="./programmas/programma-PID.md">PID (regeltechniek)</a>&nbsp;(BB, MV) |
 | wo | <a style="border-color: var(--border-color);" href="./programmas/programma-sign-freq-filter.md">VentilatorWip Workshop</a>&nbsp;(BB, MV) |
 | do | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
