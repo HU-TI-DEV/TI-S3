@@ -2,7 +2,7 @@
 
 ## Waarom een server opzetten?
 
-We willen ieder **individueel** een development server opzetten, zodat alle teamleden individueel aan de web-applicatie voor het team-project kunnen werken, en hun lokale versie kunnen debuggen, zonder dat de andere teamleden daardoor gehinderd worden.
+We willen dat ieder **individueel** een development server opzet, zodat alle teamleden individueel aan de web-applicatie voor het team-project kunnen werken, en hun lokale versie kunnen debuggen - zonder dat de andere teamleden daardoor gehinderd worden.
 
 ## Waarom Ubuntu?
 

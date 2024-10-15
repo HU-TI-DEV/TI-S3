@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-09-30T16:03:21.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="6pSOLVB7ag-hZKNhcgRs" version="21.5.1" type="device">
+<mxfile host="Electron" modified="2024-10-15T20:50:07.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="VEbS9hkQSknZW_Abh40J" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1036" dy="-555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="-1" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-26" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-std-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Meer STD&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="481" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-54" value="do 15?!? okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-54" value="di 15 okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="501" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-31" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-std-naar-code-ir-ontvanger.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;IR ontvanger&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV,HP,&amp;nbsp;BB)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -93,13 +93,13 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-28" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-sign-freq-filter.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Signalen in het frequentiedomein, fir filter, median filter&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="541" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-30" value="Flask, MongoDb, NoIP, Reverse Proxy, docker composer (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-30" value="&lt;a href=&quot;programma-webapp-flask-docker-mongodb.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Flask, MongoDb, Docker Composer, WebApp&lt;/a&gt;&amp;nbsp;(MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="561" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-29" value="pid workshop (ventilatorwip-todo-offshelve-balopplank met TOF) (BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-57" value="di 22 okt, PL99-0.237:&amp;nbsp;plc workshop 3/4 en&amp;nbsp;&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-PID.md&quot; target=&quot;_self&quot;&gt;PID (regeltechniek)&lt;/a&gt;&amp;nbsp;(BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="581" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-57" value="di 22 okt, 9:00-17:00, PL99-0.237:&amp;nbsp;plc workshop (bij electro) 3/4&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-29" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-sign-freq-filter.md&quot; target=&quot;_self&quot;&gt;VentilatorWip Workshop&lt;/a&gt;&amp;nbsp;(BB, MV)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="601" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-32" value="{HTML, CSS} (pointer naar zelfstudie)&amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
