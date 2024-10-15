@@ -18,7 +18,7 @@ Scan alvast wat door:
 
 en/of kijk [deze inleidende video - TODO](TODO)
 
-## Tijdens een na de les
+## Tijdens en na de les
 Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht.  
 
 ### Canvas Opdracht "Ontwikkelserver met Webapplicatie"
