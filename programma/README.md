@@ -149,7 +149,7 @@ Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van
 | ma | <a href="./programmas/programma-std-2.md" style="border-color: var(--border-color);">Meer STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | di | di 15 okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
 | wo | <a href="./programmas/programma-std-naar-code-ir-ontvanger.md" style="border-color: var(--border-color);">IR ontvanger</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-sign-freq-filter.md" style="border-color: var(--border-color);">Signalen in het frequentiedomein, fir filter, median filter</a>&nbsp; &nbsp;(BB, MV) |
+| do | <a style="border-color: var(--border-color);" href="./programmas/programma-PID.md">PID (regeltechniek)</a>&nbsp;(BB, MV) |
 
 
 ### Sprint 4
@@ -162,8 +162,8 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a style="border-color: var(--border-color);" href="./programmas/programma-webapp-flask-docker-mongodb.md">Flask, MongoDb, Docker Composer en Voorbeeld WebApp</a>&nbsp;(MV, HP) |
-| di | di 22 okt, PL99-0.237:&nbsp;plc workshop 3/4 en&nbsp;<a style="border-color: var(--border-color);" href="./programmas/programma-PID.md">PID (regeltechniek)</a>&nbsp;(BB, MV) |
-| wo | <a style="border-color: var(--border-color);" href="./programmas/programma-sign-freq-filter.md">VentilatorWip Workshop</a>&nbsp;(BB, MV) |
+| di | di 22 okt, PL99-0.237:&nbsp;plc workshop 3/4 en&nbsp;<a href="./programmas/programma-PID-workshop.md" style="border-color: var(--border-color);">Ventilator Wip Workshop)</a>&nbsp;(BB, MV) |
+| wo | <a style="border-color: var(--border-color);" href="./programmas/programma-sign-freq-filter.md">Signalen in het frequentiedomein, fir filter, median filter</a>&nbsp;(BB, MV) |
 | do | {HTML, CSS} (pointer naar zelfstudie)&nbsp; (MV, HP) |
 
 #### Week A9 (28-10-2024)
