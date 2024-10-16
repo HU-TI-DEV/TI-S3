@@ -16,7 +16,7 @@ Scan alvast wat door:
 - [VoorbeeldWebApp_Gomoku/README.md](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/README.md)
 - [VoorbeeldWebApp_Gomoku/Gomoku_WebApp_Design.md](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/docs/gomoku_webapp/Gomoku_WebApp_Design.md)
 
-en/of kijk [deze inleidende video - TODO](TODO)
+en/of kijk [deze inleidende video](https://youtu.be/P6nkv4Sgedo)
 
 ## Tijdens en na de les
 Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht.  

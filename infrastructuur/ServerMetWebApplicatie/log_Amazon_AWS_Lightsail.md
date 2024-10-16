@@ -134,6 +134,7 @@ hmmm.... nu kan ik niet meer verbinden... het lijkt wel of mijn instance gebroke
 Ow .. nu is het ip-adres veranderd..
 .. naar xx.xxx.xxx.xxx
 Zucht..
+.. Eindconclusie: De goedkope LightSail instance heeft te weinig cpu budget om de server-side component van VSCode te draaien terwijl je er via VSCode ingelogd bent. De beste optie voor LightSail blijft dus inloggen via ssh op de commandline.
 
 ## Docker installeren
 
