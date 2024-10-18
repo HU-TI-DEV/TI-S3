@@ -206,7 +206,7 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 | ma | Compact and Clean&nbsp; &nbsp;(MV, BB, HP) |
 | di | Digitale simulatie (logisim)&nbsp; &nbsp;(MV, BB, HP) |
 | wo | Bouwen en debuggen van digitale electronica (evt (ook) in plc)&nbsp; (MV, BB, HP) |
-| do |  |
+| do | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
 
 
 ### Sprint 6
@@ -218,7 +218,7 @@ Werkend prototype
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
+| ma |  |
 | di | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
 | wo | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
 | do |  |
