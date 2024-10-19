@@ -102,8 +102,7 @@ Lees [de documentatie in de bijbhorende readme](https://github.com/HU-TI-DEV/Voo
 - **Pas in docker-compose.yml het volgende aan:**
   - replace alle deelstringen "gomoku" door "rollatornavigatie"  
   (dus van servicenaam, containernaam en netwerknaam)
-  - De externe poorten (bijvoorbeeld van 27018:27017 naar 27019:27017, 5001:5001 naar 5002:5002 en
-  ook FLASK_RUN_PORT=5001 naar FLASK_RUN_PORT=5002)
+  - De externe poorten (bijvoorbeeld van 27018:27017 naar 27019:27017, 5001:5000 naar 5002:5000)
 
   Daarmee voorkom je dat de containers van de voorbeeldapplicatie en die van je teamapplicatie elkaar in de weg zitten.
 - Push het naar github, zodat het hele team het vervolgens kan clonen.

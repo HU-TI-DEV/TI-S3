@@ -12,7 +12,7 @@ CSS staat voor **Cascading Style Sheets**. Het is een stylesheet-taal die wordt 
 
 Met bovenstaande tutorials kun je even snel dingen met HTML en CSS uitproberen.
 
-Voor **oefenopdrachten** waarvan je uitwerkingen als **portfolio-items** kunt gebruiken, kun je uitgaan van deze tutorial-reeksen op de **volgende** websites:
+Voor **opdrachten** waarvan je uitwerkingen als **portfolio-items** kunt gebruiken, kun je uitgaan van deze tutorial-reeksen op de **volgende** websites:
 - [HTML op Digital Ocean](https://www.digitalocean.com/community/tutorial-series/how-to-build-a-website-with-html).
 - [CSS op Digital Ocean](https://www.digitalocean.com/community/tutorial-series/how-to-style-html-with-css).
 
@@ -27,7 +27,7 @@ In de komende weken verwachten we van je dat je naast het werk aan het project o
   - Een **screenshot** van de webpagina.
   - Een korte beschrijving van wat je hebt **geleerd**.
 
-Het inleveren kan op de **Canvas** entry voor HTML **oefenopdrachten** respectievelijk CSS oefenopdrachten.
+Het inleveren kan op de **Canvas** entry voor HTML en CSS **persoonlijke opdrachten**. Die opdrachten hoeven **niet** van verdere feedback te worden voorzien (met bovenstaande korte beschrijving geef je dat jezelf al).
 Het is een goed idee om de focus **eerst** te leggen op **HTML** en daarna pas CSS. Websites kunnen in principe zonder CSS. CSS is vooral bedoeld om de website mooier te maken. 
 
 ## Projectbijdragen 
