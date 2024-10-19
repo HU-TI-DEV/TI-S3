@@ -98,7 +98,15 @@ Verder is het handig als je **als team één enkele** (lege) repo aanmaakt, bijv
 De folder home/username/docker/VoorbeeldWebApp_Gomoku_ bevat dan een referentie-webapplicatie inclusief documentatie, iets gedocumenteerds en werkends waar je altijd naar kunt terugkijken.  
 Lees [de documentatie in de bijbhorende readme](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/README.md).
 
-In de folder home/username/docker/RollatorNavigatie kopieer je dan initieel de inhoud van VoorbeeldWebApps (behalve de folder .git)(bijvoorbeeld dmv copy-paste in de windows verkenner), en pusht die zodat het hele team het kan clonen.
+- In de folder home/username/docker/RollatorNavigatie kopieer je dan initieel de inhoud van VoorbeeldWebApps (behalve de folder .git)(bijvoorbeeld dmv copy-paste in de windows verkenner).
+- **Pas in docker-compose.yml het volgende aan:**
+  - replace alle deelstringen "gomoku" door "rollatornavigatie"  
+  (dus van servicenaam, containernaam en netwerknaam)
+  - De externe poorten (bijvoorbeeld van 27018:27017 naar 27019:27017, 5001:5001 naar 5002:5002 en
+  ook FLASK_RUN_PORT=5001 naar FLASK_RUN_PORT=5002)
+
+  Daarmee voorkom je dat de containers van de voorbeeldapplicatie en die van je teamapplicatie elkaar in de weg zitten.
+- Push het naar github, zodat het hele team het vervolgens kan clonen.
 
 De WebApplicatie in home/username/docker/RollatorNavigatie kun je dan met je team gaan **aanpassen / uitbreiden** zodat het het gewenste gedrag krijgt voor het project. Ten alle tijden zorg je ervoor dat je alleen iets pusht dat werkt, zodat je teamleden altijd een werkende versie kunnen pullen.
 

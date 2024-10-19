@@ -9,7 +9,7 @@ Use cases beschrijven samenhangende reeksen interacties. Ze vormen een belangrij
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video use cases](https://www.youtube.com/watch?v=KOnqXexY-1A)
 - En [Video voorbeeld Keukenweegschaal - UC diagram maken](https://youtu.be/lrKcsDOxHX0)
 
-## Tijdens een na de les
+## Tijdens en na de les
 ### Use Case diagram maken
 Bedenk samen wat de belangrijkste use cases zijn voor het systeem. Maak er vervolgens **individueel** een use case diagram van. Dat mag op kladpapier zijn. Upload die naar de **individuele Canvas team-bijdrage opdracht "Use Case Diagram"**. Leg op een afgesproken moment de individuele use-case diagrammen naast elkaar, en maak op basis daarvan met het team een use case diagram voor het ontwikkeldocument ([criteria](../../leerdoelen/portfolio-items/use-case-diagram.md)). 
 Zorg ervoor dat die overzichtelijk gemodelleerd is volgens de [algemene guidelines voor modellen](../../software/modelleren/inlever-guideline-for-models.md). 
