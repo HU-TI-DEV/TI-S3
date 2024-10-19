@@ -31,5 +31,5 @@ Het inleveren kan op de **Canvas** entry voor HTML **oefenopdrachten** respectie
 Het is een goed idee om de focus **eerst** te leggen op **HTML** en daarna pas CSS. Websites kunnen in principe zonder CSS. CSS is vooral bedoeld om de website mooier te maken. 
 
 ## Projectbijdragen 
-Zodra je het gevoel hebt dat je een en ander voldoende beheerst, kun je de html pagina's van je project gaan maken. Ook dat werk kun je als portfolio-items inleveren, in dit geval bij de **Canvas** Opdrachten voor je individuele **Projectbijdrage** HTML en CSS.
+Zodra je het gevoel hebt dat je een en ander voldoende beheerst, kun je de html pagina's van je project gaan maken. Ook dat werk kun je als portfolio-items inleveren, in dit geval bij de **Canvas** Opdracht voor je individuele Wegpagina **Projectbijdrage**.
 Doe dat op dezelfde wijze als bij de oefenopdrachten.
