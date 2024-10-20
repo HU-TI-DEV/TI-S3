@@ -38,4 +38,4 @@ Onderstaande overwegingen kun je daarbij een rol laten spelen:
 - Heb je ambities voor een "**boven-niveau**" eindclassificatie?
 
 ## "verplicht practicum"
-Naast bovenstaande optionele reeksen komt er nog een additionele middag met aan electro gerelateerd practicum: 'Praktische vaardigheden electro S2'. Dat practicum van een middag is nog in de maak door Harm en Bart. Van iedereen wordt verwacht daar aan deel te nemen.
+Naast bovenstaande optionele reeksen komt er nog een additionele middag met aan electro gerelateerd practicum: 'Recap Praktische Vaardigheden Electro S2'. Dat practicum van een middag is nog in de maak door Harm en Bart. Van iedereen wordt verwacht daar aan deel te nemen.
