@@ -37,5 +37,5 @@ Onderstaande overwegingen kun je daarbij een rol laten spelen:
 - Lukte het tot dusverre aardig om voor de deadlines de opdrachten met redelijke kwaliteit ingeleverd te krijgen, of loop je substantieel achter?
 - Heb je ambities voor een "**boven-niveau**" eindclassificatie?
 
-## "verplicht practicum"
+## Verplicht practicum practische vaardigheden
 Naast bovenstaande optionele reeksen komt er nog een additionele middag met aan electro gerelateerd practicum: 'Recap Praktische Vaardigheden Electro S2'. Dat practicum van een middag is nog in de maak door Harm en Bart. Van iedereen wordt verwacht daar aan deel te nemen.
