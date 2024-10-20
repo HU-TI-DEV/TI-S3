@@ -61,3 +61,9 @@ De studentassistenten zijn:
 - (**LH**) Loïs den Hartogh
 - (**LK**) Liam Kortekaas
 - (**TM**) Tim van Mourik
+
+### HTML, JavaScript CSS
+
+Ergens voorbij de helft van het programma worden pointers naar online tutorials gegeven voor het studeren van HTML, Javascript en CSS. In de weken die volgen wordt van je verwacht dat je daar een serieuze zelfstudie van maakt, en bijbehorende gemaakte opdrachten upload.
+
+In diezelfde weken volgen twee electrotechniek series, welke optioneel zijn, maar ook een middag die dat niet is. Lees meer daarover in [Electrotechniek á la carte](./electro-a-la-carte.md).
