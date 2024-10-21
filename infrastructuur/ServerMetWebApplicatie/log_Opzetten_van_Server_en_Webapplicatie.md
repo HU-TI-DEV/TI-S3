@@ -143,7 +143,7 @@ Optioneel kun je eerst ook nog alle images verwijderen (die moeten dan allemaal 
 - docker-compose down --rmi all
 
 Wacht even tot alle containers opgestart zijn.  
-Als je **WSL** gebruikt, draait het op dezelfde machine als je windows desktop en kun je in je browser naar **localhost:5001/** gaan om te zien of de webapplicaties werken.
+Als je **WSL** gebruikt, draait het op dezelfde machine als je windows desktop en kun je in je browser naar **localhost:5001/gomoku/** gaan om te zien of de webapplicaties werken.
 
 Als je remote bent ingelogd op een Rasberry PI of Amazon server, vervang je **localhost** door het ip nummer van die machine.
 
