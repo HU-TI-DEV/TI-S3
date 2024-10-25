@@ -15,4 +15,6 @@ De oefening met die opdracht heb je nodig als voorbereiding op de Canvas oefenop
 Upload je resultaat naar de **Canvas oefenopdracht "KD Snoepautomaat"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
 ## Extra oefenopdrachten
-Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van klassediagrammen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt).
+Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van object modellen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt):
+- [Broodrooster Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/broodrooster-serie/broodrooster-serie.md)
+- [Magnetronoven Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/magnetronoven-serie/magnetronoven-serie.md)

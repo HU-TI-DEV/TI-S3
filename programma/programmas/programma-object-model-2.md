@@ -11,4 +11,6 @@ Ook deze les staat in het teken van object modellen. Het makkelijk kunnen maken 
 Maak individueel de oefenopdracht [Object Model van een NS trein](../../onderwijsmateriaal/opdrachten/oefenopdrachten/object-model-ns-trein/object-model-ns-trein.md). Upload je resultaat naar de **Canvas oefenopdracht "Object Model NS Trein"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
 ## Extra oefenopdrachten
-Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van object modellen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt).
+Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van object modellen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt):
+- [Broodrooster Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/broodrooster-serie/broodrooster-serie.md)
+- [Magnetronoven Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/magnetronoven-serie/magnetronoven-serie.md)

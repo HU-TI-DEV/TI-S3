@@ -27,9 +27,19 @@ In de komende weken verwachten we van je dat je naast het werk aan het project o
   - Een **screenshot** van de webpagina.
   - Een korte beschrijving van wat je hebt **geleerd**.
 
-Het inleveren kan op de **Canvas** entry voor HTML en CSS **persoonlijke opdrachten**. Die opdrachten hoeven **niet** van verdere feedback te worden voorzien (met bovenstaande korte beschrijving geef je dat jezelf al).
+Het inleveren kan op de **Canvas** entries **'Webpaginas Tutorials HTML'** en **Webpaginas Tutorials CSS** in de categorie **Persoonlijke Opdrachten**. Die opdrachten hoeven **niet** van verdere feedback te worden voorzien (met bovenstaande korte beschrijving geef je dat jezelf al).
 Het is een goed idee om de focus **eerst** te leggen op **HTML** en daarna pas CSS. Websites kunnen in principe zonder CSS. CSS is vooral bedoeld om de website mooier te maken. 
 
 ## Projectbijdragen 
-Zodra je het gevoel hebt dat je een en ander voldoende beheerst, kun je de html pagina's van je project gaan maken. Ook dat werk kun je als portfolio-items inleveren, in dit geval bij de **Canvas** Opdracht voor je individuele Wegpagina **Projectbijdrage**.
-Doe dat op dezelfde wijze als bij de oefenopdrachten.
+Zodra je het gevoel hebt dat je een en ander voldoende beheerst, kun je de html pagina's van je project gaan maken. Ook dat werk kun je als portfolio-items inleveren, in dit geval bij de **Canvas** Opdracht **'WebPaginas'** voor je individuele Wegpagina **Projectbijdrage**.
+
+**Zo'n projectbijdrage inlevering bestaat uit:**
+- Als het om een **bestaande pagina** gaat: een **commit-link** naar de **oorspronkelijke** pagina.
+- Een link + commit-link naar de pagina na je werk.
+- Een link naar een **hash in je logboek** waar je er iets over zegt:
+  - Een **screenshot** van de webpagina.
+  - Een korte beschrijving van wat je hebt **toegevoegd**.
+
+Om er een portfolio-item van te maken: 
+- **Review feedback** ophalen en verwerken.
+- Een **link + commit-link** naar de gereworkte resultaat.

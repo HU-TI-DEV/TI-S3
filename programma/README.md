@@ -185,7 +185,7 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | {Javascript} (pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
-| di | Webarchitectuur&nbsp; &nbsp; (MV, HP, BB) |
+| di | plc workshop (bij electro) 4/4&nbsp; &nbsp; (MV, HP) |
 | wo | Combinatoriek&nbsp; &nbsp; (MV, BB, HP) |
 | do | {<b>Peil 2</b>} |
 
@@ -247,7 +247,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | plc workshop (bij electro) 4/4&nbsp; &nbsp; (MV, HP) |
+| ma |  |
 | di |  |
 | wo |  |
 | do |  |
