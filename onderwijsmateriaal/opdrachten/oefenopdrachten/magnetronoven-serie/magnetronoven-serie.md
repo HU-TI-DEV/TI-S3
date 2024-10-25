@@ -4,8 +4,8 @@ Met deze serie extra oefenopdrachten kun je je softwareontwerpvaardigheden verst
 
 In de meeste gevallen is een voorgaande opdracht een vereiste om een latere te kunnen maken. Dat wordt dan aangegeven in de beschrijving van de opdracht.
 
-- [Object Model Magnetronoven](../object-model-magnetronoven/object-model-magnetronoven.md)
-- [State Transition Diagram BroodroosterControl](../std-broodroostercontrol/std-broodroostercontrol.md)
-- [State Transition Diagram BruinteInstellenControl](../std-broodrooster-bruinteInstellenControl/std-broodrooster-bruinteInstellenControl.md)
-- [STD naar Code - BroodroosterControl](../std-code-broodroostercontrol/std-code-broodroostercontrol.md)
-- [STD naar Code - BruinteInstellenControl](../std-code-bruinteinstellencontrol/std-code-bruinteinstellencontrol.md)
+- [Object Model Magnetronoven](./object-model-magnetronoven/object-model-magnetronoven.md)
+- [State Transition Diagram InstelControl](./std-magnetronoven-instelcontrol/std-magnetronoven-instelcontrol.md)
+- [State Transition Diagram KookControl](./std-magnetronoven-kookcontrol/std-magnetronoven-kookcontrol.md)
+- [STD naar Code - InstelControl](./std-code-instelcontrol/std-code-instelcontrol.md)
+- [STD naar Code - KookControl](./std-code-kookcontrol/std-code-kookcontrol.md)
