@@ -23,6 +23,6 @@ In onderstaande tabellen staan de usecases toegelicht:
 
 ## Object Model + Object beschrijvingen
 
-Werk nu een **Objectmodel** met bijbehorende lijst van **Object beschrijvingen** uit op basis van die twee usecases. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+Werk nu een **Objectmodel** met bijbehorende lijst van **Object beschrijvingen** uit op basis van die twee usecases. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 
-Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/object-model-met-lijst.md).
+Let daarbij op deze [criteria](../../../../../leerdoelen/portfolio-items/object-model-met-lijst.md).

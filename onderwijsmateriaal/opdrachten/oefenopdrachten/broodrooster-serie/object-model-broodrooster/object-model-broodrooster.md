@@ -19,6 +19,6 @@ Onderstaand zijn de beschrijvingen van 2 use cases van een broodrooster gegeven.
 
 Ontwerp op basis van bovenstaande use case beschrijvingen een **Object Model** voor het broodrooster. Vergeet daarbij niet de bijbehorende **lijst met Object Beschrijvingen** toe te voegen. 
 
-Gebruik kde methode zoals voorgedaan in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+Gebruik kde methode zoals voorgedaan in [Design like a Robot!](../../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 
-Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/object-model-met-lijst.md).
+Let daarbij op deze [criteria](../../../../../leerdoelen/portfolio-items/object-model-met-lijst.md).
