@@ -3,7 +3,7 @@
 Dit is een extra oefenopdracht uit de serie **magnetronoven-oefenopdrachten**.
 Het betreft het schrijven van code op basis een **State Transition Diagram** voor de klasse **InstelControl**.  De constructor mag achterwege gelaten worden.
 
-Gebruik het State Transition Diagram van de uitwerking die je kreeg na het inleveren van de opdracht [State Transition Diagram KookControl](../std-magnetronoven-instelcontrol/std-magnetronoven-instelcontrol.md).
+Gebruik het State Transition Diagram van de uitwerking die je kreeg na het inleveren van de opdracht [State Transition Diagram InstelControl](../std-magnetronoven-instelcontrol/std-magnetronoven-instelcontrol.md).
 
 Gebruik de methode zoals toegepast in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) gedaan met TrilControl.
 
