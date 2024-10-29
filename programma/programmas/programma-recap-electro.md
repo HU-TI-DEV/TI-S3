@@ -21,7 +21,7 @@ de overige opdrachten.
     - [Video bipolaire junctie transistor](https://www.youtube.com/watch?v=7A1tQ3Ub7xU).
     - [Video MOSFET](https://www.youtube.com/watch?v=P0y_Jtsopz8).
     - [Video Hbrug](https://www.youtube.com/watch?v=KOPIeIKWeqE).
-  - [TI-S2-Rekenen met eenheden](https://github.com/HU-TI-DEV/TI-S2/blob/main/programma/programma-rekenen-met-eenheden.md).
+  - [TI-S2-Rekenen met eenheden](https://github.com/HU-TI-DEV/TI-S2/blob/main/programma/lesprogramma/programma-rekenen-met-eenheden.md).
   - [Vervuilde grond.ppt](../../onderwijsmateriaal/presentaties/vervuilde-grond.ppt)(lees ook de comments bij de slides).
 
 Kijk verder:
