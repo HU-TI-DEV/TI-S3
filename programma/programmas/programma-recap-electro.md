@@ -1,5 +1,13 @@
 # Programma Recap Electro
 
+## Voorwoord over de Serie Analoge Electronica
+### Niet aanbevolen voor iedereen
+- Voor diegenen die al het tentamen van het vak Meten, Regelen en Besturen tijdens curriculumonderwijs hebben gehaald biedt deze electronica-serie niets nieuws, en wordt juist verdere bekwamening in de overige topics van dit semester verwacht - in het bijzonder middels meer projectbijdragen.
+
+### Opbouwend - goed bijhouden is king
+- De lessen in deze serie bouwen op elkaar voort. Het is daarom essentieel de stof **goed bij te houden**: tijdig voor te bereiden, de lessen te volgen en de opdrachten te maken.
+
+### Recap Electro
 Het doel van de voorbereiding en de opdracht "Recap Electronica" is het refreshen van de electronica die je eerder bij het tweede semester hebt gehad.
 
 De mate van refreshing die nodig is, verschilt van persoon tot persoon. **Begin tijdig met de voorbereiding**, zodat je er voldoende tijd in kan steken.
