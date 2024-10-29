@@ -184,9 +184,9 @@ RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. E
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | {Javascript} (pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
+| ma | <a href="./programmas/programma-javascript.md" style="border-color: var(--border-color);">Javascript</a>&nbsp;(pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
 | di | plc workshop (bij electro) 4/4&nbsp; &nbsp; (MV, HP) |
-| wo | Combinatoriek&nbsp; &nbsp; (MV, BB, HP) |
+| wo | <a href="./programmas/programma-combinatoriek-1.md" style="border-color: var(--border-color);">Combinatoriek 1/ 2</a>&nbsp; &nbsp; (MV, BB, HP) |
 | do | {<b>Peil 2</b>} |
 
 
@@ -199,18 +199,18 @@ Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
-| di | Karnaugh&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
-| wo | Quick and Dirty&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
-| do |  |
+| ma | <a href="./programmas/programma-karnaugh-naar-formule.md" style="border-color: var(--border-color);">Karnaugh</a>&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| di | <a href="./programmas/programma-combinatoriek-2.md" style="border-color: var(--border-color);">Combinatoriek 2/ 2</a>&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
+| wo | <a href="./programmas/programma-quick-and-dirty.md" style="border-color: var(--border-color);">Quick and Dirty</a>&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
+| do | <a href="./programmas/programma-compact-and-clean.md" style="border-color: var(--border-color);">Compact and Clean</a>&nbsp; &nbsp;(MV, BB, HP) |
 
 #### Week B2 (18-11-2024)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Compact and Clean&nbsp; &nbsp;(MV, BB, HP) |
-| di | Digitale simulatie (logisim)&nbsp; &nbsp;(MV, BB, HP) |
-| wo | Bouwen en debuggen van digitale electronica (evt (ook) in plc)&nbsp; (MV, BB, HP) |
+| ma | <a href="./programmas/programma-digitale-simulatie.md" style="border-color: var(--border-color);">Digitale Simulatie</a>&nbsp;(logisim)&nbsp; &nbsp;(MV, BB, HP) |
+| di | <a href="./programmas/programma-bouwen-en-debuggen-1.md" style="border-color: var(--border-color);">Bouwen en debuggen van digitale electronica</a>&nbsp;(MV, BB, HP) |
+| wo | <a href="./programmas/programma-bouwen-en-debuggen-2.md" style="border-color: var(--border-color);">Bouwen en debuggen van digitale electronica</a>&nbsp;(MV, BB, HP) |
 | do | Recap Rekenen&nbsp; &nbsp;(BB, MV, HP) |
 
 
@@ -223,7 +223,7 @@ Werkend prototype
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma |  |
+| ma | Persoonlijke Onderzoeksopdracht |
 | di | Recap Electro&nbsp; &nbsp;(BB, MV, HP) |
 | wo | AC / DC&nbsp; &nbsp;(MV, BB, HP) |
 | do |  |

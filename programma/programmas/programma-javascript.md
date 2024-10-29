@@ -15,8 +15,8 @@ Voor het spelen met JavaScript kun je dezelfde **server** gebruiken die je ook v
 
 NB: Als Flask in debug mode draait, hoef je de server niet steeds te herstarten als je een wijziging maakt in een Python, HTML, CSS of JS bestand. De wijziging wordt dan automatisch doorgevoerd. Het is soms wel nodig om de pagina in de browser zonder caching te herladen **(Ctrl+F5)**.
 
-## Canvas opdrachten HTML en CSS
-In de komende weken verwachten we van je dat je naast het werk aan het project ook serieus tijd besteed aan het leren van HTML en CSS, door het het doorlopen van bovenstaande tutorials op Digital Ocean en het **per tutorial** inleveren van:
+## Canvas opdrachten Javascript
+Soortgelijk als bij het leren van HTML en CSS, door het het doorlopen van bovenstaande tutorials op Digital Ocean en het **per tutorial** inleveren van:
 - Een **gepersonaliseerde webpagina** waarop je het in die tutorial geleerde demonstreert.
 - De link naar de hash van je logboek waar je er iets over zegt:
   - Een **screenshot** van de webpagina.

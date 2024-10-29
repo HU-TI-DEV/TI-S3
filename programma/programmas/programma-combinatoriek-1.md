@@ -1,0 +1,18 @@
+# Programma Combinatoriek 1/2
+
+## Voorwoord over de Serie Digitale Techniek
+### Niet aanbevolen voor iedereen
+- Voor diegenen die al het vak Digitale Techniek tijdens curriculumonderwijs hebben gehaald biedt deze electronica-serie niets nieuws, en wordt juist verdere bekwamening in de overige topics van dit semester verwacht - in het bijzonder middels meer projectbijdragen.
+
+### Opbouwend - goed bijhouden is king
+- De lessen in deze serie bouwen op elkaar voort. Het is daarom essentieel de stof **goed bij te houden**: tijdig voor te bereiden, de lessen te volgen en de opdrachten te maken.
+
+## Deze les
+Deze les gaan we kijken naar combinatorische schakelingen. Dit zijn schakelingen die een combinatie van ingangen omzetten naar een combinatie van uitgangen. We gaan kijken naar de werking van deze schakelingen en hoe je ze kunt ontwerpen.
+
+## Voorbereiding
+- Lees hoofdstuk 4, "Combinatorische Schakelingen" van [reader-dit.pdf](../../onderwijsmateriaal/readers/reader-dit.pdf)
+- Wat highlights kun je ook in video-vorm bestuderen: [TODO]()
+
+## Tijdens en na de les: Canvas oefenopdracht "Combinatoriek"
+Maak tijdens en na de les de eerste 3 opdrachten uit [practicum-combinatoriek_dit.pdf](../../onderwijsmateriaal/readers/practicum-combinatoriek_dit.pdf) ( de eerste pagina is leeg - scrol even naar beneden :-) ). Upload de link en commit-link van je antwoorden naar de Canvas oefenopdracht "Combinatoriek".

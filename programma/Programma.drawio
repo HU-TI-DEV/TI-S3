@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-10-23T11:46:40.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="miJ5xNQe8DVjetzVwB4b" version="21.5.1" type="device">
+<mxfile host="Electron" modified="2024-10-29T09:25:33.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Bgmj965J8t0I2Ul_efbP" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1276" dy="-555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="842" dy="5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,43 +108,43 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-27" value="vakantie" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="641" width="420" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-33" value="{Javascript} (pointer naar zelfstudie)&amp;nbsp; &amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-33" value="&lt;a href=&quot;./programmas/programma-javascript.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Javascript&lt;/a&gt;&amp;nbsp;(pointer naar zelfstudie)&amp;nbsp; &amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="721" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-56" value="plc workshop (bij electro) 4/4&amp;nbsp; &amp;nbsp; (MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="741" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-36" value="Combinatoriek&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-36" value="&lt;a href=&quot;./programmas/programma-combinatoriek-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Combinatoriek 1/ 2&lt;/a&gt;&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="761" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-39" value="{&lt;b&gt;Peil 2&lt;/b&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="781" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-37" value="Karnaugh&amp;nbsp; &amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-37" value="&lt;a href=&quot;./programmas/programma-karnaugh-naar-formule.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Karnaugh&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="801" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-38" value="Karnaugh&amp;nbsp; &amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-38" value="&lt;a href=&quot;./programmas/programma-combinatoriek-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Combinatoriek 2/ 2&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="821" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-40" value="Quick and Dirty&amp;nbsp; &amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-40" value="&lt;a href=&quot;./programmas/programma-quick-and-dirty.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Quick and Dirty&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="841" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-35" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-41" value="&lt;a href=&quot;./programmas/programma-compact-and-clean.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Compact and Clean&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="861" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-41" value="Compact and Clean&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-42" value="&lt;a href=&quot;./programmas/programma-digitale-simulatie.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Digitale Simulatie&lt;/a&gt;&amp;nbsp;(logisim)&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="881" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-42" value="Digitale simulatie (logisim)&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-35" value="&lt;a href=&quot;./programmas/programma-bouwen-en-debuggen-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Bouwen en debuggen van digitale electronica&lt;/a&gt;&amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="901" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-44" value="Bouwen en debuggen van digitale electronica (evt (ook) in plc)&amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-44" value="&lt;a href=&quot;./programmas/programma-bouwen-en-debuggen-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Bouwen en debuggen van digitale electronica&lt;/a&gt;&amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="921" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-46" value="Recap Rekenen&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="941" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="Persoonlijke Onderzoeksopdracht" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="961" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-47" value="Recap Electro&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
