@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-10-29T09:25:33.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Bgmj965J8t0I2Ul_efbP" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-10-29T14:10:01.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="xuXJrnF0g6tzGa37Tgvx" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="842" dy="5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,28 +141,28 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-44" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-bouwen-en-debuggen-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Bouwen en debuggen van digitale electronica&lt;/a&gt;&amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="921" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-46" value="Recap Rekenen&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-46" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-recap-basis-rekenen.md&quot; target=&quot;_self&quot;&gt;Recap Rekenen&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="941" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="Persoonlijke Onderzoeksopdracht" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-persoonlijke-onderzoeksopdracht.md&quot; target=&quot;_self&quot;&gt;Persoonlijke Onderzoeksopdracht&lt;/a&gt;&amp;nbsp;+&amp;nbsp;&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-practische-vaardigheden-electro.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Practische Vaardigheden Electro&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="961" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-47" value="Recap Electro&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-47" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-recap-electro.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Recap Electro&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="981" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-48" value="AC / DC&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-48" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-ac-dc.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;AC / DC&lt;/a&gt;&amp;nbsp; &amp;nbsp;(MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1001" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-45" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1021" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-49" value="Opamp versterkertrappen&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-49" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-opamp-versterkertrappen.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Opamp Versterkertrappen&lt;/a&gt;&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1041" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-50" value="Hartslagmeter 1/2&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-50" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-hartslagmeter-1.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Hartslagmeter 1/2&lt;/a&gt;&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1061" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-51" value="Hartslagmeter 2/2&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-51" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-hartslagmeter-2.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Hartslagmeter 2/2&lt;/a&gt;&amp;nbsp; &amp;nbsp; (MV, BB, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1081" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-55" value="{&lt;b&gt;Peil 3&lt;/b&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
