@@ -32,7 +32,7 @@ Kijk verder:
 - [MOSFETs and BJTs](https://www.youtube.com/watch?v=Bine_PbyFSQ&list=PLkyBCj4JhHt9dIWsO7GaTU149BkIFbo5y&index=12).
 
 Bonusmateriaal:
-- [Pactisch Kirchoff](../../onderwijsmateriaal/readers/practisch-kirchoff.pdf).
+- [Practisch Kirchoff](../../onderwijsmateriaal/readers/practisch-kirchoff.pdf).
 
 Videos van een oud college voor Recap Electronica (in 3en gesplitst):
 - [1/3](https://www.youtube.com/watch?v=RT6dJCUaCOo)
