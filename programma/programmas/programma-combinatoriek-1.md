@@ -4,6 +4,9 @@
 ### Niet aanbevolen voor iedereen
 - Voor diegenen die al het vak Digitale Techniek tijdens curriculumonderwijs hebben gehaald biedt deze electronica-serie niets nieuws, en wordt juist verdere bekwamening in de overige topics van dit semester verwacht - in het bijzonder middels meer projectbijdragen.
 
+#### Uitzondering op bovenstaande: PLC compact and clean
+Je kunt altijd de **extra opdracht** [PLC compact and clean](../../onderwijsmateriaal/opdrachten/overige-opdrachten/plc-compact-and-clean/plc-compact-and-clean.md) maken, als daar je interesse ligt.
+
 ### Opbouwend - goed bijhouden is king
 - De lessen in deze serie bouwen op elkaar voort. Het is daarom essentieel de stof **goed bij te houden**: tijdig voor te bereiden, de lessen te volgen en de opdrachten te maken.
 
