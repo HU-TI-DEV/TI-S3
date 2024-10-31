@@ -1,0 +1,132 @@
+<mxfile host="Electron" modified="2023-09-01T13:57:46.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="EIpQA3hL8nMfQ2cGZA1N" version="21.5.1" type="device">
+  <diagram name="Page-1" id="sDnzfJlzxHRFLYB3QEk3">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;&lt;b&gt;act&lt;/b&gt;&amp;nbsp;ProcessG&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;labelX=99;align=left;spacingLeft=10;overflow=fill;recursiveResize=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="830" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-3" target="EhRcBIReBLhbPiBTiQ3I-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-3" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="114.95999999999998" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-8" target="EhRcBIReBLhbPiBTiQ3I-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-5" value="[G == 1]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EhRcBIReBLhbPiBTiQ3I-4">
+          <mxGeometry x="0.2902" y="-5" relative="1" as="geometry">
+            <mxPoint x="35" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-8" target="EhRcBIReBLhbPiBTiQ3I-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="140" />
+              <mxPoint x="195" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-7" value="[else]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EhRcBIReBLhbPiBTiQ3I-6">
+          <mxGeometry x="0.0005" y="2" relative="1" as="geometry">
+            <mxPoint x="-10" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-8" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="114.96000000000004" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-10" target="EhRcBIReBLhbPiBTiQ3I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-10" value="vecPath=(tgtX,tgtY,tgtZ)-(curX,curY,curZ)&lt;br&gt;padLengte=norm(vecPath)&lt;br&gt;padDuur=padLengte/feedRate" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="19.939999999999998" y="280" width="230.04" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-11" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-13" target="EhRcBIReBLhbPiBTiQ3I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-13" value="**vervang*" style="html=1;shape=mxgraph.sysml.callBehAct;whiteSpace=wrap;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="235" y="123.75" width="130" height="46.25" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-14" value="In grote lijnen gebeurt in dit activitydiagram het volgende:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Update feedrate als F niet NONE is.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Update tgtX,tgtY en tgtZ uit X,Y en Z als ze niet NONE zijn (rekening houdend met absMoving), en anders uit curX,curY, en curZ.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Bereken met pythagoras de lengte van het pad &#39;padLengte&#39; van curX,curY,curZ naar tgtX,tgtY,tgtZ.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Bereken aan de hand van de padLengte en de feedrate de padDuur en de snelheden voor HeatbedHoogteControl en PrintkopXYControl.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Laat ze naar tgtX,tgtY,tgtZ bewegen met die snelheden.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Stel ook de snelheid van ExtrusionControl in aan de hand van de waarde van tgtExt en de padDuur.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Wacht vervolgens tot het pad af is.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-16" target="EhRcBIReBLhbPiBTiQ3I-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-16" value="**vervang**" style="html=1;shape=mxgraph.sysml.callBehAct;whiteSpace=wrap;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="58.09" y="210" width="153.74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-18" target="EhRcBIReBLhbPiBTiQ3I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-18" value="speedX=(tgtX-curX)/padDuur&lt;br&gt;speedY=(tgtY-curY)/padDuur&lt;br&gt;speedZ=(tgtZ-curZ)/padDuur&lt;br&gt;speedExt=curExt/padDuur" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="19.939999999999998" y="370" width="230.04" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-20" target="EhRcBIReBLhbPiBTiQ3I-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-20" value="**vervang**" style="html=1;shape=mxgraph.sysml.sendSigAct;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="32.46" y="480" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-22" target="EhRcBIReBLhbPiBTiQ3I-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="600" />
+              <mxPoint x="290" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-22" value="**vervang**" style="html=1;shape=mxgraph.sysml.sendSigAct;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="71.19" y="570" width="127.54" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-24" target="EhRcBIReBLhbPiBTiQ3I-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-24" value="**vervang**" style="html=1;shape=mxgraph.sysml.sendSigAct;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="295" width="158.81" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-26" target="EhRcBIReBLhbPiBTiQ3I-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-26" value="**vervang**" style="html=1;shape=mxgraph.sysml.accEvent;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="349.39" y="385" width="145.05" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421.8799999999999" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-28" value="**vervang**" style="html=1;shape=mxgraph.sysml.accEvent;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="475" width="163.83" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="EhRcBIReBLhbPiBTiQ3I-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="503.8299999999999" y="595" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-30" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="575" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EhRcBIReBLhbPiBTiQ3I-32" target="EhRcBIReBLhbPiBTiQ3I-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-32" value="curX=tgtX&lt;br&gt;curY=tgtY&lt;br&gt;curZ=tgtZ&lt;br&gt;curExt=tgtExt" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-33" value="**vervang**" style="html=1;shape=mxgraph.sysml.sendSigAct;strokeWidth=2;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="342.51" y="565" width="158.81" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EhRcBIReBLhbPiBTiQ3I-34" value="&lt;b&gt;Lijst met kandidaten voor de vervangingen:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Process_XYZEF&lt;br&gt;SetSpeed(0)&lt;br&gt;ProcessGNot1&lt;br&gt;KopIsGearriveerd&lt;br&gt;GotoXY(tgtX,tgtY,speedX,speedY)&lt;br&gt;SetSpeed(speedExt)&lt;br&gt;HeatBedIsGearriveerd&lt;br&gt;GotoZ(tgtZ,speedZ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="190" height="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
