@@ -18,6 +18,8 @@ Om te laten zien wat ProcessM en ProcessG doen, zullen we aparte activity diagra
 - Maak het bijbehorende activity diagram af, uitgaande van dit raamwerk: 
 <a href="./act_3DPrinten_Scaffold.drawio" download>act_3DPrinten_Scaffold.drawio</a>
 
+[act_3DPrinten_Scaffold.drawio](./act_3DPrinten_Scaffold.drawio)
+
 **PS: Checklist/Tips bij Activity Diagrammen:**  
 
 - **Als** je een **activiteit wilt onderbreken** met iets, dan is een elegante oplossing: stop de activiteit in een “**interruptable activity region**”, samen met een **event** waarop gewacht wordt. Verlaat de region via dat event.
