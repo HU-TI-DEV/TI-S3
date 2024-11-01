@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-09-24T08:28:05.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="a0cpSMYcC3XcEIsNNjl0" version="21.5.1" type="device">
+  <diagram name="Page-1" id="HiepHy898I1He_WuJ3Wu">
+    <mxGraphModel dx="1036" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FjgJywKjBlqH2xDg-97F-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;&lt;b&gt;std&lt;/b&gt; ProcessG&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;labelX=108.8;align=left;spacingLeft=10;overflow=fill;recursiveResize=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="30" width="730" height="825" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-2" value="/ ..." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="FjgJywKjBlqH2xDg-97F-3">
+          <mxGeometry x="0.0435" y="12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="212" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-3" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="192" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-4" value="taQueue is a queue of pointers to TochArea objects." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="878" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-5" value="lokale convenience functies:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Zelfde als bij HoofdmenuControl:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;clearScreen(),&amp;nbsp;toonText(int x,y; string&amp;amp; str) en &lt;br&gt;drawTouchArea(int x,y; ta:TouchArea&amp;amp;))" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="921" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-6" value="" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="683" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-7" value="ProcessGNot1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="365" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;void processCoordinate(float coord, float&amp;amp; tgt, float cur, bool bAbsLogic)&lt;/span&gt;&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; if(coord != NONE)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; tgt = coord;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;if(!bAbsLogic) tgt += cur;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;void processXYZEF(float&amp;amp; tgtEx, float&amp;amp; tgtX, float&amp;amp; tgtY, float&amp;amp; tgtZ, float&amp;amp; feedRate,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; const GCodeCommand&amp;amp; gCodeCommand, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bool bAbsMoving, bool bAbsExtruding,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; float curExt, float curX, float curY, float curZ)&lt;br&gt;{&lt;div&gt;&amp;nbsp; if(gCodeCommand.f != NONE) feedRate = gCodeCommand.f;&lt;/div&gt;&lt;div&gt;&amp;nbsp; processCoordinate(gCodeCommand.e, tgtExt, curExt, bAbsExtruding);&lt;/div&gt;&lt;div&gt;&amp;nbsp; processCoordinate(gCodeCommand.x, tgtX, curX, bAbsMoving);&lt;/div&gt;&lt;div&gt;&amp;nbsp; processCoordinate(gCodeCommand.y, tgtY, curY, bAbsMoving);&lt;/div&gt;&lt;div&gt;&amp;nbsp; processCoordinate(gCodeCommand.z, tgtZ, curZ, bAbsMoving);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="870" width="471" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-9" value="" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1014" width="175" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-10" value="GCodeCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=32;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57" y="1032" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-11" value="+command:char&lt;br&gt;+commandNr:int&lt;br&gt;+x,y,z,e,f:float&lt;br&gt;+s:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;" vertex="1" parent="FjgJywKjBlqH2xDg-97F-10">
+          <mxGeometry y="32" width="120" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/p&gt;" style="shape=mxgraph.sysml.simpleState;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="164" y="59" width="574" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjgJywKjBlqH2xDg-97F-14" target="FjgJywKjBlqH2xDg-97F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-14" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="68" y="84" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-15" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="170" width="732" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-16" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="389" y="559" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FjgJywKjBlqH2xDg-97F-17" value="" style="html=1;shape=mxgraph.sysml.callBehAct;whiteSpace=wrap;align=center;fontColor=none;noLabel=1;labelBorderColor=none;labelBackgroundColor=none;strokeColor=default;fillColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="385" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

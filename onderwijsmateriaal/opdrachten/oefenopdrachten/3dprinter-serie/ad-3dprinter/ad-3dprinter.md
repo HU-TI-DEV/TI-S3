@@ -18,14 +18,7 @@ Om te laten zien wat ProcessM en ProcessG doen, zullen we aparte activity diagra
 - Maak het bijbehorende activity diagram af, uitgaande van dit raamwerk: 
 [act_3DPrinten_Scaffold.drawio](./act_3DPrinten_Scaffold.drawio)
 
-**PS: Checklist/Tips bij Activity Diagrammen:**  
-
-- **Als** je een **activiteit wilt onderbreken** met iets, dan is een elegante oplossing: stop de activiteit in een “**interruptable activity region**”, samen met een **event** waarop gewacht wordt. Verlaat de region via dat event.
-- Als je op iets **wacht**, doe dat in de regel met een **event** (ipv een guard).
-- Als je een directe beslissing neemt zonder op iets te wachten, gebruik dan een **guard**.
-- Bij **decision nodes** kun je events gebruiken **of** guards, maar **niet beide** gemixt.
-- Een **activity** kan een eenvoudige **action** zijn **of** een compleet (**ander**) activity-diagram.
-- Dat laatste gebeurt o.a. bij **included** **of** **extended** sub-**use** **cases**.
+Let daarbij op [deze Criteria voor Activity Diagrammen](../../../../../leerdoelen/portfolio-items/activity-diagram.md)
 
 ## B) Activity Diagram voor ProcessM
 
@@ -51,6 +44,3 @@ ProcessGNot1 zorgt voor een correcte afhandeling van alle G commandos behalve he
 
 ## Canvas Opdracht
 Lever de markdown met het resultaat van deze opdracht in op Canvas bij de opdracht "3D Printer Serie".
-
-### Criteria activity diagrammen
-- [Criteria Activity Diagrammen](../../../../../leerdoelen/portfolio-items/activity-diagram.md)

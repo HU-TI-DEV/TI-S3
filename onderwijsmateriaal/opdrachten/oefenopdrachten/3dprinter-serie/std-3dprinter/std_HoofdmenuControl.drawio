@@ -1,0 +1,169 @@
+<mxfile host="Electron" modified="2023-09-20T08:26:48.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="Ifd4tGhWm4LO99vilcTf" version="21.5.1" type="device">
+  <diagram name="Page-1" id="OPDHYQvJeVdGqa5PPV14">
+    <mxGraphModel dx="1036" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:10px;text-align:left;&quot;&gt;&lt;b&gt;std&lt;/b&gt; HoofdmenuControl&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;labelX=147.2;align=left;spacingLeft=10;overflow=fill;recursiveResize=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1110" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-2" value="Lijst met gebruikte constantes:&lt;br&gt;FONTHEIGHT : int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// De hoogte van het gebruikte font&lt;br&gt;SCREENWIDTH: int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// De breedte van het scherm&lt;br&gt;SCREENHEIGHT: int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // De hoogte van het scherm&lt;br&gt;FONTCOLOR: uint32&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Kleur van de letters&lt;br&gt;BGCOLOR : uint32&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Achtergrondkleur van het scherm&lt;br&gt;BNBGCOLOR:uint32&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// Achtergrondkleur van een button" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="460" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-3" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;&lt;b&gt;start() / flagStart.set()&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;&lt;b&gt;touched(ta) / taQueue.write(&amp;amp;ta)&lt;/b&gt;&lt;/p&gt;" style="shape=mxgraph.sysml.simpleState;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="166" y="67.5" width="480" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-6" target="ZUeXiiLfh-XonWiHyS7R-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-6" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-9" target="ZUeXiiLfh-XonWiHyS7R-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="500" as="targetPoint" />
+            <mxPoint x="186" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="186" y="481" />
+              <mxPoint x="187" y="481" />
+              <mxPoint x="187" y="480" />
+              <mxPoint x="186" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-8" value="pTa = taQueue.read()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZUeXiiLfh-XonWiHyS7R-7">
+          <mxGeometry x="-0.1823" y="2" relative="1" as="geometry">
+            <mxPoint x="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Start&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;entry / taQueue.clear(); clearScreen(); toonHoofdMenu(modelDataBeheer.getGekozenModel())&lt;/p&gt;" style="shape=mxgraph.sysml.simpleState;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-10" value="flagStart" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-13" target="ZUeXiiLfh-XonWiHyS7R-9">
+          <mxGeometry x="0.2" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="1110" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-12" value="/modelDataBeheer.setup(&quot;&quot;)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-3" target="ZUeXiiLfh-XonWiHyS7R-13">
+          <mxGeometry y="80" relative="1" as="geometry">
+            <mxPoint x="205" y="240" as="sourcePoint" />
+            <mxPoint x="205" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-13" value="Idle" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-14" value="[else]" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-18" target="ZUeXiiLfh-XonWiHyS7R-9">
+          <mxGeometry x="-0.6" y="-10" relative="1" as="geometry">
+            <mxPoint x="106" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="106" y="510" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-15" value="[pTa == &amp;amp;taModelSelecteren]" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-18" target="ZUeXiiLfh-XonWiHyS7R-28">
+          <mxGeometry x="-0.2" y="-36" relative="1" as="geometry">
+            <mxPoint x="186" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-16" value="[pTa == &amp;amp;taPrinten]" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-18">
+          <mxGeometry x="0.327" y="1" relative="1" as="geometry">
+            <mxPoint x="307.79999999999995" y="580" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-17" value="[pTa == &amp;amp;taOnderhouden]" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-18" target="ZUeXiiLfh-XonWiHyS7R-25">
+          <mxGeometry x="0.3831" relative="1" as="geometry">
+            <mxPoint x="530" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-18" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="166" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-27" target="ZUeXiiLfh-XonWiHyS7R-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116" y="620" as="sourcePoint" />
+            <mxPoint x="120" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186" y="670" />
+              <mxPoint x="60" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-20" value="taQueue is a queue of pointers to TochArea objects.&lt;br&gt;filenames is van het type std::array&amp;lt;string,MAXFILES&amp;gt;&lt;br&gt;strings zijn van het type std::array&amp;lt;MAXSTRINGSIZE&amp;gt;&lt;br&gt;&lt;br&gt;De implementaties voor touchedUp en touchedDown zijn leeg en hier weggelaten, omdat ze niet gebruikt worden door HoofdmenuControl." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="50" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-21" value="lokale convenience functies:&lt;br&gt;&lt;br&gt;void clearScreen()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; displayControl.drawRect (0,0,SCREENWIDTH,SCREENHEIGHT,BGCOLOR)&lt;br&gt;}&lt;br&gt;&lt;br&gt;void toonText(int x,y; string&amp;amp; str)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;displayControl.toonText (AlignTop,x,y,&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;FONTHEIGHT,&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;str,&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;FONTCOLOR)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;void drawTouchArea(TouchArea&amp;amp; ta, text:string)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; displayControl.drawTouchArea(ta, text, BNBGCOLOR, FONTCOLOR);&lt;br&gt;}&lt;br&gt;&lt;br&gt;void toonHoofdmenu(gekozenModel:string)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; toonText(0,0,&quot;Hoofdmenu&quot;);&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; drawTouchArea(taModelSelecteren,&amp;nbsp;&quot;3D-Model Selecteren&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; drawTouchArea(taPrinten,&amp;nbsp;&quot;3D Printen&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; drawTouchArea(taOnderhouden,&amp;nbsp;&quot;Printer Onderhouden&quot;);&lt;br&gt;&amp;nbsp; &amp;nbsp; int y = taOnderhouden.getTop() + taOnderhouden.getHeight();&lt;br&gt;&amp;nbsp; &amp;nbsp; toonText(0,y,&quot;Gekozen Model:&quot;); y+= FONTHEIGHT&lt;br&gt;&amp;nbsp; &amp;nbsp; if(gekozenModel==&quot;&quot;)&lt;br&gt;&amp;nbsp; &amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;toonText(0,y,&quot;nog geen&quot;); y+= FONTHEIGHT&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; else&lt;br&gt;&amp;nbsp; &amp;nbsp; {&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Toon de naam van een in ModelSelectControl gekozen model.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;toonText(0,y,gekozenModel); y+= FONTHEIGHT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;}" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="460" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-30" target="ZUeXiiLfh-XonWiHyS7R-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="670" />
+              <mxPoint x="60" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-24" target="ZUeXiiLfh-XonWiHyS7R-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550" y="670" />
+              <mxPoint x="60" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-24" value="X" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="600" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-25" value="PrinterOnderhoudControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="580" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="119" y="580" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-27" value="X" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="ZUeXiiLfh-XonWiHyS7R-26">
+          <mxGeometry y="20" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-28" value="ModelSelectControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZUeXiiLfh-XonWiHyS7R-26">
+          <mxGeometry x="10" width="114" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-30" value="X" style="shape=rect;rounded=1;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="ZUeXiiLfh-XonWiHyS7R-29">
+          <mxGeometry y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-31" value="PrintControl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZUeXiiLfh-XonWiHyS7R-29">
+          <mxGeometry x="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-32" value="Merge nodes gebruik ik hier niet. Het expliciet mergen van flows heeft alleen toegevoegde waarde als er met de gemergde flow nog iets speciaals gedaan wordt (een action ernaast, bijvoorbeeld)." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="760" width="460" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-33" value="De STDs van bovenstaande composite states zijn gecodeerd in de naamverwante klassen. Ze worden opgestart middels aanroep van hun start() memberfunctie." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="837" width="460" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-34" value="ModelSelectControl kan het geselecteerde model in modelDataBeheer aanpassen." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="191" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUeXiiLfh-XonWiHyS7R-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="ZUeXiiLfh-XonWiHyS7R-34" target="ZUeXiiLfh-XonWiHyS7R-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="670" as="sourcePoint" />
+            <mxPoint x="600" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

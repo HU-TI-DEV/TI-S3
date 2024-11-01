@@ -28,19 +28,9 @@ Creeer een overzicht van deze wensen van je zusje door een Use Case Diagram van 
 - De actor(en)
 - Eventuele onderlinge relaties
 
-**PS: Checklist/Tips bij Use case Diagrammen**  
-(op het tentamen wordt deze spieklijst er natuurlijk niet meer bij gegeven):
-
-- De systeemgrens wordt met een **rechthoek** aangegeven.
-- Alle usecases erbinnen beschrijven **interacties** van het systeem met externe actoren.
-- Voor onze toepassingen gaat het alleen om het **software** systeem.
-- Als onze software iets doet – een interactie-**volgordelijkheid oplegt**.
-- Usecases verbinden met **actors** via **lijnen**
-- Usecases verbinden **onderling** eventueel via **pijlen**.
-- Als usecases iets met elkaar te maken hebben, betekent dat **niet** automatisch dat je ze met elkaar moet verbinden met zo’n pijl
-- Doe dat **alleen** als een usecase binnen een andere usecase beschrijving **als geheel** wordt uitgevoerd (include) of kan worden uitgevoerd (extend).
-- Dus als je een groot stuk usecase kunt **afsplitsen**.
-- Een actie zonder interactie afsplitsen is niet goed: dat is immers geen usecase.
+Let in het bijzonder op de volgende criteria:
+- [Criteria Use Case Diagram](../../../../../leerdoelen/portfolio-items/use-case-diagram.md)
+- [Criteria Use Case Beschrijvingen](../../../../../leerdoelen/portfolio-items/use-case-beschrijving.md)
 
 ### B) Use Case Beschrijvingen
 
@@ -122,10 +112,6 @@ Zoals je ziet aan het bovenstaande voorbeeld van je zus, bestaat een use case be
   * Voor zover relevant
 
 Ontwerp nu zelf de tabellen met use case beschrijvingen voor de overige 5 use cases.
-
-### Criteria
-- [Criteria Use Case Diagram](../../../../leerdoelen/portfolio-items/use-case-diagram.md)
-- [Criteria Use Case Beschrijvingen](../../../../leerdoelen/portfolio-items/use-case-beschrijving.md)
 
 ### Canvas opdracht
 Lever de commit-link naar het markdown document van je uitwerking in bij de Canvas Opdracht "3D Printer Serie".
