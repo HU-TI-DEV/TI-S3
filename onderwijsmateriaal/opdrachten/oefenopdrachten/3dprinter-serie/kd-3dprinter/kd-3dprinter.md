@@ -1,7 +1,4 @@
-## Inleverformat
-
-Het vereiste inleverformat van deze opdracht (evenals de overige) is hier te vinden:  
-[Inleverformat voor Opdrachten, Draw.io](https://canvas.hu.nl/courses/44808/pages/inleverformat-voor-opdrachten-draw-dot-io?wrap=1)
+# Klassediagram 3D Printer
 
 ## Uitgangspunt: Taaksamenvoeging
 Ga voor deze opdracht uit van de **Taaksamenvoegingstabel** die je hebt gekregen als onderdeel van de uitwerkingen van de opdracht ts-3dprinter.
