@@ -105,7 +105,7 @@ De bovenste lijn zou weggelaten kunnen worden, maar het zend-ontvangpaar staat i
 
 ---
 
-Let daarbij op deze [Criteria voor het Klassediagram](../../../../../leerdoelen/portfolio-items/klassendiagram.md)
+Let daarbij op deze [Criteria voor het Klassediagram](../../../../../leerdoelen/portfolio-items/klassediagram.md)
 
 ## Canvas Opdracht
 Lever de markdown met het resultaat van deze opdracht in op Canvas bij de opdracht "3D Printer Serie".
