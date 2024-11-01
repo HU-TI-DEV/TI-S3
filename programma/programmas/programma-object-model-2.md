@@ -14,3 +14,4 @@ Maak individueel de oefenopdracht [Object Model van een NS trein](../../onderwij
 Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van object modellen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt):
 - [Broodrooster Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/broodrooster-serie/broodrooster-serie.md)
 - [Magnetronoven Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/magnetronoven-serie/magnetronoven-serie.md)
+- [3d Printer Serie](../../onderwijsmateriaal/opdrachten/oefenopdrachten/3dprinter-serie/3d-printer-serie.md)
