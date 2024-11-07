@@ -26,5 +26,5 @@ Voor geinteresseerden zijn nog twee mogelijkheden tot verdieping:
 - [Opdracht Logica en Verzamelingen Hoofdstuk 3](../../onderwijsmateriaal/opdrachten/oefenopdrachten/logica-verzamelingen/logica-verzamelingen-hoofdstuk2.md)
 
 Elk van beide kost naar verwachting ruim een dag. Wat je ervoor terugkrijgt is:
-- Dat je bij een rechtzaak, discussie of wiskundig bewijs naadloos kunt bewijzen of iets waar is, of als iets niet waar is, een tegenvoorbeeld kunt leveren, en zo de vinger op de zere plek leggen.
+- Dat je bij een rechtzaak, discussie of wiskundig bewijs naadloos kunt bewijzen of er geen tegenspraak zit in een ingewikkeld betoog, en als dat wel zo is, dat je een tegenvoorbeeld kunt leveren, en zo de vinger op de zere plek leggen.
 - Dat je op IQ-tests met logica vragen een stuk beter scoort.
