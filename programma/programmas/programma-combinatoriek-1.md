@@ -19,3 +19,12 @@ Deze les gaan we kijken naar combinatorische schakelingen. Dit zijn schakelingen
 
 ## Tijdens en na de les: Canvas oefenopdracht "Combinatoriek"
 Maak tijdens en na de les de eerste 3 opdrachten uit [practicum-combinatoriek_dit.pdf](../../onderwijsmateriaal/readers/practicum-combinatoriek_dit.pdf). Upload de link en commit-link van je antwoorden naar de Canvas oefenopdracht "Combinatoriek 1 tm 3".
+
+## Extra mogelijkheden tot verdieping
+Voor geinteresseerden zijn nog twee mogelijkheden tot verdieping:
+- [Opdracht Logica en Verzamelingen Hoofdstuk 2](../../onderwijsmateriaal/opdrachten/oefenopdrachten/logica-verzamelingen/logica-verzamelingen-hoofdstuk2.md)
+- [Opdracht Logica en Verzamelingen Hoofdstuk 3](../../onderwijsmateriaal/opdrachten/oefenopdrachten/logica-verzamelingen/logica-verzamelingen-hoofdstuk2.md)
+
+Elk van beide kost naar verwachting ruim een dag. Wat je ervoor terugkrijgt is:
+- Dat je bij een rechtzaak, discussie of wiskundig bewijs naadloos kunt bewijzen of iets waar is, of als iets niet waar is, een tegenvoorbeeld kunt leveren, en zo de vinger op de zere plek leggen.
+- Dat je op IQ-tests met logica vragen een stuk beter scoort.
