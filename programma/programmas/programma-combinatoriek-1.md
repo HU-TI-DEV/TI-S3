@@ -28,3 +28,4 @@ Voor geinteresseerden zijn nog twee mogelijkheden tot verdieping:
 Elk van beide kost naar verwachting ruim een dag. Wat je ervoor terugkrijgt is:
 - Dat je bij een rechtzaak, discussie of wiskundig bewijs naadloos kunt bewijzen of er geen tegenspraak zit in een ingewikkeld betoog, en als dat wel zo is, dat je een tegenvoorbeeld kunt leveren, en zo de vinger op de zere plek leggen.
 - Dat je op IQ-tests met logica vragen een stuk beter scoort.
+By the way - voor dat laatste heb ik eens [wat aantekeningen](../../hardware-interfacing/voorbereiding-iq-tests/voorbereiding-iq-tests.md) gemaakt.
