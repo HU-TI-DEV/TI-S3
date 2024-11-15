@@ -7,7 +7,7 @@ Een **Karnaugh diagram** is een **compacter** alternatief voor een waarheidstabe
 
 ## Voorbereiding
 - Lees [karnaugh-diagrammen.pdf](../../onderwijsmateriaal/readers/karnaugh-diagrammen.pdf)
-- Wat highlights kun je ook in video-vorm bestuderen: [TODO]()
+- Wat highlights kun je ook in video-vorm bestuderen: [Karnaugh naar Formule](https://youtu.be/zFIkaroaJ_E)
 
 ## Canvas Opdracht
 - Upload de link naar je uitwerking van de opdracht [Karnaugh naar Formule](../../onderwijsmateriaal/opdrachten/oefenopdrachten/karnaugh-naar-formule/karnaugh-naar-formule.md) naar de bijbehorende opdracht in Canvas.

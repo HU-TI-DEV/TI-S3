@@ -15,7 +15,7 @@ Deze les gaan we kijken naar combinatorische schakelingen. Dit zijn schakelingen
 
 ## Voorbereiding
 - Lees hoofdstuk 4, "Combinatorische Schakelingen" van [reader-dit.pdf](../../onderwijsmateriaal/readers/reader-dit.pdf)
-- Wat highlights kun je ook in video-vorm bestuderen: [TODO]()
+- Wat highlights kun je ook in video-vorm bestuderen: [Video Combinatoriek 1](https://youtu.be/SETsbPjpvGY)
 
 ## Tijdens en na de les: Canvas oefenopdracht "Combinatoriek"
 Maak tijdens en na de les de eerste 3 opdrachten uit [practicum-combinatoriek_dit.pdf](../../onderwijsmateriaal/readers/practicum-combinatoriek_dit.pdf). Upload de link en commit-link van je antwoorden naar de Canvas oefenopdracht "Combinatoriek 1 tm 3".

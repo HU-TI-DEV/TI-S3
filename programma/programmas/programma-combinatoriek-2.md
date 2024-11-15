@@ -3,7 +3,7 @@ Deze les gaan we kijken nog eens wat verder naar combinatorische schakelingen. M
 
 ## Voorbereiding
 - Lees hoofdstuk 4, "Combinatorische Schakelingen" van [reader-dit.pdf](../../onderwijsmateriaal/readers/reader-dit.pdf)
-- Wat highlights kun je ook in video-vorm bestuderen: [TODO]()
+- Wat highlights kun je ook in video-vorm bestuderen: [Video Combinatoriek 2](https://youtu.be/sIferOzNFEg)
 
 ## Tijdens en na de les: Canvas oefenopdracht "Combinatoriek"
 Maak tijdens en na de les opdrachten 4, 5, 6, 9, 10 en 12 uit [practicum-combinatoriek_dit.pdf](../../onderwijsmateriaal/readers/practicum-combinatoriek_dit.pdf) ( de eerste pagina is leeg - scrol even naar beneden :-) ). Upload de link en commit-link van je antwoorden naar de Canvas oefenopdracht "Combinatoriek overig".
