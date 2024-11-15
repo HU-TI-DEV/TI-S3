@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-11-03T13:47:10.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="JwcpoJLoeRxymSIkvo2W" version="22.0.2" type="device">
+<mxfile host="Electron" modified="2024-11-15T09:10:10.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="QNDRtvv9-lPbbzzdx6jT" version="22.0.2" type="device">
   <diagram name="Page-1" id="vG2T4oAlQsHtUrdYPbgW">
-    <mxGraphModel dx="1151" dy="-493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="-492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-46" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-recap-basis-rekenen.md&quot; target=&quot;_self&quot;&gt;Recap Rekenen&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="941" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-persoonlijke-onderzoeksopdracht.md&quot; target=&quot;_self&quot;&gt;Persoonlijke Onderzoeksopdracht&lt;/a&gt;&amp;nbsp;+&amp;nbsp;&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-practische-vaardigheden-electro.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Practische Vaardigheden Electro&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-43" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-persoonlijke-onderzoeksopdracht.md&quot; target=&quot;_self&quot;&gt;Persoonlijke Onderzoeksopdracht&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="961" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-47" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-recap-electro.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Recap Electro&lt;/a&gt;&amp;nbsp; &amp;nbsp;(BB, MV, HP)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
@@ -174,7 +174,7 @@
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-52" value="&lt;a href=&quot;https://github.com/HU-TI-DEV/TI-S3/tree/main/programma/programmas/programma-workshop-pcb-design.md&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Workshop PCB ontwerpen (Semester 2)&lt;/a&gt;&amp;nbsp; (HS)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1141" width="420" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5CiSqYk4vTxB8dpWyrSt-58" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
+        <mxCell id="5CiSqYk4vTxB8dpWyrSt-58" value="&lt;a style=&quot;border-color: var(--border-color);&quot; href=&quot;./programmas/programma-practische-vaardigheden-electro.md&quot; target=&quot;_self&quot;&gt;Practische Vaardigheden Electro&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">
           <mxGeometry y="1161" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5CiSqYk4vTxB8dpWyrSt-59" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="5CiSqYk4vTxB8dpWyrSt-2" vertex="1">

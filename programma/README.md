@@ -223,7 +223,7 @@ Werkend prototype
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | <a style="border-color: var(--border-color);" href="./programmas/programma-persoonlijke-onderzoeksopdracht.md">Persoonlijke Onderzoeksopdracht</a>&nbsp;+&nbsp;<a href="./programmas/programma-practische-vaardigheden-electro.md" style="border-color: var(--border-color);">Practische Vaardigheden Electro</a> |
+| ma | <a style="border-color: var(--border-color);" href="./programmas/programma-persoonlijke-onderzoeksopdracht.md">Persoonlijke Onderzoeksopdracht</a> |
 | di | <a href="./programmas/programma-recap-electro.md" style="border-color: var(--border-color);">Recap Electro</a>&nbsp; &nbsp;(BB, MV, HP) |
 | wo | <a href="./programmas/programma-ac-dc.md" style="border-color: var(--border-color);">AC / DC</a>&nbsp; &nbsp;(MV, BB, HP) |
 | do |  |
@@ -249,7 +249,7 @@ UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
 |---|---|
 | ma |  |
 | di | <a href="./programmas/programma-workshop-pcb-design.md" style="border-color: var(--border-color);">Workshop PCB ontwerpen (Semester 2)</a>&nbsp; (HS) |
-| wo |  |
+| wo | <a style="border-color: var(--border-color);" href="./programmas/programma-practische-vaardigheden-electro.md">Practische Vaardigheden Electro</a> |
 | do |  |
 
 #### Week B6 (16-12-2024)
