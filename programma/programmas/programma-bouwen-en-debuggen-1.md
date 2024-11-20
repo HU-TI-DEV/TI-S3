@@ -9,3 +9,4 @@ Tijdens deze les ga je de schakelingen die je hebt ontworpen in de eindopdracht 
 Belangrijk daarbij:
 - Volg nauwgezet de stappen uit [stappenplan-voor-het-maken-van-een-synchrone-logische-schakeling.pdf](../../onderwijsmateriaal/readers/stappenplan-voor-het-maken-van-een-synchrone-logische-schakeling.pdf). Dat bespaart je zó veel tijd!
 - Gebruik deze onderdelen: [](../../onderwijsmateriaal/opdrachten/overige-opdrachten/eindopdracht-dit/onderdelen-DIT.pdf). NB: op sommige tekeningen staan de vpp en gnd niet aangegeven. Zoek die in dat geval op in de datasheets van de betreffende chips.
+- [Dit is de actuele componentenlijst in de lade met integrated circuits in het lab (november 2024)](../../onderwijsmateriaal/opdrachten/oefenopdrachten/eindopdracht-DIT/digitale-chips-in-de-lab-store.md)
