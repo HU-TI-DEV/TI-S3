@@ -1,4 +1,4 @@
-# Programma Persoonlijke Onderzoeksopdracht / Upgrade Opdracht + Pracische Vaardigheden Electronica
+# Programma Persoonlijke Onderzoeksopdracht / Upgrade Opdracht + Practische Vaardigheden Electronica
 - Deze les besteden we kort aandacht aan de Persoonlijke Onderzoeksopdracht (zie onderstaand).
 
 - Verder besteden we de les aan het [programma Practische Vaardigheden Electro](./programma-practische-vaardigheden-electro.md).
