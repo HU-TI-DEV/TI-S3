@@ -8,7 +8,6 @@ Verder met [de vorige les](./programma-esp32-IDF-1.md).
 - Lees blz 23 tm 28 (negeer de rode paginanummers) uit [2020-V1SYEN-wk_3-les_A](../../onderwijsmateriaal/presentaties/horend-by-system-engineering-reader/2020-V1SYEN-wk_3-les_A.pdf)
 
 - Lees blz 52 + 53 (over Traceability diagram) uit [Reader System Engineering](../../onderwijsmateriaal/readers/reader-system-engineering.pdf)
-- 
 
 ### Key Driver Chart en Traceability Diagram
 Tijdens de les wordt plenair nog even aandacht besteed aan:
@@ -25,4 +24,8 @@ Vergelijk als team elkaars resultaat. Gebruik die teamfeedback als feedback. Lev
 
 #### Traceability Diagram
 Maak op dezelfde manier de canvas opdracht voor het Traceability Diagram.
+
+### Voor later
+Later wil je wellicht soms example code uit de esp53-idf overhalen en in je eigen / het test_lasergame project toevoegen.
+[In deze wat slome/kunstelige video](https://youtu.be/paXRrsztJp0) doe ik dat 'life' met een wifi-client example.
      
