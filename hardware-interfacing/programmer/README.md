@@ -29,6 +29,8 @@ MOSI | 7 = Arduino pin 11
 MISO | 8 = Arduino pin 12
 SCK | 9 = Arduino pin 13
 
+![ATtiny 24 ](./ATtiny24.png)
+
 **klaar!**
 
 ## Opdracht
