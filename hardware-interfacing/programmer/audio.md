@@ -33,5 +33,36 @@ __past hem in je md document__.
 __Paste je berekening of een plaatje van de website in je md document__.
 
 ```c++
+#include <avr/io.h>
+#include <util/delay.h>
+
+void setupPWM() {
+    // Set PB0 as output
+    DDRB |= (1 << PB0);
+
+    // Configure Timer0 for Fast PWM mode
+    TCCR0A = (1 << WGM00) | (1 << WGM01) | (1 << COM0A1); // Fast PWM, non-inverting
+    TCCR0B = (1 << CS01); // Prescaler = 8
+
+    OCR0A = 128; // 50% duty cycle (initial)
+}
+
+void playTone(uint8_t dutyCycle) {
+    OCR0A = dutyCycle; // Adjust PWM duty cycle to change tone volume
+}
+
+int main() {
+    setupPWM();
+
+    while (1) {
+        // Cycle through tones by varying duty cycle
+        for (uint8_t i = 0; i < 255; i += 10) {
+            playTone(i);
+            _delay_ms(50);
+        }
+    }
+
+    return 0;
+}
 
 ```
