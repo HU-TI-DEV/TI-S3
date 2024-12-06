@@ -35,6 +35,6 @@ SCK | 9 = Arduino pin 13
 
 ## Opdrachten
 
-1) Maak je eerste "Hello World" een knipperend ledje met hardware. Laat dit werkend zien.
+1) Maak je eerste "Hello World" (een knipperend ledje) voor de ATtiny. Laat dit werkend zien.
 2) Maak een [50Hz detector](./50Hz_detector.md). Leg uit hoe dit werkt en waar je dit voor kunt gebruiken.
 3) Maak een kerstliedje en pas en RC filter toe. Beschrijf wat de RC filter doet.
