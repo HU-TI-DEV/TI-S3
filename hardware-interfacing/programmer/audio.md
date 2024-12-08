@@ -6,7 +6,7 @@ Componenten:
 - speakertje uit de kit van het 1e jaar
 
 1) Sluit de zwarte draad van de speaker aan de ground van de microcontroller (via je breadboard). 
-2) Sluit de rode draad aan op pin XX van de microcontroller.
+2) Sluit de rode draad aan op (physical) pin 5 van de microcontroller.
 3) Flash de software maar de microcontroller. 
 4) Wat valt je op? Hoe klinkt het muziekje? 
 
@@ -32,6 +32,8 @@ __past hem in je md document__.
 
 __Paste je berekening of een plaatje van de website in je md document__.
 
+
+Hoe gebruik je [PWM op een microcontroller](https://www.hackster.io/bearislive/enable-pwm-on-an-attiny-by-programming-its-registers-565948) zonder Arduino analogWrite().
 ```c++
 #include <avr/io.h>
 #include <util/delay.h>
