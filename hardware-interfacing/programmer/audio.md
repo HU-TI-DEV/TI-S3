@@ -37,8 +37,8 @@ __Paste je berekening of een plaatje van de website in je md document__.
 #include <util/delay.h>
 
 void setupPWM() {
-    // Set PB0 as output
-    DDRB |= (1 << PB0);
+    // Set PB2 as output ATtiny physical pin 5
+    DDRB |= (1 << PB2);
 
     // Configure Timer0 for Fast PWM mode
     TCCR0A = (1 << WGM00) | (1 << WGM01) | (1 << COM0A1); // Fast PWM, non-inverting

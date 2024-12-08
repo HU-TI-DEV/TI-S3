@@ -31,7 +31,7 @@ SCK | 9 = Arduino pin 13
 
 ![ATtiny 24 ](./files/ATtiny24.png)
 
-**klaar!**
+**klaar!** Je kunt nu een programma uploaden met de Atduino IDE naar de ATtiny microcontroller.
 
 ## Opdrachten
 
