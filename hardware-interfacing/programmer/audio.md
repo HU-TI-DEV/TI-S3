@@ -1,4 +1,4 @@
-# Audio op een microcontroller
+# Audio op een microcontroller, soms is software beter, soms hardware!!!!
 
 Componenten:
 - 1.5 Ohm weerstand
