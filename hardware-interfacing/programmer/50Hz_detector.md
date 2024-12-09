@@ -1,11 +1,21 @@
-# 50Hz detector
+# 50Hz detector, soms is hardware beter, soms software!!!
 In dit practicum gaan we aan de slag om een 50Hz detector te bouwen. 
 Maak eerst op je breadboard het volgende schema:
 1) verbind 4 ledjes naar PA1, PA2, PA3 en PA4 en naar aarde (via een 1 KOhm weerstand, elke led zijn eigen voorschakelweerstand).
 2) verbind op PA0 een draadje naar een spoeltje van 220 microHenry.
 
-Wat we gaan doen is de analoge spanning op PA0 bemonsteren. Op die pin zal de spanning als een gek op en neer gaan (in feite hebben we een radio antenne op de analoge ingang aangesloten).  
+Wat we gaan doen is de analoge spanning op PA0 bemonsteren. Op die pin zal de spanning als een gek op en neer gaan (in feite hebben we een radio antenne op de analoge ingang aangesloten). Je kan dit controleren door er een oscilloscpe op aan te sluiten.
 
+Hoe gaan we nu zorgen dat we enkel de 50Hz kunnen meten? We zouden het kunnen oplossen met hardware. Dan zouden we een versterking en een smalbandig bandfilter moeten bouwen. Voor dit practicum gaan we het anders (goedkoper) oplossen! Met software....
+Soms is hardware beter, soms software!!!
+
+We gaan een discrete fourier transformatie gebruiken om heel precies de 50Hz component te selecteren. Wil je weten hoe DFT precies werkt, bekijk de volgende filmpjes:
+- https://www.youtube.com/watch?v=HModr8sdY9c&list=PLYw0dTiJ5EuHcopU4kblN9ZeQYoAMQHGd&index=8
+- https://www.youtube.com/watch?v=D_J_UdDdAvI&list=PLYw0dTiJ5EuHcopU4kblN9ZeQYoAMQHGd&index=9
+- https://www.youtube.com/watch?v=B3Ig_3B-iOQ&list=PLYw0dTiJ5EuHcopU4kblN9ZeQYoAMQHGd&index=10
+- https://www.youtube.com/watch?v=fCtb5W_qS00&list=PLYw0dTiJ5EuHcopU4kblN9ZeQYoAMQHGd&index=11
+
+Flash de volgende code op je attiny...
 
 ```c++
 /*
@@ -85,4 +95,3 @@ void loop() {
     PORTA &= ~(1 << PA4);  //replaces digitalWrite(PA4, LOW);
   }
 }
-~~~
