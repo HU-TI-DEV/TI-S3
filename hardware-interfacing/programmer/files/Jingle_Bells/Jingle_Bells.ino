@@ -58,9 +58,9 @@ void playNote(uint16_t frequency, uint16_t duration) {
         OCR0A = ICR1 / 2;         // Set duty cycle to 50%
     }
 
-    wait(duration); // Wait for the note duration
+    wait(duration / 8); // Wait for the note duration
     TCCR0A &= ~(1 << COM0A1); // Disable PWM after the note
-    wait(duration / 8); // Short pause between notes
+    wait(duration / 32); // Short pause between notes
 }
 
 // Main function

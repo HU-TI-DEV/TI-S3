@@ -1,12 +1,12 @@
 # Audio op een microcontroller, soms is software beter, soms hardware!!!!
 
 Componenten:
-- 1.5 Ohm weerstand
-- 470 microF condensator
-- speakertje uit de kit van het 1e jaar
+- 8 Ohm weerstand
+- 47 microF condensator
+- speaker 8 Ohm
 
-1) Sluit de zwarte draad van de speaker aan de ground van de microcontroller (via je breadboard). 
-2) Sluit de rode draad aan op (fysieke) pin 5 van de microcontroller.
+1) Sluit de ene draad van de speaker aan de ground van de microcontroller (via je breadboard). 
+2) Sluit de andere draad aan op (fysieke) pin 5 van de microcontroller.
 3) Flash de software maar de microcontroller. 
 
 Hoe gebruik je [PWM op een microcontroller](https://www.hackster.io/bearislive/enable-pwm-on-an-attiny-by-programming-its-registers-565948) zonder Arduino analogWrite().
@@ -49,11 +49,11 @@ int main() {
 
 __Schrijf je antwoord op in je md document.__
 
-5) Maak de rode draad van de luidspreker weer los. 
-6) Sluit de weerstand aan op pin XX van de microcontroller.
-7) Aan de andere kant van de weerstand sluit je twee dingen aan: a) de rode draad van de speaker b) de plus kant van de condensator. 
+5) Maak de andere draad van de luidspreker weer los. 
+6) Sluit de weerstand aan op pin 5 van de microcontroller.
+7) Aan de andere kant van de weerstand sluit je twee dingen aan: a) de andere draad van de speaker b) de plus kant van de condensator. 
 8) de min kant van de condensator sluit je aan op de aarde van de microcontroller.
-9)  Als het goed is moet het geluid weliswaar zachter klinken, maar wel veel beter! Heb je een idee waarom? 
+9) Als het goed is moet het geluid weliswaar zachter klinken, maar wel veel beter! Heb je een idee waarom? 
 
 __Schrijf je idee op in je md document.__
 
@@ -132,9 +132,9 @@ void playNote(uint16_t frequency, uint16_t duration) {
         OCR0A = ICR1 / 2;         // Set duty cycle to 50%
     }
 
-    wait(duration); // Wait for the note duration
+    wait(duration/8); // Wait for the note duration
     TCCR0A &= ~(1 << COM0A1); // Disable PWM after the note
-    wait(duration / 8); // Short pause between notes
+    wait(duration / 32); // Short pause between notes
 }
 
 // Main function
