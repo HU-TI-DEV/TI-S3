@@ -1,4 +1,4 @@
-# Audio op een microcontroller (ATTiny24)
+# Audio op een microcontroller (ATtiny24)
 
 _Soms is software beter, soms hardware!!!!_
 
