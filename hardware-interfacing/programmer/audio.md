@@ -1,15 +1,21 @@
-# Audio op een microcontroller, soms is software beter, soms hardware!!!!
+# Audio op een microcontroller (ATtiny24)
 
-Componenten:
-- 8 Ohm weerstand
-- 47 microF condensator
-- speaker 8 Ohm
+_Soms is software beter, soms hardware!!!!_
+
+## Componenten
+
+- $8 {\Omega}$ weerstand
+- $47 {\mu}F$ condensator
+- Speaker $8 {\Omega}$
+
+## Stap-voor-stap instructie
 
 1) Sluit de ene draad van de speaker aan de ground van de microcontroller (via je breadboard). 
 2) Sluit de andere draad aan op (fysieke) pin 5 van de microcontroller.
 3) Flash de software maar de microcontroller. 
 
 Hoe gebruik je [PWM op een microcontroller](https://www.hackster.io/bearislive/enable-pwm-on-an-attiny-by-programming-its-registers-565948) zonder Arduino analogWrite().
+
 ```c++
 #include <avr/io.h>
 #include <util/delay.h>
@@ -47,7 +53,7 @@ int main() {
 
 4) Wat valt je op? Hoe klinkt het muziekje? 
 
-__Schrijf je antwoord op in je md document.__
+   > __Schrijf je antwoord op in je md document.__
 
 5) Maak de andere draad van de luidspreker weer los. 
 6) Sluit de weerstand aan op pin 5 van de microcontroller.
@@ -55,19 +61,19 @@ __Schrijf je antwoord op in je md document.__
 8) de min kant van de condensator sluit je aan op de aarde van de microcontroller.
 9) Als het goed is moet het geluid weliswaar zachter klinken, maar wel veel beter! Heb je een idee waarom? 
 
-__Schrijf je idee op in je md document.__
+   > __Schrijf je idee op in je md document.__
 
 10) Maak een foto van je opstelling en 
 
-__Plak dit in je .md document__.
+    > __Plak dit in je .md document__.
 
 11) Neem je opstelling mee naar de oscilloscoop en vergelijk het signaal met en zonder de condensator. Klopte je idee van (9)?
 
- __Schrijf je antwoord op in je .md document__
+    > __Schrijf je antwoord op in je .md document__
 
 12) Berekening de cut off frequentie van het RC filter. Je mag hier ook een online website voor gebruiken. 
 
-__Plak je berekening of een plaatje van de website in je .md document__.
+    > __Plak je berekening of een plaatje van de website in je .md document__.
 
 13) Welk liedje kan je met de onderstaande code afspelen?
 
