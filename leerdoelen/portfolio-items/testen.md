@@ -36,3 +36,12 @@ Daarin wordt aangegeven **hoe** de betreffende tests uitgevoerd kunnen worden. H
                 - docs/
                 - src/
                 - testresults/
+ 
+  - Tips voor het schrijven van een testplan  (zeker nuttig voor een HW test), volg het volgende template:
+    - doel van de test:       Hier beschrijf je het doel van de test.
+    - succescriteria:         Hier worden de succescriteria beschreven: wanneer is het goed? Wanneer is het fout?
+    - test setup:             Welke spullen heb je gebruikt? Bv multimeters? Arduino's?
+    - stappenplan:            Welke stappen moet je nemen om te testen, bv 1) sluit draad A op B, 2) Flash code op Arduino Bla 3) etc...
+    - test resultaten:        Wat zijn de resultaten? De metingen?
+    - conclusies              Welke conclusies kun je trekken uit de data?
+       
