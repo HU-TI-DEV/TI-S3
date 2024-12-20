@@ -29,10 +29,12 @@ MOSI | 7 = Arduino pin 11
 MISO | 8 = Arduino pin 12
 SCK | 9 = Arduino pin 13
 
-![ATtiny 24 ](./ATtiny24.png)
+![ATtiny 24 ](./files/ATtiny24.png)
 
-**klaar!**
+**klaar!** Je kunt nu een programma uploaden met de Atduino IDE naar de ATtiny microcontroller.
 
-## Opdracht
+## Opdrachten
 
-Maak je eerste "Hello World" een knipperend ledje met hardware.
+1) Maak je eerste "Hello World" (een knipperend ledje) voor de ATtiny. Laat dit werkend zien.
+2) Maak een [50Hz detector](./50Hz_detector.md). Leg uit hoe dit werkt en waar je dit voor kunt gebruiken.
+3) Maak een kerstliedje en pas en RC filter toe in [audio prakticum](./audio.md). Beschrijf wat de RC filter doet en beantwoord de vragen.
