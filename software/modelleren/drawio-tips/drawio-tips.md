@@ -124,8 +124,22 @@ automatisch mee.
 Druk op ENTER.
 
 ## Orthogonaal rechte pijlen houden bij kleine verschuivingen van de blokken
+
 Als je twee blokken met een pijl verbindt, en de pijl is recht, en je versleept een blok een beetje, dan komt er een knak in de pijl. Je kunt weliswaar een pijltype selecteren dat altijd recht is, maar dan gaat die pijl typisch scheef staan.
 **Oplossing:**
-•	Verbindt de blokken door een uitsleeppijl (blauwe connectie met hoofddeel van blokken) zoals gebruikelijk.
-•	Selecteer de uitsleeppijl in het midden (zodat hij niet knakt), houd LMB ingedrukt en verschuif hem een beetje in orthogonale richting.
-•	Klaar. In het vervolg als je een van de aangehechte blokken verschuift, blijft de pijl zonder knik en recht – tenzij het echt niet anders kan.
+•    Verbindt de blokken door een uitsleeppijl (blauwe connectie met hoofddeel van blokken) zoals gebruikelijk.
+•    Selecteer de uitsleeppijl in het midden (zodat hij niet knakt), houd LMB ingedrukt en verschuif hem een beetje in orthogonale richting.
+•    Klaar. In het vervolg als je een van de aangehechte blokken verschuift, blijft de pijl zonder knik en recht – tenzij het echt niet anders kan.
+
+## Geexporteerde SVG: transparante achtergrond zwart maken
+
+Sommige studenten exporteren een drawio op basis van zwarte background. Dan is de bijbehorende svg niet te lezen in witte background browsers. Oplossing (in chrome): 
+
+- open devtools (CTRL+I)
+- rmb op de ``<svg html``
+- kies edit HTML
+- voeg na het svg element toe:
+  ``<rect width="100%" height="100%" fill="black"></rect>
+  ``
+
+Dat voegt een zwarte rectangle toe achter het element.

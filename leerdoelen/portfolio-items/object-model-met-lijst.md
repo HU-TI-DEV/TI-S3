@@ -4,6 +4,7 @@ Een Object Model is een diagram dat laat zien hoe software objecten met afgebake
 
 ## Criteria
 
+- Begin in principe met per use case een **control object**. Dat is het object dat de regie heeft over de use case.
 - De objecten zijn rechthoeken met daarin alleen naam en het juiste **stereotype**. De namen zijn geschreven in **klasse naam stijl** (PascalCase).
 - De relaties tussen de objecten zijn pijlen met daarnaast **wat ze tegen elkaar "zeggen"**, aan elkaar geschreven in **"functienaam-stijl"** (camelCase).
 - Wat ze tegen elkaar zeggen zijn **mededelingen** - knopIngedrukt(knopId), **commando's** - activeerSolenoid, of **vragen** - isKnopNeer.
