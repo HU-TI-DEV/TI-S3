@@ -7,7 +7,7 @@
 - [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
   - [Organisatie](#organisatie)
   - [Programma](#programma)
-    - [Week A1 (2-9-2024)](#week-a1-2-9-2024)
+    - [Week A1 (10-2-2025)](#week-a1-10-2-2025)
     - [Week A2 (9-9-2024)](#week-a2-9-9-2024)
     - [Week A3 (16-9-2024)](#week-a3-16-9-2024)
     - [Week A4 (23-9-2024)](#week-a4-23-9-2024)
@@ -75,13 +75,13 @@ In diezelfde weken volgen twee electrotechniek series, welke optioneel zijn, maa
 Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de klant, Mindmap gemaakt. Start FR.
 
 
-#### Week A1 (2-9-2024)
+#### Week A1 (10-2-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
-| di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (MV, HP, BB) |
-| wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (MV,HP, BB) |
+| di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (BB, GP) |
+| wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (BB,GP) |
 | do | project&nbsp; (en VRIJDAG ochtend - Uitje naar lasfabriek) |
 
 
@@ -90,31 +90,65 @@ Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de 
 Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, UCD, UCBeschr, Activity Diagrammen en Functionele decompositie. + ESP32-IDF + mesh operationeel, evt. Hello Worlds van boundary objects.
 
 
-#### Week A2 (9-9-2024)
+#### Week A2 (17-2-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (MV,HP,&nbsp;BB) |
-| di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (MV,HP,&nbsp;BB) |
-| wo | <a href="./programmas/programma-esp32-IDF-1.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie</a>&nbsp; (MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram</a>&nbsp; (MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (GP,BB) |
+| di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (GP,BB) |
+| wo | <a href="./programmas/programma-esp32-IDF-1.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie</a>&nbsp; (HP,HS) |
+| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram</a>&nbsp; (BB,GP) |
 
-#### Week A3 (16-9-2024)
+#### Week A3 (24-2-2025)
 
+VAKANTIE
+
+#### Week A4 (3-3-2025)
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (MV,HP,&nbsp;BB) |
-| di | <a href="./programmas/programma-networking-basics.md" style="border-color: var(--border-color);">Networking Basics</a>&nbsp; (MV,&nbsp;BB, HP) |
-| wo | <a href="./programmas/programma-object-model-1.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-concurrency-mutex.md">Concurrency (pc), mutex</a>&nbsp; &nbsp; (MV,HP,&nbsp;BB) |
+| ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (BB,GP) |
+| di | <a href="./programmas/programma-networking-basics.md" style="border-color: var(--border-color);">Networking Basics</a>&nbsp; (HP,HS) |
+| wo | <a href="./programmas/programma-object-model-1.md">Oefening Object Model</a>&nbsp; &nbsp;(GP,BB) |
+| do | <a href="./programmas/programma-concurrency-mutex.md">Concurrency (pc), mutex</a>&nbsp; &nbsp; (BB,GP) |
 
 
 ### Sprint 2
 
 Object Model en klassediagram van het RTOS subsysteem<br>
+---- 
+aantekeningen voor Gera en Bart
+----
+Vanaf hier gaan we het andersom doen , we gaan het van onderaf opbouwen. 
+
+EN DAN PAS ALLE COMPLEXE TECHNIEKEN.
+
+- numerieke wiskunde laten vallen? Misschien naar S4 verplaatsten? Simpeler brengen? bv int/int deling.
+- flowchart toevoegen. 
+
+----
 
 
-#### Week A4 (23-9-2024)
+#### Week A5 (10-3-2025)
+
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | Code - STD (BB,GP), code geven met STD, code geven zonder STD -> maak STD , STD geven zonder code -> maak code, plant uml |
+| di | REPEAT (BB & GP), samen reviewen? in de klas?  |
+| wo | REPEAT nog een keer!!! (mischien elkaars opdrachtgever? tbd) (BB & GP) |
+| do | Klassediagram -> STD (GP,BB) light |
+
+#### Week A6 (17-3-2025)
+
+| **Dag** | **Kennissessie** |
+|---|---|
+| ma | GASTSPREKER!!!! |
+| di | Overzicht, Repeat klasse diagram -> std (GP,BB) resultaten bespreken in klas|
+| wo | Object model -> klassediagram , misschien ook werksessie voor het project???? (GP&BB)  |
+| do |  other |
+
+
+
+#### Week A4 (24-3-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
