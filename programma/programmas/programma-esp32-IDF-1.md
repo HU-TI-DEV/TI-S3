@@ -40,7 +40,7 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
 ### ESP-IDF-5.3 installeren
 - Installeer de ESP-IDF 5.3 bouwomgeving, inclusief arduino-ide component en test er je ESP32 mee (HelloWorld). 
 Hopelijk lukt het als je [dit logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet.md) volgt. Er is ook een logboek versie [voor Mac OS X](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS-X.md).
-- Installeer - dat zelfde logboek volgend, lasergame_template_2 (een aantal utility libraries en CleanRTOS).
+- Installeer - dat zelfde logboek volgend, lasergame_template_2 (een aantal utility libraries en CleanRTOS). Voor het lasergame_template_2 is er een [Mac OS X logboek](../../infrastructuur/ESP32-IDF-opzet/lasergame_template_2-Mac-OS-X.md).
 
 ### Aanbevolen
 - Probeer wat CleanRTOS examples uit en bestudeer deze.
