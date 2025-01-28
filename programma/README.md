@@ -8,14 +8,13 @@
   - [Organisatie](#organisatie)
   - [Programma](#programma)
     - [Week A1 (10-2-2025)](#week-a1-10-2-2025)
-    - [Week A2 (9-9-2024)](#week-a2-9-9-2024)
-    - [Week A3 (16-9-2024)](#week-a3-16-9-2024)
-    - [Week A4 (23-9-2024)](#week-a4-23-9-2024)
-    - [Week A5 (30-9-2024)](#week-a5-30-9-2024)
-    - [Week A6 (7-10-2024)](#week-a6-7-10-2024)
-    - [Week A7 (14-10-2024)](#week-a7-14-10-2024)
-    - [Week A8 (21-10-2024)](#week-a8-21-10-2024)
-    - [Week A9 (28-10-2024)](#week-a9-28-10-2024)
+    - [Week A2 (17-2-2025)](#week-a2-17-2-2025)
+    - [Week A4 (3-3-2025)](#week-a4-3-3-2025)
+    - [Week A5 (10-3-2025)](#week-a5-10-3-2025)
+    - [Week A6 (17-3-2025)](#week-a6-17-3-2025)
+    - [Week A7 (24-3-2025)](#week-a7-24-3-2025)
+    - [Week A8 (31-3-2025)](#week-a8-31-3-2025)
+    - [Week A9 (7-4-2025)](#week-a9-7-4-2025)
     - [Week A10 (4-11-2024)](#week-a10-4-11-2024)
     - [Week B1 (11-11-2024)](#week-b1-11-11-2024)
     - [Week B2 (18-11-2024)](#week-b2-18-11-2024)
@@ -31,19 +30,19 @@
     - [Week B12 (27-1-2025)](#week-b12-27-1-2025)
 ---
 
-**v0.1.0** Semester 3 TI programma door HU IICT.
+**v1.1.0** Semester 3 TI programma door HU IICT.
 
 ---
 
 ### Organisatie
 
-Ons lokaal is HL15-1.096 
+Ons lokaal is HL15-XXXX 
 
 De contacturen zijn:
 |dag|van|tot|
 |---|---|---|
 |ma|9:00|13:00|
-|di|9:00|13:00|
+|di|13:00|17:00|
 |wo|13:00|17:00|
 |do|13:00|17:00|
 
@@ -116,11 +115,7 @@ VAKANTIE
 
 Object Model en klassediagram van het RTOS subsysteem<br>
 ---- 
-aantekeningen voor Gera en Bart
-----
-Vanaf hier gaan we het andersom doen , we gaan het van onderaf opbouwen. 
-
-EN DAN PAS ALLE COMPLEXE TECHNIEKEN.
+REMARKS TODO
 
 - numerieke wiskunde laten vallen? Misschien naar S4 verplaatsten? Simpeler brengen? bv int/int deling.
 - flowchart toevoegen. 
@@ -132,23 +127,23 @@ EN DAN PAS ALLE COMPLEXE TECHNIEKEN.
 
 | **Dag** | **Kennissessie** |
 |---|---|
-| ma | Code - STD (BB,GP), code geven met STD, code geven zonder STD -> maak STD , STD geven zonder code -> maak code, plant uml |
-| di | REPEAT (BB & GP), samen reviewen? in de klas?  |
-| wo | REPEAT nog een keer!!! (mischien elkaars opdrachtgever? tbd) (BB & GP) |
-| do | Klassediagram -> STD (GP,BB) light |
+| ma | [Code <-> STD deel I](./programmas/programma-std-code-intro.md) (BB,GP) |
+| di |  [Code <-> STD deel II](./programmas/programma-std-code-intro.md#programma-std---code---ii) (BB&GP)|
+| wo | [Code <-> STD, deel III](./programmas/programma-std-code-intro.md#programma-std---code---iii) (BB&GP) & Peilmoment 1  |
+| do | [Klassediagram -> STD](./programmas/programma-klassediagram-intro.md) (GP,BB) light |
 
 #### Week A6 (17-3-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
 | ma | GASTSPREKER!!!! |
-| di | Overzicht, Repeat klasse diagram -> std (GP,BB) resultaten bespreken in klas|
-| wo | Object model -> klassediagram , misschien ook werksessie voor het project???? (GP&BB)  |
+| di |  [Klassediagram -> STD](./programmas/programma-klassediagram-intro.md) (GP,BB) resultaten bespreken in klas,Overzicht, Repeat|
+| wo | [Objectmodel -> Klassediagram](./programmas/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project???? (GP&BB)  |
 | do |  other |
 
 
 
-#### Week A4 (24-3-2025)
+#### Week A7 (24-3-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -157,7 +152,7 @@ EN DAN PAS ALLE COMPLEXE TECHNIEKEN.
 | wo | <a href="./programmas/programma-klassediagram-observer.md">Oefening Klassediagram + Observer Pattern</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 | do | <a href="./programmas/programma-constexpr_templates.md" style="border-color: var(--border-color);">Constexpr + Numerieke wiskunde + Templates</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
 
-#### Week A5 (30-9-2024)
+#### Week A8 (31-3-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
@@ -172,7 +167,7 @@ EN DAN PAS ALLE COMPLEXE TECHNIEKEN.
 Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van (gegeven) STD NEC protocol, start implementatie van core functionaliteit van RTOS subsysteem.
 
 
-#### Week A6 (7-10-2024)
+#### Week A9 (7-4-2025)
 
 | **Dag** | **Kennissessie** |
 |---|---|
