@@ -1029,3 +1029,5 @@ c4--> Trillen
 ```
 
 ![alt text](image-31.png)
+
+Genoeg voor vandaag
