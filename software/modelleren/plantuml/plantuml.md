@@ -926,3 +926,67 @@ c12 <|-- c14
 ```
 
 ![alt text](image-29.png)
+
+
+```plantuml
+@startuml
+skinparam classAttributeIconSize 0
+
+class "<<entity>> \nTrilFrequentie" as c1
+c1 : +getTrilfrequentie():int
+c1 : +SetTrilfrequentie(freq:int)
+class "<<control>>\n<<isActive>>\nTrilControl" as c2
+c2 : -trilKnop:Button
+c2 : -noodKnop:Button&
+c2 : -electromagneet:Electromagneet
+c2 : -trilFrequentie:Trilfrequentie&
+c2 : +buttonPressed(buttonID:ebuttonID)
+c2 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nElectromagneet" as c3
+c3  : +ZetAan()
+c3 : +Zetuit()
+class "<<control>>\n<<isActive>>\nInstelControl" as c4
+c4 : -remDB:RemoteDataBase
+c4 : -display:Display
+c4 : -plusKnop:Button
+c4 : -minKnop:Button
+c4 : -noodKnop:Button&
+c4 : -trilFrequentie:Trilfrequentie&
+c4 : +buttonPressed(buttonID:ebuttonID)
+c4 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>>\n<<isActive>>\nRemoteDatabase" as c5
+c5 : +log(trilFrequentie)
+class "<<boundary>>\n<<isActive>>\nDisplay" as c9
+c9 : +showMessage(str:string)
+class "<<boundary>>\nButton" as c12
+c12 : -buttonListeners:ButtonListener*[]
+c12 : +addButtonListener(ButtonListener*)
+class "<<interface>> \nButtonListener" as c13
+c13 : +buttonPressed(buttonID:ebuttonID)
+c13 : +buttonReleased(buttonID:ebuttonID)
+class "<<isActive>>\nButtonHandler" as c14
+c14 : -buttons:Button*[]
+c14 : +addButton(bn:Button*)
+
+c1 <|-- c4 : 1 
+c5 --* c4  : 1
+c9 --* c4 : 1
+c3 --* c2 : 1
+c1 <|-- c2 : 1 
+c12 --* c4 : 2
+c12 --* c2  : 1
+c13 <|-- c12 : *
+c13 <|.. c2
+c13 <|.. c4 
+c12 <|-- c2 : 1
+c12 <|-- c4 : 1 
+c14 <|.. c4 : 1 
+c14 <|.. c2 : 1
+c12 <|-- c14 : * 
+@enduml
+```
+
+
+![alt text](image-30.png)
+
+
