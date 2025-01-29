@@ -656,3 +656,158 @@ c1 <|-- c2
 ```
 
 ![alt text](image-24.png)
+
+```plantuml
+@startuml
+skinparam classAttributeIconSize 0
+
+class "<<entity>> \nTrilFrequentie" as c1
+c1 : +getTrilfrequentie():int
+c1 : +SetTrilfrequentie(freq:int)
+class "<<control>> \nTrilControl" as c2
+c2 : -trilKnop:TrilKnop 
+c2 : -electromagneet:Electromagneet
+c2 : -trilFrequentie:Trilfrequentie&
+c2 : +buttonPressed(buttonID:ebuttonID)
+c2 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nElectromagneet" as c3
+c3  : +ZetAan()
+c3 : +Zetuit()
+class "<<control>> \nInstelControl" as c4
+c4 : -remDB:RemoteDataBase
+c4 : -display:Display
+c4 : -plusKnop:InstelControlKnop
+c4 : -minKnop:InstelControlKnop
+c4 : -trilFrequentie:Trilfrequentie&
+c4 : +buttonPressed(buttonID:ebuttonID)
+c4 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nRemoteDatabase" as c5
+c5 : +log(trilFrequentie)
+class "<<boundary>> \nNoodKnop" as c8
+c8 : -instelControl:InstelControl&
+c8 : -trilControl:TrilControl&
+class "<<boundary>> \nDisplay" as c9
+c9 : +showMessage(str:string)
+class "<<boundary>> \nTrilKnop" as c10
+c10 : -trilControl:TrilControl&
+class "<<boundary>> \nInstelControlKnop" as c11
+c11 : -instelControl:InstelControl&
+
+c1 <|-- c4 
+c5 --* c4 
+c4 <|-- c11 
+c4 *-- c11
+c9 --* c4 
+c4 <|-- c8 
+c2 <|-- c8 
+c3 --* c2
+c2 <|-- c10
+c10 --* c2
+c1 <|-- c2 
+@enduml
+```
+![alt text](image-25.png)
+
+```plantuml
+@startuml
+skinparam classAttributeIconSize 0
+
+class "<<entity>> \nTrilFrequentie" as c1
+c1 : +getTrilfrequentie():int
+c1 : +SetTrilfrequentie(freq:int)
+class "<<control>> \nTrilControl" as c2
+c2 : -trilKnop:Button
+c2 : -electromagneet:Electromagneet
+c2 : -trilFrequentie:Trilfrequentie&
+c2 : +buttonPressed(buttonID:ebuttonID)
+c2 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nElectromagneet" as c3
+c3  : +ZetAan()
+c3 : +Zetuit()
+class "<<control>> \nInstelControl" as c4
+c4 : -remDB:RemoteDataBase
+c4 : -display:Display
+c4 : -plusKnop:Button
+c4 : -minKnop:Button
+c4 : -trilFrequentie:Trilfrequentie&
+c4 : +buttonPressed(buttonID:ebuttonID)
+c4 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nRemoteDatabase" as c5
+c5 : +log(trilFrequentie)
+class "<<boundary>> \nDisplay" as c9
+c9 : +showMessage(str:string)
+class "<<boundary>> \nButton" as c12
+c12 : -buttonListeners:ButtonListener*[]
+c12 : +addBbuttonListener(ButtonListener*)
+class "<<interface>> \nButtonListener" as c13
+c13 : +buttonPressed(buttonID:ebuttonID)
+c13 : +buttonReleased(buttonID:ebuttonID)
+
+c1 <|-- c4 
+c5 --* c4 
+c9 --* c4 
+c3 --* c2
+c1 <|-- c2 
+c12 --* c4
+c12 --* c2
+c13 <|-- c12
+c13 <|.. c2
+c13 <|.. c4
+
+@enduml
+```
+
+![alt text](image-26.png)
+
+```plantuml
+@startuml
+skinparam classAttributeIconSize 0
+
+class "<<entity>> \nTrilFrequentie" as c1
+c1 : +getTrilfrequentie():int
+c1 : +SetTrilfrequentie(freq:int)
+class "<<control>> \nTrilControl" as c2
+c2 : -trilKnop:Button
+c2 : -noodKnop:Button&
+c2 : -electromagneet:Electromagneet
+c2 : -trilFrequentie:Trilfrequentie&
+c2 : +buttonPressed(buttonID:ebuttonID)
+c2 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nElectromagneet" as c3
+c3  : +ZetAan()
+c3 : +Zetuit()
+class "<<control>> \nInstelControl" as c4
+c4 : -remDB:RemoteDataBase
+c4 : -display:Display
+c4 : -plusKnop:Button
+c4 : -minKnop:Button
+c4 : -noodKnop:Button&
+c4 : -trilFrequentie:Trilfrequentie&
+c4 : +buttonPressed(buttonID:ebuttonID)
+c4 : +buttonReleased(buttonID:ebuttonID)
+class "<<boundary>> \nRemoteDatabase" as c5
+c5 : +log(trilFrequentie)
+class "<<boundary>> \nDisplay" as c9
+c9 : +showMessage(str:string)
+class "<<boundary>> \nButton" as c12
+c12 : -buttonListeners:ButtonListener*[]
+c12 : +addBbuttonListener(ButtonListener*)
+class "<<interface>> \nButtonListener" as c13
+c13 : +buttonPressed(buttonID:ebuttonID)
+c13 : +buttonReleased(buttonID:ebuttonID)
+
+c1 <|-- c4 
+c5 --* c4 
+c9 --* c4 
+c3 --* c2
+c1 <|-- c2 
+c12 --* c4
+c12 --* c2
+c13 <|-- c12
+c13 <|.. c2
+c13 <|.. c4
+c12 <|-- c2
+c12 <|-- c4
+@enduml
+```
+![alt text](image-27.png)
