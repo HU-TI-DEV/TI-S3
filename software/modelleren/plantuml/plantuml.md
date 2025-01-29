@@ -989,4 +989,43 @@ c12 <|-- c14 : *
 
 ![alt text](image-30.png)
 
+```plantuml
+@startuml
+hide empty description
 
+[*] --> Normal
+
+Normal --> Noodtoestand
+state c5 <<choice>>
+Noodtoestand --> c5 : bnReleaseID=\nbnReleaseChannel.read()
+c5 --> Noodtoestand : [else]
+c5 --> Normal : [bnReleaseID=NoodKnopID]
+Noodtoestand --> Noodtoestand : [bnReleaseID=\nbnReleaseID=NoodKnopID]
+
+state Normal {
+
+state "NietTrillen" as nietTrillen
+state "Trillen" as Trillen
+state c4 <<choice>> 
+state c1 <<choice>>
+state c3 <<choice>>
+state c2 <<choice>>
+
+[*] --> nietTrillen
+nietTrillen --> c1 : bnID=\nbnReleaseChannel.Read()
+nietTrillen --> nietTrillen: dummyID=\nbnReleaseChannel.Read()
+c1-->Trillen : [else]  
+c1--> [*] : [bnID=noodKnopID]
+Trillen --> c2 : bnID=\nbnPressChannel.read()
+c2--> [*] : [bnID=noodKnopID]
+c2--> nietTrillen : [else]
+Trillen ----> Trillen : dummyID=bnReleaseChannel.Read()
+Trillen --> c3 : after(1/trilFrequentie.getTrilfrequentie()/2)\n/bMagneetEnabled=!bMagneetEnabled
+c3 --> c4 : [else]\n/electromagneet.zetUit()
+c3 --> c4 : [bMagneetEnabled]\n/electromagneet.zetAan()
+c4--> Trillen 
+} 
+@enduml
+```
+
+![alt text](image-31.png)
