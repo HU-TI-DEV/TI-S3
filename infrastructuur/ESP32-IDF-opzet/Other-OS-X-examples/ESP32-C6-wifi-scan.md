@@ -54,4 +54,22 @@ Now flash and I also open a monitor
 idf.py -p /dev/cu.usbmodem21201 flash monitor
 ```
 
-The device finds a matching AP and connects to it. In the serial output it show me the ip it has received. 
+The device finds a matching AP and connects to it. In the serial output it show me the IP it has received. This is not really what I expected. I would like to perform a netwerk scan. Let us build another example. Reading the documentation this should work:
+
+```bash
+cp -r $IDF_PATH/examples/wifi/scan .
+cd scan
+idf.py set-target esp32c6
+idf.py menuconfig
+```
+
+I change the maximum scan list to 20.
+Set the Example configuration.
+    - Use `Max size of scan list` to set the maximum number of access points in the list.
+
+```bash
+idf.py build
+idf.py -p /dev/cu.usbmodem21201 flash monitor
+```
+
+I can find 15 APs!
