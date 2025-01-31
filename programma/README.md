@@ -1,370 +1,316 @@
-![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx)
+![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Semester 3 van Technische Informatica
+# Semester 3 van Technische Informatica[](title-id)
 
-### Inhoud
+### Inhoud[](toc-id)
 
-- [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
-  - [Organisatie](#organisatie)
+- [Semester 2 van Technische Informatica](#semester-2-van-technische-informatica)
+    - [Inhoud](#inhoud)
+  - [Een introductie](#een-introductie)
+    - [Organisatie](#organisatie)
   - [Programma](#programma)
-    - [Week A1 (10-2-2025)](#week-a1-10-2-2025)
-    - [Week A2 (17-2-2025)](#week-a2-17-2-2025)
-    - [Week A4 (3-3-2025)](#week-a4-3-3-2025)
-    - [Week A5 (10-3-2025)](#week-a5-10-3-2025)
-    - [Week A6 (17-3-2025)](#week-a6-17-3-2025)
-    - [Week A7 (24-3-2025)](#week-a7-24-3-2025)
-    - [Week A8 (31-3-2025)](#week-a8-31-3-2025)
-    - [Week A9 (7-4-2025)](#week-a9-7-4-2025)
-    - [Week A10 (4-11-2024)](#week-a10-4-11-2024)
-    - [Week B1 (11-11-2024)](#week-b1-11-11-2024)
-    - [Week B2 (18-11-2024)](#week-b2-18-11-2024)
-    - [Week B3 (25-11-2024)](#week-b3-25-11-2024)
-    - [Week B4 (2-12-2024)](#week-b4-2-12-2024)
-    - [Week B5 (9-12-2024)](#week-b5-9-12-2024)
-    - [Week B6 (16-12-2024)](#week-b6-16-12-2024)
-    - [Week B7 (23-12-2024)](#week-b7-23-12-2024)
-    - [Week B8 (30-12-2024)](#week-b8-30-12-2024)
-    - [Week B9 (6-1-2025)](#week-b9-6-1-2025)
-    - [Week B10 (13-1-2025)](#week-b10-13-1-2025)
-    - [Week B11 (20-1-2025)](#week-b11-20-1-2025)
-    - [Week B12 (27-1-2025)](#week-b12-27-1-2025)
----
-
-**v1.1.0** Semester 3 TI programma door HU IICT.
+    - [Onderwijsweek C2 (10-02-2025)](#onderwijsweek-c2-10-02-2025)
+    - [Onderwijsweek C3 (17-02-2025)](#onderwijsweek-c3-17-02-2025)
+    - [Onderwijsweek C4 (24-02-2025)](#onderwijsweek-c4-24-02-2025)
+    - [Onderwijsweek C5 (3-03-2025)](#onderwijsweek-c5-3-03-2025)
+    - [Onderwijsweek C6 (10-03-2025)](#onderwijsweek-c6-10-03-2025)
+    - [Onderwijsweek C7 (17-03-2025)](#onderwijsweek-c7-17-03-2025)
+    - [Onderwijsweek C8 (24-03-2025)](#onderwijsweek-c8-24-03-2025)
+    - [Onderwijsweek C9 (31-03-2025)](#onderwijsweek-c9-31-03-2025)
+    - [Onderwijsweek C10 (7-04-2025)](#onderwijsweek-c10-7-04-2025)
+    - [Onderwijsweek D1 (14-04-2025)](#onderwijsweek-d1-14-04-2025)
+    - [Onderwijsweek D2 (21-04-2025)](#onderwijsweek-d2-21-04-2025)
+    - [Onderwijsweek D3 (28-04-2025)](#onderwijsweek-d3-28-04-2025)
+    - [Onderwijsweek D4 (5-05-2025)](#onderwijsweek-d4-5-05-2025)
+    - [Onderwijsweek D5 (12-05-2025)](#onderwijsweek-d5-12-05-2025)
+    - [Onderwijsweek D6 (19-05-2025)](#onderwijsweek-d6-19-05-2025)
+    - [Onderwijsweek D7 (26-05-2025)](#onderwijsweek-d7-26-05-2025)
+    - [Onderwijsweek D8 (2-06-2025)](#onderwijsweek-d8-2-06-2025)
+    - [Onderwijsweek D9 (9-06-2025)](#onderwijsweek-d9-9-06-2025)
+    - [Onderwijsweek D10 (16-06-2025)](#onderwijsweek-d10-16-06-2025)
+    - [Onderwijsweek D11 (23-06-2025)](#onderwijsweek-d11-23-06-2025)
+    - [Onderwijsweek D12 (30-06-2025)](#onderwijsweek-d12-30-06-2025)
+    - [Onderwijsweek D13 (7-7-2025)](#onderwijsweek-d13-7-7-2025)
 
 ---
+
+**v0.1.4 [](version-id)** Semester 3 TI programma door HU IICT[](author-id).
+
+---
+
+## Een introductie
+
 
 ### Organisatie
 
-Ons lokaal is HL15-XXXX 
+De contacturen zijn (subject to change):
+|dag|van|tot| lokaal |
+|---|---|---| --- |
+|ma|9:00|13:00| HL15-5.068 |
+|di|14:00|18:00| HL15-5.032 |
+|wo|13:00|17:00| HL15-5.068 |
+|do|13:00|17:00| HL15-5.068 |
 
-De contacturen zijn:
-|dag|van|tot|
-|---|---|---|
-|ma|9:00|13:00|
-|di|13:00|17:00|
-|wo|13:00|17:00|
-|do|13:00|17:00|
+Ons lokaal is HL15-1.096.  
 
 De docenten zijn:
 
-- (**TM**) Teun Pieter Moddermann
-- (**HS**) Harm Snippe
-- (**HP**) Hagen Patzke
-- (**MV**) Marius Versteegen
-- (**BB**) Bart Bozon
-
-De studentassistenten zijn:
-
-- (**TB**) Tobias Bosch
-- (**LH**) Loïs den Hartogh
-- (**LK**) Liam Kortekaas
-- (**TM**) Tim van Mourik
+* (**TM**) Teun Pieter Moddermann
+* (**GP**) Gera Pronk
+* (**MV**) Marius Versteegen
+* (**BB**) Bart Bozon
 
 ### HTML, JavaScript CSS
 
 Ergens voorbij de helft van het programma worden pointers naar online tutorials gegeven voor het studeren van HTML, Javascript en CSS. In de weken die volgen wordt van je verwacht dat je daar een serieuze zelfstudie van maakt, en bijbehorende gemaakte opdrachten upload.
 
 In diezelfde weken volgen twee electrotechniek series, welke optioneel zijn, maar ook een middag die dat niet is. Lees meer daarover in [Electrotechniek á la carte](./electro-a-la-carte.md).
+
 ## Programma
-[(alternatieve view html)](https://hu-ti-dev.github.io/TI-S3/programma/Programma_for_export_html.drawio.html)
 
-### Opstarten
+### Onderwijsweek C2 (10-02-2025)
 
-Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de klant, Mindmap gemaakt. Start FR.
+Week C2. Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaakt met de klant, Mindmap gemaakt. Start Functionele en Niet-Functionele Requirements.
 
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS, TP, GP, HP**) |
+| di  | | [Journalling - overige stakeholders - key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**BB, GP**) |
+| wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB,GP**) |
+| do  | Werken aan project | |
 
-#### Week A1 (10-2-2025)
+### Onderwijsweek C3 (17-02-2025)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-kickoff.md">Kickoff - Klantpraatjes - Teamvorming</a>&nbsp;(HS, TP, GP, HP) |
-| di | <a href="./programmas/programma-systemcontext-keydrivers-applicationdrivers.md">Journalling - overige stakeholders - key drivers, prioriteren</a>&nbsp; (BB, GP) |
-| wo | <a href="./programmas/programma-requirements.md">Functionele en Niet-Functionele Requirements</a>&nbsp; (BB,GP) |
-| do | project&nbsp; (en VRIJDAG ochtend - Uitje naar lasfabriek) |
+Week A2. Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, UCD, UCBeschr, Activity Diagrammen en Functionele decompositie. + ESP32-IDF + mesh operationeel, evt. Hello Worlds van boundary objects.
 
 
-### Sprint 1
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md)  (**GP,BB**) |
+| di  | | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md)  (**GP,BB**) |
+| wo  | | [ESP32-IDF basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
+| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram](./lesprogramma/programma-esp32-IDF-2.md)  (**BB,GP**) |
 
-Advies, in de vorm van Functionele Requirements, Non Functionele Requirements, UCD, UCBeschr, Activity Diagrammen en Functionele decompositie. + ESP32-IDF + mesh operationeel, evt. Hello Worlds van boundary objects.
+### Onderwijsweek C4 (24-02-2025)
 
+| Dag | |
+| --- | --- |
+| ma  | Vakantie |
+| di  | Vakantie |
+| wo  | Vakantie |
+| do  | Vakantie |
+| vr  | Vakantie |
 
-#### Week A2 (17-2-2025)
+### Onderwijsweek C5 (3-03-2025)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-use-case.md">Use Case Diagram, Use Case Beschrijvingen</a>&nbsp; (GP,BB) |
-| di | <a href="./programmas/programma-activity-diagrammen.md">Activity Diagrammen</a>&nbsp; (GP,BB) |
-| wo | <a href="./programmas/programma-esp32-IDF-1.md" style="border-color: var(--border-color);">ESP32-IDF basic installatie</a>&nbsp; (HP,HS) |
-| do | <a href="./programmas/programma-esp32-IDF-2.md" style="border-color: var(--border-color);">CleanRTOS, zigbee, KeyDriver Chart en Traceability Diagram</a>&nbsp; (BB,GP) |
+Week C5. 
 
-#### Week A3 (24-2-2025)
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
+| di  | | [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
+| wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP,BB**) |
+| do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB,GP**) |
 
-VAKANTIE
+### Onderwijsweek C6 (10-03-2025)
 
-#### Week A4 (3-3-2025)
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-functionele-decompositie.md">Functionele decompositie</a>&nbsp; (BB,GP) |
-| di | <a href="./programmas/programma-networking-basics.md" style="border-color: var(--border-color);">Networking Basics</a>&nbsp; (HP,HS) |
-| wo | <a href="./programmas/programma-object-model-1.md">Oefening Object Model</a>&nbsp; &nbsp;(GP,BB) |
-| do | <a href="./programmas/programma-concurrency-mutex.md">Concurrency (pc), mutex</a>&nbsp; &nbsp; (BB,GP) |
+Week C6. Object Model en klassediagram van het RTOS subsysteem
 
+[- numerieke wiskunde laten vallen? Misschien naar S4 verplaatsten? Simpeler brengen? bv int/int deling.]: #
+[- flowchart toevoegen.]: #
 
-### Sprint 2
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB,GP**) |
+| di  | | [Code &lt;-&gt; STD deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**) |
+| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---iii) (**BB &amp; GP**)|
+| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) light |
 
-Object Model en klassediagram van het RTOS subsysteem<br>
----- 
-REMARKS TODO
+### Onderwijsweek C7 (17-03-2025)
 
-- numerieke wiskunde laten vallen? Misschien naar S4 verplaatsten? Simpeler brengen? bv int/int deling.
-- flowchart toevoegen. 
+Week C7. 
 
-----
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | Gastspreker |
+| di  | | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) resultaten bespreken in klas, Overzicht, Repeat |
+| wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | |
 
+### Onderwijsweek C8 (24-03-2025)
 
-#### Week A5 (10-3-2025)
+Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | [Code <-> STD deel I](./programmas/programma-std-code-intro.md) (BB,GP) |
-| di |  [Code <-> STD deel II](./programmas/programma-std-code-intro.md#programma-std---code---ii) (BB&GP)|
-| wo | [Code <-> STD, deel III](./programmas/programma-std-code-intro.md#programma-std---code---iii) (BB&GP) & Peilmoment 1  |
-| do | [Klassediagram -> STD](./programmas/programma-klassediagram-intro.md) (GP,BB) light |
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**MV,HP,BB**) |
+| di  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**MV,HP,BB**) |
+| wo  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV,HP,BB**) |
+| do  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**MV,HP,BB**) |
 
-#### Week A6 (17-3-2025)
+### Onderwijsweek C9 (31-03-2025)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | GASTSPREKER!!!! |
-| di |  [Klassediagram -> STD](./programmas/programma-klassediagram-intro.md) (GP,BB) resultaten bespreken in klas,Overzicht, Repeat|
-| wo | [Objectmodel -> Klassediagram](./programmas/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project???? (GP&BB)  |
-| do |  other |
+Week C9. 
 
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**MV,HP,BB**) |
+| di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**MV,HP,BB**) |
+| wo  | | PLC workshop (bij electro) |
+| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 | |
 
+### Onderwijsweek C10 (7-04-2025)
 
-#### Week A7 (24-3-2025)
+Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van (gegeven) STD NEC protocol, start implementatie van core functionaliteit van RTOS subsysteem.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-object-model-2.md">Oefening Object Model</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | <a href="./programmas/programma-taakstructurering.md">Oefening Taakstructurering</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| wo | <a href="./programmas/programma-klassediagram-observer.md">Oefening Klassediagram + Observer Pattern</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-constexpr_templates.md" style="border-color: var(--border-color);">Constexpr + Numerieke wiskunde + Templates</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**MV,HP,BB**) |
+| di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**MV,HP,BB**) |
+| wo  | | [STD](./lesprogramma/programma-std-1.md)   (**MV,HP,BB**) |
+| do  | | [STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**MV,HP,BB**)|
 
-#### Week A8 (31-3-2025)
+### Onderwijsweek D1 (14-04-2025)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-klassediagram-handler.md">Oefening Klassediagram + Handler Pattern</a>&nbsp; &nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | <a href="./programmas/programma-synchronisatiemechanismen.md" style="border-color: var(--border-color);">Synchronisatiemechanismen</a>&nbsp; (MV,HP,&nbsp;BB) |
-| wo | wo 2 okt, 9:00-17:00, PL99-0.237:&nbsp;plc workshop (bij electro) 1/4&nbsp;&nbsp; |
-| do | {<b>Peil 1</b>} |
+Week D1. 
 
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**MV,HP,BB**) |
+| di  | | PLC workshop (bij electro) |
+| wo  | | [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**MV,HP,BB**) |
+| do  | **2e Peilmoment** | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**) |
 
-### Sprint 3
+### Onderwijsweek D2 (21-04-2025)
 
-Object Model en klassediagram van het RTOS subsysteem afmaken, implementatie van (gegeven) STD NEC protocol, start implementatie van core functionaliteit van RTOS subsysteem.
+Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br/>(requirements, usecases, storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
 
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | 2de Paasdag |  |
+| di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**MV, HP**) |
+| wo  | | PLC workshop en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
+| do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB, MV**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**MV, HP**)|
 
-#### Week A9 (7-4-2025)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-raii-sfinae.md" style="border-color: var(--border-color);">RAII + SFINAE</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | <a href="./programmas/programma-cleanrtos-debugging.md" style="border-color: var(--border-color);">CleanRtos, FreeRtos, Logger / Debugging</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| wo | <a href="./programmas/programma-std-1.md" style="border-color: var(--border-color);">STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a href="./programmas/programma-std-naar-code.md" style="border-color: var(--border-color);">STD naar Code</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
+### Onderwijsweek D3 (28-04-2025)
 
-#### Week A7 (14-10-2024)
+Week D3.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-std-2.md" style="border-color: var(--border-color);">Meer STD</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| di | di 15 okt, 9:00-17:00, PL99-0.237: plc workshop (bij electro) 2/4&nbsp; |
-| wo | <a href="./programmas/programma-std-naar-code-ir-ontvanger.md" style="border-color: var(--border-color);">IR ontvanger</a>&nbsp; &nbsp;(MV,HP,&nbsp;BB) |
-| do | <a style="border-color: var(--border-color);" href="./programmas/programma-PID.md">PID (regeltechniek)</a>&nbsp;(BB, MV) |
+| Dag | |
+| --- | --- |
+| ma  | Vakantie |
+| di  | Vakantie |
+| wo  | Vakantie |
+| do  | Vakantie |
+| vr  | Vakantie |
 
+### Onderwijsweek D4 (5-05-2025)
 
-### Sprint 4
+Week D4. 
 
-RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb draaiend. Een architectuur gemaakt voor het server-deel.<br>(requirements, usecases,&nbsp; storage model, distributie van functionaliteit over python/flask, html/css en javascript.)
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | Bevrijdingsdag |  |
+| di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**MV, HP**) |
+| wo  | | PLC workshop (bij electro) 4/4  (**MV, HP**) |
+| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**MV, BB, HP**)|
 
+### Onderwijsweek D5 (12-05-2025)
 
-#### Week A8 (21-10-2024)
+Week D5. Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a style="border-color: var(--border-color);" href="./programmas/programma-webapp-flask-docker-mongodb.md">Flask, MongoDb, Docker Composer en Voorbeeld WebApp</a>&nbsp;(MV, HP) |
-| di | di 22 okt, PL99-0.237:&nbsp;plc workshop 3/4 en&nbsp;<a href="./programmas/programma-PID-workshop.md" style="border-color: var(--border-color);">Ventilator Wip Workshop)</a>&nbsp;(BB, MV) |
-| wo | <a style="border-color: var(--border-color);" href="./programmas/programma-sign-freq-filter.md">Signalen in het frequentiedomein, fir filter, median filter</a>&nbsp;(BB, MV) |
-| do | <a href="./programmas/programma-html-css.md" style="border-color: var(--border-color);">HTML, CSS</a>&nbsp;(pointer naar zelfstudie)&nbsp; (MV, HP) |
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | [Karnaugh](./lesprogramma/programma-karnaugh-naar-formule.md) (**MV, BB, HP**) |
+| di  | | [Combinatoriek 2/ 2](./lesprogramma/programma-combinatoriek-2.md) (**MV, BB, HP**) |
+| wo  | | [Quick and Dirty](./lesprogramma/programma-quick-and-dirty.md) (**MV, BB, HP**) |
+| do  | | [Compact and Clean](./lesprogramma/programma-compact-and-clean.md) (**MV, BB, HP**) |
 
-#### Week A9 (28-10-2024)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | vakantie |
-| di | vakantie |
-| wo | vakantie |
-| do | vakantie |
+### Onderwijsweek D6 (19-05-2025)
 
-#### Week A10 (4-11-2024)
+Week D6. 
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-javascript.md" style="border-color: var(--border-color);">Javascript</a>&nbsp;(pointer naar zelfstudie)&nbsp; &nbsp; (MV, HP) |
-| di | plc workshop (bij electro) 4/4&nbsp; &nbsp; (MV, HP) |
-| wo | <a href="./programmas/programma-combinatoriek-1.md" style="border-color: var(--border-color);">Combinatoriek 1/ 2</a>&nbsp; &nbsp; (MV, BB, HP) |
-| do | {<b>Peil 2</b>} |
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**MV, BB, HP**) |
+| di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**MV, BB, HP**) |
+| wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**MV, BB, HP**) |
+| do  | **3e Peilmoment** |  [Recap Rekenen](./lesprogramma/programma-recap-basis-rekenen.md)   (**BB, MV, HP**) |
 
+### Onderwijsweek D7 (26-05-2025)
 
-### Sprint 5
+Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen. 
 
-Webdeel verder klaar en geintegreerd met RTOS subsysteem.
+| Dag | Project     | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) |
+| di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**BB, MV, HP**) |
+| wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV, BB, HP**) |
+| do  | Hemelvaartsdag |  |
 
+### Onderwijsweek D8 (2-06-2025)
 
-#### Week B1 (11-11-2024)
+Week D8.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-karnaugh-naar-formule.md" style="border-color: var(--border-color);">Karnaugh</a>&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
-| di | <a href="./programmas/programma-combinatoriek-2.md" style="border-color: var(--border-color);">Combinatoriek 2/ 2</a>&nbsp; &nbsp; &nbsp; (MV, BB, HP) |
-| wo | <a href="./programmas/programma-quick-and-dirty.md" style="border-color: var(--border-color);">Quick and Dirty</a>&nbsp; &nbsp; &nbsp;(MV, BB, HP) |
-| do | <a href="./programmas/programma-compact-and-clean.md" style="border-color: var(--border-color);">Compact and Clean</a>&nbsp; &nbsp;(MV, BB, HP) |
+| Dag | Project | Kennissessie     |
+| --- | --- | --- |
+| ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV, BB, HP**) |
+| di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV, BB, HP**)  |
+| wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV, BB, HP**) |
+| do  | | |
 
-#### Week B2 (18-11-2024)
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-digitale-simulatie.md" style="border-color: var(--border-color);">Digitale Simulatie</a>&nbsp;(logisim)&nbsp; &nbsp;(MV, BB, HP) |
-| di | <a href="./programmas/programma-bouwen-en-debuggen-1.md" style="border-color: var(--border-color);">Bouwen en debuggen van digitale electronica</a>&nbsp;(MV, BB, HP) |
-| wo | <a href="./programmas/programma-bouwen-en-debuggen-2.md" style="border-color: var(--border-color);">Bouwen en debuggen van digitale electronica</a>&nbsp;(MV, BB, HP) |
-| do | <a style="border-color: var(--border-color);" href="./programmas/programma-recap-basis-rekenen.md">Recap Rekenen</a>&nbsp; &nbsp;(BB, MV, HP) |
+### Onderwijsweek D9 (9-06-2025)
 
+Week D9.
 
-### Sprint 6
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | 2e Pinksterdag |  |
+| di  |  |  [Workshop PCB ontwerpen (Semester 2)](./lesprogramma/programma-workshop-pcb-design.md)  (**HS**) |
+| wo  |  |  [Practische Vaardigheden Electro](./lesprogramma/programma-practische-vaardigheden-electro.md) (**BB & HS**)|
+| do  | :end: Einde sprint 6 &amp; planning afronden (sprint 7)  | |
 
-Werkend prototype
+### Onderwijsweek D10 (16-06-2025)
 
+Week D10. Werkend eindproduct presenteren en demonstreren. Documentatie opleveren. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
-#### Week B3 (25-11-2024)
+| Dag | Project | Kennissessie |
+| --- | --- | --- |
+| ma  | | |
+| di  | | |
+| wo  | | Demo dag |
+| do  | **4e Peilmoment**  | |
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a style="border-color: var(--border-color);" href="./programmas/programma-persoonlijke-onderzoeksopdracht.md">Persoonlijke Onderzoeksopdracht</a> |
-| di | <a href="./programmas/programma-recap-electro.md" style="border-color: var(--border-color);">Recap Electro</a>&nbsp; &nbsp;(BB, MV, HP) |
-| wo | <a href="./programmas/programma-ac-dc.md" style="border-color: var(--border-color);">AC / DC</a>&nbsp; &nbsp;(MV, BB, HP) |
-| do |  |
+### Onderwijsweek D11 (23-06-2025)
 
-#### Week B4 (2-12-2024)
+Week D11. De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | <a href="./programmas/programma-opamp-versterkertrappen.md" style="border-color: var(--border-color);">Opamp Versterkertrappen</a>&nbsp; &nbsp; (MV, BB, HP) |
-| di | <a href="./programmas/programma-hartslagmeter-1.md" style="border-color: var(--border-color);">Hartslagmeter 1/2</a>&nbsp; &nbsp; (MV, BB, HP) |
-| wo | <a href="./programmas/programma-hartslagmeter-2.md" style="border-color: var(--border-color);">Hartslagmeter 2/2</a>&nbsp; &nbsp; (MV, BB, HP) |
-| do | {<b>Peil 3</b>} |
+| Dag | Thema     | 
+| --- | --- | 
+| ma  | **Eindbeoordeling** |  
+| di  | **Eindbeoordeling** |    
+| wo  | **Eindbeoordeling** |    
+| do  | **Eindbeoordeling** |   
 
+### Onderwijsweek D12 (30-06-2025)
 
-### Sprint 7
+Week D12 en D13 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
-UI gebruiksvriendelijk maken. Performance verbeteren. Documentatie tip-top maken
+| Dag | Thema     | 
+| --- | --- | 
+| ma  | **Verbeterperiode** | 
+| di  | **Verbeterperiode** |  
+| wo  | **Verbeterperiode** |  
+| do  | **Verbeterperiode** | 
 
+### Onderwijsweek D13 (7-7-2025)
 
-#### Week B5 (9-12-2024)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma |  |
-| di | <a href="./programmas/programma-workshop-pcb-design.md" style="border-color: var(--border-color);">Workshop PCB ontwerpen (Semester 2)</a>&nbsp; (HS) |
-| wo | <a style="border-color: var(--border-color);" href="./programmas/programma-practische-vaardigheden-electro.md">Practische Vaardigheden Electro</a> |
-| do |  |
-
-#### Week B6 (16-12-2024)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma |  |
-| di |  |
-| wo |  |
-| do |  |
-
-#### Week B7 (23-12-2024)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | Vakantie |
-| di | Vakantie |
-| wo | Vakantie |
-| do | Vakantie |
-
-#### Week B8 (30-12-2024)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | Vakantie |
-| di | Vakantie |
-| wo | Vakantie |
-| do | Vakantie |
-
-
-### Oplevering
-
-Werkend eindproduct presenteren en demonstreren. Documentatie opleveren.
-
-
-#### Week B9 (6-1-2025)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma |  |
-| di |  |
-| wo |  |
-| do | {<b>Peil 4</b>} |
-
-
-### Evaluaties
-
-Evaluaties<br>Op een aparte branch kan alvast gewerkt worden aan eventuele verbeteringen.
-
-
-#### Week B10 (13-1-2025)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma |  |
-| di |  |
-| wo |  |
-| do |  |
-
-
-### Reparatie
-
-Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
-
-
-#### Week B11 (20-1-2025)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | Verbeterperiode |
-| di | Verbeterperiode |
-| wo | Verbeterperiode |
-| do | Verbeterperiode |
-
-#### Week B12 (27-1-2025)
-
-| **Dag** | **Kennissessie** |
-|---|---|
-| ma | Verbeterperiode |
-| di | Verbeterperiode |
-| wo | Verbeterperiode |
-| do | Verbeterperiode |
-
-
-#### Docenten-info:
-
-Deze pagina is gegenereerd uit: [./Programma.drawio](./Programma.drawio) met het volgende script: [./DrawioProgrammaNaarMd.py](./DrawioProgrammaNaarMd.py)
-
-De alternatieve view is uit diezelfde drawio gegenereerd via export naar HTML (uncheck lightbox en uncheck zoom to fit)
+| Dag | Thema     
+| --- | --- |
+| ma  | **Verbeterperiode** |  
+| di  | **Verbeterperiode** |  
+| wo  | **Verbeterperiode** |   
+| do  | **Verbeterperiode** |  
