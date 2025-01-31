@@ -5,7 +5,8 @@ Document met eigen (deel van) een klassediagram.
 - Het Klassediagram is **afgeleid uit** het bijbehorende **Object Model**.
 - Uitleg hoe met het klassediagram de **doelen** optimaal behaald kunnen worden.
 - Gedacht aan **hergebruik**: abstracte interface waar van toepassing.
-- **Geen dependency-lussen** (doorbreek die door tussenvoegen van abstracte interfaces).
+- **Geen dependency-lussen** (doorbreek die door tussenvoegen van abstracte interfaces zoals Listners).
+  NB: sensoren vereisen i.h.a. een Listener/Observer pattern.
 - Correcte **relaties** (reference,composite,inheritance).
 - **Templates** toegepast waar nodig, maar niet waar niet nodig.
 - **Design patterns** (observer, handler) toegepast waar nodig.
