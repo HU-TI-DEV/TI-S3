@@ -1,33 +1,49 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx)
 
-# Semester 3 van Technische Informatica
+# Semester 3 van Technische Informatica <!-- omit in toc -->
 
 ### Inhoud
 
-- [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
-  - [Organisatie](#organisatie)
-  - [Programma](#programma)
+- [Programma](#programma)
+  - [Opstarten](#opstarten)
     - [Week A1 (10-2-2025)](#week-a1-10-2-2025)
+  - [Sprint 1](#sprint-1)
     - [Week A2 (17-2-2025)](#week-a2-17-2-2025)
+    - [Week A3 (24-2-2025)](#week-a3-24-2-2025)
     - [Week A4 (3-3-2025)](#week-a4-3-3-2025)
+  - [Sprint 2](#sprint-2)
+- [Object Model en klassediagram van het RTOS subsysteem](#object-model-en-klassediagram-van-het-rtos-subsysteem)
     - [Week A5 (10-3-2025)](#week-a5-10-3-2025)
     - [Week A6 (17-3-2025)](#week-a6-17-3-2025)
     - [Week A7 (24-3-2025)](#week-a7-24-3-2025)
     - [Week A8 (31-3-2025)](#week-a8-31-3-2025)
+  - [Sprint 3](#sprint-3)
     - [Week A9 (7-4-2025)](#week-a9-7-4-2025)
+    - [Week A7 (14-10-2024)](#week-a7-14-10-2024)
+  - [Sprint 4](#sprint-4)
+    - [Week A8 (21-10-2024)](#week-a8-21-10-2024)
+    - [Week A9 (28-10-2024)](#week-a9-28-10-2024)
     - [Week A10 (4-11-2024)](#week-a10-4-11-2024)
+  - [Sprint 5](#sprint-5)
     - [Week B1 (11-11-2024)](#week-b1-11-11-2024)
     - [Week B2 (18-11-2024)](#week-b2-18-11-2024)
+  - [Sprint 6](#sprint-6)
     - [Week B3 (25-11-2024)](#week-b3-25-11-2024)
     - [Week B4 (2-12-2024)](#week-b4-2-12-2024)
+  - [Sprint 7](#sprint-7)
     - [Week B5 (9-12-2024)](#week-b5-9-12-2024)
     - [Week B6 (16-12-2024)](#week-b6-16-12-2024)
     - [Week B7 (23-12-2024)](#week-b7-23-12-2024)
     - [Week B8 (30-12-2024)](#week-b8-30-12-2024)
+  - [Oplevering](#oplevering)
     - [Week B9 (6-1-2025)](#week-b9-6-1-2025)
+  - [Evaluaties](#evaluaties)
     - [Week B10 (13-1-2025)](#week-b10-13-1-2025)
+  - [Reparatie](#reparatie)
     - [Week B11 (20-1-2025)](#week-b11-20-1-2025)
     - [Week B12 (27-1-2025)](#week-b12-27-1-2025)
+    - [Docenten-info:](#docenten-info)
+
 ---
 
 **v1.1.0** Semester 3 TI programma door HU IICT.
