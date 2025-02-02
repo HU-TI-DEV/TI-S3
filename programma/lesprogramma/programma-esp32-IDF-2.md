@@ -14,7 +14,7 @@ Tijdens de les wordt plenair nog even aandacht besteed aan:
 - Key Driver Chart
 - Traceability Diagram
 
-NB: De ontwikkeldocument template bevatte nog niet de Key Driver Chart. Die was over het hoofd gezien - excuses. De ontwikkeldocument template is inmiddels geupdate, zodat dat kopje er ook tussenstaat. Kopieer die alinea in het team-ontwikkeldocument - dan klopt het weer.
+~~NB: De ontwikkeldocument template bevatte nog niet de Key Driver Chart. Die was over het hoofd gezien - excuses. De ontwikkeldocument template is inmiddels geupdate, zodat dat kopje er ook tussenstaat. Kopieer die alinea in het team-ontwikkeldocument - dan klopt het weer.~~
 
 ### Canvas Opdrachten
 #### Key Driver Chart
@@ -26,6 +26,6 @@ Vergelijk als team elkaars resultaat. Gebruik die teamfeedback als feedback. Lev
 Maak op dezelfde manier de canvas opdracht voor het Traceability Diagram.
 
 ### Voor later
-Later wil je wellicht soms example code uit de esp53-idf overhalen en in je eigen / het test_lasergame project toevoegen.
-[In deze wat slome/kunstelige video](https://youtu.be/paXRrsztJp0) doe ik dat 'life' met een wifi-client example.
+Later wil je wellicht soms voorbeeld code uit de esp53-idf overhalen en in je eigen / het test_lasergame project toevoegen.
+[In deze wat slome/kunstelige video](https://youtu.be/paXRrsztJp0) doe ik dat 'life' met een WiFi-client example.
      
