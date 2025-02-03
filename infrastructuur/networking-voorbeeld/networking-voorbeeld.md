@@ -12,7 +12,7 @@ Het is een vrij groot plaatje. Scroll eerst eens naar links, dan bespreken we da
 
 ## Client-Server
 
-Op het web zijn er i.h.a. clients die data opvragen en servers die die data leveren. We gaan er in dit geval vanuit dat de client een PC is met browser en de server een machine is die een website host.
+Op het web zijn er in het algemeen clients die data opvragen en servers die die data leveren. We gaan er in dit geval vanuit dat de client een PC is met browser en de server een machine is die een website host.
 
 ## Ip nummers
 
