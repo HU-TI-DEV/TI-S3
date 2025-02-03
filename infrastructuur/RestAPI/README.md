@@ -70,3 +70,4 @@ Show the docs that are generated for you:
 http://127.0.0.1:8000/docs
 ```
 
+Now you are ready to [deploy your first RestAPI on a server](./FastAPI_on_VM.md).
