@@ -5,13 +5,13 @@ As a HU student you are eligible to trial use the Azure platform. You can receiv
 The VM was setup for me. I received a `.pem` file and will save this to a secure location. First open a command line.
 
 ```bash
-mv ~/Downloads/azure.pem ~/.ssh/
+mv ~/Downloads/harmsnippe.pem ~/.ssh/
 ```
 
 We need to set the right permissions for this `.pem` file.
 
 ```bash
-chmod 400 ~/.ssh/azure.pem
+chmod 400 ~/.ssh/harmsnippe.pem
 ```
 
 Find your public IP for this VM. Go to Azure Portal -> Virtual Machines -> Select your VM -> In Overview or under Networking tab. You can find the Public IP address. In my case `9.163.104.14`.
@@ -19,5 +19,5 @@ Find your public IP for this VM. Go to Azure Portal -> Virtual Machines -> Selec
 Now connect with SSH. Replaxe azureuser if your name is different.
 
 ```bash
-ssh -i ~/.ssh/azure.pem azureuser@9.163.104.14
+ssh -i ~/.ssh/harmsnippe.pem azureuser@9.163.104.14
 ```
