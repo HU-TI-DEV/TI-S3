@@ -164,10 +164,10 @@ Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, impleme
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**MV,HP,BB**) |
-| di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**MV,HP,BB**) |
-| wo  | | [STD](./lesprogramma/programma-std-1.md)   (**MV,HP,BB**) |
-| do  | | [STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**MV,HP,BB**)|
+| ma  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**HP***) |
+| di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**HP of HS???**) |
+| wo  | | [STD](./lesprogramma/programma-std-1.md)   (**GP**) |
+| do  | | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**)|
 
 ### Onderwijsweek D1 (14-04-2025)
 
@@ -175,10 +175,10 @@ Week D1.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**MV,HP,BB**) |
-| di  | | PLC workshop (bij electro) |
-| wo  | | [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**MV,HP,BB**) |
-| do  | **2e Peilmoment** | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**) |
+| ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**GP**) |
+| di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) |
+| wo  | |  PLC workshop (bij electro) |
+| do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
 ### Onderwijsweek D2 (21-04-2025)
 
