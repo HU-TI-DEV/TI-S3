@@ -134,7 +134,7 @@ Week C7.
 | ma  | | Gastspreker |
 | di  | | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) resultaten bespreken in klas, Overzicht, Repeat |
 | wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
-| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |[Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**) |
 
 ### Onderwijsweek C8 (24-03-2025)
 
@@ -244,7 +244,7 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) |
+| ma  | |  |
 | di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**BB, MV, HP**) |
 | wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV, BB, HP**) |
 | do  | Hemelvaartsdag |  |
