@@ -106,8 +106,8 @@ Week C5.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
-| di  | | [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
+| ma  | | [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
+| di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
 | wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP,BB**) |
 | do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB,GP**) |
 
