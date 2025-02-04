@@ -142,10 +142,10 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**MV,HP,BB**) |
-| di  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**MV,HP,BB**) |
-| wo  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV,HP,BB**) |
-| do  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**MV,HP,BB**) |
+| ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
+| di  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**) |
+| wo  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**GP,BB**) |
+| do  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -153,8 +153,8 @@ Week C9.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**MV,HP,BB**) |
-| di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**MV,HP,BB**) |
+| ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
+| di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
 | wo  | | PLC workshop (bij electro) |
 | do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 | |
 
