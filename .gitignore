@@ -1,7 +1,7 @@
 .idea
 *.autosave
 *.drawio.bkp
-*.*.*.dtmp
+*.dtmp
 _slidev\*.md
 **/tripleminus.py
 software/c++/oop-concepten/klassen/04-07-rectangle/line.cpp
