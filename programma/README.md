@@ -187,9 +187,9 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
-| di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**MV, HP**) |
+| di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | wo  | | PLC workshop en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
-| do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB, MV**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**MV, HP**)|
+| do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
 ### Onderwijsweek D3 (28-04-2025)
@@ -211,9 +211,9 @@ Week D4.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
-| di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**MV, HP**) |
+| di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**GP**) |
 | wo  | | PLC workshop (bij electro) 4/4  (**MV, HP**) |
-| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**MV, BB, HP**)|
+| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
 
 ### Onderwijsweek D5 (12-05-2025)
 
@@ -221,10 +221,10 @@ Week D5. Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Karnaugh](./lesprogramma/programma-karnaugh-naar-formule.md) (**MV, BB, HP**) |
-| di  | | [Combinatoriek 2/ 2](./lesprogramma/programma-combinatoriek-2.md) (**MV, BB, HP**) |
-| wo  | | [Quick and Dirty](./lesprogramma/programma-quick-and-dirty.md) (**MV, BB, HP**) |
-| do  | | [Compact and Clean](./lesprogramma/programma-compact-and-clean.md) (**MV, BB, HP**) |
+| ma  | | [Karnaugh](./lesprogramma/programma-karnaugh-naar-formule.md) (**BB**) |
+| di  | | [Combinatoriek 2/ 2](./lesprogramma/programma-combinatoriek-2.md) (**BB**) |
+| wo  | | [Quick and Dirty](./lesprogramma/programma-quick-and-dirty.md) (**BB**) |
+| do  | | [Compact and Clean](./lesprogramma/programma-compact-and-clean.md) (**BB**) |
 
 
 ### Onderwijsweek D6 (19-05-2025)
@@ -233,9 +233,9 @@ Week D6.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**MV, BB, HP**) |
-| di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**MV, BB, HP**) |
-| wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**MV, BB, HP**) |
+| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**BB, HP**) |
+| di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**BB, HP**) |
+| wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**BB, HP**) |
 | do  | **3e Peilmoment** |  [Recap Rekenen](./lesprogramma/programma-recap-basis-rekenen.md)   (**BB, MV, HP**) |
 
 ### Onderwijsweek D7 (26-05-2025)
@@ -245,8 +245,8 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | |  |
-| di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**BB, MV, HP**) |
-| wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV, BB, HP**) |
+| di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**MV**) |
+| wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV**) |
 | do  | Hemelvaartsdag |  |
 
 ### Onderwijsweek D8 (2-06-2025)
@@ -255,7 +255,7 @@ Week D8.
 
 | Dag | Project | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV, BB, HP**) |
+| ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV,BB, HP**) |
 | di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV, BB, HP**)  |
 | wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV, BB, HP**) |
 | do  | | |
