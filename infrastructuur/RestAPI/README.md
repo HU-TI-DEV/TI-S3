@@ -17,7 +17,7 @@ from fastapi import FastAPI, HTTPException
 import json
 
 # Open and load JSON file
-with open("items.json", "r") as file:
+with open(os.path.join(os.path.dirname(__file__), 'items.json')) as file:
     items = json.load(file)  # items is now a dictionary
 
 app = FastAPI()
