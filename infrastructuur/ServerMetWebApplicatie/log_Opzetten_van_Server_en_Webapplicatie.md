@@ -28,13 +28,13 @@ In [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_
 
 Het mooie van **Ubuntu_22.04_LTS** is dat het (tegenwoordig) ook op RPI4 en RPI5 ondersteund is. Direct vanuit de **Raspberry PI installer** kun je kiezen voor die distributie (de **command line versie** volstaat - je hebt geen desktop nodig). Let er (net als bij Semester 2) op dat je via **ssh** kunt inloggen op die server. Eenmaal ingelogd op (de command line) kun je voor zover ik me herinner 1-op-1 de ervaringen volgen van [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md#docker-installeren) vanaf het kopje **Docker installeren**.
 
-De centrale server (de **productie-server**) van je project-team zul je mogelijk op een Raspberry PI(4) maken.  Harm heeft geloof ik wat RPI4's liggen, maar ook wat intel-based machines waar het op geinstalleerd kan worden - dus vraag als team eerst even na welke server het wordt.
+De centrale server (de **productie-server**) van je project-team zul je mogelijk op een Raspberry PI(4) maken. Voor alle teams is er een Raspberry Pi4 beschikbaar. Ook aantal intel-based (N100) machines waar Ubuntu op geinstalleerd kan worden zijn beschikbaar. Dus vraag als team eerst even na welke server het wordt.
 
 **Als je geen windows machine met windows 11 hebt** en wel een RPI4 of RPI5, is het een goed idee om zo je **persoonlijke** Ubuntu_22.04_LTS **ontwikkelserver** aan te maken.
 
 ### Cloud server
 
-Met hetzelfde gemak zou je een AWS server kunnen aanmaken met dezelfde Linux distributie. Eentje van het type **Amazon Lightsail** is het eenvoudigst en goedkoopst (na de eerste gratis maand 8 euro per maand oid).[]() Daar kun je ook via ssh op inloggen. Dat werkt verder hetzelfde als met een Raspberry PI (alleen het ip nummer is een publiek bereikbare van amazon). Misschien een leuke oefening, maar verder **niet nodig dit semester**: onze klanten willen toevallig allemaal dat lokale servers worden gebruikt - geen cloud - om risico's op security issues te beperken. PS: mocht je de exercitie willen doen (Amazon vraagt daarvoor je creditcard gegevens), **pas dan goed op** (net als bij andere Cloud services van Google of Azure) dat je geen verkeerde knop drukt / abonnement afsluit. Zo'n foutje kan belachelijk veel per maand gaan kosten.  
+Met hetzelfde gemak zou je een AWS server of [Azure VM](../Azure_Virtual_Machine/README.md) kunnen aanmaken met dezelfde Linux distributie. Eentje van het type **Amazon Lightsail** is het eenvoudigst en goedkoopst (na de eerste gratis maand 8 euro per maand oid).[]() Daar kun je ook via ssh op inloggen. Dat werkt verder hetzelfde als met een Raspberry PI (alleen het ip nummer is een publiek bereikbare van amazon). Misschien een leuke oefening, maar verder **niet nodig dit semester**: onze klanten willen toevallig allemaal dat lokale servers worden gebruikt - geen cloud - om risico's op security issues te beperken. PS: mocht je de exercitie willen doen (Amazon vraagt daarvoor je creditcard gegevens), **pas dan goed op** (net als bij andere Cloud services van Google of Azure) dat je geen verkeerde knop drukt / abonnement afsluit. Zo'n foutje kan belachelijk veel per maand gaan kosten.  
 
 Enfin, mocht je er mee willen experimenteren - in [log_Amazon_AWS_Lightsail.md](./log_Amazon_AWS_Lightsail.md) kun je mijn ervaring daarmee teruglezen.
 
@@ -44,9 +44,9 @@ Enfin, mocht je er mee willen experimenteren - in [log_Amazon_AWS_Lightsail.md](
 
 ### Nameservers instellen
 
-Zonder instellen van de nameservers van google kan het zijn dat updates e.d. traag of niet werken.
+Zonder instellen van de nameservers van Google kan het zijn dat updates en dergelijke traag of niet werken.
 
-Controleer dus eerst of de **google nameservers** (8.8.8.8 en 8.8.4.4) insteld zijn:
+Controleer dus eerst of de **google nameservers** (8.8.8.8 en 8.8.4.4) ingesteld zijn:
 
 - cat /etc/resolv.conf
 
