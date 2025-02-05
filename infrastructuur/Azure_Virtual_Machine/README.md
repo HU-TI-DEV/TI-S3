@@ -33,6 +33,6 @@ sudo apt update && sudo apt upgrade -y
 sudo apt-get install nano
 ```
 
-Now you can start nano from the commandline.
+Now you can start nano from the commandline. For your applications you should use containers. Start with installing [Docker on Ubuntu](./Docker_on_Ubuntu.md).
 
 Try to write your own [RestAPI](../RestAPI/README.md) and deploy it. Add a Flask webserver? Mongo DB?
