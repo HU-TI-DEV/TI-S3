@@ -48,9 +48,7 @@ De contacturen zijn (subject to change):
 |ma|9:00|13:00| HL15-5.068 |
 |di|14:00|18:00| HL15-5.032 |
 |wo|13:00|17:00| HL15-5.068 |
-|do|13:00|17:00| HL15-5.068 |
-
-Ons lokaal is HL15-1.096.  
+|do|13:00|17:00| HL15-5.068 | 
 
 De docenten zijn:
 
@@ -58,6 +56,8 @@ De docenten zijn:
 * (**GP**) Gera Pronk
 * (**MV**) Marius Versteegen
 * (**BB**) Bart Bozon
+* (**HP**) Hagen Patzke
+* (**HS**) Harm Snippe
 
 ### HTML, JavaScript CSS
 
@@ -73,8 +73,8 @@ Week C2. Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaak
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS, TP, GP, HP**) |
-| di  | | [Journalling - overige stakeholders - key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**BB, GP**) |
+| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS,TP,GP,HP**) |
+| di  | | [Journalling - overige stakeholders - key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**BB,GP**) |
 | wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB,GP**) |
 | do  | Werken aan project | |
 
@@ -155,7 +155,7 @@ Week C9.
 | --- | --- | --- |
 | ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
 | di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
-| wo  | | PLC workshop (bij electro) |
+| wo  | | PLC workshop 1/4 (bij electro) |
 | do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 | |
 
 ### Onderwijsweek C10 (7-04-2025)
@@ -165,7 +165,7 @@ Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, impleme
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**HP***) |
-| di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**HP of HS???**) |
+| di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**HP,HS**) |
 | wo  | | [STD](./lesprogramma/programma-std-1.md)   (**GP**) |
 | do  | | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**)|
 
@@ -177,7 +177,7 @@ Week D1.
 | --- | --- | --- |
 | ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**GP**) |
 | di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) |
-| wo  | |  PLC workshop (bij electro) |
+| wo  | |  PLC workshop 2/4 (bij electro) |
 | do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
 ### Onderwijsweek D2 (21-04-2025)
@@ -188,7 +188,7 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | | PLC workshop en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
+| wo  | | PLC workshop 3/4 (bij electro) en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
@@ -212,7 +212,7 @@ Week D4.
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
 | di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**GP**) |
-| wo  | | PLC workshop (bij electro) 4/4  (**MV, HP**) |
+| wo  | | PLC workshop 4/4 (bij electro) 4 (**HP**) |
 | do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
 
 ### Onderwijsweek D5 (12-05-2025)
@@ -233,10 +233,10 @@ Week D6.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**BB, HP**) |
-| di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**BB, HP**) |
-| wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**BB, HP**) |
-| do  | **3e Peilmoment** |  [Recap Rekenen](./lesprogramma/programma-recap-basis-rekenen.md)   (**BB, MV, HP**) |
+| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**BB,HP**) |
+| di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**BB,HP**) |
+| wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**BB,HP**) |
+| do  | **3e Peilmoment** |  [Recap Rekenen](./lesprogramma/programma-recap-basis-rekenen.md)   (**BB,MV,HP**) |
 
 ### Onderwijsweek D7 (26-05-2025)
 
@@ -255,9 +255,9 @@ Week D8.
 
 | Dag | Project | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV,BB, HP**) |
-| di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV, BB, HP**)  |
-| wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV, BB, HP**) |
+| ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV,BB,HP**) |
+| di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV,BB,HP**)  |
+| wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV,BB,HP**) |
 | do  | | |
 
 
@@ -269,7 +269,7 @@ Week D9.
 | --- | --- | --- |
 | ma  | 2e Pinksterdag |  |
 | di  |  |  [Workshop PCB ontwerpen (Semester 2)](./lesprogramma/programma-workshop-pcb-design.md)  (**HS**) |
-| wo  |  |  [Practische Vaardigheden Electro](./lesprogramma/programma-practische-vaardigheden-electro.md) (**BB & HS**)|
+| wo  |  |  [Practische Vaardigheden Electro](./lesprogramma/programma-practische-vaardigheden-electro.md) (**BB,HS**)|
 | do  | :end: Einde sprint 6 &amp; planning afronden (sprint 7)  | |
 
 ### Onderwijsweek D10 (16-06-2025)
