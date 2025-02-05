@@ -1,4 +1,4 @@
-# Programma ESP32 IDF en CleanRTOS installeren
+# Programma ESP32 IDF en CleanRTOS installeren - deel 1
 
 Deze les gaan we de ESP32 IDF programmeeromgeving installeren en (team-)project voor de code aanmaken.
 
