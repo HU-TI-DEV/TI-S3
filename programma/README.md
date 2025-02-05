@@ -88,7 +88,7 @@ Week A2. Advies, in de vorm van Functionele Requirements, Non Functionele Requir
 | ma  | | [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md)  (**GP,BB**) |
 | di  | | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md)  (**GP,BB**) |
 | wo  | | [ESP32-IDF basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
-| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [CleanRTOS, zigbee en KeyDriver Chart](./lesprogramma/programma-esp32-IDF-2.md)  (**BB,GP**) |
+| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [CleanRTOS, zigbee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**) |
 
 ### Onderwijsweek C4 (24-02-2025)
 
