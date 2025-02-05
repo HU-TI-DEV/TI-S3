@@ -22,6 +22,17 @@ Now connect with SSH. The azureuser is often used as the standard name. Replace 
 ssh -i ~/.ssh/harmsnippe.pem azureuser@9.163.104.14
 ```
 
-There was not a response. In the logs we found tha processes were beigin killed. After increasing the memory to 1GB a was able to login. Also the VM is shutdown during the night to save on costs. I tag my VM with `key="shutdown", value="no"`
+There was not a response. In the logs we found that processes were being killed. After increasing the memory to 1GB a was able to login. Also the VM is shutdown during the night to save on costs. I tag my VM with `key="shutdown", value="no"`
 
-Try to deploy your own [RestAPI](../RestAPI/README.md) or Flask webserver.
+## Installing nano
+
+To edit text documents on the server I like to be able to use the program nano.
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt-get install nano
+```
+
+Now you can start nano from the commandline.
+
+Try to write your own [RestAPI](../RestAPI/README.md) and deploy it. Add a Flask webserver? Mongo DB?
