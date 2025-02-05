@@ -15,6 +15,7 @@ First make a example.py in your projectfolder. I have Json data file for all the
 ```python
 from fastapi import FastAPI, HTTPException
 import json
+import os
 
 # Open and load JSON file
 with open(os.path.join(os.path.dirname(__file__), 'items.json')) as file:
