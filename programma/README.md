@@ -39,16 +39,16 @@
 
 ## Een introductie
 
-
 ### Organisatie
 
 De contacturen zijn (subject to change):
+
 |dag|van|tot| lokaal |
 |---|---|---| --- |
 |ma|9:00|13:00| HL15-5.068 |
 |di|14:00|18:00| HL15-5.032 |
 |wo|13:00|17:00| HL15-5.068 |
-|do|13:00|17:00| HL15-5.068 | 
+|do|13:00|17:00| HL15-5.068 |
 
 De docenten zijn:
 
@@ -87,8 +87,8 @@ Week A2. Advies, in de vorm van Functionele Requirements, Non Functionele Requir
 | --- | --- | --- |
 | ma  | | [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md)  (**GP,BB**) |
 | di  | | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md)  (**GP,BB**) |
-| wo  | | [ESP32-IDF basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
-| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [CleanRTOS, zigbee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**) |
+| wo  | | [ESP32 IDF en CleanRTOS installeren - deel 1: basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
+| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [ESP32 IDF en CleanRTOS installeren - deel 2: CleanRTOS, ZigBee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**), <br>[Key Driver Chart en Traceability Diagram](./lesprogramma/programma-keydriver-chart-traceability-diagram.md)  (**HP,HS**) |
 
 ### Onderwijsweek C4 (24-02-2025)
 
