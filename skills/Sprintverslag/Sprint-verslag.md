@@ -71,11 +71,11 @@ Het bepalen van de feedback gebeurt met de student in kwestie er bij (die mag oo
     Datum :     xx - xx - xxxx
     Afwezig:  
 
-    Verbeterpunten voorgaande retro:
+    Bespreking punten voorgaande retro:
 
     Link naar retro bord:
-
-    Maximaal drie verbeterpunten uit de retro: 
+ 
+    Maximaal drie punten uit deze retro voor de volgende sprint: 
 
     
 ### Feedback teambegeleider
