@@ -43,5 +43,5 @@ Use Docker commands without typing sudo.
 sudo usermod -aG docker azureuser
 ```
 
-In Semester 2 we already worked with [Docker and its commands](https://github.com/HU-TI-DEV/TI-S2/blob/main/infrastructuur/Docker/README.md).
+In Semester 2 we already worked with [Docker and its commands](https://github.com/HU-TI-DEV/TI-S2/blob/main/infrastructuur/Docker/README.md). It is also nice to have a tool like [Docker Compose](./Docker_Compose_on_Ubuntu.md) for automated installation of multiple Docker Containers that interact with each other. 
 
