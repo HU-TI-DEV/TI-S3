@@ -108,7 +108,7 @@ Een handig uitgangspunt van je project is het onderstaande lasergame-template-pr
 
 - Alles wordt gebouwd op dezelfde build folder, met dezelfde main file.
 - De CleanRTOS libraries zijn toegevoegd, evenals enkele Arduino-IDE libraries.
-- Het heeft voorbeeld applicaties in een apps subfolder, die het gebruik van CleanRTOS demonstreren en hoe iets zowel gebouwd kan worden in Arduino-IDE als in ESP-IDF.
+- Het heeft voorbeeld applicaties in een apps subfolder, die het gebruik van [CleanRTOS](../CleanRTOS/README.md) demonstreren en hoe iets zowel gebouwd kan worden in Arduino-IDE als in ESP-IDF.
 - Het heeft een ClockPin class - welke superhandig is voor het schrijven van frequency-chopped communicaties zoals IR-communicatie.
 - Voor de liefhebber is er ook support voor ILI-touchscreen displays (alleen is dat nog niet compatibel met zigbee).
 
@@ -194,10 +194,6 @@ Een andere leuke test, als je een ILI-touchscreen hebt aangesloten, kun je doen 
 
 littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan installeren oid.
 
-### Zigbee
-
-Enfin, voor IDF5.1 heb ik in een ander log al zigbee getest. voor IDF5.3 gaat het vast vergelijkbaar, dus zie [ESP32-C6.md op S3 github](https://github.com/HU-TI-DEV/TI-S3/blob/main/onderwijsmateriaal/voorbeeld-oude-logboeken-esp32/zigbee/ESP32-C6.md).
-
 # Appendix format specifiers
 
 Het kan zijn dat een deel van de code uit het project test_lasergame_2 nog niet helemaal werkt op esp-idf 5.3 (de code werd gemaakt in 4.4).
@@ -205,7 +201,7 @@ Als er nog iets aangepast moet worden, zijn het vermoedelijk format specifiers b
 
 Dat blijkt dan wel uit de foutmeldingen.
 
-Ik heb chatgpt 4.o een mappings-tabel laten maken (er kunnen dus fouten in zitten):
+Ik heb chatgpt 4.0 een mappings-tabel laten maken (er kunnen dus fouten in zitten):
 
 | **Type**                 | **Format Specifier** |
 | ------------------------ | -------------------- |
