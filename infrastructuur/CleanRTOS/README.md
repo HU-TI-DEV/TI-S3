@@ -8,15 +8,15 @@ Daarnaast is in de comment sectie van elk van de klassen zelf een en ander in (n
 
 ## Wat is CleanRTOS?
 
-CleanRTOS is een flinterdunne wrapper rond freeRTOS. Daarnaast bevat het nog een aantal additionele classen die helpen overzichtelijke embedded software te schrijven en te debuggen.
+CleanRTOS is een flinterdunne wrapper rond [freeRTOS](https://www.freertos.org). Daarnaast bevat het nog een aantal additionele classen die helpen overzichtelijke embedded software te schrijven en te debuggen.
 
 ### Wat is freeRTOS?
 
-FreeRTOS is een open source, veel toegepaste RTOS. Het is een standaard onderdeel van de ESP32 firmware.
+FreeRTOS is een open source, veel toegepaste Real Time Operating System. Het is een standaard onderdeel van de ESP32 firmware.
 
 #### Wat is een RTOS?
 
-Een RTOS staat voor "Real Time Operating System". Het is bedoeld om voor microcontrollers (net als operating systems zoals Linus en Windows) overzichtelijke multi-threaded code te kunnen schrijven.
+Een RTOS staat voor "Real Time Operating System". Het is bedoeld om voor microcontrollers (net als operating systems zoals Linux en Windows) overzichtelijke multi-threaded code te kunnen schrijven.
 
 ## Waarom CleanRTOS?
 
