@@ -11,7 +11,7 @@ Bestudeer het volgende:
 - [REST video](https://www.youtube.com/watch?v=-mN3VyJuCjM&t=47s)
 - [OSI model video](https://www.youtube.com/watch?v=0y6FtKsg6J4)
 - [Video van over Internet, REST en het OSI model](https://youtu.be/KRQ9wSHRSqM)
-- [Networking voorbeeld](../../infrastructuur/networking-voorbeeld/networking-voorbeeld.md)
+- [Networking voorbeeld](../../infrastructuur/networking-voorbeeld/README.md)
 - [Sheets](../../onderwijsmateriaal/presentaties/Communication_Protocols_v1.0.pptx)
 
 ## Tijdens en na de les
