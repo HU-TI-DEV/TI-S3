@@ -76,5 +76,5 @@ The HEX corresponds to a JSON object. Use an online converter or ask ChatGPT.
 
 ## Include this example code as lib in the template
 
-There are quite some steps involved to acomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to include this code as a library in the lasergame_template_2
+There are quite some steps involved to acomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to [include this code as a library in the lasergame_template_2](./ESP-IDF_include_example_as_library.md)
 
