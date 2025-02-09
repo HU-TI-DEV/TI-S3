@@ -1,4 +1,33 @@
-# Log opzetten van server en de voorbeeld Webapplicatie
+### Opzetten van server en de voorbeeld Webapplicatie
+
+- [Waarom een server opzetten?](#waarom-een-server-opzetten)
+- [Waarom Ubuntu?](#waarom-ubuntu)
+- [Waarom Ubuntu\_22.04\_LTS?](#waarom-ubuntu_2204_lts)
+- [Ontwikkel server vs Productie server](#ontwikkel-server-vs-productie-server)
+- [WSL, Raspberry PI, cloud server](#wsl-raspberry-pi-cloud-server)
+  - [WSL](#wsl)
+  - [Raspberry PI](#raspberry-pi)
+  - [Cloud server](#cloud-server)
+- [Voorbeld Web Applicatie](#voorbeld-web-applicatie)
+- [Server verder inrichten](#server-verder-inrichten)
+  - [Nameservers instellen](#nameservers-instellen)
+  - [update en upgrade](#update-en-upgrade)
+  - [git](#git)
+  - [python](#python)
+  - [Docker subfolders](#docker-subfolders)
+  - [Testen of het werkt](#testen-of-het-werkt)
+- [Iets meer over docker containers](#iets-meer-over-docker-containers)
+  - [Zelf een docker image maken](#zelf-een-docker-image-maken)
+  - [mounten van volumes](#mounten-van-volumes)
+- [Werken via VSCode](#werken-via-vscode)
+  - [VSCode via SSH op Raspberry PI of andere PC](#vscode-via-ssh-op-raspberry-pi-of-andere-pc)
+    - [Probleempje met RPI4: kan niet meer ssh inloggen na een herstart](#probleempje-met-rpi4-kan-niet-meer-ssh-inloggen-na-een-herstart)
+- [VSCode via SSH op Lightsail](#vscode-via-ssh-op-lightsail)
+  - [VSCode via WSL](#vscode-via-wsl)
+- [MongoDB](#mongodb)
+  - [MongoDB Compass](#mongodb-compass)
+
+
 
 ## Waarom een server opzetten?
 
@@ -6,15 +35,15 @@ We willen dat ieder **individueel** een development server opzet, zodat alle tea
 
 ## Waarom Ubuntu?
 
-Ubuntu is een van de, of misschien wel de **meest gangbare** Linux variant van het moment. Daardoor is vrijwel alles wat je kunt bedenken ondersteund (bijvoorbeeld ook de gebruiksvriendelijke MongoDatabase, waar ik geen support voor vond op Debian).
+Ubuntu is een van de, of misschien wel de **meest gangbare** Linux variant van het moment. Daardoor is vrijwel alles wat je kunt bedenken ondersteund. Bijvoorbeeld ook de gebruiksvriendelijke MongoDatabase, waar ik geen support voor vond op Debian.
 
 ## Waarom Ubuntu_22.04_LTS?
 
-Om **incompatibiliteitsproblemen** met je teamleden te **voorkomen**, is het een goed idee dezelfde Linux distributie te gebruiken. De specifiek gebruikte docker images zijn immers vaak gelinkt aan specifieke linux distributies. De **voorbeeld webapplicatie** die je dit semester krijgt, is gebaseerd op Ubuntu_22.04_LTS. Door dezelfde distributie te gebruiken ben je ervan verzekerd dat je een goed werkend voorbeeld hebt.
+Om **incompatibiliteitsproblemen** met je teamleden te **voorkomen**, is het een goed idee dezelfde Linux distributie te gebruiken. De specifiek gebruikte Docker images zijn immers vaak gelinkt aan specifieke Linux distributies. De **voorbeeld webapplicatie** die je dit semester krijgt, is gebaseerd op Ubuntu_22.04_LTS. Door dezelfde distributie te gebruiken ben je ervan verzekerd dat je een goed werkend voorbeeld hebt.
 
 ## Ontwikkel server vs Productie server
 
-Je wilt je webapplicatie normaal gesproken op **meerdere servers** tegelijk kunnen draaien. Zoals je gewend bent, kun je je software op verschillende machines **synchroniseren** door het gebruikt van **github**. Zo kun je op ontwikkel-servers testen en pushen, en op momenten dat je een productie wilt releasen op een productie-server pullen.
+Je wilt je webapplicatie normaal gesproken op **meerdere servers** tegelijk kunnen draaien. Zoals je gewend bent, kun je je software op verschillende machines **synchroniseren** door het gebruikt van **GitHub**. Zo kun je op ontwikkel-servers testen en pushen, en op momenten dat je een productie wilt releasen op een productie-server pullen.
 
 ## WSL, Raspberry PI, cloud server
 
@@ -28,15 +57,19 @@ In [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_
 
 Het mooie van **Ubuntu_22.04_LTS** is dat het (tegenwoordig) ook op RPI4 en RPI5 ondersteund is. Direct vanuit de **Raspberry PI installer** kun je kiezen voor die distributie (de **command line versie** volstaat - je hebt geen desktop nodig). Let er (net als bij Semester 2) op dat je via **ssh** kunt inloggen op die server. Eenmaal ingelogd op (de command line) kun je voor zover ik me herinner 1-op-1 de ervaringen volgen van [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md#docker-installeren) vanaf het kopje **Docker installeren**.
 
-De centrale server (de **productie-server**) van je project-team zul je mogelijk op een Raspberry PI(4) maken.  Harm heeft geloof ik wat RPI4's liggen, maar ook wat intel-based machines waar het op geinstalleerd kan worden - dus vraag als team eerst even na welke server het wordt.
+De centrale server (de **productie-server**) van je project-team zul je mogelijk op een Raspberry PI(4) maken. Voor alle teams is er een Raspberry Pi4 beschikbaar. Ook aantal intel-based (N100) machines waar Ubuntu op geinstalleerd kan worden zijn beschikbaar. Dus vraag als team eerst even na welke server het wordt.
 
 **Als je geen windows machine met windows 11 hebt** en wel een RPI4 of RPI5, is het een goed idee om zo je **persoonlijke** Ubuntu_22.04_LTS **ontwikkelserver** aan te maken.
 
 ### Cloud server
 
-Met hetzelfde gemak zou je een AWS server kunnen aanmaken met dezelfde Linux distributie. Eentje van het type **Amazon Lightsail** is het eenvoudigst en goedkoopst (na de eerste gratis maand 8 euro per maand oid).[]() Daar kun je ook via ssh op inloggen. Dat werkt verder hetzelfde als met een Raspberry PI (alleen het ip nummer is een publiek bereikbare van amazon). Misschien een leuke oefening, maar verder **niet nodig dit semester**: onze klanten willen toevallig allemaal dat lokale servers worden gebruikt - geen cloud - om risico's op security issues te beperken. PS: mocht je de exercitie willen doen (Amazon vraagt daarvoor je creditcard gegevens), **pas dan goed op** (net als bij andere Cloud services van Google of Azure) dat je geen verkeerde knop drukt / abonnement afsluit. Zo'n foutje kan belachelijk veel per maand gaan kosten.  
+Met hetzelfde gemak zou je een AWS server of [Azure VM](../Azure_Virtual_Machine/README.md) kunnen aanmaken met dezelfde Linux distributie. Eentje van het type **Amazon Lightsail** is het eenvoudigst en goedkoopst (na de eerste gratis maand 8 euro per maand oid).[]() Daar kun je ook via ssh op inloggen. Dat werkt verder hetzelfde als met een Raspberry PI (alleen het ip nummer is een publiek bereikbare van amazon). Misschien een leuke oefening, maar verder **niet nodig dit semester**: onze klanten willen toevallig allemaal dat lokale servers worden gebruikt - geen cloud - om risico's op security issues te beperken. PS: mocht je de exercitie willen doen (Amazon vraagt daarvoor je creditcard gegevens), **pas dan goed op** (net als bij andere Cloud services van Google of Azure) dat je geen verkeerde knop drukt / abonnement afsluit. Zo'n foutje kan belachelijk veel per maand gaan kosten.  
 
-Enfin, mocht je er mee willen experimenteren - in [log_Amazon_AWS_Lightsail.md](./log_Amazon_AWS_Lightsail.md) kun je mijn ervaring daarmee teruglezen.
+Er is een [beschrijving voor het aanmaken van een Virtual Machine op Azure](../Azure_Virtual_Machine/README.md) en mocht je willen experimenteren kan je ook de [log_Amazon_AWS_Lightsail.md](./log_Amazon_AWS_Lightsail.md) teruglezen.
+
+## Voorbeld Web Applicatie
+
+In dit semester werken we met een [VoorbeeldWebApp_Gomoku](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku). Een [installatie voorbeeld op Azure VM](./Gomoku_on_Ubuntu.md) kan gebruiken om te experimenteren met [Docker Compose](../Azure_Virtual_Machine/Docker_Compose_on_Ubuntu.md).
 
 ## Server verder inrichten
 
@@ -44,9 +77,9 @@ Enfin, mocht je er mee willen experimenteren - in [log_Amazon_AWS_Lightsail.md](
 
 ### Nameservers instellen
 
-Zonder instellen van de nameservers van google kan het zijn dat updates e.d. traag of niet werken.
+Zonder instellen van de nameservers van Google kan het zijn dat updates en dergelijke traag of niet werken.
 
-Controleer dus eerst of de **google nameservers** (8.8.8.8 en 8.8.4.4) insteld zijn:
+Controleer dus eerst of de **google nameservers** (8.8.8.8 en 8.8.4.4) ingesteld zijn:
 
 - cat /etc/resolv.conf
 
@@ -209,8 +242,8 @@ Installeer in VSCode daartoe de **Remote-WSL** extension.
 Helaas heb ik daar geen log van bijgehouden. Dus dat is iets om zelf uit te zoeken.   
 Relevante dingen die ik mer herinner zijn:  
 
-- Als je in de wsl terminal van je linux subsystem zit, bijvoorbeeld in /home/marius, kun je daar **``code .``** intypen om de huidige folder in VSCode te openen in windows 11.
-- Als je VSCode daarentegen vanuit windows 11 opent, kun je bij **recente folders** de WSL-linux folders zien en openen.
+- Als je in de wsl terminal van je Linux subsystem zit, bijvoorbeeld in /home/marius, kun je daar **``code .``** intypen om de huidige folder in VSCode te openen in windows 11.
+- Als je VSCode daarentegen vanuit windows 11 opent, kun je bij **recente folders** de WSL-Linux folders zien en openen.
 - Het is daarvoor wel nodig om ervoor te zorgen dat in VSCode de **Remote-WSL extension** op "**enabled**" staat.
 
 ## MongoDB

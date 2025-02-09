@@ -1,7 +1,7 @@
 # Programma CleanRTOS, Logging, Debugging
 
 ### Voorbereiding
-- Bestudeer [CleanRTOS](../../infrastructuur/CleanRTOS/CleanRTOS.md)
+- Bestudeer [CleanRTOS](../../infrastructuur/CleanRTOS/README.md)
 en bouw en executeer zelf ook wat voorbeeld samples: TwoTasks, Flags, Queue, Pool, Timer etc.
 
 ### Canvas Opdracht - Pong aan de praat krijgen

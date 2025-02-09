@@ -90,4 +90,4 @@ Build again, note the change in USB device:
 idf.py -p /dev/cu.usbserial-2120 flash monitor
 ```
 
-Yes. Now we have more success. The network scan shows me a number of APs.
+Yes. Now we have more success. The network scan shows me a number of APs. With the [ESP32 C6 I compiled some ESP-IDF examles](./ESP32-C6-wifi-scan.md).

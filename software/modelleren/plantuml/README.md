@@ -1,16 +1,17 @@
-# Modelleren met plantUML
+# Modelleren met plantUML   <!-- omit in toc -->
 
-- [Modelleren met plantUML](#modelleren-met-plantuml)
-  - [Introductie](#introductie)
-  - [Key driver chart](#key-driver-chart)
-  - [System context diagram](#system-context-diagram)
-  - [Use case diagram](#use-case-diagram)
-  - [Activity diagram](#activity-diagram)
-  - [Functional decompositie:](#functional-decompositie)
-  - [Object model](#object-model)
-  - [Klassediagram](#klassediagram)
-  - [STD](#std)
-  - [Appendix](#appendix)
+- [Introductie](#introductie)
+- [Key driver chart](#key-driver-chart)
+- [System context diagram](#system-context-diagram)
+- [Use case diagram](#use-case-diagram)
+- [Activity diagram](#activity-diagram)
+- [Functional breakdown](#functional-breakdown)
+- [(Sub)systems and interfaces](#subsystems-and-interfaces)
+- [Object model](#object-model)
+- [Klassediagram](#klassediagram)
+- [STD](#std)
+- [Appendix](#appendix)
+
 
 
 ## Introductie
@@ -93,8 +94,42 @@ UC1 --> TrilObject
 ## Activity diagram
 https://plantuml.com/activity-diagram-beta
 
-## Functional decompositie:
-nog niets iets goeds voor gevonden. TODO
+## Functional breakdown
+
+Voor de functionele breakdown (mis)bruiken we de [mindmap](https://plantuml.com/mindmap-diagram). 
+
+```plantuml
+@startuml
+@startmindmap
+top to bottom direction
+* Systeem
+** Snelheid meten
+*** Sensor uitlezen
+*** Data omrekenen 
+*** Data opslaan in database
+** Snelheid weergeven
+*** Data ophalen uit database
+@endmindmap
+@enduml
+```
+
+![alt text](image-34.png)
+
+## (Sub)systems and interfaces
+Voor dit diagram (mis)bruiken we de [usecases]
+(https://plantuml.com/use-case-diagram) .
+
+```plantuml
+@startuml
+(ESP32\nmeetsysteem_1) <--> (Sharp IR\nafstandsensor_1) : I2C
+(ESP32\nmeetsysteem_2) <--> (Sharp IR\nafstandsensor_2) : I2C
+(raspberryPi)<..> (ESP32\nmeetsysteem_1) : wifi
+(raspberryPi)<..> (ESP32\nmeetsysteem_2) : wifi
+(raspberryPi) --> (display) : VGA
+@enduml
+```
+![alt text](image-33.png)
+
 
 ## Object model
 Meer informatie over object modellen in plantUML kun je [hier]

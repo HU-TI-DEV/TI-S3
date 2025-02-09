@@ -1,4 +1,7 @@
-# C++ bouwen met VSCode (Windows)
+## C++ bouwen met VSCode (Windows)
+
+Dit is een algmeen stappenplan hoe je C++ kunt bouwen met Visual Sudio Code.
+
 - Eerst C++ en C++ extension packs installeren.
 
 - Vervolgens ergens g++ installeren [door MinGw64 te installeren](https://code.visualstudio.com/docs/cpp/config-mingw).

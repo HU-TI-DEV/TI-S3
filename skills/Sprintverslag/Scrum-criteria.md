@@ -15,8 +15,8 @@ Eerste dag van iedere sprint
 - In github planning zijn alle taken aan repositories gekoppeld. Team taken   aan de team repo. Persoonlijke taken aan de persoonlijke repo. 
 
 ### Resultaat
-- Capaciteit is duidelijk voor iedereen en vatgelegd.
-- Stories zijn bekent en verdeelt naar capaciteit. 
+- Capaciteit is duidelijk voor iedereen en vastgelegd.
+- Stories zijn bekend en verdeelt naar capaciteit. 
 
 ## Daily scrum
 
