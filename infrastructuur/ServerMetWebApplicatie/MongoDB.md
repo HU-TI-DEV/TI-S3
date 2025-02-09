@@ -2,7 +2,7 @@
 
 ### Using a GUI
 
-You will use MongoDB most likely from the command line or directly from your application. For demonstrator purposes it might be easy to us for example [Mongo Compass](https://www.mongodb.com/products/tools/compass). Do not forget to open your port 27017. My external port 27018 was port forwarded to MongoDb internally using the standard port 27017. Use login name and password for authentication. Now you can easily view databases and the data they contain.
+You will use MongoDB most likely from the command line or directly from your application. For demonstrator purposes it might be easy to us for example [Mongo Compass](https://www.mongodb.com/products/tools/compass). Do not forget to open your port 27017. My external port 27018 was port forwarded to MongoDB internally using the standard port 27017. Use login name and password for authentication. Now you can easily view databases and the data they contain.
 
 ###  Using the command line
 
