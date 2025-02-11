@@ -88,7 +88,7 @@ Week A2. Advies, in de vorm van Functionele Requirements, Non Functionele Requir
 | ma  | | [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md)  (**GP,BB**) |
 | di  | | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md)  (**GP,BB**) |
 | wo  | | [ESP32 IDF en CleanRTOS installeren - deel 1: basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
-| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [ESP32 IDF en CleanRTOS installeren - deel 2: CleanRTOS, ZigBee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**), <br>[Key Driver Chart en Traceability Diagram](./lesprogramma/programma-keydriver-chart-traceability-diagram.md)  (**HP,HS**) |
+| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [ESP32 IDF en CleanRTOS installeren - deel 2: CleanRTOS, ZigBee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**) |
 
 ### Onderwijsweek C4 (24-02-2025)
 
@@ -106,7 +106,7 @@ Week C5.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
+| ma  | PO-ontwikkeldocument (**BB**)| [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
 | di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
 | wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP,BB**) |
 | do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB,GP**) |
@@ -123,7 +123,7 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 | ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB,GP**) |
 | di  | | [Code &lt;-&gt; STD deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**) |
 | wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---iii) (**BB &amp; GP**)|
-| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) light |
+| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) light |
 
 ### Onderwijsweek C7 (17-03-2025)
 
