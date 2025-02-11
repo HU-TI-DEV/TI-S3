@@ -156,7 +156,7 @@ Week C9.
 | ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
 | di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
 | wo  | | PLC workshop 1/4 (bij electro) |
-| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 | |
+| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 PO demo (**BB**)| |
 
 ### Onderwijsweek C10 (7-04-2025)
 
@@ -187,8 +187,8 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
-| di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | | PLC workshop 3/4 (bij electro) en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
+| di  || [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
+| wo  |PO demo (**BB**) | PLC workshop 3/4 (bij electro) en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
@@ -213,7 +213,7 @@ Week D4.
 | ma  | Bevrijdingsdag |  |
 | di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**GP**) |
 | wo  | | PLC workshop 4/4 (bij electro) 4 (**HP**) |
-| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
+| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 PO demo (**BB**) | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
 
 ### Onderwijsweek D5 (12-05-2025)
 
