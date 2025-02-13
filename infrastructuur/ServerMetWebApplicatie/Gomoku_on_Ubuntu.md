@@ -46,3 +46,14 @@ docker compose up -d
 
 Check if our app is working: '9.163.104.14:5001'. Do not forget to open your port. I receive a 404 URL not found and see it as a good sign. Inspect the code and find that the enttry point to the game is here [`http://9.163.104.14:5001/gomoku/start`](http://9.163.104.14:5001/gomoku/start)
 
+I made some changes to the html front-end. This is how I copied the file:
+
+```bash
+scp -i ~/.ssh/harmsnippe.pem play_gomoku.html azureuser@9.163.104.14:~/gomoku/gomoku/templates
+```
+
+If you need a restart use:
+
+```bash
+docker compose restart gomoku
+```
