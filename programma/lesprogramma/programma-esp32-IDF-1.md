@@ -9,7 +9,7 @@ Houdt tijdens het proces goed bij in je logboek wat je leert, waar je tegenaan l
 
 Een mooi 'bewijs' van een succesvolle installatie is een screenshot nadat je de "dump log" button hebt ingedrukt tijdens het CleanRTOS testprogramma "AllWaitables.ino".
 
-Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF Installatie" de link in naar dat kopje in je logboek (dus bijvoorbeeld <https://github.com/bla/persoonlijk_logboek.md#esp-idf-installatie>).
+Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF Installatie" de link in naar dat kopje in je logboek (dus bijvoorbeeld `https://github.com/s3-personal-ripvanwinkle/persoonlijk_logboek.md#esp-idf-installatie`).
 
 ## Voorbereiding
 
