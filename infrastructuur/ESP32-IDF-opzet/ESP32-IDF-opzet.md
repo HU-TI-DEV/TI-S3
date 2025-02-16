@@ -16,6 +16,8 @@ Vervolgens een en ander upgraden voor zigbee en dat testen met een ESP32-C6.
 Ik open even een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: E:/HuDev/test_zig_2.
 
 [deze pagina](https://github.com/espressif/esp-idf) raadt aan om versie 5.3 van de ESP-IDF te gebruiken, dus type ik:
+
+```bash
 cd E:\HuDev\test_zig_2
 e:
 
@@ -23,14 +25,19 @@ git clone -b v5.3 --recursive https://github.com/espressif/esp-idf.git esp-idf-v
 
 cd esp-idf-v5.3
 install.bat
+```
 
 Nu is het geinstalleerd. Om de windows paden en alles voor de huidige sessie goed te zetten, moet je voortaan na het openen van je command (ook voortaan) eerst op deze plek "export.bat" aanroepen.
 
+```bash
 export.bat
+```
 
 Nu alles goed staat, werkt de build-tool "idf.py"
 
+```bash
 idf.py --version
+```
 retourneert nu als het goed is "ESP-IDF v5.3".
 
 Het zou handig zijn als je niet steeds na het openen van de command-prompt eerst naar die directory hoeft te gaan en export.bat in te typen.
@@ -43,8 +50,10 @@ Liever maak je een snelkoppeling naar een command prompt die dat automatisch doe
 - Open hem altijd "als administrator"
 
 Okee, laten we even een snelle hello world test doen:
+```bash
 cd E:\HuDev\test_zig_2\esp-idf-v5.3\examples\get-started\hello_world
 e:
+```
 (op deze locatie staat een van de test-projecten)
 
 ## De eerste keer bouwen
@@ -53,20 +62,20 @@ e:
 
 - (eenmalig, voor "altijd") USB-communicatie drivers installeren voor het devkit boardje dat je gebruikt. De volgende komen vaak voor:
   
-  ```python
-   - CP210x USB-to-UART driver (voor chips zoals CP2102/CP2104):
+   - CP210x USB-to-UART driver (voor chips zoals CP2102/CP2104):  
      https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
   
-   - FTDI USB-to-UART driver (voor boards met FTDI-chips):
+   - FTDI USB-to-UART driver (voor boards met FTDI-chips):  
      https://ftdichip.com/drivers/
   
-   - CH340/CH341 driver (voor sommige goedkope ESP32-boards):
+   - CH340/CH341 driver (voor sommige goedkope ESP32-boards):  
      http://www.wch.cn/downloads/category/5.html
-  ```
 
 - (eenmalig, per project) de juiste build-target instellen voor dit project. het volgende commando laat de keuze zien:
-  
-  - idf.py --list-targets
+
+  ```bash
+  idf.py --list-targets
+  ```
 
 - Vervolgens dus je microcontroller voor het project instellen. dus bijvoorbeeld voor een normale esp32: idf.py set-target esp32
   (de ingestelde esp32 zie je terug in de file sdkconfig, als je er in zoekt op "target")
@@ -78,7 +87,9 @@ e:
 
 - elke (re-)build:
   
-  - idf.py -p COM8 flash monitor 
+  ```bash
+  idf.py -p COM8 flash monitor
+  ```
 
 de toevoeging 'flash' zorgt dat het ook wordt geflasht en de toevoeging 'monitor' zorgt ervoor dat een programma-tje wordt gestart welke je kunt vergelijken met Serial Monitor van de Arduino IDE.
 
@@ -89,13 +100,18 @@ Je kunt de monitor weer sluiten met: de "CTRL" + "]" toets-combinatie.
 Laten we eens zelf een nieuw project maken volgens het boekje.
 We maken er eerst een folder voor aan (op willekeurige plek).
 Ik kies:
+
+```bash
 cd E:\HuDev\test_zig_2
 mkdir testproject
 cd testproject
 git clone https://github.com/espressif/esp-idf-template.git .
+```
 
 testen:
+```bash
 idf.py -p COM8 flash monitor 
+```
 (met de spatiebalk kun je de flow uit de monitor stil zetten)
 
 Je zult zien dat er voor het bouwen automatisch een build subfolder wordt aangemaakt. Die is enorm groot. Standaard worden echter alleen verschillen met de vorige code opnieuw gebouwd. Dat scheelt tijd. Soms gaat iets daarbij mis. Met idf.py fullclean kun je dan de oude build opruimen, zodat de volgende netjes weer van scratch begint.
@@ -113,13 +129,18 @@ Een handig uitgangspunt van je project is het onderstaande lasergame-template-pr
 - Voor de liefhebber is er ook support voor ILI-touchscreen displays (alleen is dat nog niet compatibel met zigbee).
 
 Okee, dat project zet ik ook maar in dezelfde folder, dus:
+
+```bash
 cd E:\HuDev\test_zig_2
 git clone https://github.com/themave/test_lasergame_2
 cd test_lasergame_2
+```
 
 Nog even de huidige microcontroller instellen voor dit project, in mijn geval nu de normale esp32:
 
+```bash
 idf.py set-target esp32
+```
 
 Dat resulteert in een error:
 
@@ -136,13 +157,18 @@ Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die
 Okee, verder met het project
 
 Als de test_lasergame_2 folder nog geen components subfolder bevat, maken we die.
+
+```bash
 mkdir components
 cd components
+```
 
 Vervolgens clonen we de arduino-ide component die compatibel is met ESP-IDF 5.3:
 
+```bash
 git clone -b idf-release/v5.3 https://github.com/espressif/arduino-esp32.git
 cd ..
+```
 
 Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in main.cpp te selecteren:
 
@@ -153,11 +179,14 @@ Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in m
 ```
 Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je c++ code editing.
 Open een folder - in mijn geval de bovenste folder waar alles in zit: 
-E:\HuDev\test_zig_2
+`E:\HuDev\test_zig_2`
 ```
 
 Enfin, WifiScan bouwen:
+
+```bash
 idf.py -p COM8 flash monitor 
+```
 
 .. resulteert in een error:
 
@@ -169,7 +198,7 @@ Enfin, in uart.h ontbreekt dus nog een flags variabele in de klasse uart_config_
 
 In VSCode zien we op die regel:
 <img src="images/2024-09-08-13-33-26-image.png" title="" alt="" width="546">
-idf.py --version  retourneert 5.3, en ik heb de 5.3. versie voor de arduino ide toestand geinstalleerd. Het lijkt dus een nieuwe bug. Op stack overflow en google kan ik er niets over vinden. Enfin, dan voeg ik de ontbrekende members zelf maar even toe.
+`idf.py --version` retourneert `5.3`, en ik heb de 5.3. versie voor de arduino ide toestand geinstalleerd. Het lijkt dus een nieuwe bug. Op stack overflow en google kan ik er niets over vinden. Enfin, dan voeg ik de ontbrekende members zelf maar even toe.
 Via RMB (right mouse button) op die uart_config vraag ik VSCode "Go to declaration" om de klassedeclaratie te vinden.
 Dit is em kennelijk:
 ![](images/2024-09-08-13-36-49-image.png)
