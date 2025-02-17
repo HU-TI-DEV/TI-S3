@@ -1,4 +1,4 @@
-## Include ESP-IDF example code as library
+### Include ESP-IDF example code as library
 
 We will now try to use the tested Get and Post functions to be included in our lasergame template. For video instructions [see this walk-through](https://www.youtube.com/watch?v=paXRrsztJp0).  I have opened a new terminal and will navigate to:
 
@@ -142,4 +142,10 @@ idf.py build
 
 That did not help. I will try to allocate more space for the application in `partitions.csv`. That also did not help. Finally I changed in menuconfig the compiler settings `set CONFIG_COMPILER_OPTIMIZATION to Optimize for size (-Os)`
 
-Now make your own GET request on your own Restfull service?
+```bash
+idf.py -p /dev/cu.usbmodem21201 flash monitor
+```
+
+I needed te (re)set my WiFi credentials.
+
+Now make your own GET request on your own Restfull service? Or try the [example Rest API](../../RestAPI/FastAPI_on_VM.md).

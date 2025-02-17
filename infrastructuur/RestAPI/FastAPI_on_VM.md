@@ -72,4 +72,4 @@ Repositry name must be lowercase. Run the container:
 docker run -d --name restapi-container --restart unless-stopped -p 8000:8000 restapi
 ```
 
-The server has started. I can not reach the API using http://9.163.104.14:8000 and suspect the port is blocked. In the Azure platform I add a new security role under Networking -> Network settings for port 8000. Now that helps. I can access the RestAPI on [http://9.163.104.14:8000/v1/items/list](http://9.163.104.14:8000/v1/items/list).
+The server has started. I can not reach the API using http://9.163.104.14:8000 and suspect the port is blocked. In the Azure platform I add a new security role under Networking -> Network settings for port 8000. Now that helps. I can access the RestAPI on [http://9.163.104.14:8000/v1/items/list](http://9.163.104.14:8000/v1/items/list) and the [docs](http://9.163.104.14:8000/docs).
