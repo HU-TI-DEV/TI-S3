@@ -73,9 +73,9 @@ Week C2. Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaak
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS,TP,GP,HP**) |
+| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS,TP,HP**) |
 | di  | | [Journalling - overige stakeholders - key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**BB,GP**) |
-| wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB,GP**) |
+| wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB**) |
 | do  | Werken aan project | |
 
 ### Onderwijsweek C3 (17-02-2025)
@@ -107,9 +107,9 @@ Week C5.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | PO-ontwikkeldocument (**BB**)| [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
-| di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
-| wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP,BB**) |
-| do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB,GP**) |
+| di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB**) |
+| wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP**) |
+| do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB**) |
 
 ### Onderwijsweek C6 (10-03-2025)
 
@@ -120,10 +120,10 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB,GP**) |
+| ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB**) |
 | di  | | [Code &lt;-&gt; STD deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**) |
 | wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---iii) (**BB &amp; GP**)|
-| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) light |
+| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP**) light |
 
 ### Onderwijsweek C7 (17-03-2025)
 
