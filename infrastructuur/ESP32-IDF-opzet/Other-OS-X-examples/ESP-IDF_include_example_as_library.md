@@ -140,11 +140,6 @@ idf.py fullclean
 idf.py build
 ```
 
-That did not help. I will try to allocate more space for the application in `partitions.csv`. The content is now:
+That did not help. I will try to allocate more space for the application in `partitions.csv`. That also did not help. Finally I changed in menuconfig the compiler settings `set CONFIG_COMPILER_OPTIMIZATION to Optimize for size (-Os)`
 
-```csv
-nvs,      data, nvs,     0x9000,  0x5000,
-otadata,  data, ota,     0xe000,  0x2000,
-app0,     app,  ota_0,   0x10000, 0x770000,  # 7.5 MB for app0
-spiffs,   data, spiffs,  0x780000,0x80000,   # 512 KB for SPIFFS
-```
+Now make your own GET request on your own Restfull service?
