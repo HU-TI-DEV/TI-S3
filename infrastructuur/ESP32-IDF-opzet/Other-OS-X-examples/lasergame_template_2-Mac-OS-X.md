@@ -11,10 +11,10 @@ get_idf
 Clone the test_lasergame_2 repository.
 
 ```bash
-git clone https://github.com/themave/test_lasergame_2 
+git clone https://github.com/HU-TI-DEV/test_lasergame_2.git
 ```
 
-Note for myself. This repo should be moved or forked in the TI-S3 repo. Other note: I use a ESP32 C6.
+We need to change into this directory. I use a ESP32 C6.
 
 ```bash
 cd test_lasergame_2
@@ -90,4 +90,4 @@ Build again, note the change in USB device:
 idf.py -p /dev/cu.usbserial-2120 flash monitor
 ```
 
-Yes. Now we have more success. The network scan shows me a number of APs. With the [ESP32 C6 I compiled some ESP-IDF examles](./ESP32-C6-wifi-scan.md).
+Yes. Now we have more success. The network scan shows me a number of APs. With the [ESP32 C6 I compiled some ESP-IDF examples](./ESP32-C6-wifi-scan.md).
