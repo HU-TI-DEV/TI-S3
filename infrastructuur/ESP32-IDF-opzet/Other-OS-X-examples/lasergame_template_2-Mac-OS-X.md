@@ -11,10 +11,10 @@ get_idf
 Clone the test_lasergame_2 repository.
 
 ```bash
-git clone https://github.com/themave/test_lasergame_2 
+git clone https://github.com/HU-TI-DEV/test_lasergame_2.git
 ```
 
-Note for myself. This repo should be moved or forked in the TI-S3 repo. Other note: I use a ESP32 C6.
+We need to change into this directory. I use a ESP32 C6.
 
 ```bash
 cd test_lasergame_2
