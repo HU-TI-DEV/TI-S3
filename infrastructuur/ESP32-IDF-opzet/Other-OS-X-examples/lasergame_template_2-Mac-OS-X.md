@@ -45,7 +45,7 @@ Edit sdkconfig and change CONFIG_FREERTOS_HZ=100 to CONFIG_FREERTOS_HZ=1000
 
 Now you cannot set the target again because then sdkconfig will be replaced. (Note what would be a clean solution to this?)
 
-## Test an example code
+## Test a code example
 
 I backup my main.cpp and use the main_for_wifi_scan_ard_ide_with_nvs.cpp as a source for my new main.cpp. In my main.cpp the following lines are uncommented:
 
@@ -66,7 +66,8 @@ Let’s build and open a monitor:
 idf.py -p /dev/cu.usbmodem21201 flash monitor
 ```
 
-The device does not seem to finish the boot sequence. Use Ctrl-] to quit the monitor. 
+The device does not seem to finish the boot sequence.  
+Use Ctrl-] to quit the monitor.  
 The following solution does not help in my case:
 
 ```bash
@@ -90,4 +91,31 @@ Build again, note the change in USB device:
 idf.py -p /dev/cu.usbserial-2120 flash monitor
 ```
 
-Yes. Now we have more success. The network scan shows me a number of APs. With the [ESP32 C6 I compiled some ESP-IDF examples](./ESP32-C6-wifi-scan.md).
+Yes. Now we have more success. The network scan shows me a number of APs.  
+With the [ESP32 C6 I compiled some ESP-IDF examples](./ESP32-C6-wifi-scan.md).
+
+# Troubleshooting
+
+## CONFIG_FREERTOS_HZ=100 -- how can I change this default?
+
+Check the file 'test_lasergame_2/build/config/Kconfig.in'.
+
+This should contain a line to import the FreeRTOS configuration:
+
+    source "/Users/user_name/esp32/esp-idf/components/freertos/Kconfig"
+
+If you look into the named file `esp-idf/components/freertos/Kconfig`
+(this is where you installed the esp-idf), you should find a section
+
+```text
+        config FREERTOS_HZ
+            # Todo: Rename to CONFIG_FREERTOS_TICK_RATE_HZ (IDF-4986)
+            int "configTICK_RATE_HZ"
+            range 1 1000
+            default 100
+            help
+                Sets the FreeRTOS tick interrupt frequency in Hz (see configTICK_RATE_HZ documentation for more
+                details).
+```
+
+Change the `default` from `100` to `1000`. Then `idf.py set-target esp32` again.
