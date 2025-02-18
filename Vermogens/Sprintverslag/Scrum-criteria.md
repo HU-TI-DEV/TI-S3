@@ -1,4 +1,23 @@
-# Scrum criteria
+# Scrum criteria <!-- omit in toc -->
+
+- [Sprint planning](#sprint-planning)
+  - [Doel](#doel)
+  - [Frequentie](#frequentie)
+  - [Voorbereiding](#voorbereiding)
+  - [Resultaat](#resultaat)
+- [Daily scrum](#daily-scrum)
+  - [Doel](#doel-1)
+  - [Activiteiten](#activiteiten)
+  - [Resultaat](#resultaat-1)
+- [Sprint Review](#sprint-review)
+  - [Doel](#doel-2)
+  - [Activiteiten](#activiteiten-1)
+  - [Resultaat](#resultaat-2)
+- [Sprint Retrospective](#sprint-retrospective)
+  - [Doel](#doel-3)
+  - [Voorbereiding](#voorbereiding-1)
+  - [Activiteiten](#activiteiten-2)
+  - [Resultaat](#resultaat-3)
 
 ## Sprint planning 
 ### Doel  
