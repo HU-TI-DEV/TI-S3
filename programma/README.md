@@ -107,9 +107,9 @@ Week C5.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | PO-ontwikkeldocument (**BB**)| [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
-| di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB**) |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!!** (**BB**) |
 | wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP**) |
-| do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB**) |
+| do  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md) , [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB**) |
 
 ### Onderwijsweek C6 (10-03-2025)
 
@@ -121,8 +121,8 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB**) |
-| di  | | [Code &lt;-&gt; STD deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**) |
-| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---iii) (**BB &amp; GP**)|
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!!** |
+| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**)|
 | do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP**) light |
 
 ### Onderwijsweek C7 (17-03-2025)
@@ -132,7 +132,7 @@ Week C7.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | | Gastspreker |
-| di  | | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) resultaten bespreken in klas, Overzicht, Repeat |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!!**|
 | wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |[Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**) |
 
