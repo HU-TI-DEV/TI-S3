@@ -25,7 +25,7 @@ This results in an error because we do not have the Arduino components installed
 
 ```bash
 cd components
-git clone -b idf-release/v5.4 https://github.com/espressif/arduino-esp32.git
+git clone -b idf-release/v5.4 https://github.com/hu-ti-dev/arduino-esp32.git
 cd ..
 ```
 
