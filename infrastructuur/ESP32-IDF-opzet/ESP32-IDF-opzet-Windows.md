@@ -15,66 +15,77 @@ Vervolgens een en ander upgraden voor zigbee en dat testen met een ESP32-C6.
 
 Ik open even een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: E:/HuDev/test_zig_2.
 
-[deze pagina](https://github.com/espressif/esp-idf) raadt aan om versie 5.3 van de ESP-IDF te gebruiken, dus type ik:
+[deze pagina](https://github.com/espressif/esp-idf) toont de aanbevolen versies van de ESP-IDF.
+
+Nu (2025-02-19) is dit v5.4, dus type ik:
 
 ```bash
-cd E:\HuDev\test_zig_2
-e:
-
-git clone -b v5.3 --recursive https://github.com/espressif/esp-idf.git esp-idf-v5.3
-
-cd esp-idf-v5.3
-install.bat
+C:\Users\MyName> cd E:\HuDev\test_zig_2
+C:\Users\MyName> e:
+E:\HuDev\test_zig_2> git clone -b v5.4 --recursive https://github.com/espressif/esp-idf.git
+E:\HuDev\test_zig_2> cd esp-idf
+E:\HuDev\test_zig_2\esp-idf> install.bat
 ```
 
-Nu is het geinstalleerd. Om de windows paden en alles voor de huidige sessie goed te zetten, moet je voortaan na het openen van je command (ook voortaan) eerst op deze plek "export.bat" aanroepen.
+> Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is.  
+> Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
+
+Nu is het geinstalleerd.
+
+Om de windows paden en alles voor de huidige sessie goed te zetten, moet je voortaan na het openen van je command (ook voortaan) eerst op deze plek "export.bat" aanroepen.
 
 ```bash
-export.bat
+E:\HuDev\test_zig_2\esp-idf> export.bat
 ```
 
 Nu alles goed staat, werkt de build-tool "idf.py"
 
 ```bash
-idf.py --version
+E:\HuDev\test_zig_2\esp-idf> idf.py --version
 ```
-retourneert nu als het goed is "ESP-IDF v5.3".
+
+retourneert nu als het goed is "ESP-IDF v5.4".
 
 Het zou handig zijn als je niet steeds na het openen van de command-prompt eerst naar die directory hoeft te gaan en export.bat in te typen.
+
 Liever maak je een snelkoppeling naar een command prompt die dat automatisch doet:
 
 - RMB(rechtermuisknop) op bureaublad of elders -> nieuwe snelkoppeling
-- Gebruik als commando/location of the item : cmd.exe /k "E:\HuDev\test_zig_2\esp-idf-v5.3\export.bat"
-- Kies als naam ESP-IDF 5.3 command prompt.
+- Gebruik als commando/location of the item : `cmd.exe /k "E:\HuDev\test_zig_2\esp-idf\export.bat"`
+- Kies als naam `ESP-IDF command prompt`.
 - (optioneel) Open de shortcut, en pin hem aan je taskbar.
-- Open hem altijd "als administrator"
 
 Okee, laten we even een snelle hello world test doen:
+
 ```bash
-cd E:\HuDev\test_zig_2\esp-idf-v5.3\examples\get-started\hello_world
-e:
+E:\HuDev\test_zig_2\esp-idf> cd E:\HuDev\test_zig_2\esp-idf\examples\get-started\hello_world
 ```
+
 (op deze locatie staat een van de test-projecten)
 
 ## De eerste keer bouwen
 
 .. maar voordat je de eerste keer goed kunt bouwen, moeten er 2 dingen gebeurd zijn:
 
-- (eenmalig, voor "altijd") USB-communicatie drivers installeren voor het devkit boardje dat je gebruikt. De volgende komen vaak voor:
+- (eenmalig, voor "altijd") USB-communicatie drivers installeren voor het devkit boardje dat je gebruikt.
+
+  > Als je al met de Arduino IDE of de Raspberry Pi PICO gewerkt hebt zijn deze misschien al geinstalleerd!
+
+  De volgende komen vaak voor:
   
-   - CP210x USB-to-UART driver (voor chips zoals CP2102/CP2104):  
-     https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+  - CP210x USB-to-UART driver (voor chips zoals CP2102/CP2104):  
+     <https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers>
   
-   - FTDI USB-to-UART driver (voor boards met FTDI-chips):  
-     https://ftdichip.com/drivers/
+  - FTDI USB-to-UART driver (voor boards met FTDI-chips):  
+     <https://ftdichip.com/drivers/>
   
-   - CH340/CH341 driver (voor sommige goedkope ESP32-boards):  
-     http://www.wch.cn/downloads/category/5.html
+  - CH340/CH341 driver (voor sommige goedkope ESP32-boards):  
+     <http://www.wch.cn/downloads/category/5.html>
 
 - (eenmalig, per project) de juiste build-target instellen voor dit project. het volgende commando laat de keuze zien:
 
   ```bash
-  idf.py --list-targets
+  ...\hello_world> idf.py --list-targets
   ```
 
 - Vervolgens dus je microcontroller voor het project instellen. dus bijvoorbeeld voor een normale esp32: idf.py set-target esp32
@@ -88,37 +99,39 @@ e:
 - elke (re-)build:
   
   ```bash
-  idf.py -p COM8 flash monitor
+  ...\hello_world> idf.py -p COM8 flash monitor
   ```
 
 de toevoeging 'flash' zorgt dat het ook wordt geflasht en de toevoeging 'monitor' zorgt ervoor dat een programma-tje wordt gestart welke je kunt vergelijken met Serial Monitor van de Arduino IDE.
 
-Je kunt de monitor weer sluiten met: de "CTRL" + "]" toets-combinatie.
+> Je kunt de monitor weer sluiten met: de "CTRL" + "]" toets-combinatie.
 
-## nieuw project maken
+## Nieuw project maken
 
 Laten we eens zelf een nieuw project maken volgens het boekje.
 We maken er eerst een folder voor aan (op willekeurige plek).
 Ik kies:
 
 ```bash
-cd E:\HuDev\test_zig_2
-mkdir testproject
-cd testproject
-git clone https://github.com/espressif/esp-idf-template.git .
+...\hello_world> cd E:\HuDev\test_zig_2
+E:\HuDev\test_zig_2> mkdir testproject
+E:\HuDev\test_zig_2> cd testproject
+E:\HuDev\test_zig_2\testproject> git clone https://github.com/espressif/esp-idf-template.git .
 ```
 
 testen:
-```bash
-idf.py -p COM8 flash monitor 
-```
-(met de spatiebalk kun je de flow uit de monitor stil zetten)
 
-Je zult zien dat er voor het bouwen automatisch een build subfolder wordt aangemaakt. Die is enorm groot. Standaard worden echter alleen verschillen met de vorige code opnieuw gebouwd. Dat scheelt tijd. Soms gaat iets daarbij mis. Met idf.py fullclean kun je dan de oude build opruimen, zodat de volgende netjes weer van scratch begint.
+```bash
+...\testproject> idf.py -p COM8 flash monitor 
+```
+
+> (met de spatiebalk kun je de flow uit de monitor stil zetten)
+
+Je zult zien dat er voor het bouwen automatisch een `build` subfolder wordt aangemaakt. Die is enorm groot. Standaard worden echter alleen verschillen met de vorige code opnieuw gebouwd. Dat scheelt tijd. Soms gaat iets daarbij mis. Met `idf.py fullclean` kun je dan de oude build opruimen, zodat de volgende netjes weer van scratch begint.
 
 Enfin, in het algemeen wil je behalve je hoofd-applicatie ook allerlei test-applicaties makkelijk kunnen bouwen en testen, zonder dat voor elk weer zo'n joekel van een build-directory wordt aangelegd.
 
-## lasergame template
+## Lasergame template
 
 Een handig uitgangspunt van je project is het onderstaande lasergame-template-project:
 
@@ -131,22 +144,22 @@ Een handig uitgangspunt van je project is het onderstaande lasergame-template-pr
 Okee, dat project zet ik ook maar in dezelfde folder, dus:
 
 ```bash
-cd E:\HuDev\test_zig_2
-git clone https://github.com/themave/test_lasergame_2
-cd test_lasergame_2
+...> cd E:\HuDev\test_zig_2
+E:\HuDev\test_zig_2> git clone https://github.com/HU-TI-DEV/test_lasergame_2.git
+E:\HuDev\test_zig_2> cd test_lasergame_2
 ```
 
 Nog even de huidige microcontroller instellen voor dit project, in mijn geval nu de normale esp32:
 
 ```bash
-idf.py set-target esp32
+...\test_lasergame_2> idf.py set-target esp32
 ```
 
 Dat resulteert in een error:
 
 <img src="images/2024-09-08-13-53-27-image.png" title="" alt="" width="520">
 
-Voor compatibiliteit met de arduino IDE components moet de freertos periodieke timer  op 1000 HZ worden ingesteld (zodat VTaskDelay(1) 1 ms duurt ipv 10ms).
+Voor compatibiliteit met de Arduino IDE components moet de FreeRTOS periodieke timer op 1000 Hz worden ingesteld (zodat VTaskDelay(1) 1 ms duurt ipv 10ms).
 
 Ik pas dat handmatig aan in de sdkconfig file:
 
@@ -154,41 +167,46 @@ Ik pas dat handmatig aan in de sdkconfig file:
 
 Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die vervangt sdkconfig weer terug..
 
+> [Hier](./Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md#arduino-esp32-error) is beschreven hoe je van CONFIG_FREERTOS_HZ de default op 1000 Hz kan zetten.
+
 Okee, verder met het project
 
 Als de test_lasergame_2 folder nog geen components subfolder bevat, maken we die.
 
 ```bash
-mkdir components
-cd components
+...\test_lasergame_2> mkdir components
+...\test_lasergame_2> cd components
 ```
 
-Vervolgens clonen we de arduino-ide component die compatibel is met ESP-IDF 5.3:
+Vervolgens clonen we de arduino-ide component die compatibel is met onze ESP-IDF versie:
 
 ```bash
-git clone -b idf-release/v5.3 https://github.com/espressif/arduino-esp32.git
-cd ..
+...\test_lasergame_2\components> git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
+...\test_lasergame_2\components> cd ..
+...\test_lasergame_2>
 ```
 
 Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in main.cpp te selecteren:
 
 <img src="images/2024-09-08-13-11-15-image.png" title="" alt="" width="313">
 
-**VScode**
-
-```
-Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je c++ code editing.
-Open een folder - in mijn geval de bovenste folder waar alles in zit: 
-`E:\HuDev\test_zig_2`
-```
+> **VSCode**
+>
+> Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je C++ code editing.  
+> Open een folder - in mijn geval de bovenste folder waar alles in zit:  
+> `E:\HuDev\test_zig_2`
 
 Enfin, WifiScan bouwen:
 
 ```bash
-idf.py -p COM8 flash monitor 
+...\test_lasergame_2> idf.py -p COM8 flash monitor 
 ```
 
-.. resulteert in een error:
+**(A) Als dit goed gaat: gefeliciteerd!**
+
+---
+
+## (B) Als dit resulteert in een error
 
 ![](images/2024-09-08-13-12-40-image.png)
 
@@ -197,13 +215,20 @@ Dat is iets wat nog niet is geupdate voor versie 5.3. Typsich nog zoiets dat je 
 Enfin, in uart.h ontbreekt dus nog een flags variabele in de klasse uart_config_. We checken eerst in die esp32-hal-uart.c file even welk type hij verwacht.
 
 In VSCode zien we op die regel:
+
 <img src="images/2024-09-08-13-33-26-image.png" title="" alt="" width="546">
-`idf.py --version` retourneert `5.3`, en ik heb de 5.3. versie voor de arduino ide toestand geinstalleerd. Het lijkt dus een nieuwe bug. Op stack overflow en google kan ik er niets over vinden. Enfin, dan voeg ik de ontbrekende members zelf maar even toe.
+
+`idf.py --version` retourneert `5.3`, en ik heb de 5.3. versie voor de arduino ide toestand geinstalleerd.
+
+Het lijkt dus een nieuwe bug. Op stack overflow en google kan ik er niets over vinden. Enfin, dan voeg ik de ontbrekende members zelf maar even toe.
+
 Via RMB (right mouse button) op die uart_config vraag ik VSCode "Go to declaration" om de klassedeclaratie te vinden.
 Dit is em kennelijk:
+
 ![](images/2024-09-08-13-36-49-image.png)
 
 Dus even zelf flags subdeel toevoegen:
+
 <img src="images/2024-09-08-13-39-19-image.png" title="" alt="" width="551">
 
 Okee, de WifiScan applicatie runt nu, maar in de monitor verschijnt:
@@ -212,12 +237,13 @@ Okee, de WifiScan applicatie runt nu, maar in de monitor verschijnt:
 
 Vervolgens deze tip van stack overflow toegepast:
 
-`` unselect Wifi nvs enabled in menuconfig ,component config -> Wifi -> Wifi NVS Flash``
+``unselect Wifi nvs enabled in menuconfig ,component config -> Wifi -> Wifi NVS Flash``
 
-Vervolgens werkte het. De ene ESP32 vond meestal niets, en af en toe een zwak signaal. Dat komt omdat het er eentje is waar een antenne op geschroefd dient te worden. Een andere ESP32 (met ingebouwde antenne) vond een hele reeks providers. 
+Vervolgens werkte het. De ene ESP32 vond meestal niets, en af en toe een zwak signaal. Dat komt omdat het er eentje is waar een antenne op geschroefd dient te worden. Een andere ESP32 (met ingebouwde antenne) vond een hele reeks providers.
 
 Ook een aardige test (van CleanRTOS) kun je doen, door in main "#include <AllWaitables.ino>" uit te commentariëren en daarmee te bouwen.
-(Die test heeft een button met pulldown-weerstand nodig aan pin23).
+
+> (Die test heeft een button met pulldown-weerstand nodig aan pin23).
 
 Een andere leuke test, als je een ILI-touchscreen hebt aangesloten, kun je doen door in main uit te commentarieren: #include <TouchscreenButton.ino> of #include <TouchscreenButtonGroup.ino>
 
@@ -225,7 +251,8 @@ littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan inst
 
 # Appendix format specifiers
 
-Het kan zijn dat een deel van de code uit het project test_lasergame_2 nog niet helemaal werkt op esp-idf 5.3 (de code werd gemaakt in 4.4).
+Het kan zijn dat een deel van de code uit het project test_lasergame_2 nog niet helemaal werkt op esp-idf 5.3 of 5.4 (de code werd gemaakt in 4.4).
+
 Als er nog iets aangepast moet worden, zijn het vermoedelijk format specifiers binnen de ELogV() of ELogi() commandos.
 
 Dat blijkt dan wel uit de foutmeldingen.

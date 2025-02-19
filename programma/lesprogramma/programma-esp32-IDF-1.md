@@ -2,6 +2,8 @@
 
 Deze les gaan we de ESP32 IDF programmeeromgeving installeren en (team-)project voor de code aanmaken.
 
+## Voorbereiding
+
 ### Logboek bijhouden, Canvas opdracht
 
 Start een nieuw kopje in je persoonlijk logboek, bijvoorbeeld genaamd "ESP32 IDF Installatie".
@@ -11,7 +13,7 @@ Een mooi 'bewijs' van een succesvolle installatie is een screenshot nadat je de 
 
 Lever na een succesvolle installatie en test bij de Canvas opdracht "ESP32 IDF Installatie" de link in naar dat kopje in je logboek (dus bijvoorbeeld `https://github.com/2024-TICT-TV2SE3-24/s3-personal-ripvanwinkle/persoonlijk_logboek.md#esp-idf-installatie`).
 
-## Voorbereiding
+### Achtergrond en Hardware
 
 - Kijk eventueel even [deze inleidende video](https://youtu.be/DKVyf8Wh0kE)
 - Lees eventueel alvast wat in [ESP32-IDF-opzet](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet.md).
@@ -39,11 +41,17 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
   (minste kans op onverwachte troubles, maximaal standaard / compatible)
 - Ieder lid van een **verlichtingteam met bluetooth-mesh** krijgt **één esp32-WROOM-32** devkits
   
-### ESP-IDF-5.3 installeren
+### ESP-IDF installeren
 
-- Installeer de ESP-IDF 5.3 bouwomgeving, inclusief arduino-ide component en test er je ESP32 mee (HelloWorld).
-Hopelijk lukt het als je [dit logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet.md) volgt. Er is ook een logboek versie [voor Mac OS X](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS-X.md).
-- Installeer - dat zelfde logboek volgend, lasergame_template_2 (een aantal utility libraries en CleanRTOS). Voor het lasergame_template_2 is er ook een [Mac OS X logboek](../../infrastructuur/ESP32-IDF-opzet/Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md).
+- Installeer de ESP-IDF bouwomgeving, inclusief arduino-ide component en test er je ESP32 mee (HelloWorld).
+  - Windows: volg graag [het Windows ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
+  - Mac OS X: volg graag [het Mac OS X ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS-X.md).
+
+### Lasergame Template installeren
+
+- Installeer `lasergame_template_2` (een aantal utility libraries en CleanRTOS)
+  - Windows: volg graag dat zelfde ESP32-IDF logboek.
+  - Mac OS X: volg graag [het Mac OS X lasergame logboek](../../infrastructuur/ESP32-IDF-opzet/Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md).
 
 ### Aanbevolen
 
