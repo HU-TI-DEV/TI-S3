@@ -17,3 +17,6 @@ Bestudeer het volgende:
 ## Tijdens en na de les
 Maak individueel de oefenopdracht [Networking Basics](../../onderwijsmateriaal/opdrachten/oefenopdrachten/networking-basics/networking-basics.md) en zet de link naar het resultaat bij de Canvas Oefenopdracht "Networking Basics".
 Als je de bijbehorende extra opdracht gemaakt hebt, zet dan de link naar het resultaat daarvan bij de Canvas 
+
+## Infra structuur
+Bedenk met je team hoe je de back-end wil inrichten. Virtual machine op Azure? Raspberry Pi 4? MCU Intel N100? Laat dit weten aan de projectdocenten.
