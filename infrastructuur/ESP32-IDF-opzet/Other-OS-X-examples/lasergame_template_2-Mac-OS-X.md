@@ -102,7 +102,7 @@ With the [ESP32-C6 I compiled some ESP-IDF examples](./ESP32-C6-wifi-scan.md).
 
 > `CONFIG_FREERTOS_HZ=100 -- how can I change this default?`
 
-Check the file 'test_lasergame_2/build/config/Kconfig.in'.
+Check the file 'test_lasergame_2/build/Kconfigs.in'.
 
 This should contain a line to import the FreeRTOS configuration:
 
