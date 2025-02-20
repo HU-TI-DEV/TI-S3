@@ -1,5 +1,5 @@
 # Programma Networking Basics
-Je hebt al wat ervaring opgedaan met networking in het vorige semester.
+Je hebt al wat ervaring opgedaan met [networking in het vorige semester](https://github.com/HU-TI-DEV/TI-S2/tree/main/infrastructuur).
 In deze les kijken we daar nog eens naar, met als topics:
 - http
 - REST
