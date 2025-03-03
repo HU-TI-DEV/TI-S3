@@ -1,8 +1,9 @@
 # Code
 
 ## Criteria 
-- **In sync** met het klassediagram en STD, waar van toepassing.
+- **In sync** met het **klassediagram** en **STD** welke aan de klasse ten grondslag ligt.
 - Elke **`<<isActive>>`** klasse moet **afgeleid** zijn van (CleanRTOS) Task, en heeft een **main()** functie met een infinite loop.
+- Als je op **meerdere waitables** tegelijk wacht (tot een of meerdere ervan vuren), gebruik dan **waitAny** gevolgd door **hasFired**. hasFired gebruikt de laastste info van een waitAny aanroep.
 - Een **enum** om de toestanden mee te duiden.
 - **Member** variabelen en references zoals aangegeven in het klassediagram.
 - Een **constructor** die eventuele reference members initialiseert en/of **zichzelf als listener** aan members toevoegt en/of **members aanmeldt** bij een handler.
