@@ -3,23 +3,7 @@ Hieronder staat nog onverwerkte tekst uit het  [pdf document Design like a Robot
 
 # ----
 
-Zoals gezegd, in den beginne was er een Casus met bijbehorende requirements.
 
-
-
-**Naam Instellen**
-**Beschrijving**
-
-Uitzondering 
-
-Naam Tril besturing
-Preconditie Als deze use case start, trilt het apparaat niet.
-Beschrijving Met het indrukken van de tril knop wordt het trillen in de actueel
-ingestelde trilfrequentie getoggeld.
-Uitzondering Zodra de noodknop is ingeslagen stopt het trillen, en wordt de tril
-knop genegeerd.
-Zodra de noodknop weer is omhooggetrokken kan deze use case
-weer hervat worden.
 Design Fase1:
 Object model met object beschrijvingen
 De eerste fase bestaat uit het maken van een object model en parallel daaraan een lijst met object
@@ -61,7 +45,7 @@ a. Het aanmaken van een object gaat in 3 stappen:
 i. Voeg het toe aan het object model.
 ii. Geef het een eventueel geschikt stereotype (zie even verderop).
 iii. Voeg een beschrijving ervan toe aan de lijst met objecten.
-2. Verwerk de use case beschrijvingen zin voor zin:
+1. Verwerk de use case beschrijvingen zin voor zin:
 a. Lees een zin.
 b. Bedenk welke “dingen” je systeem nodig heeft om te kunnen doen wat er staat.
 (vaak staan ze al in de zin als zelfstandige naamwoorden)
@@ -475,12 +459,12 @@ b. Event driven
 verder niet voor in deze cursus)
 c. Demand driven
 ‐> overig: gaat pas iets doen als er een bericht binnenkomt.
-2. Intern : dat zijn taken van overige objecten.
+1. Intern : dat zijn taken van overige objecten.
 a. Periodical
 ‐> wanneer iets met vast interval moet worden gedaan, zoals pollen.
 b. Demand driven
 ‐> overig: gaat pas iets doen als er een bericht binnenkomt.
-3. Geen taak
+1. Geen taak
 Soms kun je direct al besluiten dat een object geen eigen taak nodig heeft, bijvoorbeeld als
 hetgeen wat hij doet vrijwel instantaan is. Voorbeelden: entitiy objecten, leds.
 Taakstructurerings‐tabel
@@ -620,7 +604,7 @@ Wat betekent “Samenvoegen”
 Dat kan twee dingen betekenen:
 1. Een van de objecten verliest zijn taak. De dingen van het andere object worden (ook) in de
 thread van de taak van de aanroeper uitgevoerd.
-2. In het geval van temporele cohesie:
+1. In het geval van temporele cohesie:
 Alle betrokken objecten verliezen hun eigen taak. Er komt een extra “Handler” object met
 een taak. Vanuit dat object worden periodiek “update” functies van de betrokken objecten
 aangeroepen. Zodoende voeren alle betrokken objecten periodiek hun “ding” uit zonder dat
@@ -692,14 +676,14 @@ Klassediagram maken
 Het opstellen van het klassediagram kan in de volgende stappen worden gedaan:
 1. Initiele Klassen
 Maak een kopie van het object model. Vervang alle overeenkomstige objecten door klassen.
-2. Publieke operaties
+1. Publieke operaties
 Schuif de berichten langs de pijlen in de richting van de pijl door naar de klasse die zich daar
 bevindt. Het bericht wordt daar geimplementeerd als publieke functie. Met andere woorden:
 elk bericht wordt een publieke operatie bij zijn ontvanger.
-3. Verwijder dubbele pijlen
+1. Verwijder dubbele pijlen
 Dubbele pijlen zijn dubbelop in een klassediagram.
-4. Representeer gelijksoortige objecten door een enkele klasse
-5. Composition / Member variabelen
+1. Representeer gelijksoortige objecten door een enkele klasse
+2. Composition / Member variabelen
 Het is handig dat wanneer je een object aanmaakt, dat dat object zelf automatisch zoveel
 mogelijk de objecten aanmaakt die hij nodig heeft. Dat doe je door het toevoegen van de
 benodigde objecten als private member variabelen in de member sectie van de klasse.
@@ -711,12 +695,12 @@ getekend (het zwarte wiebertje aan de kant van de eigenaar).
 Als er al een pijl van B naar A liep, mag deze dan worden verwijderd.
 Immers: eigenaarschap impliceert kennen: als je een member variabele hebt, kun je zijn
 member functies aanroepen. Je hebt daar dan geen reference meer voor nodig.
-6. Member references
+1. Member references
 De pijlen in het klassediagram die niet zijn omgezet in composition relaties betekenen alleen
 nog “kennen”, geen eigenaarschap (want de pijlen die eigenaarschap vertegenwoordigden
 zijn in de vorige stap al omgezet naar compositie‐relaties). Voeg voor elk object dat een
 klasse “kent” een private member reference variabele toe.
-7. Listener Patterns
+1. Listener Patterns
 Klassen die berichten versturen naar andere klassen moeten die andere klassen kennen.
 Daardoor werken ze alleen met die andere klassen. Als je klassen algemener
 toepasbaar/herbruikbaar wilt maken, moet je ze hun berichten laten sturen naar een
@@ -725,12 +709,12 @@ bevat. Zodoende kunnen alle klassen die afleiden van zo’n interface klasse (oo
 klassen) probleemloos naar de verstuurde berichten “luisteren”. Buttons zijn bijvoorbeeld
 typisch klassen die je in meerdere designs wilt kunnen hergebruiken. (TODO: insert doc over
 listener patterns).
-8. Markeer isActive
+1. Markeer isActive
 Markeer klassen die een taak hebben met het (extra) stereotype <<isActive>>.
-9. Voeg Handler klassen toe
+1. Voeg Handler klassen toe
 Voeg de extra Handler klassen toe die zijn ontstaan als gevolg van de taaksamenvoeging van
 periodieke taken.
-10. Weak dependencies
+1.  Weak dependencies
 Het kan zijn dat een klasse in een van de functie‐parameters van een van zijn functie een
 klasse gebruikt waarvan hij verder geen member of reference member heeft. In dat geval
 laat je de afhankelijkheid zien mbv een “weak dependency” relatie (een gestippelde pijl).
@@ -744,7 +728,7 @@ in zijn body een tijdelijk Rect object aanmaakt.
 Het nut van het ook het weergeven van de weak dependencies is dat als je bijvoorbeeld een
 library van je klassen wilt maken, dat je ziet van welke andere libraries die allemaal
 afhankelijk moet zijn en waarom.
-11. Multiplicity
+1.  Multiplicity
 Zorg dat aan het uiteinde van de de associatiepijlen en de compositie‐relaties de juiste
 multipliciteit in het klassediagram is aangegeven.
 Tel eenvoudigweg hoeveel members en reference members een klasse heeft.
@@ -999,7 +983,7 @@ synchronisatiemechanismen.
 De voordelen van het gebruik van synchronisatiemechanismen zijn:
 1. Taken kunnen dingen aan elkaar doorgeven en vervolgens zelf doorgaan met hun eigen taak
 (= asynchroniteit).
-2. Data wordt veilig doorgegeven tussen de taken. Het RTOS voorkomt bijvoorbeeld door
+1. Data wordt veilig doorgegeven tussen de taken. Het RTOS voorkomt bijvoorbeeld door
 middel van het gebruik van mutexen waar nodig dat data nooit gelijktijdig door meerdere
 taken wordt bepoteld (anders zou het bijvoorbeeld kunnen voorkomen dat terwijl een struct
 nog wordt gelezen door de ene taak, dat de andere taak al een deel ervan aan het
@@ -1085,7 +1069,7 @@ Het STD communiceert met andere taken via de interface functies in zijn interfac
 Je kunt de STD interface ontwerpen met de volgende vuistregels:
 1. Voeg elke publieke functie van de klasse waarvoor je een STD maakt, en die wordt
 aangeroepen door een andere taak, toe aan de STD interface.
-2. Je kunt de publieke functies in twee soorten verdelen:
+1. Je kunt de publieke functies in twee soorten verdelen:
 o Functies die “even snel” een waarde opvragen:
 Bijvoorbeeld getTemperature() en isTemperatureTooHigh().
 Die functies implementeer je door een pool waarde te retourneren.
@@ -1181,14 +1165,14 @@ Het omzetten van een STD naar Code gaat vrij rechttoe rechtaan:
 2. Creeer een enum waarmee de toestanden geduid kunnen worden.
 3. Voeg de member variabelen en references toe zoals aangegeven in het klassediagram.
 (normaliter zijn die private).
-4. Voeg een constructor toe die:
+1. Voeg een constructor toe die:
 a. De reference members initialiseert.
 b. Als de klasse een listener is, laat het eigen object zich als listener toevoegen aan de
 objecten waar het naar luistert.
 c. Voeg de members die een Handler nodig hebben toe aan de betreffende Handler.
-5. Maak voor elke STD interface een gelijknamige publieke functie aan. De code kun je 1 op 1
+1. Maak voor elke STD interface een gelijknamige publieke functie aan. De code kun je 1 op 1
 overnemen.
-6. Implementeer de main() functie:
+1. Implementeer de main() functie:
 a. Creeer een switch statement dat springt naar de code voor de huidige toestand.
 b. Voer daar als eerste de entry event code uit.
 c. Vervolgens eventuele “do” code.
@@ -1407,14 +1391,14 @@ Het omzetten van een STD naar Code gaat vrij rechttoe rechtaan:
 2. Creeer een enum waarmee de toestanden geduid kunnen worden.
 3. Voeg de member variabelen en references toe zoals aangegeven in het klassediagram.
 (normaliter zijn die private).
-4. Voeg een constructor toe die:
+1. Voeg een constructor toe die:
 a. De reference members initialiseert.
 b. Als de klasse een listener is, laat het eigen object zich als listenere toevoegen aan de
 objecten waar het naar luistert.
 c. Voeg de members die een Handler nodig hebben toe aan de betreffende Handler.
-5. Maak voor elke STD interface een gelijknamige publieke functie aan. De code kun je 1 op 1
+1. Maak voor elke STD interface een gelijknamige publieke functie aan. De code kun je 1 op 1
 overnemen.
-6. Implementeer de main() functie:
+1. Implementeer de main() functie:
 a. Creeer een switch statement dat springt naar de code voor de huidige toestand.
 b. Voer daar als eerste de entry event code uit.
 c. Vervolgens eventuele “do” code.
@@ -1646,7 +1630,7 @@ Taken en synchronisatiemechanismen
 Zo maak je een concurrency diagram:
 1. Noteer de namen van de taken die uit de taakstructurering+taaksamenvoeging kwamen in
 parallellogram‐vormen.
-2. Kijk in het klassediagram welke functies van een taak door een andere taak worden
+1. Kijk in het klassediagram welke functies van een taak door een andere taak worden
 aangeroepen. Bedenk voor die functies welke syncronisatiemechanismen het best gekozen
 kunnen worden.
 In het voorgaande hadden we al gezien hoe je dat doet:
@@ -1669,8 +1653,8 @@ dat er een nieuwe, nog niet verwerkte waarde is.
 Als het belangrijk is dat je geen voorgaande waarde misloopt, kun je
 in plaats van een flag+pool combinatie zoals hierboven beter kiezen
 voor een channel.
-3. Ga na welke klassen op een timer wachten, en voeg dat toe aan het diagram.
-4. Ga na of er entity klassen zijn die vanuit verschillende taken gelezen en geschreven kunnen
+1. Ga na welke klassen op een timer wachten, en voeg dat toe aan het diagram.
+2. Ga na of er entity klassen zijn die vanuit verschillende taken gelezen en geschreven kunnen
 worden.
 Ga na wie de setters en getters van de betreffende entity aanroepen. De betreffende data
 moet geencapsuleerd zijn in in pools.
