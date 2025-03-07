@@ -21,4 +21,4 @@ On my system I had already installed Docker Compose `docker-compose-plugin is al
 docker compose version
 ```
 
-You now have all the tools to install [a server with Web Application](../ServerMetWebApplicatie/log_Opzetten_van_Server_en_Webapplicatie.md). 
+You now have all the tools to install [a server with Web Application](../ServerMetWebApplicatie/Gomoku_on_Ubuntu.md). 
