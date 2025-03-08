@@ -8,14 +8,14 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 - Check het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
 - Kijk in de code van test_lasergame_2 -> apps -> KlikAanKlikUit
 
-## Tijdens en na de les
+## Tijdens de les
 
 Van STD naar Code. Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:  
 
 ![desing like a robot, page 53](image.png)
 
-Hieronder in md:
-1. Creeer een klasse die is afgeleid van de task van RTOS.
+Hieronder in mark down:
+1. Creeer een klasse die is afgeleid van de task van RTOS (in ons geval CRT).
 2. Creeer een enum waarmee de toestanden geduid kunnen worden.
 3. Voeg de member variabelen en references toe zoals aangegeven in het klassediagram.
 (normaliter zijn die private).
@@ -62,8 +62,9 @@ En het tweede deel:
 ![alt text](image-5.png)
 
 
-- Build en run KliKAanKlikUit.
-  - Als je een ESP32-C6 gebruikt: zoek uit wat er moet worden veranderd om het daar te runnen.
+### Aan de slag
+-  Build en run KliKAanKlikUit.
+   - Als je een ESP32-C6 gebruikt: zoek uit wat er moet worden veranderd om het daar te runnen.
 - Wat gebeurt als je de knop indrukt?
 
 
