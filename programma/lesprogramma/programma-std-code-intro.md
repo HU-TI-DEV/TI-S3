@@ -63,9 +63,18 @@ En het tweede deel:
 
 
 ### Aan de slag
+DEEL I
 -  Build en run KliKAanKlikUit.
    - Als je een ESP32-C6 gebruikt: zoek uit wat er moet worden veranderd om het daar te runnen.
 - Wat gebeurt als je de knop indrukt?
+- Wat verwacht je als bij het volgende stukje code de false waarde wordt verandert in een true?
+```c++
+crt::Button btnInput("InputButton", PIN_BTN, false);
+```
+
+
+DEEL II
+
 
 
 
