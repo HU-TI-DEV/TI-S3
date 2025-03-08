@@ -10,7 +10,8 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 
 ## Tijdens en na de les
 
-Van STD naar Code. Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:
+Van STD naar Code. Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:  
+
 ![desing like a robot, page 53](image.png)
 
 Hieronder in md:
@@ -35,6 +36,24 @@ auto evt = wait( een of meer waitables hier )
 if(evt=flagButton){state = Idle;}
 
 We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. 
+Als we kijken naar de main: 
+
+![De main](image-1.png)
+
+Dan zien we dat er twee files worden ge-include: 
+```c++
+#include "Button.h"
+#include "KlikAanKlikUit.h"
+```
+
+In de main zelf zien we dat er twee dingen uit Clean RTOS (CRT) worden aangeroepen: 
+```c++
+	crt::Button btnInput("InputButton", PIN_BTN, false);
+	crt::KlikAanKlikUit("KlikAanKlikUit", 2 /*priority*/, 0 /*RUNNING_CORE*/, PIN_LED, (crt::Button*)&btnInput);
+```
+KlikAanKlikUit is de taak die wordt geintialiseerd (als RTOS taak) met een bijbehorende prioriteit. 
+
+Laten we nu gaan kijken naar KlikAanKlikUit...
 
 
 
