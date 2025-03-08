@@ -6,8 +6,6 @@ Deze les gaan we de ESP32 IDF programmeeromgeving installeren en (team-)project 
 
 Verder met [de vorige les](./programma-esp32-IDF-1.md).
 
-Als je daarmee al klaar ben, kijk naar [Key Driver Chart en Traceability Diagram](./programma-keydriver-chart-traceability-diagram.md).
-
 **Anders neem je deze stof zelfstandig thuis door.**
 
 Prioriteit voor het werkcollege dat je de tijd goed gebruikt om je ontwikkelomgeving goed in orde te hebben.

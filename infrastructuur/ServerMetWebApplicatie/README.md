@@ -248,11 +248,11 @@ Relevante dingen die ik mer herinner zijn:
 
 ## MongoDB
 
-MongoDB is een **NoSQL** database. Het is een **document database**. Dat betekent dat je data opslaat in **documenten**. Een document is een soort **JSON** object. Je kunt dus op een overzichtelijke manier **nested** data opslaan. 
+[MongoDB](./MongoDB.md) is een **NoSQL** database. Het is een **document database**. Dat betekent dat je data opslaat in **documenten**. Een document is een soort **JSON** object. Je kunt dus op een overzichtelijke manier **nested** data opslaan. 
 
 ### MongoDB Compass
 
-MongoDB Compass is een handige desktop applicatie waarmee je je MongoDB database kunt inspecteren. Bijvoorbeeld als je in teambidder een setup het gedaan, kun je met MongoDB Compass bekijken hoe de data als json file is opgeslagen:  
+[MongoDB Compass](MongoDB.md#using-a-gui) is een handige desktop applicatie waarmee je je MongoDB database kunt inspecteren. Bijvoorbeeld als je in teambidder een setup het gedaan, kun je met MongoDB Compass bekijken hoe de data als json file is opgeslagen:  
 
 ![alt text](image.png)
 

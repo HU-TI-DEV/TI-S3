@@ -1,7 +1,7 @@
 # Programma STD naar Code - IR ontvanger
 
 ## Voorbereiding
-- Lees [deze inleiding over infrarood communicatie](../../hardware-interfacing/infraroodcommunicatie/infraroodcommunicatie.md)
+- Lees [deze inleiding over infrarood communicatie](../../hardware-interfacing/infraroodcommunicatie/README.md)
 - Kijk ook [de voorbereidende video](https://youtu.be/0M3hKepjMBg).
 
 ## Tijdens en na de les: canvas opdracht IR ontvanger

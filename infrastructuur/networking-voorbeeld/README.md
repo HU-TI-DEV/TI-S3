@@ -1,3 +1,22 @@
+
+- [Networking voorbeeld](#networking-voorbeeld)
+  - [Client-Server](#client-server)
+  - [Ip nummers](#ip-nummers)
+  - [URL in de browser](#url-in-de-browser)
+  - [DNS](#dns)
+  - [Domain Registrar](#domain-registrar)
+  - [Internet = web van verbonden netwerken](#internet--web-van-verbonden-netwerken)
+  - [Bericht reist naar de router waar de server achter zit](#bericht-reist-naar-de-router-waar-de-server-achter-zit)
+  - [ip-adres = adres van de router](#ip-adres--adres-van-de-router)
+  - [Lokaal ip adres](#lokaal-ip-adres)
+  - [Wat doet de router met het binnenkomende bericht](#wat-doet-de-router-met-het-binnenkomende-bericht)
+  - [De server - Ubuntu](#de-server---ubuntu)
+  - [Docker - compose](#docker---compose)
+  - [Reverse Proxy](#reverse-proxy)
+  - [Andere handige containers](#andere-handige-containers)
+  - [www](#www)
+
+
 # Networking voorbeeld
 
 Tijdens dit semester ga je met je team een networking oplossing maken.

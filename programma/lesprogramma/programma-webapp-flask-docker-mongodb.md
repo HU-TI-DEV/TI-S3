@@ -1,7 +1,7 @@
 # Programma WebApp Flask Docker MongoDB
 Tijdens dit semester gaan jullie als onderdeel van het project een **webapplicatie** ontwikkelen op basis van **Flask, Vanilla Javascript, HTML, CSS en MongoDB**.  
 
-De webapplicatie wordt gehost op een set docker containers, welke met een enkel **docker-compose** commando opgezet kunnen worden. In combinatie met het gebruik van github zorgt dat ervoor dat de webapplicatie eenvoudig naar believen op verschillende servers kan worden opgezet.
+De webapplicatie wordt gehost op een set docker containers, welke met een enkel **docker-compose** commando opgezet kunnen worden. In combinatie met het gebruik van GitHub zorgt dat ervoor dat de webapplicatie eenvoudig naar believen op verschillende servers kan worden opgezet.
 
 Ook de **ESP32s** van jullie project zullen communiceren met het bijbehorende backend.
 
@@ -12,7 +12,7 @@ Om jullie op weg te helpen hebben we een **voorbeeld van zo'n webapplicatie** vo
 
 ## Voorbereiding
 Scan alvast wat door:  
-- [log_Opzetten_van_Server_en_Webapplicatie.md](../../infrastructuur/ServerMetWebApplicatie/log_Opzetten_van_Server_en_Webapplicatie.md)
+- [Opzetten van server en de voorbeeld Webapplicatie](../../infrastructuur/ServerMetWebApplicatie/README.md)
 - [VoorbeeldWebApp_Gomoku/README.md](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/README.md)
 - [VoorbeeldWebApp_Gomoku/Gomoku_WebApp_Design.md](https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku/blob/main/docs/gomoku_webapp/Gomoku_WebApp_Design.md)
 

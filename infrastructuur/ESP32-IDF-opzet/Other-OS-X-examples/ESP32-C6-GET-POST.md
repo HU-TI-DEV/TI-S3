@@ -57,7 +57,7 @@ I (6928) HTTP_CLIENT: 74 74 70 62 69 6e 2e 6f 72 67 2f 67 65 74 3f 65
 I (6928) HTTP_CLIENT: 73 70 22 0a 7d 0a
 ```
 
-The HEX corresponds to a JSON object. Use an online converter or ask ChatGPT.
+The HEX corresponds to a JSON object. Use an online converter or ask ChatGPT. The data is a json object.
 
 ```json
 {
@@ -76,5 +76,5 @@ The HEX corresponds to a JSON object. Use an online converter or ask ChatGPT.
 
 ## Include this example code as lib in the template
 
-You can inlcude the C ESP-IDF example files as library in the lasergame C++ template. There are quite some steps involved to acomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to [include this code as a library in the lasergame_template_2](./ESP-IDF_include_example_as_library.md)
+You can include the C ESP-IDF example files as library in the lasergame C++ template. There are quite some steps involved to accomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to [include this code as a library in the lasergame_template_2](./ESP-IDF_include_example_as_library.md)
 

@@ -1,6 +1,8 @@
 ### Building ESP-IDF example files
 
-I had some issues with using Arduino libraries on the ESP32 C6. The problem has not yet been identified. As a test I will now try to compile and flash the ESP-IDF wifi network scan.
+I had some issues with using Arduino libraries on the ESP32 C6. The C6 has two usb connections. I was looking at the wrong serial output (switch USB port and you might need to install the USB drivers). This was the reason I could not see the WiFi networks that were found.
+
+As a test I will now try to compile and flash the ESP-IDF wifi network scan.
 
 Open a terminal and navigate to the esp directory. Setup your ESP-IDF environment.
 

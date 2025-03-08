@@ -1,10 +1,11 @@
- ### ESP32-project opzet, ESP32-IDF
+# ESP32-project opzet, ESP32-IDF installatie
 
  Installing ESP-IDF on Mac OS X. Tested on Mac M4 with Sequoia 15.1.1. Date: 24-01-2025
 
 Source: [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html)
 
 Make a workspace:
+
 ```bash
 mkdir -p ~/esp
 cd ~/esp
@@ -23,9 +24,9 @@ brew install ccache
 ```
 
 It tells me:
-	To install symlinks for compilers that will automatically use
-ccache, prepend this directory to your PATH:
-  /opt/homebrew/opt/ccache/libexec
+> To install symlinks for compilers that will automatically use
+> ccache, prepend this directory to your PATH:
+> `/opt/homebrew/opt/ccache/libexec`
 
 ```bash
 sudo nano /etc/paths
@@ -125,9 +126,10 @@ idf.py -p <your serial port> flash
 
 In my case idf.py -p /dev/cu.usbmodem21201 flash
 
-Note that flashing CH343 interface did not work for me. I have to use the other USB-C connector on my ESP device.
+Note that flashing CH343 interface did not work for me.
+I have to use the other USB-C connector on my ESP device.
 
-You have your first Hello World program build and flashed to your device!
+You have your first Hello World program built and flashed to your device!
 
 When you restart the terminal do not forget to run:
 

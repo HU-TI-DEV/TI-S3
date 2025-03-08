@@ -73,9 +73,9 @@ Week C2. Teams gevormd, Projecten verdeeld, Project board opgezet, kennis gemaak
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS,TP,GP,HP**) |
+| ma  | |  [Kickoff - Klantpraatjes - Teamvorming](./lesprogramma/programma-kickoff.md) (**HS,TP,HP**) |
 | di  | | [Journalling - overige stakeholders - key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**BB,GP**) |
-| wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB,GP**) |
+| wo  | | [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**BB**) |
 | do  | Werken aan project | |
 
 ### Onderwijsweek C3 (17-02-2025)
@@ -87,8 +87,8 @@ Week A2. Advies, in de vorm van Functionele Requirements, Non Functionele Requir
 | --- | --- | --- |
 | ma  | | [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md)  (**GP,BB**) |
 | di  | | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md)  (**GP,BB**) |
-| wo  | | [ESP32 IDF en CleanRTOS installeren - deel 1: basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP,HS**) |
-| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [ESP32 IDF en CleanRTOS installeren - deel 2: CleanRTOS, ZigBee](./lesprogramma/programma-esp32-IDF-2.md)  (**HP,HS**), <br>[Key Driver Chart en Traceability Diagram](./lesprogramma/programma-keydriver-chart-traceability-diagram.md)  (**HP,HS**) |
+| wo  | | [ESP32 IDF en CleanRTOS installeren - deel 1: basic installatie](./lesprogramma/programma-esp32-IDF-1.md)  (**HP & HS**) |
+| do  | :end: Einde sprint 1 &amp; :runner: planning sprint 2 | [ESP32 IDF en CleanRTOS installeren - deel 2: CleanRTOS](./lesprogramma/programma-esp32-IDF-2.md)  (**HP**) |
 
 ### Onderwijsweek C4 (24-02-2025)
 
@@ -106,10 +106,10 @@ Week C5.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
-| di  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md)  (**BB,GP**) |
-| wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP,BB**) |
-| do  | | [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB,GP**) |
+| ma  | PO-ontwikkeldocument (**BB**)| [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!!** (HS) |
+| wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP**) |
+| do  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md) , [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB**) |
 
 ### Onderwijsweek C6 (10-03-2025)
 
@@ -120,10 +120,10 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB,GP**) |
-| di  | | [Code &lt;-&gt; STD deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**) |
-| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---iii) (**BB &amp; GP**)|
-| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) light |
+| ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB**) |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)** |
+| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**)|
+| do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP**) light |
 
 ### Onderwijsweek C7 (17-03-2025)
 
@@ -132,7 +132,7 @@ Week C7.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | | Gastspreker |
-| di  | | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP,BB**) resultaten bespreken in klas, Overzicht, Repeat |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)**|
 | wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |[Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**) |
 
@@ -143,9 +143,9 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
-| di  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**) |
-| wo  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**GP,BB**) |
-| do  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
+| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)**|
+| wo  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**)  |
+| do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**GP,BB**) |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -153,10 +153,10 @@ Week C9.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
-| di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
-| wo  | | PLC workshop 1/4 (bij electro) |
-| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 | |
+| ma  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
+| di  | |[Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
+| wo  | |  [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
+| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 PO demo (**BB**)| |
 
 ### Onderwijsweek C10 (7-04-2025)
 
@@ -177,7 +177,7 @@ Week D1.
 | --- | --- | --- |
 | ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**GP**) |
 | di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) |
-| wo  | |  PLC workshop 2/4 (bij electro) |
+| wo  | |  |
 | do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
 ### Onderwijsweek D2 (21-04-2025)
@@ -187,8 +187,8 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
-| di  | | [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | | PLC workshop 3/4 (bij electro) en [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
+| di  || [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
+| wo  |PO demo (**BB**) |  [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
@@ -212,8 +212,8 @@ Week D4.
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
 | di  | | [Javascript](./lesprogramma/programma-javascript.md) (pointer naar zelfstudie)  (**GP**) |
-| wo  | | PLC workshop 4/4 (bij electro) 4 (**HP**) |
-| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
+| wo  | |  |
+| do  | :end: Einde sprint 4 &amp; :runner: Planning sprint 5 PO demo (**BB**) | [Combinatoriek 1/ 2](./lesprogramma/programma-combinatoriek-1.md)  (**BB**)|
 
 ### Onderwijsweek D5 (12-05-2025)
 
