@@ -107,7 +107,7 @@ Week C5.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | PO-ontwikkeldocument (**BB**)| [Networking Basics](./lesprogramma/programma-networking-basics.md)  (**HP,HS**) |
-| di  | | **PLC WORKSHOP, LET OP DE TIJD!!!** (HS) |
+| di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md) (HS) |
 | wo  | | [Oefening Object Model](./lesprogramma/programma-object-model-1.md)   (**GP**) |
 | do  | | [Functionele decompositie](./lesprogramma/programma-functionele-decompositie.md) , [Concurrency (pc), mutex](./lesprogramma/programma-concurrency-mutex.md)    (**BB**) |
 
@@ -121,7 +121,7 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB**) |
-| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)** |
+| di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md) |
 | wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**)|
 | do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP**) light |
 
@@ -132,7 +132,7 @@ Week C7.
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | | Gastspreker |
-| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)**|
+| di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |[Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**) |
 
@@ -143,7 +143,7 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
-| di  | | **PLC WORKSHOP, LET OP DE TIJD!!! (HS)**|
+| di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (HS)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**)  |
 | do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**GP,BB**) |
 
