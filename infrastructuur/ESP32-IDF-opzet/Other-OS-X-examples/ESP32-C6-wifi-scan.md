@@ -75,3 +75,9 @@ idf.py -p /dev/cu.usbmodem21201 flash monitor
 ```
 
 I can find 15 APs! Next I will try to make some [GET and POST examples with the ESP32 C6](./ESP32-C6-GET-POST.md).
+
+
+For the record, I later learned that Harm needed/used next to make it working:
+
+- adjusting the compiler flag:
+  CONFIG_COMPILER_OPTIMIZATION to Optimize for size (-Os)
