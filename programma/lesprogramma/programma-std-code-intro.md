@@ -74,7 +74,7 @@ crt::Button btnInput("InputButton", PIN_BTN, false);
 - Zoals je kan zien klopt de naamgeving van het STD niet met de code. Maak een nieuw STD waarin de naamgeving wel klopt. 
   
 
-### Deel II - We gaan een verkeerslicht nabouwen. <br>
+DEEL II - We gaan een verkeerslicht nabouwen. <br>
 Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – oranje/geel – rood. 
 - 	Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.
 - 	Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat.
