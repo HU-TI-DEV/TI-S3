@@ -71,33 +71,83 @@ DEEL I
 ```c++
 crt::Button btnInput("InputButton", PIN_BTN, false);
 ```
+- Zoals je kan zien klopt de naamgeving van het STD niet met de code. Maak een nieuw STD waarin de naamgeving wel klopt. 
+  
 
+### Deel II - We gaan een verkeerslicht nabouwen. <br>
+Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – oranje/geel – rood. 
+- 	Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.
+- 	Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat.
+- 	Het verkeerslicht staat normaal op groen. Als op knopje A wordt gedrukt moet het verkeerslicht van groen -> oranje/geel (3 seconden) -> rood gaan. Dan moet hij op rood blijven staan.
+- 	Als knopje B wordt ingedrukt moet hij (het is een duits verkeerslicht) van rood -> knipperend rood/geel gaan. Dus 5 x oranje/geel (0.5 s) -> rood (0.5 s) -> en weer terug naar oranje.
+- 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan.  
+<br>
 
-DEEL II
+De opdracht:
+1) Maak een STD van het verkeerslicht (mag in plantUML of in drawIO)
+2) Pas de stappen van blz 53 toe om je code aan te passen. Let op! Niet alle pinnen van de ESP32 kun je gebruiken. Zoek dat ook uit.
 
-
-
-
-
-
-- Welke onderdelen missen in het State Transition Diagram?
-- Wat kan je minimaal toevoegen in het STD en de code om het bruikbaar werkend te krijgen?
-
-### Optioneel
-
-- Maak een map 'test' aan en schrijf unit-tests voor KlikAanKlikUit en Button.
-- Als we willen dat een lange druk op de knop de LED alleen een keer omschakeld
-  - Wat moeten we in het State Transition Diagram veranderen?
-  - Hoe kunnen we dit door toeveogingen alleen in de klas KlikAanKlikUit implementeren?
-  - Hoe kunnen we dit door toeveogingen alleen in de klas Button implementeren?
-
-
-
-
+Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul je deze variant ook moeten uploaden op canvas.
 
 
 # Programma STD <-> code - II
 
+## Voorbereiding
+
+- Bestudeer van de volgende bron: [cleanrtos](../../infrastructuur/CleanRTOS/README.md) het stukje over flags. 
+
+## Tijdens de les
+De code van het stoplicht heeft 1 groot nadeel, het gebruikt eigenlijk niet het multitask karakter van het RTOS. Dat is niet zo erg voor simpele sequentiele taken maar als er meerdere dingen tegelijk moeten gebeuren is een andere oplossing handig.
+
+Het probleem is dat de ontwerper van het stoplicht een extra functionaliteit wil. Hij wil een ambulance knop. Dit is een derde knop waarmee instantaan alle lichten van het verkeerslicht op rood gezet kunnen worden. 
+
+Wat jullie gaan doen is het volgende:
+- het checken van de knoppen gaat in aparte tasks gebeuren.
+- of een knop is ingedrukt gaan jullie communiceren via flags met de task KlikAanKlikUit. 
+  
+### Aan de slag
+  
+Maak een ButtonTask.h aan. Gebruik de KlikAanKlikUit task als "Template". Hernoem KlikAanKlikUit als ButtonTask, totdat je zoiets krijgt::
+```c++
+- #pragma once
+#include <crt_CleanRTOS.h>
+
+// by Bart Bozon, 2025
+
+namespace crt
+{
+	class ButtonTask : public Task{
+		
+		private:
+
+		public:
+			ButtonTask(const char *taskName, unsigned int taskPriority, unsigned int taskCoreNumber, const uint8_t pinButton, int timeBetweenReads)
+				: Task(taskName, taskPriority, 3000, taskCoreNumber), pinButton(pinButton), timeBetweenReads(timeBetweenReads)
+			{
+                // HIER MOET JULLIE CODE KOMEN OM DE PIN TE INITIALISEREN
+				ESP_LOGI(taskName, "start task");
+				start();
+			}
+
+		private:
+			void main()
+			{
+
+				// main function
+				while (true)
+				{
+                    // HIER MOET JULLIE CODE KOMEN OM DE PIN TE LEZEN EN DE FLAG TE ZETTEN
+					vTaskDelay(timeBetweenReads);
+				}
+		}
+	}; // end class 
+}; // end namespace CleanRTOS
+```
+
+- pas de code aan zodat je een pin kunt uitlezen.
+- kopieer het oude STD naar een nieuwe.
+- pas het STD aan zodat het de nieuwe opdracht reflecteert.
+- maak de code zo dat de knoppen via aparte tasks worden uitgelezen. Implementeer ook de ambulance functionaliteit. 
 
 # Programma STD <-> code - III
 
