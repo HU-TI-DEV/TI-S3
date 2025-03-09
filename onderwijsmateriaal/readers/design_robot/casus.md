@@ -9,7 +9,7 @@
   - [Werking](#werking)
   - [Use Case Diagram](#use-case-diagram)
   - [Use Case Beschrijvingen](#use-case-beschrijvingen)
-- [Vervolg: Todo - tekst die nog opgesplitst moet worden](#vervolg-todo---tekst-die-nog-opgesplitst-moet-worden)
+- [Vervolg: Design Fase 1](#vervolg-design-fase-1)
 
 
 # De Casus: een Trilapparaat
@@ -52,5 +52,4 @@ terugtrekt.
 | Beschrijving | Met het indrukken van de tril knop wordt het trillen in de actueel ingestelde trilfrequentie getoggeld. |
 | Uitzondering | Zodra de noodknop is ingeslagen stopt het trillen, en wordt de trilknop genegeerd. Zodra de noodknop weer is omhooggetrokken kan deze use case weer hervat worden. |
 
-
-# Vervolg: [Todo - tekst die nog opgesplitst moet worden](../design_robot/alle_tekst.md)
+# Vervolg: [Design Fase 1](../design_robot/designfase1.md)
