@@ -5,7 +5,6 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 ## Voorbereiding
 
 - Lees blz 47 tm blz 52 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) door.
-- Check het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
 - Kijk in de code van test_lasergame_2 -> apps -> KlikAanKlikUit
 
 ## Tijdens de les
@@ -36,6 +35,8 @@ auto evt = wait( een of meer waitables hier )
 if(evt=flagButton){state = Idle;}
 
 We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. 
+- Check als eerste het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
+
 Als we kijken naar de main: 
 
 ![De main](image-1.png)
@@ -71,7 +72,7 @@ DEEL I
 ```c++
 crt::Button btnInput("InputButton", PIN_BTN, false);
 ```
-- Zoals je kan zien klopt de naamgeving van het STD niet met de code. Maak een nieuw STD waarin de naamgeving wel klopt. 
+- Zoals je kan zien klopt de naamgeving van het STD niet met de code (dit is een redelijke doodzonde in de SW wereld). Maak een nieuw STD waarin de naamgeving wel klopt. 
   
 
 DEEL II - We gaan een verkeerslicht nabouwen. <br>
