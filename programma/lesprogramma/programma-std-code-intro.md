@@ -149,6 +149,9 @@ namespace crt
 - pas het STD aan zodat het de nieuwe opdracht reflecteert.
 - maak de code zo dat de knoppen via aparte tasks worden uitgelezen. Implementeer ook de ambulance functionaliteit. 
 
+### Canvas
+Upload je werk naar canvas. Zie de canvas opdracht hoe je dat precies moet doen.
+
 # Programma STD <-> code - III
 
 Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de bijbehorende **Canvas oefenopdracht**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
