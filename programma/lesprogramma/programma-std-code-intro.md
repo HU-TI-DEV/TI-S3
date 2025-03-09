@@ -1,6 +1,6 @@
 # Programma STD <-> code - I
 
-Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De naam zegt het al, het is een diagram dat laat zien in welke toestanden een taak zich kan bevinden. Daarnaast laat het zien onder welke voorwaarden een toestand kan overgaan in een andere toestand. Deze les gaat tevens over vertalen naar CleanRTOS code.
+Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De naam zegt het al, het is een diagram dat laat zien in welke toestanden een taak zich kan bevinden. Daarnaast laat het zien onder welke voorwaarden een toestand kan overgaan in een andere toestand. Deze les gaat tevens over het vertalen van een STD naar CleanRTOS code.
 
 ## Voorbereiding
 
@@ -9,7 +9,7 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 
 ## Tijdens de les
 
-Van STD naar Code. Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:  
+Hoe gaan we va STD naar Code? Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:  
 
 ![desing like a robot, page 53](image.png)
 
@@ -82,7 +82,7 @@ Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – 
 - 	Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.
 - 	Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat.
 - 	Het verkeerslicht staat normaal op groen. Als op knopje A wordt gedrukt moet het verkeerslicht van groen -> oranje/geel (3 seconden) -> rood gaan. Dan moet hij op rood blijven staan.
-- 	Als knopje B wordt ingedrukt moet hij (het is een duits verkeerslicht) van rood -> knipperend rood/geel gaan. Dus 5 x oranje/geel (0.5 s) -> rood (0.5 s) -> en weer terug naar oranje.
+- 	Als knopje B wordt ingedrukt moet hij (het is een duits verkeerslicht) van rood -> knipperend rood/geel gaan. Dus 5 x (oranje/geel (0.5 s) -> rood (0.5 s) -> en weer terug naar oranje).
 - 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
 ``` 
 
@@ -91,6 +91,7 @@ De opdracht:
 
 1) Maak een STD van het verkeerslicht (mag in plantUML of in drawIO)  
 2) Pas de stappen van blz 53 toe om je code aan te passen. Let op! Niet alle pinnen van de ESP32 kun je gebruiken. Zoek dat ook uit.  
+3) Test je programma, laat de demo aan de docent zien.
 
 Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul je deze variant ook moeten uploaden op canvas.
 
@@ -107,8 +108,8 @@ De code van het stoplicht heeft 1 groot nadeel, het gebruikt eigenlijk niet het 
 Het probleem is dat de ontwerper van het stoplicht een extra functionaliteit wil. Hij wil een ambulance knop. Dit is een derde knop waarmee instantaan alle lichten van het verkeerslicht op rood gezet kunnen worden. 
 
 Wat jullie gaan doen is het volgende:
-- het checken van de knoppen gaat in aparte tasks gebeuren.
-- of een knop is ingedrukt gaan jullie communiceren via flags met de task KlikAanKlikUit. 
+- Het checken van de knoppen gaat in aparte tasks gebeuren.
+- Of een knop is ingedrukt gaan jullie communiceren via flags met de task KlikAanKlikUit. 
   
 ### Aan de slag
   
@@ -159,5 +160,6 @@ Upload je werk naar canvas. Zie de canvas opdracht hoe je dat precies moet doen.
 
 # Programma STD <-> code - III
 
-Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de bijbehorende **Canvas oefenopdracht**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
+Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de bijbehorende **Canvas oefenopdracht**.  
+ Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
