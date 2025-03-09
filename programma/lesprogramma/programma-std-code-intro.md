@@ -77,18 +77,20 @@ crt::Button btnInput("InputButton", PIN_BTN, false);
 
 DEEL II - We gaan een verkeerslicht nabouwen. <br>
 
-_Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – oranje/geel – rood. 
+```
+Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – oranje/geel – rood. 
 - 	Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.
 - 	Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat.
 - 	Het verkeerslicht staat normaal op groen. Als op knopje A wordt gedrukt moet het verkeerslicht van groen -> oranje/geel (3 seconden) -> rood gaan. Dan moet hij op rood blijven staan.
 - 	Als knopje B wordt ingedrukt moet hij (het is een duits verkeerslicht) van rood -> knipperend rood/geel gaan. Dus 5 x oranje/geel (0.5 s) -> rood (0.5 s) -> en weer terug naar oranje.
 - 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
- 
+``` 
 
 <br>
-De opdracht:
-1) Maak een STD van het verkeerslicht (mag in plantUML of in drawIO)
-2) Pas de stappen van blz 53 toe om je code aan te passen. Let op! Niet alle pinnen van de ESP32 kun je gebruiken. Zoek dat ook uit.
+De opdracht:   
+
+1) Maak een STD van het verkeerslicht (mag in plantUML of in drawIO)  
+2) Pas de stappen van blz 53 toe om je code aan te passen. Let op! Niet alle pinnen van de ESP32 kun je gebruiken. Zoek dat ook uit.  
 
 Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul je deze variant ook moeten uploaden op canvas.
 
