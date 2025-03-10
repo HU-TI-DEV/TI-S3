@@ -34,8 +34,8 @@ auto evt = wait( een of meer waitables hier )
     - Interpreteer de event, en laat de bijbehorende guard, actie en/of transitie uitvoeren:
 if(evt=flagButton){state = Idle;}
 
-We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. 
-- Check als eerste het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
+We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. Dit is het STD:
+![alt text](image-6.png)
 
 Als we kijken naar de main: 
 
@@ -72,7 +72,6 @@ DEEL I
 ```c++
 crt::Button btnInput("InputButton", PIN_BTN, false);
 ```
-- Zoals je kan zien klopt de naamgeving van het STD niet met de code (dit is een redelijke doodzonde in de SW wereld). Maak een nieuw STD waarin de naamgeving wel klopt. 
   
 
 DEEL II - We gaan een verkeerslicht nabouwen. <br>

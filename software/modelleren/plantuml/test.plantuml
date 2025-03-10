@@ -1,0 +1,14 @@
+```plantuml
+@startuml
+
+[*] --> BlueLedOn
+
+BlueLedOn --> BlueLedOff : after(200ms)[btnKlik.isPressed()]
+BlueLedOff --> BlueLedOn : after(200ms)[btnKlik.isPressed()]
+
+BlueLedOn : gpio_set_level((gpio_num_t)pinLED,1);
+BlueLedOff : gpio_set_level((gpio_num_t)pinLED,0);
+
+
+@enduml
+```
