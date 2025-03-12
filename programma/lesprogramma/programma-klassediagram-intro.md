@@ -16,7 +16,7 @@ Je kunt de volgende voorbeelden terugvinden:
 
 
 ## Voorbereiding
-- Lees blz  tm blz  van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+- Lees blz 56 tm blz 59 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 
 
 ## Tijdens en na de les
