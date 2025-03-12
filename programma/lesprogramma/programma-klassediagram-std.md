@@ -4,6 +4,7 @@ In deze les willen we een klassediagram omzetten naar een STD (State Transition 
 ## Voorbereiding
 - Lees blz 56 tm blz 59 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
 - Lees blz 11 en 12 van [Design like a Robot! rulebook](../../onderwijsmateriaal/readers/Design%20like%20a%20Robot!_rulebook.pdf)
+- Lees [Programma Klassediagram intro](./programma-klassediagram-intro.md).
 
 ## Use case Verkeerslicht
 
@@ -20,10 +21,12 @@ In deze les willen we een klassediagram omzetten naar een STD (State Transition 
 Gegeven het volgende klassediagram:
 ![klassediagram verkeerslicht](klassediagram_verkeerslicht.png)
 
-## Van Klassediagram naar STD
-Gebruik de tips uit de readers.
+## Opdracht: van Klassediagram naar STD
+1. Gebruik de tips uit de readers. 
+2. Probeer het bovenstaand klassediagram om te zetten naar een STD diagram.
+3. Controleer je STD diagram met het onderstaande diagram.
 
-## STD diagram
+## STD diagram Verkeerslicht
 ![State Transition Diagram Verkeerslicht](std_verkeerslicht.png)
 
 ## Tijdens en na de les
