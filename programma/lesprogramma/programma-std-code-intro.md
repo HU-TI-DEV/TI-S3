@@ -199,18 +199,18 @@ De hoofdtaak zal dan de macht aan het RTOS overgeven. Het RTOS houd in de gaten 
 Als we dan gaan naar de ButtonTask dan moeten we die laten weten dat hij een functie uit de hoofdklasse aan kan roepen om de vlag te zetten, voeg het volgende toe aan de member/attributes sectie van de class:
 ```c++
 	private:
-		KlikAanKlikUitControl& klikAanKlikUitControl;
+		KlikAanKlikUit& klikAanKlikUit;
 ```
 
 In de constructor van de ButtonTask moeten we dan ook laten weten dat hij de andere klasse kan aanroepen:
 
 ```c++
-ButtonTask(const char *taskName, unsigned int taskPriority, unsigned int taskCoreNumber, const uint8_t pinButton, int timeBetweenReads,KlikAanKlikUitControl& klikAanKlikUitControl)			: Task(taskName, taskPriority, 3000, taskCoreNumber), pinButton(pinButton), timeBetweenReads(timeBetweenReads),klikAanKlikUitControl(klikAanKlikUitControl)
+ButtonTask(const char *taskName, unsigned int taskPriority, unsigned int taskCoreNumber, const uint8_t pinButton, int timeBetweenReads,KlikAanKlikUit& klikAanKlikUit)			: Task(taskName, taskPriority, 3000, taskCoreNumber), pinButton(pinButton), timeBetweenReads(timeBetweenReads),klikAanKlikUit(klikAanKlikUit)
 ```
 
 Dan kunnen we de vlag zetten (in de switch case) met:
 ```c++
-			klikAanKlikUitControl.knopIngedrukt();
+			klikAanKlikUit.knopIngedrukt();
 ```
 
 - pas de ButtonTask code aan zodat je een pin kunt uitlezen.
