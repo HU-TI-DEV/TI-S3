@@ -34,8 +34,35 @@ auto evt = wait( een of meer waitables hier )
     - Interpreteer de event, en laat de bijbehorende guard, actie en/of transitie uitvoeren:
 if(evt=flagButton){state = Idle;}
 
-We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. 
-- Check als eerste het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
+We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. Dit is het STD:
+![alt text](image-7.png)
+
+```plantuml
+@startuml
+
+
+[*] --> BlueLedOn : /knipperled
+
+
+BlueLedOn : entry/ gpio_set_level((gpio_num_t)pinLED,1);
+BlueLedOff : entry/ gpio_set_level((gpio_num_t)pinLED,0);
+
+state c1 <<choice>>
+state c2 <<choice>>
+
+BlueLedOn --> c1 
+c1 --> BlueLedOff : after(200ms) [btnKlik.isPressed()]
+c1 ---> BlueLedOn : after(200ms) [else]
+BlueLedOff --> c2 
+c2 ---> BlueLedOn : after(200ms)[btnKlik.isPressed()]
+c2 ---> BlueLedOff : after(200ms) [else]
+
+@enduml
+```
+
+
+Wat extra uitleg!:
+![alt text](image-8.png)
 
 Als we kijken naar de main: 
 
@@ -72,9 +99,7 @@ DEEL I
 ```c++
 crt::Button btnInput("InputButton", PIN_BTN, false);
 ```
-- Zoals je kan zien klopt de naamgeving van het STD niet met de code (dit is een redelijke doodzonde in de SW wereld). Maak een nieuw STD waarin de naamgeving wel klopt. 
   
-
 DEEL II - We gaan een verkeerslicht nabouwen. <br>
 
 ```
@@ -150,7 +175,45 @@ namespace crt
 }; // end namespace CleanRTOS
 ```
 
-- pas de code aan zodat je een pin kunt uitlezen.
+We gaan met flags werken dus in de hoofdtask/klass(KlikAanKlikUit of Verkeerslicht) moeten we een flag initieren in de member/attributes sectie van de class:
+```c++
+	private:
+        Flag flagKnopIngedrukt;
+```
+(let wel, misschien moeten we flags hebben per type knop?)
+
+We moeten in de hoofdtask/class de volgende publieke functie aanmaken:
+```c++
+    void knopIngedrukt()
+    {
+        flagKnopIngedrukt.set();
+    }
+```
+
+In de switch case kunnen we dan wachten op de vlag met:
+```c++
+			wait(flagKnopIngedrukt);
+```
+De hoofdtaak zal dan de macht aan het RTOS overgeven. Het RTOS houd in de gaten of die vlag wordt "geset". Als dat gebeurt wordt automatisch dan weer de hoofdtaak opgestart! De vlag wordt dan meteen gereset. 
+
+Als we dan gaan naar de ButtonTask dan moeten we die laten weten dat hij een functie uit de hoofdklasse aan kan roepen om de vlag te zetten, voeg het volgende toe aan de member/attributes sectie van de class:
+```c++
+	private:
+		KlikAanKlikUitControl& klikAanKlikUitControl;
+```
+
+In de constructor van de ButtonTask moeten we dan ook laten weten dat hij de andere klasse kan aanroepen:
+
+```c++
+ButtonTask(const char *taskName, unsigned int taskPriority, unsigned int taskCoreNumber, const uint8_t pinButton, int timeBetweenReads,KlikAanKlikUitControl& klikAanKlikUitControl)			: Task(taskName, taskPriority, 3000, taskCoreNumber), pinButton(pinButton), timeBetweenReads(timeBetweenReads),klikAanKlikUitControl(klikAanKlikUitControl)
+```
+
+Dan kunnen we de vlag zetten (in de switch case) met:
+```c++
+			klikAanKlikUitControl.knopIngedrukt();
+```
+
+- pas de ButtonTask code aan zodat je een pin kunt uitlezen.
 - kopieer het oude STD naar een nieuwe.
 - pas het STD aan zodat het de nieuwe opdracht reflecteert.
 - maak de code zo dat de knoppen via aparte tasks worden uitgelezen. Implementeer ook de ambulance functionaliteit. 

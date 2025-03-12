@@ -122,7 +122,7 @@ Week C6. Object Model en klassediagram van het RTOS subsysteem
 | --- | --- | --- |
 | ma  | | [Code &lt;-&gt; STD deel I](./lesprogramma/programma-std-code-intro.md) (**BB**) |
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md) |
-| wo  | | [Code &lt;-&gt; STD, deel III](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**)|
+| wo  | | [Code &lt;-&gt; STD, deel II](./lesprogramma/programma-std-code-intro.md#programma-std---code---ii) (**BB &amp; GP**)|
 | do  | :end: Einde sprint 2 &amp; :runner: planning sprint 3 PO-demo (**BB**) | [Klassediagram -&gt; STD](./lesprogramma/programma-klassediagram-intro.md) (**GP**) light |
 
 ### Onderwijsweek C7 (17-03-2025)
