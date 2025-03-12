@@ -182,6 +182,17 @@ We gaan met flags werken dus in de hoofdtask/klass(KlikAanKlikUit of Verkeerslic
 ```
 (let wel, misschien moeten we flags hebben per type knop?)
 
+In de constructor moeten we dan ook het volgende toevoegen flagKnopIngedrukt(this) (we hebben meteen de buttons weggehaald):
+
+```c++
+			KlikAanKlikUit(const char *taskName, unsigned int taskPriority, unsigned int taskCoreNumber, const uint8_t pinLED)
+				: Task(taskName, taskPriority, 3000, taskCoreNumber), pinLED(pinLED), flagKnopIngedrukt(this)
+
+
+```
+
+
+
 We moeten in de hoofdtask/class de volgende publieke functie aanmaken:
 ```c++
     void knopIngedrukt()
