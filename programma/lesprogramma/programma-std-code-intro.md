@@ -61,6 +61,9 @@ c2 ---> BlueLedOff : after(200ms) [else]
 ```
 
 
+Wat extra uitleg!:
+![alt text](image-8.png)
+
 Als we kijken naar de main: 
 
 ![De main](image-1.png)
