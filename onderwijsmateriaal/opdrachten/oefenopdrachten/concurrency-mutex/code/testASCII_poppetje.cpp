@@ -3,7 +3,11 @@
 #include <iostream>
 #include <thread>
 #include <mutex> 
-#include <windows.h> // for sleep.
+#ifdef _WIN32 // for sleep.
+#include <windows.h>
+#else
+#include <unistd.h>
+#endif
 using namespace std;
 
 enum type_wenkbrauwen { w_lief, w_neutraal, w_boos };
@@ -16,6 +20,14 @@ mutex mtx_wenkbrauwen;
 mutex mtx_ogen;
 mutex mtx_mond;
 
+void sleepFor(int milliseconds) {
+	#ifdef _WIN32
+		Sleep(milliseconds); // Sleep takes milliseconds on Windows
+	#else
+		usleep(milliseconds * 1000); // usleep takes microseconds on Unix-like systems
+	#endif
+}
+
 void wenkbrauwenController()
 {
 	while (true)
@@ -27,7 +39,7 @@ void wenkbrauwenController()
 		default:wenkbrauwen = w_lief;		break;
 		}
 		mtx_wenkbrauwen.unlock();	// Dan kan ook de mondManager wenkbrauwen lezen.
-		Sleep(4000);		// verander eens per 4 sec.
+		sleepFor(4000);		// verander eens per 4 sec.
 	}
 }
 
@@ -49,7 +61,7 @@ void mondController()
 		}
 		mtx_wenkbrauwen.unlock();
 		mtx_mond.unlock();
-		Sleep(500);			// update elke halve seconde
+		sleepFor(500);			// update elke halve seconde
 	}
 }
 
@@ -63,7 +75,7 @@ void ogenController()
 		default:ogen = o_open;		break;
 		}
 		mtx_ogen.unlock();	// Dan kan ook de mondManager wenkbrauwen lezen.
-		Sleep(5500);			// update elke ruim 5 seconden
+		sleepFor(5500);			// update elke ruim 5 seconden
 	}
 }
 
@@ -98,7 +110,7 @@ void afbeeldTaak()
 		mtx_ogen.unlock();		// want uit mond gaan we hier lezen.
 		mtx_mond.unlock();		// want uit mond gaan we hier lezen.
 
-		Sleep(250);				// limiteer tot 4 gezichtjes per seconde.
+		sleepFor(250);				// limiteer tot 4 gezichtjes per seconde.
 								// dan zal de serial bus en de console het wel
 								// bij kunnen houden.
 	}
