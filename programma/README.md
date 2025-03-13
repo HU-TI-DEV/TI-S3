@@ -133,7 +133,7 @@ Week C7.
 | --- | --- | --- |
 | ma  | | [Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**)|
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md)|
-| wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
+| wo  | | Verplichte werksessie voor het project (**GP**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |mogelijkheid tot vragen **(TM)** |
 
 ### Onderwijsweek C8 (24-03-2025)
