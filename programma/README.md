@@ -131,10 +131,10 @@ Week C7.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | Gastspreker |
+| ma  | | [Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**)|
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (MV)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Objectmodel -&gt; Klassediagram](./lesprogramma/programma-objectmodel-klassediagram-intro.md) , misschien ook werksessie voor het project? (**GP & BB**) |
-| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |[Persoonlijke Onderzoeksopdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md)(**BB**) |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |mogelijkheid tot vragen **(TM)** |
 
 ### Onderwijsweek C8 (24-03-2025)
 
@@ -145,7 +145,7 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 | ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (HS)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**)  |
-| do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**GP,BB**) |
+| do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV,BB**) |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -154,8 +154,8 @@ Week C9.
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
-| di  | |[Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
-| wo  | |  [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
+| di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
+| wo  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
 | do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 PO demo (**BB**)| |
 
 ### Onderwijsweek C10 (7-04-2025)
