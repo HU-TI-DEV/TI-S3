@@ -145,7 +145,7 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 | ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (HS)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**)  |
-| do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV,BB**) |
+| do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV**) |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -155,7 +155,7 @@ Week C9.
 | --- | --- | --- |
 | ma  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
 | di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
-| wo  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP,BB**) |
+| wo  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP**) |
 | do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 PO demo (**BB**)| |
 
 ### Onderwijsweek C10 (7-04-2025)
