@@ -120,6 +120,7 @@ E:\HuDev\test_zig_2\testproject> git clone https://github.com/espressif/esp-idf-
 ```
 
 testen:
+<!-- BB : is dit wel de juiste plek? Volgens mij moet je 1 level dieper (qua dir) -->
 
 ```bash
 ...\testproject> idf.py -p COM8 flash monitor 
