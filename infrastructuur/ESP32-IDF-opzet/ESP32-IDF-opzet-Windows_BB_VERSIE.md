@@ -123,7 +123,7 @@ E:\HuDev\test_zig_2\testproject> git clone https://github.com/espressif/esp-idf-
 testen:
 
 ```bash
-...\testproject> idf.py -p COM8 flash monitor 
+...\testproject\esp-idf-template> idf.py -p COM8 flash monitor 
 ```
 
 > (met de spatiebalk kun je de flow uit de monitor stil zetten)
