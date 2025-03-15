@@ -190,6 +190,12 @@ Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in m
 
 <img src="images/2024-09-08-13-11-15-image.png" title="" alt="" width="313">
 
+Let op! Je moet ook nog de #include <kopie_van_scan_example.h" uit commentariëren :
+```c++
+#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
+//#include <kopie_van_scan_example.h>
+```
+
 > **VSCode**
 >
 > Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je C++ code editing.  
@@ -197,8 +203,6 @@ Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in m
 > `E:\HuDev\test_zig_2`
 
 Ga naar de test_lasergame_2 directory.
-
-HIER MOET HET STUK VAN HET VERVANGEN VAN SETUP EN LOOP!!!!
 
 Enfin, WifiScan bouwen:
 
