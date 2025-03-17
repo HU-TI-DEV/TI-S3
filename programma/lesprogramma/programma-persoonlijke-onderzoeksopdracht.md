@@ -9,7 +9,7 @@ Tijdens dit semester is het opzetten van een gestructureerd persoonlijk onderzoe
 Dergelijke ervaring blijkt vaak nuttig voor stages, afstudeeropdrachten en eventueel een latere baan in research en development.
 
 ## Voorbereiding
-- Bekijk de [Upgrade Opdracht Template](../../vermogens/Upgrade-opdracht-template.md). Bedenk alvast wat je zou willen onderzoeken en verbeteren aan je project.
+- Bekijk de [Upgrade Opdracht Template](../../vermogens/upgrade-opdracht-template.md). Bedenk alvast wat je zou willen onderzoeken en verbeteren aan je project.
 - Een beslissingstabel/matrix kan daarbij handig zijn. Bestudeer daartoe de beslissingsmatrix in de [reader system engineering](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 
 ## Tijdens de les
