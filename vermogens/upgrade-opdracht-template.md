@@ -31,3 +31,6 @@ Door ``je naam``
 
 # Aanbevelingen
 `` Formuleer op deze plek aanbevelingen voor eventueel verder onderzoek ``
+
+# Bronnen
+Een lijst van al je bronnen die je gebruikt hebt. Gebruik de APA referentie stijl.
