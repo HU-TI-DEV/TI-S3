@@ -17,7 +17,7 @@ Ik open even een command prompt in admin mode en maak een folder aan voor dit ex
 
 [deze pagina](https://github.com/espressif/esp-idf) toont de aanbevolen versies van de ESP-IDF.
 
-Nu (2025-02-19) is dit v5.4, dus type ik in een cmd window:
+Nu (2025-02-19) is dit v5.4, dus type ik:
 
 ```bash
 C:\Users\MyName> cd E:\HuDev\test_zig_2
@@ -27,9 +27,8 @@ E:\HuDev\test_zig_2> cd esp-idf
 E:\HuDev\test_zig_2\esp-idf> install.bat
 ```
 
-Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is. Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
-
-- Als het nu al fout gaat zou het kunnen zijn dat je de settings voor python verkeerd hebt staan. Zie [hier](./files/setting_up_envirment.md) voor een oplossing.  
+> Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is.  
+> Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
 
 Nu is het geinstalleerd.
 
@@ -121,9 +120,10 @@ E:\HuDev\test_zig_2\testproject> git clone https://github.com/espressif/esp-idf-
 ```
 
 testen:
+<!-- BB : is dit wel de juiste plek? Volgens mij moet je 1 level dieper (qua dir) -->
 
 ```bash
-...\testproject\esp-idf-template> idf.py -p COM8 flash monitor 
+...\testproject> idf.py -p COM8 flash monitor 
 ```
 
 > (met de spatiebalk kun je de flow uit de monitor stil zetten)
@@ -150,21 +150,6 @@ E:\HuDev\test_zig_2> git clone https://github.com/HU-TI-DEV/test_lasergame_2.git
 E:\HuDev\test_zig_2> cd test_lasergame_2
 ```
 
-Als de test_lasergame_2 folder nog geen components subfolder bevat, maken we die.
-
-```bash
-...\test_lasergame_2> mkdir components
-...\test_lasergame_2> cd components
-```
-
-Vervolgens clonen we de arduino-ide component die compatibel is met onze ESP-IDF versie:
-
-```bash
-...\test_lasergame_2\components> git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
-...\test_lasergame_2\components> cd ..
-...\test_lasergame_2>
-```
-
 Nog even de huidige microcontroller instellen voor dit project, in mijn geval nu de normale esp32:
 
 ```bash
@@ -183,26 +168,34 @@ Ik pas dat handmatig aan in de sdkconfig file:
 
 Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die vervangt sdkconfig weer terug..
 
+> [Hier](./Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md#arduino-esp32-error) is beschreven hoe je van CONFIG_FREERTOS_HZ de default op 1000 Hz kan zetten.
+
 Okee, verder met het project
 
+Als de test_lasergame_2 folder nog geen components subfolder bevat, maken we die.
 
-Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in main.cpp toe te voegen:
+```bash
+...\test_lasergame_2> mkdir components
+...\test_lasergame_2> cd components
+```
+
+Vervolgens clonen we de arduino-ide component die compatibel is met onze ESP-IDF versie:
+
+```bash
+...\test_lasergame_2\components> git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
+...\test_lasergame_2\components> cd ..
+...\test_lasergame_2>
+```
+
+Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in main.cpp te selecteren:
 
 <img src="images/2024-09-08-13-11-15-image.png" title="" alt="" width="313">
-
-Let op! Je moet ook nog de #include <kopie_van_scan_example.h" uit commentariëren :
-```c++
-#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
-//#include <kopie_van_scan_example.h>
-```
 
 > **VSCode**
 >
 > Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je C++ code editing.  
 > Open een folder - in mijn geval de bovenste folder waar alles in zit:  
 > `E:\HuDev\test_zig_2`
-
-Ga naar de test_lasergame_2 directory.
 
 Enfin, WifiScan bouwen:
 

@@ -1,47 +1,41 @@
 # ESP32-project opzet, ESP32-IDF, Arduino component en CleanRTOS installatie
 
-## Prependex Appendix: Bruikbare pinnen
+## Bruikbare pinnen
 
 Goed om te weten: van de meeste esp32 devkits zijn een stuk of 8 pinnen niet bruikbaar (zonder dat je een expert bent op esp32 gebied), omdat die voor interne taken / peripherals van de esp32 gebruikt kunnen worden. Een grappig voorbeeld is een esp32 devkit variant met extra veel pinnen. Echter, maar 1 of 2 van die extra pinnen zijn om dezelfde reden daadwerkelijk bruikbaar. Zoek dus altijd van tevoren goed uit welke pinnen van je ESP32 microcontroller je echt zonder kopzorgen kunt gebruiken.
 
-## Eerst ESP32, dan Zigbee, ESP32-C6
+## ESP32 introductie
 
-(2024-09-07) Ik probeer nog eens de nieuwste versie van de ESP32-IDF (hedendage is dat 5.3.1) plus andere benodigdheden te installeren.
-
-Eerst test ik dat met een gewone ESP32. Het zou dan ook moeten werken voor esp32-s2, s3 en c3.
-
-Vervolgens een en ander upgraden voor zigbee en dat testen met een ESP32-C6.
-(zigbee werkt alleen met een ESP32-C6 of ESP32-H2)
-
-Ik open even een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: E:/HuDev/test_zig_2.
+Ik open een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: E:/espressif
 
 [deze pagina](https://github.com/espressif/esp-idf) toont de aanbevolen versies van de ESP-IDF.
 
-Nu (2025-02-19) is dit v5.4, dus type ik:
+Nu (2025-02-19) is dit v5.4, dus type ik in een cmd window:
 
 ```bash
-C:\Users\MyName> cd E:\HuDev\test_zig_2
+C:\Users\MyName> cd E:\espressif
 C:\Users\MyName> e:
-E:\HuDev\test_zig_2> git clone -b v5.4 --recursive https://github.com/espressif/esp-idf.git
-E:\HuDev\test_zig_2> cd esp-idf
-E:\HuDev\test_zig_2\esp-idf> install.bat
+E:\espressif> git clone -b v5.4 --recursive https://github.com/espressif/esp-idf.git
+E:\espressif> cd esp-idf
+E:\espressif\esp-idf> install.bat
 ```
 
-> Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is.  
-> Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
+Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is. Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
+
+- Als het nu al fout gaat zou het kunnen zijn dat je de settings voor python verkeerd hebt staan. Zie [hier](./files/setting_up_envirment.md) voor een oplossing.  
 
 Nu is het geinstalleerd.
 
 Om de windows paden en alles voor de huidige sessie goed te zetten, moet je voortaan na het openen van je command (ook voortaan) eerst op deze plek "export.bat" aanroepen.
 
 ```bash
-E:\HuDev\test_zig_2\esp-idf> export.bat
+E:\espressif\esp-idf> export.bat
 ```
 
 Nu alles goed staat, werkt de build-tool "idf.py"
 
 ```bash
-E:\HuDev\test_zig_2\esp-idf> idf.py --version
+E:\espressif\esp-idf> idf.py --version
 ```
 
 retourneert nu als het goed is "ESP-IDF v5.4".
@@ -51,17 +45,28 @@ Het zou handig zijn als je niet steeds na het openen van de command-prompt eerst
 Liever maak je een snelkoppeling naar een command prompt die dat automatisch doet:
 
 - RMB(rechtermuisknop) op bureaublad of elders -> nieuwe snelkoppeling
-- Gebruik als commando/location of the item : `cmd.exe /k "E:\HuDev\test_zig_2\esp-idf\export.bat"`
+- Gebruik als commando/location of the item : `cmd.exe /k "E:\espressif\esp-idf\export.bat"`
 - Kies als naam `ESP-IDF command prompt`.
 - (optioneel) Open de shortcut, en pin hem aan je taskbar.
 
 Okee, laten we even een snelle hello world test doen:
 
 ```bash
-E:\HuDev\test_zig_2\esp-idf> cd E:\HuDev\test_zig_2\esp-idf\examples\get-started\hello_world
+E:\espressif\esp-idf> cd E:\espressif\esp-idf\examples\get-started\hello_world
 ```
 
-(op deze locatie staat een van de test-projecten)
+Je ziet de volgende files in de directory (en sub directory) staan:
+```
+├── main
+│   ├── CMakeLists.txt
+│   └── hello_world_main.c
+├── CMakeLists.txt
+├── pytest_hello_world.py       Wordt gebruikt om automatisch te testen.
+├── README.md                   Dit is een gebruiksaanwijzing voor het project
+└── sdkconfig.ci                Ook voor automatisch building en testen.
+```
+
+Enkel de twee CMakeLists.txt en de hello_world_main.c zijn nodig om het project te builden. 
 
 ## De eerste keer bouwen
 
@@ -102,9 +107,39 @@ E:\HuDev\test_zig_2\esp-idf> cd E:\HuDev\test_zig_2\esp-idf\examples\get-started
   ...\hello_world> idf.py -p COM8 flash monitor
   ```
 
-de toevoeging 'flash' zorgt dat het ook wordt geflasht en de toevoeging 'monitor' zorgt ervoor dat een programma-tje wordt gestart welke je kunt vergelijken met Serial Monitor van de Arduino IDE.
+De eerste keer dat je dit doet duurt het superlang om het te builden. Daarna gaat het gelukkig veel sneller. De toevoeging 'flash' zorgt dat het ook wordt geflasht en de toevoeging 'monitor' zorgt ervoor dat een programma-tje wordt gestart welke je kunt vergelijken met Serial Monitor van de Arduino IDE.
 
-> Je kunt de monitor weer sluiten met: de "CTRL" + "]" toets-combinatie.
+Als het goed is geeft het de volgende output: 
+```
+Hello world!
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 305356 bytes
+Restarting in 10 seconds...
+Restarting in 9 seconds...
+Restarting in 8 seconds...
+Restarting in 7 seconds...
+Restarting in 6 seconds...
+Restarting in 5 seconds...
+Restarting in 4 seconds...
+```
+**Je kunt de monitor weer sluiten met: de "CTRL" + "]" toets-combinatie.**
+
+Na het builden zie je dat er een directory en een file is bijgekomen in de directory: 
+```
+├── build
+├── main
+│   ├── CMakeLists.txt
+│   └── hello_world_main.c
+├── CMakeLists.txt
+├── pytest_hello_world.py       
+├── README.md                   
+├── sdkconfig                   
+└── sdkconfig.ci                
+```
+
+Je zult zien dat er voor het bouwen automatisch een `build` subfolder wordt aangemaakt. Die is enorm groot. Standaard worden echter alleen verschillen met de vorige code opnieuw gebouwd. Dat scheelt tijd. Soms gaat iets daarbij mis. Met `idf.py fullclean` kun je dan de oude build opruimen, zodat de volgende netjes weer van scratch begint.
+
+Enfin, in het algemeen wil je behalve je hoofd-applicatie ook allerlei test-applicaties makkelijk kunnen bouwen en testen, zonder dat voor elk weer zo'n joekel van een build-directory wordt aangelegd.
 
 ## Nieuw project maken
 
@@ -113,28 +148,44 @@ We maken er eerst een folder voor aan (op willekeurige plek).
 Ik kies:
 
 ```bash
-...\hello_world> cd E:\HuDev\test_zig_2
-E:\HuDev\test_zig_2> mkdir testproject
-E:\HuDev\test_zig_2> cd testproject
-E:\HuDev\test_zig_2\testproject> git clone https://github.com/espressif/esp-idf-template.git .
+...\hello_world> cd E:\espressif
+E:\espressif> mkdir testproject
+E:\espressif> cd testproject
+E:\espressif> git clone https://github.com/espressif/esp-idf-template.git 
 ```
 
 testen:
-<!-- BB : is dit wel de juiste plek? Volgens mij moet je 1 level dieper (qua dir) -->
 
 ```bash
-...\testproject> idf.py -p COM8 flash monitor 
+...\testproject\esp-idf-template> idf.py -p COM8 flash monitor 
 ```
 
 > (met de spatiebalk kun je de flow uit de monitor stil zetten)
 
-Je zult zien dat er voor het bouwen automatisch een `build` subfolder wordt aangemaakt. Die is enorm groot. Standaard worden echter alleen verschillen met de vorige code opnieuw gebouwd. Dat scheelt tijd. Soms gaat iets daarbij mis. Met `idf.py fullclean` kun je dan de oude build opruimen, zodat de volgende netjes weer van scratch begint.
+**Open de hello_world_main.c om te kijken wat het programma zou moeten doen:** 
+```c++
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 
-Enfin, in het algemeen wil je behalve je hoofd-applicatie ook allerlei test-applicaties makkelijk kunnen bouwen en testen, zonder dat voor elk weer zo'n joekel van een build-directory wordt aangelegd.
 
-## Lasergame template
+void app_main(void)
+{
+    int i = 0;
+    while (1) {
+        printf("[%d] Hello world!\n", i);
+        i++;
+        vTaskDelay(5000 / portTICK_PERIOD_MS);
+    }
+}
+```
 
-Een handig uitgangspunt van je project is het onderstaande lasergame-template-project:
+De `vTaskDelay` is je eerste instructie van het RTOS (Real Time Operating System). Het is geen delay zoals je hem kent uit de arduino wereld, maar iets heel anders.  
+ `vTaskDelay` betekent eigenlijk: **stoor me niet voor die aangegeven tijd, ga maar lekker iets anders doen...** Hier zie je al het eerste voorbeeld van de kracht van een OS, we zouden in die tijd de microcontroller iets anders **nutigs** kunnen laten doen! 
+
+## S3-Template
+
+Een handig uitgangspunt van je project is het onderstaande S3-Template project:
 
 - Alles wordt gebouwd op dezelfde build folder, met dezelfde main file.
 - De CleanRTOS libraries zijn toegevoegd, evenals enkele Arduino-IDE libraries.
@@ -145,15 +196,30 @@ Een handig uitgangspunt van je project is het onderstaande lasergame-template-pr
 Okee, dat project zet ik ook maar in dezelfde folder, dus:
 
 ```bash
-...> cd E:\HuDev\test_zig_2
-E:\HuDev\test_zig_2> git clone https://github.com/HU-TI-DEV/test_lasergame_2.git
-E:\HuDev\test_zig_2> cd test_lasergame_2
+...> cd E:\espressif
+E:\espressif> git clone https://github.com/HU-TI-DEV/S3-Template.git
+E:\espressif> cd S3-Template
+```
+
+Als de S3-Template folder nog geen components subfolder bevat, maken we die.
+
+```bash
+...\S3-Template> mkdir components
+...\S3-Template> cd components
+```
+
+Vervolgens clonen we de arduino-ide component die compatibel is met onze ESP-IDF versie:
+
+```bash
+...\S3-Template\components> git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
+...\S3-Template\components> cd ..
+...\S3-Template>
 ```
 
 Nog even de huidige microcontroller instellen voor dit project, in mijn geval nu de normale esp32:
 
 ```bash
-...\test_lasergame_2> idf.py set-target esp32
+...\S3-Template> idf.py set-target esp32
 ```
 
 Dat resulteert in een error:
@@ -168,45 +234,50 @@ Ik pas dat handmatig aan in de sdkconfig file:
 
 Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die vervangt sdkconfig weer terug..
 
-> [Hier](./Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md#arduino-esp32-error) is beschreven hoe je van CONFIG_FREERTOS_HZ de default op 1000 Hz kan zetten.
+Okee, verder met het project, bekijk de main folder in `...\S3-Template>`:
 
-Okee, verder met het project
-
-Als de test_lasergame_2 folder nog geen components subfolder bevat, maken we die.
-
-```bash
-...\test_lasergame_2> mkdir components
-...\test_lasergame_2> cd components
 ```
-
-Vervolgens clonen we de arduino-ide component die compatibel is met onze ESP-IDF versie:
-
-```bash
-...\test_lasergame_2\components> git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
-...\test_lasergame_2\components> cd ..
-...\test_lasergame_2>
+├── main
+│   ├──  CMakeLists.txt
+│   ├──  CMakeLists_for_zigbee.txt
+│   ├──  component.mk
+│   ├──  idf_component.yml
+│   ├──  idf_component_for_zigbee.yml
+│   ├──  Kconfig.projbuild
+│   ├──  main.cpp
+│   ├──  main_for_wifi_scan_ard_ide_with_nvs.cpp
+│   └──  main_normal_no_nvs_backup.cpp
 ```
+In de main zien we verschillende "main"s staan. Hij zal altijd de main.cpp uitvoeren.
+De `main_normal_no_nvs_backup.cpp` is een kopie van de `main.cpp`.
+De `main_for_wifi_scan_ard_ide_with_nvs.cpp` is nodig als je de wifi-gerelateerde samples van de arduino ide component (zoals WiFiScan.ino) wilt runnen. Je ziet dit ook in de comments van `main.cpp`. Het WiFiScan.ino voorbeeld heeft het nodig dat "nvs" (non volatile storage) geinitialiseerd is (in main.cpp) en geconfigureerd is. Voor nu gaan we dat even niet uitproberen. Mocht je dat wel willen dan moet je de inhoud van main_for_wifi_scan_ard_ide_with_nvs.cpp kopieeren naar `main.cpp`. Dan zul je ook de partition table (deze geeft aan hoe het geheugen is ingedeelt) en de sdconfig moeten veranderen (tip: vraag het chatgpt).
 
-Vervolgens testen we even de bijbehorende WifiScan example, door dat sample in main.cpp te selecteren:
-
-<img src="images/2024-09-08-13-11-15-image.png" title="" alt="" width="313">
-
-> **VSCode**
->
-> Ik kan daarbij VSCode aanbevelen. Gebruik dat voor al je C++ code editing.  
-> Open een folder - in mijn geval de bovenste folder waar alles in zit:  
-> `E:\HuDev\test_zig_2`
-
-Enfin, WifiScan bouwen:
-
+Laten we het standaard main voorbeeld builden en runnen:
 ```bash
-...\test_lasergame_2> idf.py -p COM8 flash monitor 
+...\Espressif\S3-Template>idf.py flash monitor
 ```
+Als het goed is krijg je ongeveer het volgende te zien (afhankelijk van welke wifi netwerken er in de buurt zijn):
+
+![alt text](./images/image.png)
+
 
 **(A) Als dit goed gaat: gefeliciteerd!**
 
----
+Nog wat algemene informatie over het idee achter S3-Template:
 
+- Het is een gewoon esp32 project, met een slim gekozen folder structuur en main.cpp file.
+  Het stelt je in staat om makkelijk vanaf één main.cpp file
+  (en een sdkconfig, partition.csv file en met slechts één build folder)
+  elk van je (test-applicaties) en examples te bouwen, inclusief die van de arduino-ide.
+-  Voor wat betreft dat laatste voorkomt het dat je zelf het wiel opnieuw hoeft uit te vinden.
+-  Eigen applicaties worden ook via ".ino" files geinclude, op dezelfde manier als arduino-ide examples. 
+  Dat zorgt ervoor je het evt ook zou kunnen bouwen met arduino-ide ipv via de esp32-IDF.
+  (zelf vind ik dat een leuke feature, omdat, als je bijvoorbeeld een library ontwikkelt (zoals CleanRTOS),
+  dat je die zonder aanpassing van een letter code kunt publiceren als library die in de Arduino-IDE wereldwijd 
+  gevonden en gebruikt kan worden).
+- Zoals je wellicht opvalt, staat dat alles compleet los van CleanRTOS.
+- CleanRTOS is gewoon een van de beschikbare libraries. Eentje die je kunt gebruiken als freertos wrapper.
+  
 ## (B) Als dit resulteert in een error
 
 ![](images/2024-09-08-13-12-40-image.png)
