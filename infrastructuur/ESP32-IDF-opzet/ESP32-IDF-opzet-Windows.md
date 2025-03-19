@@ -261,7 +261,7 @@ Als het goed is krijg je ongeveer het volgende te zien (afhankelijk van welke wi
 ![alt text](./images/image.png)
 
 
-**(A) Als dit goed gaat: gefeliciteerd!**
+## (A) Als dit goed gaat: gefeliciteerd!
 
 Nog wat algemene informatie over het idee achter S3-Template:
 
@@ -323,7 +323,7 @@ littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan inst
 
 # Appendix format specifiers
 
-Het kan zijn dat een deel van de code uit het project test_lasergame_2 nog niet helemaal werkt op esp-idf 5.3 of 5.4 (de code werd gemaakt in 4.4).
+Het kan zijn dat een deel van de code uit het project S3-Template nog niet helemaal werkt op esp-idf 5.3 of 5.4 (de code werd gemaakt in 4.4).
 
 Als er nog iets aangepast moet worden, zijn het vermoedelijk format specifiers binnen de ELogV() of ELogi() commandos.
 
