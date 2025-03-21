@@ -8,7 +8,9 @@
 - [Clean RTOS voorbeelden](#clean-rtos-voorbeelden)
   - [Introductie](#introductie-1)
   - [HelloWorld.ino](#helloworldino)
-  - [TwoTasks.ino\>.ino](#twotasksinoino)
+  - [TwoTasks.ino](#twotasksino)
+  - [Flag.ino](#flagino)
+  - [Logger.ino](#loggerino)
 <!-- /TOC -->
 
 # Introductie
@@ -189,7 +191,7 @@ We maken met
 ```
 een taak aan van de klasse HelloWorld.  
 
-Laten we 'crt_HelloWorld.h' openen om te zien hoe de klasse eruit ziet.
+Laten we 'crt_HelloWorld.h' openen om te zien hoe de class HelloWorld eruit ziet.
 
 ```c++
 // by Marius Versteegen, 2023
@@ -234,7 +236,7 @@ Run het voorbeeld met:
 Klopt de output met wat je had verwacht?
 
 
-## TwoTasks.ino>.ino
+## TwoTasks.ino
 
 Kopieer de inhoud van `main_for_wifi_scan_ard_ide_with_nvs.cpp` naar `main.cpp`
 
@@ -303,7 +305,7 @@ We maken met
 een taak aan van de klasse SayHelloTask.  
 Hij maakt dus twee taken aan in het RTOS (sayHelloTaskBert en sayHelloTaskErnie)
 
-Laten we 'crt_TwoTasks.h' openen om te zien hoe de klasse eruit ziet.
+Laten we 'crt_TwoTasks.h' openen om te zien hoe de class SayHelloTask eruit ziet.
 
 ```c++
 // by Marius Versteegen, 2023
@@ -347,4 +349,136 @@ Run het voorbeeld met:
 ```
 
 Klopt de output met wat je had verwacht?
+
+
+## Flag.ino
+
+Kopieer de inhoud van `main_for_wifi_scan_ard_ide_with_nvs.cpp` naar `main.cpp`
+
+verander de `main.cpp` zodat:
+```c++
+// **** Arduino IDE Examples ****
+//#include <WifiScan.ino>
+//#include <WiFiAccessPoint.ino>
+//#include <AnalogRead.ino>
+```
+en bij:
+
+```c++
+// Selecteer onderstaand de .ino van je applicatie
+// **** CleanRTOS Core Tests ****
+//#include <HelloWorld.ino>    					// For initial test.
+//#include <TwoTasks.ino>
+//#include <TenTasks.ino>						// Tip: Vergelijk dit voorbeeld met het Handler.ino voorbeeld!
+#include <Flag.ino>
+//#include <Queue.ino>
+//#include <Timer.ino>							// 5.1 test ok op c6/zigbee
+//#include <MutexSection.ino>
+//#include <Pool.ino>
+//#include <HasFired.ino>
+//#include <AllWaitables.ino>					// 5.1 test ok op c6/zigbee
+```
+
+Flag.h is te vinden in de dir: 
+```bash
+...\S3-Template\libs\CleanRTOS\examples\Flag
+```
+
+Als we Flag_ino.h openen zien we:
+``` c++
+	FlagListener   flagListener("FlagListener", 2 /*priority*/, 4000 /*stackBytes*/, ARDUINO_RUNNING_CORE); // Don't forget to call its start() memeber during setup().
+	FlagSetter     flagSetter  ("FlagSetter",   2 /*priority*/, 4000 /*stackBytes*/, ARDUINO_RUNNING_CORE, flagListener);
+```
+We hebben blijkbaar twee klassen!
+
+Open 'crt_TestFlag.h'  om te zien hoe de twee klassen eruit ziet.
+
+Run het voorbeeld met:
+```bash
+...\S3-Template>idf.py flash monitor
+```
+
+Klopt de output met wat je had verwacht?
+
+## Logger.ino
+
+Kopieer de inhoud van `main_for_wifi_scan_ard_ide_with_nvs.cpp` naar `main.cpp`
+
+verander de `main.cpp` zodat:
+```c++
+// **** Arduino IDE Examples ****
+//#include <WifiScan.ino>
+//#include <WiFiAccessPoint.ino>
+//#include <AnalogRead.ino>
+```
+en bij:
+
+```c++
+// **** CleanRTOS Tools Tests ****
+#include <Logger.ino>
+//#include <Handler.ino>
+//#include <ClockPin.ino>						// 5.1 test ok op c6/zigbee
+```
+
+Logger.h is te vinden in de dir: 
+```bash
+...\S3-Template\libs\CleanRTOS\examples\Logger
+```
+
+Run het voorbeeld met:
+```bash
+...\S3-Template>idf.py flash monitor
+```
+
+Dit geeft de volgende output:
+
+![alt text](image.png)
+
+Als we kijken naar `crt_TestLogger.h` :
+
+```c++
+				dumpStackHighWaterMarkIfIncreased(); 		// This function call takes about 0.25ms! It should be called while debugging only.
+
+				ESP_LOGI("", "Immediate logging:");
+
+				uint64_t beforeImmediateLogging = esp_timer_get_time();
+				ESP_LOGI("", "This is some plain text");
+				ESP_LOGI("This is an int32", "%" PRIi32, anInt);
+				ESP_LOGI("This is an uint32", "%" PRIu32, aUint);
+				ESP_LOGI("This is a float", "%f", aFloat);
+				uint64_t afterImmediateLogging = esp_timer_get_time();
+
+				ESP_LOGI("", "Postponed logging:");
+
+				uint64_t beforePostPonedLogging = esp_timer_get_time();
+				logger.logText("This is some plain text.");
+				logger.logText("This is an int32:");
+				logger.logInt32(anInt);
+				logger.logText("This is a uint32:");
+				logger.logUint32(aUint);
+				logger.logText("This is a float:");
+				logger.logFloat(aFloat);
+				uint64_t afterPostponedLogging = esp_timer_get_time();
+
+				logger.dumpNow();
+
+				ESP_LOGI("Immediate logging spent microseconds", "%" PRIi32, (int32_t)(afterImmediateLogging - beforeImmediateLogging));
+				ESP_LOGI("Postponed logging spent microseconds", "%" PRIi32, (int32_t)(afterPostponedLogging - beforePostPonedLogging));
+				ESP_LOGI("", "So for time critical debugging, it's better to use the postponed logger.");
+
+				ESP_LOGI("", "Apart from calling logger.dumpNow(), you can also initiate");
+				ESP_LOGI("", "a log dump using a button that is attached to the pin that");
+				ESP_LOGI("", "is passed to the constructor of the logger.");
+
+				ESP_LOGI("____________", "_______________________________________________");
+
+				anInt--;
+				aUint++;
+				aFloat += 0.3f;
+
+				vTaskDelay(2000);  // wait 2s before next round of logs.
+```
+
+Dan zien we dat er allerlei interessante functionaliteiten in zitten (je kan bv postponed loggen). Goed om te weten!
+
 
