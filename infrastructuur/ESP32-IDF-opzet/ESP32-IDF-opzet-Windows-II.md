@@ -6,6 +6,7 @@
   - [WifiScan.ino](#wifiscanino)
   - [AnalogRead.ino](#analogreadino)
 - [Clean RTOS voorbeelden](#clean-rtos-voorbeelden)
+  - [Introductie](#introductie-1)
   - [HelloWorld.ino](#helloworldino)
   - [TwoTasks.ino\>.ino](#twotasksinoino)
 <!-- /TOC -->
@@ -101,6 +102,10 @@ Klopt de output met wat je had verwacht?
 
 
 # Clean RTOS voorbeelden
+
+## Introductie
+Wil je eerst een indruk krijgen van wat je allemaal kan met CleanRTOS? Bekijk het volgende: [Introductie CleanRTOS](../CleanRTOS/README.md)
+Je hoeft niet alles meteen te snappen, je kan ook eerst onderstaande voorbeelden bekijken (&runnen) en dan de introductie CleanRTOS bekijken.
 
 ## HelloWorld.ino
 
@@ -290,6 +295,7 @@ void loop()
 
 
 Zoals je ziet werkt dit heel anders dan een programma zonder RTOS!!! 
+Bekijk het volgende filmpje : [CleanRTOS Task gebruik](https://www.youtube.com/watch?v=3W2uBrb0YAI)   
 We maken met 
 ```c++
 	SayHelloTask sayHelloTaskBert("Bert", 2 /*priority*/, 4000 /*stackBytes*/, ARDUINO_RUNNING_CORE, "Hello 
