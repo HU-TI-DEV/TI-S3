@@ -14,7 +14,7 @@
 <!-- /TOC -->
 
 # Introductie
-In deze MD file gaan we aan de slag met een aantal voorbeelden voor de ESP32. 
+In deze MD file gaan we aan de slag met een aantal voorbeelden voor de ESP32.  
 We gaan ervanuit dat je de voorbeelden uitprobeert op een simpele ESP32 (ik heb het getest met de ESP32-WROOM-32D)
 
 **Deze voorbeelden gaan er vanuit dat je de export.bat hebt uitgevoerd, het esp-target hebt geset en dat je ook al de CONFIG_FREERTOS_HZ op 1000 hebt gezet. Is dit niet het geval? Bekijk [hier](./ESP32-IDF-opzet-Windows.md) hoe je dat doet.**
@@ -106,7 +106,7 @@ Klopt de output met wat je had verwacht?
 # Clean RTOS voorbeelden
 
 ## Introductie
-Wil je eerst een indruk krijgen van wat je allemaal kan met CleanRTOS? Bekijk het volgende: [Introductie CleanRTOS](../CleanRTOS/README.md)
+Wil je eerst een indruk krijgen van wat je allemaal kan met CleanRTOS? Bekijk het volgende: [Introductie CleanRTOS](../CleanRTOS/README.md)   
 Je hoeft niet alles meteen te snappen, je kan ook eerst onderstaande voorbeelden bekijken (&runnen) en dan de introductie CleanRTOS bekijken.
 
 ## HelloWorld.ino
