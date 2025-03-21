@@ -478,7 +478,7 @@ Als we kijken naar `crt_TestLogger.h` :
 
 				vTaskDelay(2000);  // wait 2s before next round of logs.
 ```
+Dan zien we dat postponed loggen extreem veel sneller is. Let wel, `logger.dumpNow()` kost nog steeds veel tijd, dus gebruik die spaarzaam. Goed om te weten!
 
-Dan zien we dat postponed loggen extreem veel sneller is. Goed om te weten!
 
 
