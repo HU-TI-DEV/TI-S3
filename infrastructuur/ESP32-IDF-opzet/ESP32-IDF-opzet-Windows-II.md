@@ -479,6 +479,6 @@ Als we kijken naar `crt_TestLogger.h` :
 				vTaskDelay(2000);  // wait 2s before next round of logs.
 ```
 
-Dan zien we dat er allerlei interessante functionaliteiten in zitten (je kan bv postponed loggen). Goed om te weten!
+Dan zien we dat postponed loggen extreem veel sneller is. Goed om te weten!
 
 
