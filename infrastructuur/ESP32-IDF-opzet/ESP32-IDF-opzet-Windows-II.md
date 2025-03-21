@@ -49,6 +49,8 @@ Run het voorbeeld met:
 Dit zou het volgende moeten geven (maar dan met andere netwerken):
 ![alt text](./images/screenshot_WifiScan.png)
 
+Gaaf he!!
+
 ## AnalogRead.ino
 
 Kopieer de inhoud van `main_for_wifi_scan_ard_ide_with_nvs.cpp` naar `main.cpp`
