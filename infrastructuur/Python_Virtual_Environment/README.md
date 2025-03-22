@@ -36,13 +36,13 @@ To quit a virtual environment use:
 
 ## Python processes
 
-To view all running Python processes you can do the following:
+To view all running Python processes you can do the following.
 
 ```bash
 ps -ef | grep python
 ```
 
-If needed you can kill them by their process id. Example given, killing Python process with id 2430:
+If needed you can kill them by their process id. Example given, killing Python process with id 2430.
 
 ```bash
 kill -9 2430
