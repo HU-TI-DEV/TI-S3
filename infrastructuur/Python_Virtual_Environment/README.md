@@ -14,7 +14,7 @@ python3 -m venv ./venv
 ls
 ```
 
-You will have a folder called venv in your projectfolder. The folder venv is a commonly accepted name. You can not install all packages you need for your project. To start using the virtual environment we have to activate it.
+You will have a folder called venv in your projectfolder. The folder venv is a commonly accepted name. You can now install all packages you need for your project. To start using the virtual environment we have to activate it.
 
 ```bash
 source venv/bin/activate
