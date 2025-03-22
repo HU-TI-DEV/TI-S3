@@ -106,3 +106,9 @@ Show the logs of your application.
 ```bash
 journalctl -u my_application.service
 ```
+
+Only log messages from the current boot.
+
+```bash
+journalctl -u my_application.service -b
+```
