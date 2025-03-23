@@ -234,6 +234,15 @@ Ik pas dat handmatig aan in de sdkconfig file:
 
 Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die vervangt sdkconfig weer terug..
 
+>Mocht je vaak willen switchen tussen verschillende esp types (en dus vaker de set-taget aan moet roepen) kun je ook een `sdkconfig.defaults` aanmaken met de volgende inhoud:
+```
+  CONFIG_FREERTOS_HZ=1000 
+```
+>Dit zorgt ervoor dat het in de toekomst automatisch meegenomen wordt als je set-target aanroept. 
+
+
+git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
+
 Okee, verder met het project, bekijk de main folder in `...\S3-Template>`:
 
 ```
