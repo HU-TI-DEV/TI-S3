@@ -240,9 +240,6 @@ Daarna is geen verdere actie nodig. Dus niet opnieuw set-target aan roepen - die
 ```
 >Dit zorgt ervoor dat het in de toekomst automatisch meegenomen wordt als je set-target aanroept. 
 
-
-git clone -b idf-release/v5.4 https://github.com/HU-TI-DEV/arduino-esp32.git
-
 Okee, verder met het project, bekijk de main folder in `...\S3-Template>`:
 
 ```
