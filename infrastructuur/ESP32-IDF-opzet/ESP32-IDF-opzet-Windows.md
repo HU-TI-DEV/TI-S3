@@ -283,49 +283,20 @@ Nog wat algemene informatie over het idee achter S3-Template:
   gevonden en gebruikt kan worden).
 - Zoals je wellicht opvalt, staat dat alles compleet los van CleanRTOS.
 - CleanRTOS is gewoon een van de beschikbare libraries. Eentje die je kunt gebruiken als freertos wrapper.
-  
-## (B) Als dit resulteert in een error
 
-![](images/2024-09-08-13-12-40-image.png)
-
-Dat is iets wat nog niet is geupdate voor versie 5.3. Typsich nog zoiets dat je krijgt als je de laatste versie gebruikt. Wat dat betreft hadden we beter de voorlaatste versie van ESP-IDF kunnen gebruiken.
-
-Enfin, in uart.h ontbreekt dus nog een flags variabele in de klasse uart_config_. We checken eerst in die esp32-hal-uart.c file even welk type hij verwacht.
-
-In VSCode zien we op die regel:
-
-<img src="images/2024-09-08-13-33-26-image.png" title="" alt="" width="546">
-
-`idf.py --version` retourneert `5.3`, en ik heb de 5.3. versie voor de arduino ide toestand geinstalleerd.
-
-Het lijkt dus een nieuwe bug. Op stack overflow en google kan ik er niets over vinden. Enfin, dan voeg ik de ontbrekende members zelf maar even toe.
-
-Via RMB (right mouse button) op die uart_config vraag ik VSCode "Go to declaration" om de klassedeclaratie te vinden.
-Dit is em kennelijk:
-
-![](images/2024-09-08-13-36-49-image.png)
-
-Dus even zelf flags subdeel toevoegen:
-
-<img src="images/2024-09-08-13-39-19-image.png" title="" alt="" width="551">
-
-Okee, de WifiScan applicatie runt nu, maar in de monitor verschijnt:
-
-<img src="images/2024-09-08-18-35-05-image.png" title="" alt="" width="529">
-
-Vervolgens deze tip van stack overflow toegepast:
-
-``unselect Wifi nvs enabled in menuconfig ,component config -> Wifi -> Wifi NVS Flash``
-
-Vervolgens werkte het. De ene ESP32 vond meestal niets, en af en toe een zwak signaal. Dat komt omdat het er eentje is waar een antenne op geschroefd dient te worden. Een andere ESP32 (met ingebouwde antenne) vond een hele reeks providers.
-
-Ook een aardige test (van CleanRTOS) kun je doen, door in main "#include <AllWaitables.ino>" uit te commentariëren en daarmee te bouwen.
+Nog wat leuke tests die je kunt doen:
+ door in main "#include <AllWaitables.ino>" uit te commentariëren en daarmee te bouwen.
 
 > (Die test heeft een button met pulldown-weerstand nodig aan pin23).
 
 Een andere leuke test, als je een ILI-touchscreen hebt aangesloten, kun je doen door in main uit te commentarieren: #include <TouchscreenButton.ino> of #include <TouchscreenButtonGroup.ino>
 
 littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan installeren oid.
+
+
+## (B) Als dit resulteert in een error
+
+mmmhhh.... dan zijn er weer dingen verandert sinds de laatste test door de docenten (of je ESP is net een andere versie, of ....). Voer de foutmelding in in google of chatgpt en kijk waar die mee komen...
 
 # Appendix format specifiers
 
