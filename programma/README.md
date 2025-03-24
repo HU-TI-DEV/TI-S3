@@ -142,7 +142,7 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**GP**) |
+| ma  | | [Oefening Object Model](./lesprogramma/programma-object-model-2.md)  (**MV, GP**) |
 | di  | | [**PLC WORKSHOP, LET OP DE TIJD!!! (HS)**](./lesprogramma/programma-PLC.md)|
 | wo  | | [Oefening Taakstructurering](./lesprogramma/programma-taakstructurering.md)  (**BB**)  |
 | do  | | [Oefening Klassediagram + Observer Pattern](./lesprogramma/programma-klassediagram-observer.md)  (**MV**) |
