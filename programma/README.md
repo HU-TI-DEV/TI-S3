@@ -164,7 +164,7 @@ Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, impleme
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**)|
+| ma  |PO demo(**BB**) | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**)|
 | di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**HP,HS**) |
 | wo  | | [STD](./lesprogramma/programma-std-1.md)   (**GP**) |
 | do  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**HP**) |
@@ -188,7 +188,7 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  || [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  |PO demo (**BB**) |  [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB, MV**) |
+| wo  |PO demo (**BB**) |  [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
