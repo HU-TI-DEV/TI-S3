@@ -188,7 +188,7 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  || [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  ||  [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB**) |
+| wo  || Hij begint om 09:00!!!! [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
