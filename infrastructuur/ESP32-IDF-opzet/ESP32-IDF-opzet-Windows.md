@@ -148,7 +148,7 @@ We maken er eerst een folder voor aan (op willekeurige plek).
 Ik kies:
 
 ```bash
-...\hello_world> cd E:\espressif
+...\hello_world> cd C:\espressif
 C:\espressif> mkdir testproject
 C:\espressif> cd testproject
 C:\espressif> git clone https://github.com/espressif/esp-idf-template.git 
