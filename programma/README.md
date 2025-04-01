@@ -156,7 +156,7 @@ Week C9.
 | ma  | | [Constexpr + Numerieke wiskunde + Templates](./lesprogramma/programma-constexpr_templates.md)  (**BB**) |
 | di  | | [Synchronisatiemechanismen](./lesprogramma/programma-synchronisatiemechanismen.md)  (**BB**) |
 | wo  | | [Oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md)  (**GP**) |
-| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4 PO demo (**BB**)| |
+| do  | :end: Einde sprint 3 &amp; :runner: planning sprint 4| |
 
 ### Onderwijsweek C10 (7-04-2025)
 
