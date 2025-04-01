@@ -48,6 +48,11 @@ Liever maak je een snelkoppeling naar een command prompt die dat automatisch doe
 - Gebruik als commando/location of the item : `cmd.exe /k "c:\espressif\esp-idf\export.bat"`
 - Kies als naam `ESP-IDF command prompt`.
 - (optioneel) Open de shortcut, en pin hem aan je taskbar.
+- Je kan de snelkoppeling ook instellen op ‘Uitvoeren als administrator’ ->
+  - Klik met de rechtermuisknop op de snelkoppeling en kies Eigenschappen.
+  - Ga naar het tabblad Snelkoppeling en klik op Geavanceerd....
+  - Vink Als administrator uitvoeren aan en klik op OK.
+  - Klik op Toepassen en OK.
 
 Okee, laten we even een snelle hello world test doen:
 
