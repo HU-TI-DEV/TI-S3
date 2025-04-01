@@ -13,11 +13,11 @@ Ik open een command prompt in admin mode en maak een folder aan voor dit experim
 Nu (2025-02-19) is dit v5.4, dus type ik in een cmd window:
 
 ```bash
-C:\Users\MyName> cd E:\espressif
-C:\Users\MyName> e:
-E:\espressif> git clone -b v5.4 --recursive https://github.com/espressif/esp-idf.git
-E:\espressif> cd esp-idf
-E:\espressif\esp-idf> install.bat
+C:\Users\MyName> cd c:\espressif
+C:\Users\MyName> c:
+C:\espressif> git clone -b v5.4 --recursive https://github.com/espressif/esp-idf.git
+C:\espressif> cd esp-idf
+C:\espressif\esp-idf> install.bat
 ```
 
 Dit duurt iets langer. Wacht af tot het helemaal geinstalleerd is. Anders ontbreken misschien nog tools/onderdelen en de volgende stappen gaan mis.
@@ -29,13 +29,13 @@ Nu is het geinstalleerd.
 Om de windows paden en alles voor de huidige sessie goed te zetten, moet je voortaan na het openen van je command (ook voortaan) eerst op deze plek "export.bat" aanroepen.
 
 ```bash
-E:\espressif\esp-idf> export.bat
+C:\espressif\esp-idf> export.bat
 ```
 
 Nu alles goed staat, werkt de build-tool "idf.py"
 
 ```bash
-E:\espressif\esp-idf> idf.py --version
+C:\espressif\esp-idf> idf.py --version
 ```
 
 retourneert nu als het goed is "ESP-IDF v5.4".
@@ -45,14 +45,14 @@ Het zou handig zijn als je niet steeds na het openen van de command-prompt eerst
 Liever maak je een snelkoppeling naar een command prompt die dat automatisch doet:
 
 - RMB(rechtermuisknop) op bureaublad of elders -> nieuwe snelkoppeling
-- Gebruik als commando/location of the item : `cmd.exe /k "E:\espressif\esp-idf\export.bat"`
+- Gebruik als commando/location of the item : `cmd.exe /k "c:\espressif\esp-idf\export.bat"`
 - Kies als naam `ESP-IDF command prompt`.
 - (optioneel) Open de shortcut, en pin hem aan je taskbar.
 
 Okee, laten we even een snelle hello world test doen:
 
 ```bash
-E:\espressif\esp-idf> cd E:\espressif\esp-idf\examples\get-started\hello_world
+C:\espressif\esp-idf> cd C:\espressif\esp-idf\examples\get-started\hello_world
 ```
 
 Je ziet de volgende files in de directory (en sub directory) staan:
@@ -149,9 +149,9 @@ Ik kies:
 
 ```bash
 ...\hello_world> cd E:\espressif
-E:\espressif> mkdir testproject
-E:\espressif> cd testproject
-E:\espressif> git clone https://github.com/espressif/esp-idf-template.git 
+C:\espressif> mkdir testproject
+C:\espressif> cd testproject
+C:\espressif> git clone https://github.com/espressif/esp-idf-template.git 
 ```
 
 testen:
@@ -196,9 +196,9 @@ Een handig uitgangspunt van je project is het onderstaande S3-Template project:
 Okee, dat project zet ik ook maar in dezelfde folder, dus:
 
 ```bash
-...> cd E:\espressif
-E:\espressif> git clone https://github.com/HU-TI-DEV/S3-Template.git
-E:\espressif> cd S3-Template
+...> cd c:\espressif
+C:\espressif> git clone https://github.com/HU-TI-DEV/S3-Template.git
+C:\espressif> cd S3-Template
 ```
 
 Als de S3-Template folder nog geen components subfolder bevat, maken we die.
