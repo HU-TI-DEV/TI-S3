@@ -21,6 +21,7 @@ Bron: V2CPSE2 reader, TI, HU.nl
   - [16. SFINAE](#16-sfinae)
   - [17. Singleton](#17-singleton)
   - [18. Update Method / State Machine](#18-update-method--state-machine)
+  - [19. Handler pattern](#19-handler-pattern)
 
 
 ## Introductie
@@ -83,3 +84,5 @@ Soms is het lastig om een object dat je overal nodig hebt en waarvan er maar 1 k
 
 ## 18. Update Method / State Machine
 Als meerdere onderdelen van je code onafhankelijk van elkaar dingen doen en daartussen wachten op evenets of het verstrijken van tijd dan kun je die onderdelen coderen als aparte taken. Maar als je geen multitasking beschikbaar hebt dan moet je de activiteiten van die onderdelen onderbrengen in een update() functie, die wordt aangeroepen als er een event voor dat onderdeel is. De update() functie moet dan het nodige doen, zonder te gaan staan wachten.
+
+## 19. [Handler pattern](handler_pattern.md)
