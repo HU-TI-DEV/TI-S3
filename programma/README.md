@@ -166,7 +166,7 @@ Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, impleme
 | --- | --- | --- |
 | ma  |PO demo(**BB**) | [PID (regeltechniek)](./lesprogramma/programma-PID.md) (**BB, MV**)|
 | di  | | [CleanRtos, FreeRtos, Logger / Debugging](./lesprogramma/programma-cleanrtos-debugging.md)   (**HP,HS**) |
-| wo  | | [STD](./lesprogramma/programma-std-1.md)   (**GP**) |
+| wo  | | [Vervolg oefening Klassediagram + Handler Pattern](./lesprogramma/programma-klassediagram-handler.md) & [STD](./lesprogramma/programma-std-1.md)   (**GP**) |
 | do  | | [RAII + SFINAE](./lesprogramma/programma-raii-sfinae.md)   (**HP**) |
 
 ### Onderwijsweek D1 (14-04-2025)
