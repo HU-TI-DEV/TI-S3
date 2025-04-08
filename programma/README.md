@@ -50,6 +50,16 @@ De contacturen zijn (subject to change):
 |wo|13:00|17:00| HL15-5.068 |
 |do|13:00|17:00| HL15-5.068 |
 
+**Vanaf Blok D (2025-04-14)**
+
+|dag|van|tot| lokaal |
+|---|---|---| --- |
+|ma|9:00|13:00| HL15-5.068 |
+|di|13:00|17:00| HL15-5.070 |
+|wo|13:00|17:00| HL15-5.068 |
+|do|13:00|17:00| HL15-5.068 |
+
+
 De docenten zijn:
 
 * (**TM**) Teun Pieter Moddermann
@@ -171,12 +181,14 @@ Week C10. Object Model en klassediagram van het RTOS subsysteem afmaken, impleme
 
 ### Onderwijsweek D1 (14-04-2025)
 
+**Let op: gewijzigd lestijd en leslokaal op dinsdag**
+
 Week D1. 
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**GP**) |
-| di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) |
+| di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) **let op: gewijzigd lestijd en leslokaal** |
 | wo  | |  |
 | do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
@@ -188,7 +200,7 @@ Week D2. RTOS subsysteem klaar, Linux (Lightsail) server met Flask en MongoDb dr
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  || [Flask, MongoDb, Docker Composer en Voorbeeld WebApp](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  || Hij begint om 09:00!!!! [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB**) |
+| wo  || **Hij begint om 09:00!!!!** [Ventilator Wip Workshop](./lesprogramma/programma-PID-workshop.md) (**BB**) |
 | do  | | [Signalen in het frequentiedomein, fir filter, median filter](./lesprogramma/programma-sign-freq-filter.md) (**BB**) [HTML, CSS](./lesprogramma/programma-html-css.md) (pointer naar zelfstudie)  (**HS**)|
 
 
