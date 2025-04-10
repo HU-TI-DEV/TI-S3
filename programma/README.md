@@ -187,8 +187,8 @@ Week D1.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**GP**) |
-| di  | | [Meer STD](./lesprogramma/programma-std-2.md)   (**GP**) **let op: gewijzigd lestijd en leslokaal** |
+| ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**MV**) |
+| di  |Doorspreken verantwoordingsdocument (**HS**) | [Meer STD](./lesprogramma/programma-std-2.md)   (**MV**) **let op: gewijzigd lestijd en leslokaal** |
 | wo  | |  |
 | do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
