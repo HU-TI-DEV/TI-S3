@@ -189,7 +189,7 @@ Week D1.
 | --- | --- | --- |
 | ma  | |[STD naar Code](./lesprogramma/programma-std-naar-code.md)   (**MV**) |
 | di  |Doorspreken verantwoordingsdocument (**HS**) | [Meer STD](./lesprogramma/programma-std-2.md)   (**MV**) **let op: gewijzigd lestijd en leslokaal** |
-| wo  | |  |
+| wo  | | Project werktijd |
 | do  | **2e Peilmoment** |  [IR ontvanger](./lesprogramma/programma-std-naar-code-ir-ontvanger.md)   (**HP**)|
 
 ### Onderwijsweek D2 (21-04-2025)
