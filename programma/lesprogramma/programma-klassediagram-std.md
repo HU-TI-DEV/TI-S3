@@ -19,7 +19,7 @@ In deze les willen we een klassediagram omzetten naar een STD (State Transition 
 
 ## Klassediagram Verkeerslicht
 Gegeven het volgende klassediagram:
-![klassediagram verkeerslicht](klassediagram_verkeerslicht.png)
+![klassediagram verkeerslicht](./images/klassediagram_verkeerslicht.png)
 
 ## Opdracht: van Klassediagram naar STD
 1. Gebruik de tips uit de readers. 
@@ -27,7 +27,7 @@ Gegeven het volgende klassediagram:
 3. Controleer je STD diagram met het onderstaande diagram.
 
 ## STD diagram Verkeerslicht
-![State Transition Diagram Verkeerslicht](std_verkeerslicht.png)
+![State Transition Diagram Verkeerslicht](./images/std_verkeerslicht.png)
 
 ## Tijdens en na de les
 Deze les heb je nodig als voorbereiding op de Canvas oefenopdracht [Klassediagram Snoepautomaat](../../onderwijsmateriaal/opdrachten/oefenopdrachten/klassediagram-snoepautomaat/klassediagram-snoepautomaat.md)
