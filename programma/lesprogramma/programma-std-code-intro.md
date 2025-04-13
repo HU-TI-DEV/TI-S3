@@ -11,7 +11,7 @@ Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De
 
 Hoe gaan we va STD naar Code? Hiervoor gaan we de manual bekijken van "Design like a robot". Specifiek bladzijde 53:  
 
-![desing like a robot, page 53](image.png)
+![desing like a robot, page 53](./images/image.png)
 
 Hieronder in mark down:
 1. Creeer een klasse die is afgeleid van de task van RTOS (in ons geval CRT).
@@ -35,7 +35,7 @@ auto evt = wait( een of meer waitables hier )
 if(evt=flagButton){state = Idle;}
 
 We gaan kijken hoe bovenstaande is verwezelijkt in de KlikAanKlikUit code. Dit is het STD:
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 
 ```plantuml
 @startuml
@@ -62,11 +62,11 @@ c2 ---> BlueLedOff : after(200ms) [else]
 
 
 Wat extra uitleg!:
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 
 Als we kijken naar de main: 
 
-![De main](image-1.png)
+![De main](./images/image-1.png)
 
 Dan zien we dat er twee files worden ge-include: 
 ```c++
@@ -83,11 +83,11 @@ KlikAanKlikUit is de taak die wordt geintialiseerd (als RTOS taak) met een bijbe
 
 Laten we nu gaan kijken naar het eerste deel van KlikAanKlikUit.h:
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 En het tweede deel:
 
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 
 ### Aan de slag
