@@ -45,7 +45,7 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
 
 - Installeer de ESP-IDF bouwomgeving, inclusief arduino-ide component en test er je ESP32 mee (HelloWorld).
   - Windows: volg graag [het Windows ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
-  - Mac OS X: volg graag [het Mac OS X ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS-X.md).
+  - Mac OS X: volg graag [het Mac OS X ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS.md).
 
 ### Lasergame Template installeren
 

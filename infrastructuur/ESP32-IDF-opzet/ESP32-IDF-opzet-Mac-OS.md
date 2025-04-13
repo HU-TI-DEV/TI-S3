@@ -1,6 +1,6 @@
 # ESP32-project opzet, ESP32-IDF installatie
 
- Installing ESP-IDF on Mac OS X. Tested on Mac M4 with Sequoia 15.1.1. Date: 24-01-2025
+ Installing ESP-IDF on Mac OS. Tested on Mac M4 with Sequoia 15.1.1. Date: 24-01-2025
 
 Source: [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html)
 
