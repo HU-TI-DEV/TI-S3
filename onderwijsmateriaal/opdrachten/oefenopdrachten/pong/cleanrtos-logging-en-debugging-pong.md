@@ -7,7 +7,7 @@ Maak daarbij gebruik van het log object om tussentijdse resultaten te loggen, en
 
 ## Opzet
 
-- Kopieer de pong folder (dat is een subfolder van de plek waar dit .md document staat) in de apps folder van je test_lasergame_template_2 project
+- Kopieer de pong folder (dat is een subfolder van de plek waar dit .md document staat) in de apps folder van je S3-Template project
 
 - Gebruik in de Main.cpp:
   
@@ -23,7 +23,7 @@ Maak daarbij gebruik van het log object om tussentijdse resultaten te loggen, en
 
 ## Debugging
 
-Als het goed is, flasht de applicatie (na idf.py flash monitor in de test_lasergame_2 project folder) zonder compilefouten. Alleen werkt de applicatie (nog-) niet naar behoren. Aan jou de taak om de fouten op te lossen.
+Als het goed is, flasht de applicatie (na idf.py flash monitor in de S3-Template project folder) zonder compilefouten. Alleen werkt de applicatie (nog-) niet naar behoren. Aan jou de taak om de fouten op te lossen.
 
 Goddank is de codeur niet als een kip zonder kop begonnen te programmeren, maar heeft eerst een [Object Model](./pong/pong.svg) gemaakt. Dat geeft je zonder een regel code bestudeerd te hebben een snelle indruk van hoe een en ander zou moeten werken. (STD's erbij zou natuurlijk helemaal ideaal geweest zijn)
 

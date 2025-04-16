@@ -1,6 +1,6 @@
 ### GET and POST requests using ESP32 C6
 
-It always nice to be able to do GET and POST request from your device. First let us try to compile and flash the example http-request. Then we will integrate this code as a library in our lasergame_template_2.
+It always nice to be able to do GET and POST request from your device. First let us try to compile and flash the example http-request. Then we will integrate this code as a library in our S3-Template.
 
 ```bash
 get_idf 
@@ -76,5 +76,5 @@ The HEX corresponds to a JSON object. Use an online converter or ask ChatGPT. Th
 
 ## Include this example code as lib in the template
 
-You can include the C ESP-IDF example files as library in the lasergame C++ template. There are quite some steps involved to accomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to [include this code as a library in the lasergame_template_2](./ESP-IDF_include_example_as_library.md)
+You can include the C ESP-IDF example files as library in the S3-Template. There are quite some steps involved to accomplish this. There is a [video that explains most of the steps](https://www.youtube.com/watch?v=paXRrsztJp0) to [include this code as a library in the S3-Template](./ESP-IDF_include_example_as_library.md)
 
