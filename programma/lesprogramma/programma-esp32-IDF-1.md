@@ -47,7 +47,7 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
   - Windows: volg graag [het Windows ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
   - Mac OS X: volg graag [het Mac OS ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS.md).
 
-### Lasergame Template installeren
+### S3-Template installeren
 
 - Installeer `S3-Template` (https://github.com/HU-TI-DEV/S3-Template.git) dit zijn een aantal utility libraries en CleanRTOS.
   - Windows: volg graag dat zelfde ESP32-IDF logboek.

@@ -13,5 +13,5 @@ Samen in de groep kunnen we (installatie-)problemen sneller oplossen en van elka
 
 ### Voor later
 
-Later wil je wellicht soms voorbeeld code uit de esp53-idf overhalen en in je eigen / het test_lasergame project toevoegen.
+Later wil je wellicht soms voorbeeld code uit de esp53-idf overhalen en in je eigen / het S3-Template project toevoegen.
 [In deze wat slome/kunstelige video](https://youtu.be/paXRrsztJp0) doe ik dat 'life' met een WiFi-client example.
