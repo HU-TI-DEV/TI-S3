@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Page-1" id="LWTP4B2TbOgJM_ElasUf">
+    <mxGraphModel dx="571" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="213" y="338" width="200" height="110" as="geometry">
+            <mxRectangle x="150" y="280" width="250" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-4" value="Microcontroller (3.3V)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BMTh2zgVbm1dpffPIYIx-2">
+          <mxGeometry x="15" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-5" value="38kHz pin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BMTh2zgVbm1dpffPIYIx-2">
+          <mxGeometry x="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-1" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="526" y="243" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-6" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="343" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-7" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transistors.npn_transistor_1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="303" width="95" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-8" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="531" y="126" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;" vertex="1" parent="1">
+          <mxGeometry x="552" y="492" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-10" value="V&lt;sub&gt;dd&lt;/sub&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=24;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="90" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="BMTh2zgVbm1dpffPIYIx-7" target="BMTh2zgVbm1dpffPIYIx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-12" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=oval;endFill=1;exitX=0.726;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BMTh2zgVbm1dpffPIYIx-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="sourcePoint" />
+            <mxPoint x="575" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="358" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-15" value="200 Ohm" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-16" value="10 Ohm" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="238" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-18" value="IR diode" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="146" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BMTh2zgVbm1dpffPIYIx-20" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;&quot;&gt;= 5 Vol&lt;/font&gt;t&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="591" y="49" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
