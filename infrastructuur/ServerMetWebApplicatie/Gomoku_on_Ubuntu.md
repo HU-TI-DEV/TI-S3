@@ -15,7 +15,7 @@ I will clone the Gomoku webapp in a named directory gomoku.
 git clone https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku.git gomoku
 ```
 
-You can use this as a template for your own Web Application. Follow the instructions explained [here](../ServerMetWebApplicatie/README.md#opzetten-van-server-en-de-voorbeeld-webapplicatie) to set up you team application. I just want to check if I can start all imgaes with Docker Compose.
+You can use this as a template for your own Web Application. Follow the instructions explained [here](../ServerMetWebApplicatie/README.md#opzetten-van-server-en-de-voorbeeld-webapplicatie) to set up you team application. I just want to check if I can start all images with Docker Compose.
 
 I inspect the `docker-compose.yml` file. I create a password for the root user.
 
