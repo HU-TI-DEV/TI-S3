@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Klikkerdeklik</h1>
+<h2>Klik op 2 manieren</h2>
+
+<p>Het onclick event triggert a function when an element is clicked on.</p>
+<p>Click to trigger a function that will output "Hello World":</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+<p>Now try the same but with an external javascript function (a bit old fashioned).</p>
+
+<button onclick="myClickFunction()">Klik hier:</button>
+<script src="myClickFunction.js"></script>
+<p id="klik"></p>
+
+</body>
+</html>
