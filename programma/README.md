@@ -236,7 +236,7 @@ Week D5. Webdeel verder klaar en geintegreerd met RTOS subsysteem.
 | ma  | | [Karnaugh](./lesprogramma/programma-karnaugh-naar-formule.md) (**BB**) |
 | di  | | [Combinatoriek 2/ 2](./lesprogramma/programma-combinatoriek-2.md) (**BB**) |
 | wo  | | LES IS IN DE OCHTEND [Quick and Dirty](./lesprogramma/programma-quick-and-dirty.md) (**MV**) |
-| do  | | [Compact and Clean](./lesprogramma/programma-compact-and-clean.md) (**MV**) |
+| do  | | LET OP LANGE LES! (tot 17:00) LANG [Compact and Clean](./lesprogramma/programma-compact-and-clean.md) + SDG workshop (**MV**) |
 
 
 ### Onderwijsweek D6 (19-05-2025)
