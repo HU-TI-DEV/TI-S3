@@ -245,7 +245,7 @@ Week D6.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**BB,HP**) |
+| ma  | | [Digitale Simulatie](./lesprogramma/programma-digitale-simulatie.md) (logisim)   (**HP**) |
 | di  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-1.md) (**BB,HP**) |
 | wo  | | [Bouwen en debuggen van digitale electronica](./lesprogramma/programma-bouwen-en-debuggen-2.md) (**BB,HP**) |
 | do  | **3e Peilmoment** |  [Recap Rekenen](./lesprogramma/programma-recap-basis-rekenen.md)   (**BB,MV,HP**) |
