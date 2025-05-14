@@ -1,0 +1,11 @@
+```plantuml
+@startuml
+(slaap) --> (opstaan) : wekker gaat
+(opstaan) --> (douchen) 
+(douchen) --> (tandenpoetsen) :na 8 minuten
+(tandenpoetsen) --> (buitenkijken) :tanden schoon
+(buitenkijken) --> (slaap) : slecht weer
+(buitenkijken) --> (ontbijten) : goed weer
+
+@enduml
+```
