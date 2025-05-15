@@ -256,7 +256,7 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | |  |
+| ma  | | Werken aan project |
 | di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**MV**) |
 | wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV**) |
 | do  | Hemelvaartsdag |  |
@@ -270,7 +270,7 @@ Week D8.
 | ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV,BB,HP**) |
 | di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV,BB,HP**)  |
 | wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV,BB,HP**) |
-| do  | | |
+| do  | | Werken aan project |
 
 
 ### Onderwijsweek D9 (9-06-2025)
@@ -280,7 +280,7 @@ Week D9.
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | 2e Pinksterdag |  |
-| di  |  |  [Workshop PCB ontwerpen (Semester 2)](./lesprogramma/programma-workshop-pcb-design.md)  (**HS**) |
+| di  |  | Werken aan project |
 | wo  |  |  [Practische Vaardigheden Electro](./lesprogramma/programma-practische-vaardigheden-electro.md) (**BB,HS**)|
 | do  | :end: Einde sprint 6 &amp; planning afronden (sprint 7)  | |
 
@@ -292,7 +292,7 @@ Week D10. Werkend eindproduct presenteren en demonstreren. Documentatie oplevere
 | --- | --- | --- |
 | ma  | | |
 | di  | | |
-| wo  | | Demo dag |
+| wo  | | Demo dag centrale hal van Heidelberglaan 15 van 11.00 tot 12.00 uur |
 | do  | **4e Peilmoment**  | |
 
 ### Onderwijsweek D11 (23-06-2025)
