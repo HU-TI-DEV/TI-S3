@@ -256,7 +256,7 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | | Werken aan project |
+| ma  | | Attiny workshop (**HS & BB**) |
 | di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**MV**) |
 | wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV**) |
 | do  | Hemelvaartsdag |  |
