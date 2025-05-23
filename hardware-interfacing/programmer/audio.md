@@ -55,27 +55,28 @@ int main() {
 
    > __Schrijf je antwoord op in je md document.__
 
-5) Maak de andere draad van de luidspreker weer los. 
-6) Sluit de weerstand aan op pin 5 van de microcontroller.
-7) Aan de andere kant van de weerstand sluit je twee dingen aan: a) de andere draad van de speaker b) de plus kant van de condensator. 
-8) de min kant van de condensator sluit je aan op de aarde van de microcontroller.
-9) Als het goed is moet het geluid weliswaar zachter klinken, maar wel veel beter! Heb je een idee waarom? 
+5) Wat is er mis met bovenstaande code (hint: is de juiste timer gebruit?) pas de code aan het sluit de speaker aan op de juiste pin. Hoe klinkt het nu?
+6) Maak de andere draad van de luidspreker weer los. 
+7) Sluit de weerstand aan op pin ? van de microcontroller.
+8) Aan de andere kant van de weerstand sluit je twee dingen aan: a) de andere draad van de speaker b) de plus kant van de condensator. 
+9) de min kant van de condensator sluit je aan op de aarde van de microcontroller.
+10) Als het goed is moet het geluid weliswaar zachter klinken, maar wel veel beter! Heb je een idee waarom? 
 
    > __Schrijf je idee op in je md document.__
 
-10) Maak een foto van je opstelling en 
+11) Maak een foto van je opstelling en 
 
     > __Plak dit in je .md document__.
 
-11) Neem je opstelling mee naar de oscilloscoop en vergelijk het signaal met en zonder de condensator. Klopte je idee van (9)?
+12) Neem je opstelling mee naar de oscilloscoop en vergelijk het signaal met en zonder de condensator. Klopte je idee van (9)?
 
     > __Schrijf je antwoord op in je .md document__
 
-12) Berekening de cut off frequentie van het RC filter. Je mag hier ook een online website voor gebruiken. 
+13) Berekening de cut off frequentie van het RC filter. Je mag hier ook een online website voor gebruiken. 
 
     > __Plak je berekening of een plaatje van de website in je .md document__.
 
-13) Welk liedje kan je met de onderstaande code afspelen? We maken gebruik van een andere timer (Timer1) en de speaker sluit je ook aan op een andere pin.
+14) Welk liedje kan je met de onderstaande code afspelen? We maken gebruik van een andere timer (Timer1) en de speaker sluit je ook aan op een andere pin.
 
 ```c++
 /* Jingle Bells PWM demo

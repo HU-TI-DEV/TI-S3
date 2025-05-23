@@ -1,5 +1,5 @@
 # Programma Recap Practische Vaardigheden Electro
-Dit is de recap van practische vaardigheden van Electro, zoals geleerd bij semester 2. In tegenstelling tot de overige Electro lessen is deze les niet optioneel.
+Dit is de recap van practische vaardigheden van Electro, zoals geleerd bij semester 2.
 
 ## Voorbereiding
 - Lees [Vuistregels Electronica voor TI](../../onderwijsmateriaal/readers/vuistregels-electronica-voor-TI.pdf) door.
