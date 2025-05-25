@@ -258,7 +258,7 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | --- | --- | --- |
 | ma  | |  [AC / DC](./lesprogramma/programma-ac-dc.md)   (**MV**)|
 | di  | | [Recap Electro](./lesprogramma/programma-recap-electro.md)   (**MV**) |
-| wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  |Attiny workshop (**HS & BB**)  |
+| wo  | :end: Einde sprint 5 &amp; :runner: Planning sprint 6  | [Attiny workshop](../hardware-interfacing/programmer/README.md) (**HS & BB**)  |
 | do  | Hemelvaartsdag |  |
 
 ### Onderwijsweek D8 (2-06-2025)
@@ -269,7 +269,7 @@ Week D8.
 | --- | --- | --- |
 | ma  | | [Opamp Versterkertrappen](./lesprogramma/programma-opamp-versterkertrappen.md)    (**MV,BB,HP**) |
 | di  | | [Hartslagmeter 1/2](./lesprogramma/programma-hartslagmeter-1.md)    (**MV,BB,HP**)  |
-| wo  | | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV,BB,HP**) |
+| wo  | Om 10.00 uur PCB workshop in HL15-1.096 | [Hartslagmeter 2/2](./lesprogramma/programma-hartslagmeter-2.md)    (**MV,BB,HP**) |
 | do  | | Werken aan project |
 
 

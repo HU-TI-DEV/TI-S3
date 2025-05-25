@@ -76,7 +76,7 @@ int main() {
 
     > __Plak je berekening of een plaatje van de website in je .md document__.
 
-14) Welk liedje kan je met de onderstaande code afspelen? We maken gebruik van een andere timer (Timer1) en de speaker sluit je ook aan op een andere pin.
+14) Welk liedje kan je met de onderstaande code afspelen? We maken gebruik van een andere timer (Timer1) en de speaker sluit je ook aan op een andere pin. Deze muziek past beter bij kerst. Weet je niet nog een goede zomer hit?
 
 ```c++
 /* Jingle Bells PWM demo
