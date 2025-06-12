@@ -293,7 +293,7 @@ Week D10. Werkend eindproduct presenteren en demonstreren. Documentatie oplevere
 | ma  | | |
 | di  | | |
 | wo  | | Demo dag centrale hal van Heidelberglaan 15 van 11.00 tot 12.00 uur |
-| do  | **4e Peilmoment**  | |
+| do  | **4e Peilmoment**  | Ophalen feedback (**MV**)|
 
 ### Onderwijsweek D11 (23-06-2025)
 
