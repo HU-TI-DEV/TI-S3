@@ -1,17 +1,18 @@
 # ESP32-project opzet, ESP32-IDF, Arduino component en CleanRTOS installatie
 
-## Bruikbare pinnen
+## Voorbereiding
 
-Goed om te weten: van de meeste esp32 devkits zijn een stuk of 8 pinnen niet bruikbaar (zonder dat je een expert bent op esp32 gebied), omdat die voor interne taken / peripherals van de esp32 gebruikt kunnen worden. Een grappig voorbeeld is een esp32 devkit variant met extra veel pinnen. Echter, maar 1 of 2 van die extra pinnen zijn om dezelfde reden daadwerkelijk bruikbaar. Zoek dus altijd van tevoren goed uit welke pinnen van je ESP32 microcontroller je echt zonder kopzorgen kunt gebruiken.
+- Zorg dat je laptop voldoende diskruimte heeft, minimaal 10Gb. 
+- Zorg dat je je logboek file hebt aangemaakt
 
 ## ESP32 introductie
 
-Ik open een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: E:/espressif
+Open een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: c:/espressif (we willen niet te lange path names dus zet hem echt in de root van c).
 
 [deze pagina](https://github.com/espressif/esp-idf) toont de aanbevolen versies van de ESP-IDF.
 
-Nu (2025-02-19) is dit v5.4, dus type ik in een cmd window:
-
+Voor dit semester gebruiken we v5.4.
+Type in het command window:
 ```bash
 C:\Users\MyName> cd c:\espressif
 C:\Users\MyName> c:
@@ -289,57 +290,8 @@ Nog wat algemene informatie over het idee achter S3-Template:
 - Zoals je wellicht opvalt, staat dat alles compleet los van CleanRTOS.
 - CleanRTOS is gewoon een van de beschikbare libraries. Eentje die je kunt gebruiken als freertos wrapper.
 
-Nog wat leuke tests die je kunt doen:
- door in main "#include <AllWaitables.ino>" uit te commentariëren en daarmee te bouwen.
-
-> (Die test heeft een button met pulldown-weerstand nodig aan pin23).
-
-Een andere leuke test, als je een ILI-touchscreen hebt aangesloten, kun je doen door in main uit te commentarieren: #include <TouchscreenButton.ino> of #include <TouchscreenButtonGroup.ino>
-
-littleFS lijkt nog niet te werken. misschien idf53 compatible variant ervan installeren oid.
-
 
 ## (B) Als dit resulteert in een error
 
 mmmhhh.... dan zijn er weer dingen verandert sinds de laatste test door de docenten (of je ESP is net een andere versie, of ....). Voer de foutmelding in in google of chatgpt en kijk waar die mee komen...
 
-# Appendix format specifiers
-
-Het kan zijn dat een deel van de code uit het project S3-Template nog niet helemaal werkt op esp-idf 5.3 of 5.4 (de code werd gemaakt in 4.4).
-
-Als er nog iets aangepast moet worden, zijn het vermoedelijk format specifiers binnen de ELogV() of ELogi() commandos.
-
-Dat blijkt dan wel uit de foutmeldingen.
-
-Ik heb chatgpt 4.0 een mappings-tabel laten maken (er kunnen dus fouten in zitten):
-
-| **Type**                 | **Format Specifier** |
-| ------------------------ | -------------------- |
-| `int`                    | `%d`                 |
-| `unsigned int`           | `%u`                 |
-| `long int`               | `%ld`                |
-| `unsigned long int`      | `%lu`                |
-| `long long int`          | `%lld`               |
-| `unsigned long long int` | `%llu`               |
-| `short int`              | `%hd`                |
-| `unsigned short int`     | `%hu`                |
-| `char`                   | `%c`                 |
-| `unsigned char`          | `%hhu`               |
-| `signed char`            | `%hhd`               |
-| `float`                  | `%f`                 |
-| `double`                 | `%lf`                |
-| `long double`            | `%Lf`                |
-| `int8_t`                 | `%" PRIi8 "`         |
-| `uint8_t`                | `%" PRIu8 "`         |
-| `int16_t`                | `%" PRIi16 "`        |
-| `uint16_t`               | `%" PRIu16 "`        |
-| `int32_t`                | `%" PRIi32 "`        |
-| `uint32_t`               | `%" PRIu32 "`        |
-| `int64_t`                | `%" PRIi64 "`        |
-| `uint64_t`               | `%" PRIu64 "`        |
-| `size_t`                 | `%zu`                |
-| `ptrdiff_t`              | `%zd`                |
-| `uintptr_t`              | `%zu`                |
-| `intptr_t`               | `%zd`                |
-| `void*` (pointer)        | `%p`                 |
-| `string` (`char*`)       | `%s`                 |
