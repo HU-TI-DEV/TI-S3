@@ -1,4 +1,4 @@
-# R(GB) Leds
+# LDR (maar eigenlijk ADC)
 
 ## Voorbereiding
 - Bestudeer de eerste alinea van de wiki pagina over [photoresistors](https://en.wikipedia.org/wiki/Photoresistor).
