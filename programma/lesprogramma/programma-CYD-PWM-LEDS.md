@@ -41,7 +41,7 @@ De RgbLeD class:
 ## Canvas
 
 Voor de opdracht is een canvas entry, namelijk:
-- RGB Led PWM
+  - ESP32 LED & PWM (deel 3)
 
 Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. 
 
