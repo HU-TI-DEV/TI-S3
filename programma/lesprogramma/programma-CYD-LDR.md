@@ -42,7 +42,7 @@ Als het werkt:
 ## Canvas
 
 Voor de opdracht is een canvas entry, namelijk:
-- LDR
+- ESP32 LDR & ADC & Keypad (deel 1 - LDR)
 
 Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. 
 
