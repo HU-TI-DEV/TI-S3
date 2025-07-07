@@ -14,7 +14,7 @@ Tijdens de les gaan we:
 
 Er horen twee opdrachten bij dit onderwerp.  
 
-**Opdracht I (RLed)**
+###Opdracht I (RLed)
 - aan de slag met de eerste voorbeeld [code](../../software/CYD/RLed/).
 - kopieer de hele directory naar je c:\espressif directory zodat je de volgende structuur krijgt (in ```c:\espressif```):
 ```
@@ -39,7 +39,7 @@ Nu gaan we nog wat onderzoek doen:
 - open de gpio.c die op deze plek staat: ```C:\Espressif\esp-idf\components\esp_driver_gpio\src```. Bestudeer de functie ```gpio_set_level```. Je ziet als het goed is dat de ```gpio_hal_set_level``` functie wordt aangeroepen. 
 - open de wiki pagina over de [Hardware Abstraction Layer](https://en.wikipedia.org/wiki/Hardware_abstraction) en lees de alinea onder "In operating systems". **Probeer de 5 regels van de alinea in je eigen woorden op te schrijven in je logboek**.
 
-**Opdracht II (RGBLed)**
+###Opdracht II (RGBLed)
 - we beginnen nu met andere voorbeeld [code](../../software/CYD/RgbLed/).
 - kopieer deze ook weer naar je ```c:\espressif``` directory. 
 - in deze code mist nog de RgbLed.cpp. 
