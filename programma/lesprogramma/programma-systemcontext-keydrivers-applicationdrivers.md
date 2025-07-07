@@ -3,6 +3,7 @@
 - Bestudeer [Journaliseren](../../organisatorisch/journaliseren.md)
 - Bestudeer [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 - We gaan werken met plantUML. Bekijk het volgende filmpje: [intro plantUML](https://www.youtube.com/watch?v=_dEhja6kkEA)
+- Je mag ook werken met drawio, het grote voordeel is dat voor grotere diagrammen het overzichtelijker is. Het heeft een iets stijlere leercurve. 
 
 ### Topics
 Korte behandeling van:
