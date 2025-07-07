@@ -7,13 +7,11 @@
 
 ### Topics
 Korte behandeling van:
-- Journaliseren / Logboek bijhouden
 - System Context Diagram
 - Stakeholders
 - Application Drivers
 
 ### Canvas Opdrachten
-- Maak op je eigen repo een begin met je persoonlijke logboek/journaal. Lever de link in op de **Canvas opdracht "Persoonlijk Logboek"**.
 - Maak met je team in de team repo een begin met het ontwikkeldocument, door een kopie te maken van de [ontwikkeldocument-template](../../software/Ontwikkeldocument-template.md). Lever de link in op de (team-) [**Canvas opdracht "Ontwikkeldocument"**](https://canvas.hu.nl/courses/45649/assignments/345679).
 - Maak met je team een Systeem Context diagram voor je product en schrijf op basis daarvan het hoofdstuk "Systeem Context" van het ontwikkeldocument, zie [plantUML](../../software/modelleren/plantuml/README.md) voor meer informatie over het Systeem context diagram. 
   
