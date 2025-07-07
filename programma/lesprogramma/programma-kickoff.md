@@ -14,11 +14,10 @@
 
 ## Aan de slag
 
+We gaan aan de slag met [Journalling](../organisatorisch/journaliseren.md).  
 We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
 
 ## Canvas Opdracht
-
+- Maak de canvas opdracht "Journalling".
 - Maak de canvas opdracht "ESP32 idf installatie".
 - Maak de canvas opdracht "Voornemens".
-  
-TO DO CANVAS OPDRACHT HERSCHRIJVEN ZODAT ER EEN SCREENSHOT VAN JE WERKENDE IDF APPLICATIE ERINSTAAT.
