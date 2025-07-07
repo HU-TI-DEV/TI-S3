@@ -52,7 +52,8 @@ Run het voorbeeld met:
 Dit zou het volgende moeten geven (maar dan met andere netwerken):
 ![alt text](./images/screenshot_WifiScan.png)
 
-Gaaf he!!
+Gaaf he!!  
+**Sla dit screenshot op in je logboek**
 
 ## AnalogRead.ino
 
@@ -101,6 +102,7 @@ Run het voorbeeld met:
 ```
 
 Klopt de output met wat je had verwacht?
+**Sla dit screenshot op in je logboek**
 
 
 # Clean RTOS voorbeelden
@@ -398,7 +400,8 @@ Run het voorbeeld met:
 ...\S3-Template>idf.py flash monitor
 ```
 
-Klopt de output met wat je had verwacht?
+Klopt de output met wat je had verwacht?  
+**Sla een screenshot op in je logboek**
 
 ## Logger.ino
 

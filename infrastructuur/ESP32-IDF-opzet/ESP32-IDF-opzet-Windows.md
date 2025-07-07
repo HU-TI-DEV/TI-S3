@@ -272,6 +272,7 @@ Als het goed is krijg je ongeveer het volgende te zien (afhankelijk van welke wi
 
 ![alt text](./images/image.png)
 
+**Sla een screenshot op in je logboek**
 
 ## (A) Als dit goed gaat: gefeliciteerd!
 
