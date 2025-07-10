@@ -14,7 +14,7 @@
 
 ## Aan de slag
 
-We gaan aan de slag met [Journalling](../organisatorisch/journaliseren.md).  
+We gaan aan de slag met [Journalling](../../organisatorisch/journaliseren.md).  
 We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
 
 ## Canvas Opdracht

@@ -9,6 +9,7 @@
 
 ## Tijdens de les
 Tijdens de les gaan we:
+- Les krijgen over [ADC's...](../lesprogramma/files/ADC.pptx)
 - naar de voorbeeld [code](../../software/CYD/LDR/) kijken. 
 - de bronnen bestuderen bij [voorbereiding](#Voorbereiding). 
 - aan de slag met de opdracht! 
