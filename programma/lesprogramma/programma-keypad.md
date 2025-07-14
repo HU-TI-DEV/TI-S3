@@ -2,10 +2,12 @@
 
 ## Voorbereiding
 - bestudeer het volgende schema:
+
 ![K845037](./images/K845037.png)
 - Wat gebeurt er met $OUT$ als 1 van de knoppen wordt ingedrukt?
 
 - het schema hoort bij het volgende bordje:
+  
 ![K845037](./images/K845037-board.png)
    
 ## Tijdens de les
