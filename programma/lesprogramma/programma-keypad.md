@@ -2,16 +2,19 @@
 
 ## Voorbereiding
 - bestudeer het volgende schema:
+
 ![K845037](./images/K845037.png)
 - Wat gebeurt er met $OUT$ als 1 van de knoppen wordt ingedrukt?
 
 - het schema hoort bij het volgende bordje:
+  
 ![K845037](./images/K845037-board.png)
    
 ## Tijdens de les
 - aan de slag met de opdracht! 
   
 **Opdracht Keypad**
+- Experimenteer eerst met het bordje. Meet welke spanningen je krijgt als je een knopje indrukt. Klopt het met wat je verwacht/berekend had?
 - Maak een klasse (hpp & cpp) waarmee je de knoppen kunt uitlezen.  
 - Zorg dat er relevant doxygen commentaar aan je code is toegevoegd. 
 
