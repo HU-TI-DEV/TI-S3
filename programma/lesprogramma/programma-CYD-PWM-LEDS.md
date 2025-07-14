@@ -32,6 +32,8 @@ De RgbLeD class:
 **Opdracht RGB_LED_PWM**
 - download deze [code](../../software/CYD/RgbPwmLed/). 
 - pas de ```RgbLed.hpp``` aan zodat deze class minimaal dezelfde functionaliteit heeft als deze [class](../../software/CYD/RgbLed/main/RgbLed.hpp).
+- Zorg dat er relevant doxygen commentaar aan je code is toegevoegd (hpp & cpp). 
+
 - kijk ook of je de kleur geel kunt implementeren. 
 - Bonus: kijk of je ook een functie kan implementeren in de class zodat het licht langzaam van kleur verandert. 
 
