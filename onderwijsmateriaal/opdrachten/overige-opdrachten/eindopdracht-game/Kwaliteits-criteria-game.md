@@ -12,4 +12,3 @@
 
 Zie canvas wat er ingeleverd moet worden. 
 
-TEUN CHECK ECHT NIET
