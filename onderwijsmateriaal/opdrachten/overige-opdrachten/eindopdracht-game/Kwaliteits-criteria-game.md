@@ -11,3 +11,5 @@
 | Authenticiteit| De student kan elke letter code van de game uitleggen. Van externe libraries kunnen de gebruikte interfaces (de relevante stukken van de hpp file, niet de cpp) uitgelegd worden.| 
 
 Zie canvas wat er ingeleverd moet worden. 
+
+TEUN CHECK
