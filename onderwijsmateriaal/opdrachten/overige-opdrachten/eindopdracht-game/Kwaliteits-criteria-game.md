@@ -12,5 +12,5 @@
 
 Zie canvas wat er ingeleverd moet worden. 
 
-TEST sjkdflkasdfg;klj
+TEST 
 
