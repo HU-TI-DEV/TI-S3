@@ -12,5 +12,5 @@
 
 Zie canvas wat er ingeleverd moet worden. 
 
-TEST en deze dan
+TEST 
 
