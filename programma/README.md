@@ -63,10 +63,10 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |[Kickoff](./lesprogramma/programma-kickoff.md) programma <br> Getting to know each other (**TM & LB**) <br>[Journalling](../organisatorisch/journaliseren.md) (**MV**)<br> ${\color{blue}\mathrm{ESP}}$ [ installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**HS & BB**) |
-| di  |${\color{orange}\mathrm{C++}}$  [Verdieping OO]() + Buildchain (**HP**)|
-| wo  |${\color{red}\mathrm{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**MV**)|
-| do  |  ${\color{blue}\mathrm{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**HS & BB**) |
+| ma  | [Kickoff](./lesprogramma/programma-kickoff.md) programma <br> Getting to know each other (**TM & LB**) <br>[Journalling](../organisatorisch/journaliseren.md) (**MV**)<br> ${\color{blue}\mathrm{ESP}}$ [ installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**HS & BB**) |
+| di  | ${\color{blue}\mathrm{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**HS & TM? & BB**) |
+| wo  | ${\color{red}\mathrm{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**MV**)|
+| do  | ${\color{orange}\mathrm{C++}}$  [Verdieping OO]() + Buildchain (**HP**) |
 
 ### Onderwijsweek A2 (08-09-2025)
 
