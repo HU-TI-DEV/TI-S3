@@ -2,8 +2,8 @@
 ## Voorbereiding
 - Bestudeer [Journaliseren](../../organisatorisch/journaliseren.md)
 - Bestudeer [reader-system-engineering, pg 15 tm 26](../../onderwijsmateriaal/readers/reader-system-engineering.pdf).
-- We gaan werken met plantUML. Bekijk het volgende filmpje: [intro plantUML](https://www.youtube.com/watch?v=_dEhja6kkEA)
-- Je mag ook werken met drawio, het grote voordeel is dat voor grotere diagrammen het overzichtelijker is. Het heeft een iets stijlere leercurve. 
+- Je mag werken met plantUML. Sommigen [zoals Bart] zijn daar fan van. Bekijk daarvoor het volgende filmpje: [intro plantUML](https://www.youtube.com/watch?v=_dEhja6kkEA)
+- Ik [Marius] werk zelf met drawio. Het grote voordeel is dat voor grotere diagrammen het overzichtelijker is. Het heeft wel een iets stijlere leercurve. Tip: bekijk het volgende filmpje voor je daarmee begint (op 1.5x speed): [Best way to create class diagrams with Drawio](https://youtu.be/OtpU7mcvBns).
 
 ### Topics
 Korte behandeling van:
@@ -19,3 +19,4 @@ Korte behandeling van:
 Upload je eigen werk naar de [**Canvas opdracht "Key Drivers"**](https://canvas.hu.nl/courses/45649/assignments/345667).
 - Leg met je team de individuele bijdragen naast elkaar en maak op basis daarvan met je team het hoofdstuk "Identificatie en prioritering van Key Drivers" in het ontwikkeldocument af.
 - Vermoedelijk is er iets anders uitgekomen dat je individueel opgestelde lijst. Wat er anders is, kun je opvatten als "team feedback", naast expliciete andere feedback van teamleden en kun je als zodanig toevoegen aan je [**Canvas opdracht "Key Drivers"**](https://canvas.hu.nl/courses/45649/assignments/345667).
+
