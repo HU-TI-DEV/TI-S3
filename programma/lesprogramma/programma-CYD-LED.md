@@ -16,7 +16,7 @@ Er horen twee opdrachten bij dit onderwerp.
 
 ### Opdracht I (RLed)
 - aan de slag met de eerste voorbeeld [code](../../software/CYD/RLed/).
-- maak voor een nieuw project altijd een nieuwe folder aan. In dit geval de (sub)folder in je C:\espressif directory.
+- maak voor een nieuw project altijd een nieuwe folder aan. In dit geval de (sub)folder ```Rled``` in je C:\espressif directory.
 - kopieer de hele directory naar je C:\espressif directory zodat je de volgende structuur krijgt (in ```C:\espressif\RLed```):
 ```
 ├── main
