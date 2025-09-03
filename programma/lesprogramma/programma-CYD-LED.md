@@ -8,7 +8,7 @@
 
 ## Tijdens de les
 Tijdens de les gaan we:
-- naar de voorbeeld [code](./RLed/) kijken. 
+- naar de voorbeeld [code](../../software/CYD/RLed/) kijken. 
 - de bronnen bestuderen bij [voorbereiding](#Voorbereiding). 
 - aan de slag met de twee opdrachten! 
 
@@ -32,7 +32,7 @@ Er horen twee opdrachten bij dit onderwerp.
 
 Als het werkt:
 - maak een foto van je CYD bordje terwijl de rode led aan is.
-- maak een pdf van je RLed.cpp
+- maak een pdf van je RLed.cpp / plaats je project op je persoonlijke repo bijvoorbeeld onder /CYD/opdrachten
 
 Nu gaan we nog wat onderzoek doen:
 - in de RLed.hpp wordt de volgende file geinclude ```#include "driver/gpio.h"```. Zoek op je computer waar de ```gpio.h``` file staat opgeslagen. Als het goed is vind je meerdere plekken. Snap je waarom hij op meerdere plekken staat? Wat zouden de verschillen tussen de versies zijn? Bespreek je conclusies met een mede student en **schrijf je conclusies op in je logboek**.  
