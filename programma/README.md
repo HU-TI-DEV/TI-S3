@@ -73,7 +73,7 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |${\color{blue}\mathrm{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**HS & BB**) |
-| di  |${\color{red}\mathrm{SW~Architecture}}$  [(niet-)functionele requirements en teamvorming](./lesprogramma/programma-requirements.md)  (**MV**) |
+| di  |${\color{red}\mathrm{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md) (teamvorming) (**MV**) |
 | wo  |${\color{orange}\mathrm{C++}}$ [Verdieping OO]() (**HP**) |
 | do  |${\color{green}\mathrm{Project}}$ Opdrachtgevers bezoek (**BB & TM**) |
 
@@ -214,4 +214,5 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
