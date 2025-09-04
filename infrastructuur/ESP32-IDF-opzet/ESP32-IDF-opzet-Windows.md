@@ -7,7 +7,7 @@
 
 ## ESP32 introductie
 
-Open een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: c:/espressif (we willen niet te lange path names dus zet hem echt in de root van c).
+Open een command prompt in admin mode en maak een folder aan voor dit experiment, en noem die: c:/espressif (we willen niet te lange path names dus zet hem echt in de root van c). Let op dat je echt de CMD opent en niet een powershell!!!
 
 [deze pagina](https://github.com/espressif/esp-idf) toont de aanbevolen versies van de ESP-IDF.
 
