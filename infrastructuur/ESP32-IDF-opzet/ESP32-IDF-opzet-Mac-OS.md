@@ -124,7 +124,7 @@ Now you have a hello_world.bin firmware binary in your build folder. Let us flas
 idf.py -p <your serial port> flash
 ```
 
-In my case idf.py -p /dev/cu.usbmodem21201 flash
+In my case `idf.py -p /dev/cu.usbmodem21201 flash monitor`
 
 Note that flashing CH343 interface did not work for me.
 I have to use the other USB-C connector on my ESP device.
