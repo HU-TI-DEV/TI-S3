@@ -32,7 +32,10 @@ Er horen twee opdrachten bij dit onderwerp.
 
 Als het werkt:
 - maak een foto van je CYD bordje terwijl de rode led aan is.
-- maak een pdf van je RLed.cpp / plaats je project op je persoonlijke repo bijvoorbeeld onder /CYD/opdrachten
+- maak een pdf van je RLed.cpp upload dit bij de Canvas opdracht 'ESP32 LED & PWM'
+- plaats je project op je persoonlijke repo bijvoorbeeld onder /CYD/opdrachten
+
+    Tip: Vergeet niet je /build directory toe te voegen aan je .gitignore
 
 Nu gaan we nog wat onderzoek doen:
 - in de RLed.hpp wordt de volgende file geinclude ```#include "driver/gpio.h"```. Zoek op je computer waar de ```gpio.h``` file staat opgeslagen. Als het goed is vind je meerdere plekken. Snap je waarom hij op meerdere plekken staat? Wat zouden de verschillen tussen de versies zijn? Bespreek je conclusies met een mede student en **schrijf je conclusies op in je logboek**.  
@@ -42,13 +45,14 @@ Nu gaan we nog wat onderzoek doen:
 
 ### Opdracht II (RGBLed)
 - we beginnen nu met andere voorbeeld [code](../../software/CYD/RgbLed/).
-- kopieer deze ook weer naar je ```c:\espressif``` directory. 
+- kopieer deze ook weer naar je ```c:\espressif``` directory in een folder /RgbLed. 
 - in deze code mist nog de RgbLed.cpp. 
 - maak deze aan. 
 - zorg dat hij mee gecompileert wordt door de CMakeLists.txt in de main folder aan te passen. Als je niet weet hoe dat moet, vraag het aan chatgpt (upload je CMakeLists.txt en vraag hoe je een file kan toevoegen).
 - pas de RgbLed.cpp aan zodat hij de missende functies (configureGpio en setRgb) implementeert.    
 - maak een foto van je CYD bordje terwijl de groene led aan is.
-- maak een pdf van je RgbLed.cpp
+- maak een pdf van je RgbLed.cpp upload dit bij de Canvas opdracht 'ESP32 LED & PWM'
+- plaats je project op je persoonlijke repo bijvoorbeeld onder /CYD/opdrachten
 
 
 ## Na de les
