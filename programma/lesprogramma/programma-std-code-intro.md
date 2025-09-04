@@ -92,14 +92,23 @@ En het tweede deel:
 
 ### Aan de slag
 DEEL I
+- De blueled van de CYD zit op GPIO pin 16 dus verander de volgende code in main.cpp:
+~~~cpp
+const uint8_t PIN_BTN =  0; // ESP32: BOOT Button
+const uint8_t PIN_LED =  2; // ESP32: Bult-in LED
+~~~
+
 -  Build en run KliKAanKlikUit.
-   - Als je een ESP32-C6 gebruikt: zoek uit wat er moet worden veranderd om het daar te runnen.
-- Wat gebeurt als je de knop indrukt?
+- Wat gebeurt als je de boot knop lang indrukt?
 - Wat verwacht je als bij het volgende stukje code de false waarde wordt verandert in een true?
 ```c++
 crt::Button btnInput("InputButton", PIN_BTN, false);
 ```
   
+We hebben 2 knopjes nodig en een verkeerslicht. Gelukkig hebben we een RGB led. Jammer genoeg hebben we wel maar 1 bruikbaar knopje op het bord! We zullen dus nog een ander pin moeten gebruiken. Bestudeer de volgende bron:  https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/blob/main/PINS.md. Tip, misschien is 22 handig?  
+
+
+
 DEEL II - We gaan een verkeerslicht nabouwen. <br>
 
 ```
@@ -129,8 +138,6 @@ Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul j
 
 ## Tijdens de les
 De code van het stoplicht heeft 1 groot nadeel, het gebruikt eigenlijk niet het multitask karakter van het RTOS. Dat is niet zo erg voor simpele sequentiele taken maar als er meerdere dingen tegelijk moeten gebeuren is een andere oplossing handig.
-
-Het probleem is dat de ontwerper van het stoplicht een extra functionaliteit wil. Hij wil een ambulance knop. Dit is een derde knop waarmee instantaan alle lichten van het verkeerslicht op rood gezet kunnen worden. 
 
 Wat jullie gaan doen is het volgende:
 - Het checken van de knoppen gaat in aparte tasks gebeuren.
@@ -227,13 +234,8 @@ Dan kunnen we de vlag zetten (in de switch case) met:
 - pas de ButtonTask code aan zodat je een pin kunt uitlezen.
 - kopieer het oude STD naar een nieuwe.
 - pas het STD aan zodat het de nieuwe opdracht reflecteert.
-- maak de code zo dat de knoppen via aparte tasks worden uitgelezen. Implementeer ook de ambulance functionaliteit. 
+- maak de code zo dat de knoppen via aparte tasks worden uitgelezen.
 
 ### Canvas
 Upload je werk naar canvas. Zie de canvas opdracht hoe je dat precies moet doen.
-
-# Programma STD <-> code - III
-
-Maak individueel de oefenopdracht [STD Duivenschreck InstelControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-duivenschreck-instelcontrol/std-duivenschreck-instelcontrol.md). Upload je resultaat naar de bijbehorende **Canvas oefenopdracht**.  
- Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
