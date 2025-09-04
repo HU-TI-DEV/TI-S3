@@ -32,7 +32,7 @@
 
 ---
 
-**v2.0 [](version-id)** Semester 3 TI programma door HU IICT[](author-id).
+**v2.1 [](version-id)** Semester 3 TI programma door HU IICT[](author-id).
 
 ---
 
@@ -63,10 +63,10 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |[Kickoff](./lesprogramma/programma-kickoff.md) programma <br> Getting to know each other (**TM & LB**) <br>[Journalling](../organisatorisch/journaliseren.md) (**MV**)<br> ${\color{blue}\mathrm{ESP}}$ [ installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**HS & BB**) |
-| di  |${\color{orange}\mathrm{C++}}$  [Verdieping OO]() + Buildchain (**HP**)|
-| wo  |${\color{red}\mathrm{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**MV**)|
-| do  |  ${\color{blue}\mathrm{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**HS & BB**) |
+| ma  | [Kickoff](./lesprogramma/programma-kickoff.md) programma <br> Getting to know each other (**TM & LB**) <br>[Journalling](../organisatorisch/journaliseren.md) (**MV**)<br> ${\color{blue}\mathrm{ESP}}$ [ installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**HS & BB**) |
+| di  | ${\color{blue}\mathrm{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**HS & TM? & BB**) |
+| wo  | ${\color{red}\mathrm{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**MV**)|
+| do  | ${\color{orange}\mathrm{C++}}$  [Verdieping OO]() + Buildchain (**HP**) |
 
 ### Onderwijsweek A2 (08-09-2025)
 
@@ -75,44 +75,44 @@ De docenten zijn:
 | ma  |${\color{blue}\mathrm{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**HS & BB**) |
 | di  |${\color{red}\mathrm{SW~Architecture}}$  [Functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**MV**) |
 | wo  |${\color{orange}\mathrm{C++}}$ [Verdieping OO]() (**HP**) |
-| do  |${\color{green}\mathrm{Project}}$ Opdrachtgevers bezoek (**TM**) |
+| do  |${\color{green}\mathrm{Project}}$ Opdrachtgevers bezoek (**BB & TM**) |
 
 ### Onderwijsweek A3 (15-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{blue}\mathrm{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**HS & BB**) |
 | di  | ${\color{blue}\mathrm{ESP}}$ Korte introductie [kwaliteitscriteria](../onderwijsmateriaal/opdrachten/overige-opdrachten/eindopdracht-game/Kwaliteits-criteria-game.md) Game (**HS**)<br>14:00 -> ${\color{red}\mathrm{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  |AANPASSEN ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**)|
+| wo  | ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**)|
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
 ### Onderwijsweek A4 (22-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | AANPASSEN ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Concurrency / synchronisatie](../software/) (**HS & BB**) |
-| do  |${\color{green}\mathrm{Project}}$ Intro onderzoek opdracht (**TM & BB**) |
+| do  | ${\color{green}\mathrm{Project}}$ Intro onderzoek opdracht (**TM & BB**) |
 
 ### Onderwijsweek A5 (29-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [keypad](./lesprogramma/programma-keypad.md) (**HS & BB**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [keypad](./lesprogramma/programma-keypad.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
-| wo  |  ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../software/) (**HS & BB**) |
-| do  |${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [1e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
+| wo  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../software/) (**HS & BB**) |
+| do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [1e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
 
 ### Onderwijsweek A6 (06-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../software/) (**HS & BB**)|
-| di  |   ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| wo  |  ${\color{blue}\mathrm{ESP}}$ [Beep (pwm) & Sound](../software/) (**HS & BB**)|
-| do  |${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../software/) (**HS & BB**)|
+| di  | ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
+| wo  | ${\color{blue}\mathrm{ESP}}$ [Beep (pwm) & Sound](../software/) (**HS & BB**)|
+| do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) |
 
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  Fourier & Equalizer of ATTINY  |
+| ma  |  Fourier & Equalizer (**BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Klassendiagram](./lesprogramma/programma-klassediagram-intro.md)   (**MV**) |
 | wo  |  ${\color{red}\mathrm{SW~Architecture}}$    [Listener patterns](./lesprogramma/programma-klassediagram-observer.md) (**MV**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
@@ -191,7 +191,7 @@ vakantie
 vakantie
 ### Onderwijsweek B9 (05-01-2026)
 
-HIER MOETEN ALLE DEMO'S IN. ZOWEL VAN DE GAME ALS VAN HET PROJECT...
+Demonstratie van project en Game.
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
