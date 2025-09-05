@@ -2,7 +2,7 @@
 
 ## Voorbereiding
 - bestudeer de manual van de esp32 over [led control](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/ledc.html).
-- bestudeer deze [code](./PwmLed/). 
+- bestudeer deze [code](../../software/CYD/PwmLed/). 
 
 ## Tijdens de les
 Tijdens de les gaan we:
@@ -22,7 +22,7 @@ De PwmLed:
 - Je kan voor elke led (dus voor de r,g en de b) een apart object aanmaken van de class PwmLed. 
 - Je zult zien dat we die objecten nodig hebben voor de RgbLed class.
 
-De RgbLeD class:
+De RgbLed class:
 - je kunt een PwmLed object aanmaken door de volgende gegevens mee te geven:
 
 ```PwmLed* red, PwmLed* green, PwmLed* blue```
@@ -43,8 +43,8 @@ De RgbLeD class:
 ## Canvas
 
 Voor de opdracht is een canvas entry, namelijk:
-  - ESP32 LED & PWM (deel 3)
+  - ESP32 LED & PWM
 
-Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. 
+Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. Vergeet niet je werk ook op je persoonlijk repo te plaatsen.
 
 

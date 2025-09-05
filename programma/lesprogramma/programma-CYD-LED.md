@@ -61,8 +61,8 @@ Nu gaan we nog wat onderzoek doen:
 ## Canvas
 
 Voor beide opdrachten is een canvas entry, namelijk:
-- ESP32 LED & PWM (deel 1 en 2)
+- ESP32 LED & [PWM](./programma-CYD-PWM-LEDS.md)
 
-Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. 
+Bestudeer de canvas opdracht om te zien wat je precies moet inleveren. Vergeet niet je werk ook op je persoonlijk repo te plaatsen.
 
 
