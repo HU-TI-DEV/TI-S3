@@ -6,9 +6,9 @@ Doel is de herhaling en verdieping van in TI-S2 opgedane C++ kennis, met focus o
 
 ## Opdracht
 
-Onderzoek en presentatie:\
-Hoe wordt Object-Oriented Programming in een C++ project toegepasd?\
-Welke stappen zijn nodig als een onderdeel van dit project moet worden uitgebreid?
+> Onderzoek en presentatie:\
+> Hoe wordt Object-Oriented Programming in een C++ project toegepasd?\
+> Welke stappen zijn nodig als een onderdeel van dit project moet worden uitgebreid?
 
 * Zoek op het internet een Open-Source C++ project dat de principes van objectorienteering gebruikt.
 
@@ -51,11 +51,15 @@ Welke stappen zijn nodig als een onderdeel van dit project moet worden uitgebrei
   * Als je deze opdracht individueel moet maken: ca. drie uur.
 
 * Deliverables
-  * Presentatie van de groep aan de klas (volgende week, ca. 15 minuten per groep)
+  * Presentatie van de groep aan de klas (volgende week, ca. 15 minuten per groep).\
+    *Het feedback daarvan neem je op in je verantwoordingsdocument.*
   * Inlevering op Canvas
     * Presentatie (odp of pptx) bestand.
-    * PDF bestand met export van de presentatie met aantekeningen ("presenter notes", "handouts" of "notes pages", pagina's met een slide en aatekeningen). Zie [het proefcollege van Hagen](https://hpatzke.nl/hu/2022-04-20-HU-TI-Huffman-Notes.pdf) als je niet weet wat dat is.
-    * Tekstbestand met de bronnen die je hebt gebruikt (links naar bekeken projecten), als je AI gebruikt ook de promt, de response van het systeem, en hoe je de uitvvoer hebt verwerkt (wat je daarvan hebt gebruikt).
+    * PDF bestand met export van de presentatie met aantekeningen ("presenter notes", "handouts" of "notes pages", 
+      pagina's met een slide en aatekeningen).
+      (Zie [het proefcollege van Hagen](https://hpatzke.nl/hu/2022-04-20-HU-TI-Huffman-Notes.pdf) als je niet weet hoe het uitziet.)
+    * Tekstbestand met de bronnen die je hebt gebruikt (links naar bekeken projecten), als je AI gebruikt ook de prompt, 
+      de response van het systeem, en hoe je de uitvvoer hebt verwerkt (wat je daarvan hebt gebruikt).
     * Inlevercommentaar met GitHub-link naar de (sub)sectie in je verantwoordingsdocument waar je jouw werk hebt opgenomen.
 
 ----
