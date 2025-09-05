@@ -66,7 +66,7 @@ De docenten zijn:
 | ma  | [Kickoff](./lesprogramma/programma-kickoff.md) programma <br> Getting to know each other (**TM & LB**) <br>[Journalling](../organisatorisch/journaliseren.md) (**MV**)<br> ${\color{blue}\mathrm{ESP}}$ [ installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**HS & BB**) |
 | di  | ${\color{blue}\mathrm{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**HS & TM? & BB**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**MV**)|
-| do  | ${\color{orange}\mathrm{C++}}$  [Verdieping OO]() + Buildchain (**HP**) |
+| do  | ${\color{orange}\mathrm{C++}}$  [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**) |
 
 ### Onderwijsweek A2 (08-09-2025)
 
@@ -74,7 +74,7 @@ De docenten zijn:
 | --- |  --- |
 | ma  |${\color{blue}\mathrm{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**HS & BB**) |
 | di  |${\color{red}\mathrm{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md) (teamvorming) (**MV**) |
-| wo  |${\color{orange}\mathrm{C++}}$ [Verdieping OO]() (**HP**) |
+| wo  |${\color{orange}\mathrm{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**) |
 | do  |${\color{green}\mathrm{Project}}$ Opdrachtgevers bezoek (**BB & TM**) |
 
 ### Onderwijsweek A3 (15-09-2025)
