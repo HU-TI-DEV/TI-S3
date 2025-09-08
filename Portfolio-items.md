@@ -1,21 +1,18 @@
-# Portfolio Items[](title-id)
+# Portfolio Items[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Portfolio Items](#semester-3-van-technische-informatica)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Aanbevolen Portfolio items](#aanbevolen-portfolio-items)
-    - [Voor Leeruitkomst 1 : Analyseren](#voor-leeruitkomst-1--analyseren)
-    - [Voor Leeruitkomst 2 : Adviseren](#voor-leeruitkomst-2--adviseren)
-    - [Voor Leeruitkomst 3 : Ontwerpen](#voor-leeruitkomst-3--ontwerpen)
-    - [Voor Leeruitkomst 4 : Realiseren](#voor-leeruitkomst-4--realiseren)
-    - [Voor Leeruitkomst 5 : Beheren](#voor-leeruitkomst-5--beheren)
-    - [Voor Leeruitkomst 6 : Onderzoekend Vermogen](#voor-leeruitkomst-6--onderzoekend-vermogen
-    )
-    - [Voor Leeruitkomst 7 : Organiserend Vermogen](#voor-leeruitkomst-7--organiserend-vermogen)
-    - [Voor Leeruitkomst 8 : Interactief Vermogen](#voor-leeruitkomst-8--interactief-vermogen)
-    - [Voor Leeruitkomst 9 : Zelflerend Vermogen](#voor-leeruitkomst-9--zelflerend-vermogen)
+- [Een introductie](#een-introductie)
+- [Aanbevolen Portfolio Items](#aanbevolen-portfolio-items)
+  - [Voor Leeruitkomst 1 : Analyseren](#voor-leeruitkomst-1--analyseren)
+  - [Voor Leeruitkomst 2 : Adviseren](#voor-leeruitkomst-2--adviseren)
+  - [Voor Leeruitkomst 3 : Ontwerpen](#voor-leeruitkomst-3--ontwerpen)
+  - [Voor Leeruitkomst 4 : Realiseren](#voor-leeruitkomst-4--realiseren)
+  - [Voor Leeruitkomst 5 : Beheren](#voor-leeruitkomst-5--beheren)
+  - [Voor Leeruitkomst 6 : Onderzoekend Vermogen](#voor-leeruitkomst-6--onderzoekend-vermogen)
+  - [Voor Leeruitkomst 7 : Organiserend Vermogen](#voor-leeruitkomst-7--organiserend-vermogen)
+  - [Voor Leeruitkomst 8 : Interactief Vermogen](#voor-leeruitkomst-8--interactief-vermogen)
+  - [Voor Leeruitkomst 9 : Zelflerend Vermogen](#voor-leeruitkomst-9--zelflerend-vermogen)
 ---
 
 **v0.1.1 [](version-id)** Portfolio items voor Semester 3 TI door HU IICT[](author-id).

@@ -1,5 +1,5 @@
 # onderwijsmateriaal
 
-* [presentaties/](../onderwijsmateriaal/presentaties/README.md)
+* [presentaties/](../onderwijsmateriaal/presentaties/)
 * [readers/](../onderwijsmateriaal/readers/README.md)
-* [opdrachten/](../onderwijsmateriaal/opdrachten/README.md)
+* [opdrachten/](../onderwijsmateriaal/opdrachten/)

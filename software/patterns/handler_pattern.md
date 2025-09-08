@@ -1,15 +1,17 @@
-# Handler pattern [](title-id)
-Het grootste deel van deze pagina is vertaald naar het Nederlands en afkomstig van Wikipedia: [Chain of responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern).
+# Handler pattern <!-- omit in toc -->
+
+Het grootste deel van deze pagina is vertaald naar het Nederlands en afkomstig van Wikipedia: 
+
+* [Chain of responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern).
 
 
-## Inhoud
-- [Handler pattern ](#handler-pattern-)
-  - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-  - [UML voorbeeld (wikipedia)](#uml-voorbeeld-wikipedia)
-  - [Codevoorbeeld Handler pattern](#codevoorbeeld-handler-pattern)
-  - [Andere design patterns](#andere-design-patterns)
-  - [Referenties](#referenties)
+## Inhoud <!-- omit in toc -->
+
+- [Introductie](#introductie)
+- [UML voorbeeld (wikipedia)](#uml-voorbeeld-wikipedia)
+- [Codevoorbeeld Handler pattern](#codevoorbeeld-handler-pattern)
+- [Andere design patterns](#andere-design-patterns)
+- [Referenties](#referenties)
 
 ## Introductie
 Het handler pattern wordt ook wel het *"Chain of Responsibility"* design pattern genoemd.

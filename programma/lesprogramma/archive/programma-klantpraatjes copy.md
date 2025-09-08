@@ -1,8 +1,11 @@
 # Programma Klant-praatjes
 
 ## Voorbereiding
+
 - Bedenk alvast wat mogelijke key-drivers van de klant.
-- Bereid met je team het klantinterview voor waarmee je de key-drivers gaat proberen te achterhalen. Gebruik daarbij [interview technieken](../../onderwijsmateriaal/readers/interview-technieken.pdf).
+- Bereid met je team het klantinterview voor waarmee je de key-drivers gaat proberen te achterhalen.\
+  Gebruik daarbij [interview technieken](/onderwijsmateriaal/readers/interview-technieken.pdf).
+
 ## Klant-praatjes
 
 ### Topics
