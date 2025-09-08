@@ -41,7 +41,7 @@ Nu gaan we nog wat onderzoek doen:
 - in de RLed.hpp wordt de volgende file geinclude ```#include "driver/gpio.h"```. Zoek op je computer waar de ```gpio.h``` file staat opgeslagen. Als het goed is vind je meerdere plekken. Snap je waarom hij op meerdere plekken staat? Wat zouden de verschillen tussen de versies zijn? Bespreek je conclusies met een mede student en **schrijf je conclusies op in je logboek**.  
 - open de gpio.h die op deze plek staat: ```C:\Espressif\esp-idf\components\esp_driver_gpio\include\driver``` Bestudeer het prototype van de functies: gpio_config en gpio_set_level 
 - open de gpio.c die op deze plek staat: ```C:\Espressif\esp-idf\components\esp_driver_gpio\src```. Bestudeer de functie ```gpio_set_level```. Je ziet als het goed is dat de ```gpio_hal_set_level``` functie wordt aangeroepen. 
-- open de wiki pagina over de [Hardware Abstraction Layer](https://en.wikipedia.org/wiki/Hardware_abstraction) en lees de alinea onder "In operating systems". **Probeer de 5 regels van de alinea in je eigen woorden op te schrijven in je logboek**.
+- open de wiki pagina over de [Hardware Abstraction Layer](https://en.wikipedia.org/wiki/Hardware_abstraction) en lees de alinea onder "Hardware abstraction layer". **Probeer de 5 regels van de alinea in je eigen woorden op te schrijven in je logboek**.
 
 ### Opdracht II (RGBLed)
 - we beginnen nu met andere voorbeeld [code](../../software/CYD/RgbLed/).
