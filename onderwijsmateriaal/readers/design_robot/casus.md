@@ -1,8 +1,6 @@
-# Casus
+# Casus <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Casus](#casus)
-    - [Inhoud](#inhoud)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [De Casus: een Trilapparaat](#de-casus-een-trilapparaat)
   - [Toepassing:](#toepassing)
   - [Opbouw](#opbouw)
@@ -13,6 +11,7 @@
 
 
 # De Casus: een Trilapparaat
+
 ## Toepassing:
 Het gaat om een all‐round ontwerp voor een trilapparaat. 
 Het kan gebruikt worden 
@@ -41,15 +40,15 @@ terugtrekt.
 ![alt text](ucd_trilapp.png)
 
 ## Use Case Beschrijvingen
-| Naam | Instellen |
-| ----------- | ----------- |
+| Naam         | Instellen                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Beschrijving | De ingestelde trilfrequentie wordt op de display weergegeven. Met de plus en min knop kan dat getal aangepast worden. Het getal moet tussen de 1 en de 100 (Hz) blijven. Als na de laatste trilfrequentie‐aanpassing een minuut lang geen nieuwe trilfrequentie‐aanpassing volgde, wordt die laatste nieuwe trilfrequentie gelogd naar een remote database. Dat laatste kan enige seconden duren. |
-| Uitzondering | Zodra de noodknop is ingeslagen kan de frequentie niet meer worden aangepast, en toont het display “Emergency Stop”. Zodra de noodknop weer is omhooggetrokken kan de bovenstaande use case weer hervat worden. |
+| Uitzondering | Zodra de noodknop is ingeslagen kan de frequentie niet meer worden aangepast, en toont het display “Emergency Stop”. Zodra de noodknop weer is omhooggetrokken kan de bovenstaande use case weer hervat worden.                                                                                                                                                                                   |
 
-| Naam | Trilbesturing |
-| ----------- | ----------- |
-| Preconditie | Als deze use case start, trilt het apparaat niet. |
-| Beschrijving | Met het indrukken van de tril knop wordt het trillen in de actueel ingestelde trilfrequentie getoggeld. |
+| Naam         | Trilbesturing                                                                                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Preconditie  | Als deze use case start, trilt het apparaat niet.                                                                                                                  |
+| Beschrijving | Met het indrukken van de tril knop wordt het trillen in de actueel ingestelde trilfrequentie getoggeld.                                                            |
 | Uitzondering | Zodra de noodknop is ingeslagen stopt het trillen, en wordt de trilknop genegeerd. Zodra de noodknop weer is omhooggetrokken kan deze use case weer hervat worden. |
 
 # Vervolg: [Design Fase 1](../design_robot/designfase1.md)

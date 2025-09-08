@@ -46,7 +46,11 @@ pip install "fastapi[standard]"
 fastapi dev example.py
 ```
 
-I received an application startup complete. Now test if our API can be accessed with URIs? The server on my system has an IP of http://127.0.0.1:8000. I will try to list all the contents of our sample data.
+I received an "application startup complete". Now how can we test if our API can be accessed with URIs? 
+
+The server on my system has an IP of http://127.0.0.1:8000. <!-- markdown-link-check-disable-line -->
+
+I will try to list all the contents of our sample data.
 
 ```html
 http://127.0.0.1:8000/v1/items

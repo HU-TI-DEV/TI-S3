@@ -51,7 +51,7 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
 
 - Installeer `S3-Template` (https://github.com/HU-TI-DEV/S3-Template.git) dit zijn een aantal utility libraries en CleanRTOS.
   - Windows: volg graag dat zelfde ESP32-IDF logboek.
-  - Mac OS: volg graag [het Mac OS S3-Template](../../infrastructuur/ESP32-IDF-opzet/Other-OS-examples/S3-Template-Mac-OS.md) logboek.
+  - Mac OS: volg graag [het Mac OS S3-Template logboek](../../infrastructuur/ESP32-IDF-opzet/Other-Mac-OS-examples/S3-Template-Mac-OS.md).
 
 ### Aanbevolen
 

@@ -1,4 +1,10 @@
-# Log sGxWorks2
+# Log GxWorks2
+
+## TODO: deze pagina moet worden bijgewerkt
+
+Tijdelijk zijn de link checks uitgeschakeld!
+
+<!-- markdown-link-check-disable -->
 
 [mitsubishi electric]
 

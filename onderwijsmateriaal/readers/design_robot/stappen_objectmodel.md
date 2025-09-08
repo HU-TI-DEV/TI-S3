@@ -1,11 +1,9 @@
-# Stappen Object model maken
+# Stappen Object model maken  <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Stappen Object model maken](#stappen-object-model-maken)
-    - [Inhoud](#inhoud)
-  - [Zo maak je een object model](#zo-maak-je-een-object-model)
-  - [Praktische Tips](#praktische-tips)
-  - [Timers](#timers)
+### Inhoud[](toc-id)  <!-- omit in toc -->
+- [Zo maak je een object model](#zo-maak-je-een-object-model)
+- [Praktische Tips](#praktische-tips)
+- [Timers](#timers)
 - [Vervolg: Todo - tekst die nog opgesplitst moet worden](#vervolg-todo---tekst-die-nog-opgesplitst-moet-worden)
 
 

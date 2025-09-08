@@ -13,8 +13,6 @@
 - [Sprint retrospective](#sprint-retrospective)
   - [Feedback teambegeleider](#feedback-teambegeleider-1)
 
-
-
 ---
 
 **v0.1.0 [](version-id)** Start document voor scrum uitleg en voorbeelden door HU IICT[](author-id).

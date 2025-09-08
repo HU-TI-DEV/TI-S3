@@ -1,8 +1,6 @@
-# Design Fase 1
+# Design Fase 1 <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Design Fase 1](#design-fase-1)
-    - [Inhoud](#inhoud)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Design Fase1:](#design-fase1)
   - [Object model met object beschrijvingen](#object-model-met-object-beschrijvingen)
   - [Wat is een Object model?](#wat-is-een-object-model)

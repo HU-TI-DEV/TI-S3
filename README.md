@@ -1,20 +1,17 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Semester 3 van Technische Informatica[](title-id)
+# Semester 3 van Technische Informatica[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Semester 3 van Technische Informatica](#semester-3-van-technische-informatica)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Semester leeruitkomst](#semester-leeruitkomst)
-  - [Context](#context)
-  - [Sustainable Development Goals](#sustainable-development-goals)
-  - [Leeruitkomsten](#leeruitkomsten)
-  - [Werkwijze](#werkwijze)
-  - [Programma](#programma)
-  - [Referenties](#referenties)
-  - [Licentie informatie](#licentie-informatie)
+- [Een introductie](#een-introductie)
+- [Semester leeruitkomst](#semester-leeruitkomst)
+- [Context](#context)
+- [Leeruitkomsten](#leeruitkomsten)
+- [Werkwijze](#werkwijze)
+- [Programma](#programma)
+- [Referenties](#referenties)
+- [Licentie informatie](#licentie-informatie)
 
 ---
 
