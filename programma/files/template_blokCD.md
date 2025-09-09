@@ -1,5 +1,8 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
+<!-- IMPORTANT: remove these two comments before you fill in the template -->
+<!-- markdown-link-check-disable -->
+
 # Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
@@ -38,10 +41,10 @@
 
 ## Een introductie
 
-
 ### Organisatie
 
 De contacturen zijn (subject to change):
+
 |dag|van|tot|
 |---|---|---|
 |ma|13:00|17:00|
@@ -53,20 +56,20 @@ Ons lokaal is HL15-1.096.
 
 De docenten zijn:
 
-* (**TM**) Teun Pieter Moddermann
-* (**HS**) Harm Snippe
-* (**GP**) Gera Pronk
-* (**MV**) Marius Versteegen
-* (**BB**) Bart Bozon
-* (**HP**) Hagen Patzke
-* (**NG**) Nick Goris
-* (**JH**) Jan Halsema
+- (**TM**) Teun Pieter Moddermann
+- (**HS**) Harm Snippe
+- (**GP**) Gera Pronk
+- (**MV**) Marius Versteegen
+- (**BB**) Bart Bozon
+- (**HP**) Hagen Patzke
+- (**NG**) Nick Goris
+- (**JH**) Jan Halsema
 
 ## Programma
 
 ### Onderwijsweek C2 (10-02-2025)
 
-Week C2. 
+Week C2.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
@@ -78,7 +81,7 @@ Week C2.
 
 ### Onderwijsweek C3 (17-02-2025)
 
-Week C3. 
+Week C3.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
@@ -86,7 +89,6 @@ Week C3.
 | di  | | |
 | wo  | | |
 | do  | :end: Einde sprint 1 & :runner: planning sprint 2 |  |
-
 
 ### Onderwijsweek C4 (24-02-2025)
 
@@ -100,7 +102,7 @@ Week C3.
 
 ### Onderwijsweek C5 (3-03-2025)
 
-Week C5. 
+Week C5.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -122,14 +124,14 @@ Week C6.
 
 ### Onderwijsweek C7 (17-03-2025)
 
-Week C7. 
+Week C7.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | | |
 | di  | | |
 | wo  | | |
-| do  | **[1e Peilmoment](/Verantwoordingsdocument_TI_S2.md)** | |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | |
 
 ### Onderwijsweek C8 (24-03-2025)
 
@@ -144,7 +146,7 @@ Week C8. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login
 
 ### Onderwijsweek C9 (31-03-2025)
 
-Week C9. 
+Week C9.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
@@ -155,7 +157,7 @@ Week C9.
 
 ### Onderwijsweek C10 (7-04-2025)
 
-Week C10. 
+Week C10.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -166,7 +168,7 @@ Week C10.
 
 ### Onderwijsweek D1 (14-04-2025)
 
-Week D1. 
+Week D1.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -177,7 +179,7 @@ Week D1.
 
 ### Onderwijsweek D2 (21-04-2025)
 
-Week D2. 
+Week D2.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -185,7 +187,6 @@ Week D2.
 | di  | | |
 | wo  | | |
 | do  | | |
-
 
 ### Onderwijsweek D3 (28-04-2025)
 
@@ -201,7 +202,7 @@ Week D3.
 
 ### Onderwijsweek D4 (5-05-2025)
 
-Week D4. 
+Week D4.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -212,7 +213,7 @@ Week D4.
 
 ### Onderwijsweek D5 (12-05-2025)
 
-Week D5. 
+Week D5.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
@@ -221,10 +222,9 @@ Week D5.
 | wo  | | |
 | do  | | |
 
-
 ### Onderwijsweek D6 (19-05-2025)
 
-Week D6. 
+Week D6.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -235,7 +235,7 @@ Week D6.
 
 ### Onderwijsweek D7 (26-05-2025)
 
-Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen. 
+Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -243,8 +243,6 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | di  | | |
 | wo  | :end: Einde sprint 5 & :runner: Planning sprint 6  | |
 | do  | Hemelvaartsdag |  |
-
-
 
 ### Onderwijsweek D8 (2-06-2025)
 
@@ -256,7 +254,6 @@ Week D8.
 | di  | | |
 | wo  | | |
 | do  | | |
-
 
 ### Onderwijsweek D9 (9-06-2025)
 
@@ -284,29 +281,29 @@ Week D10. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/logi
 
 Week D11. De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-| Dag | Thema     | 
-| --- | --- | 
+| Dag | Thema     |
+| --- | --- |
 | ma  | **Eindbeoordeling** |  
-| di  | **Eindbeoordeling** |    
-| wo  | **Eindbeoordeling** |    
-| do  | **Eindbeoordeling** |   
+| di  | **Eindbeoordeling** |
+| wo  | **Eindbeoordeling** |
+| do  | **Eindbeoordeling** |
 
 ### Onderwijsweek D12 (30-06-2025)
 
 Week D12 en D13 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
-| Dag | Thema     | 
-| --- | --- | 
-| ma  | **Verbeterperiode** | 
+| Dag | Thema     |
+| --- | --- |
+| ma  | **Verbeterperiode** |
 | di  | **Verbeterperiode** |  
 | wo  | **Verbeterperiode** |  
-| do  | **Verbeterperiode** | 
+| do  | **Verbeterperiode** |
 
 ### Onderwijsweek D13 (7-7-2025)
 
-| Dag | Thema     
+| Dag | Thema
 | --- | --- |
 | ma  | **Verbeterperiode** |  
 | di  | **Verbeterperiode** |  
-| wo  | **Verbeterperiode** |   
+| wo  | **Verbeterperiode** |
 | do  | **Verbeterperiode** |  

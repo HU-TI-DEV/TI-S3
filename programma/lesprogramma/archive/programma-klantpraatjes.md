@@ -1,5 +1,8 @@
 # Programma Klant-praatjes
 
+<!-- ARCHIVE: remove these two comments if you make this file active again -->
+<!-- markdown-link-check-disable -->
+
 ## Voorbereiding
 
 - Bedenk alvast wat mogelijke key-drivers van de klant.

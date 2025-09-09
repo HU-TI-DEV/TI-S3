@@ -1,4 +1,4 @@
-# Documenteren, documenteren, documenteren...
+# Documenteren, documenteren, documenteren
 
 ## Wat is het nut van helder documenteren?
 
@@ -17,7 +17,7 @@ Tijdens S3 zijn er enkele centrale documenten die goed bijgehouden dienen te wor
   - Tijdige inleveringen van **oefenopdrachten**
     - Probeer die dezelfde middag nog af te maken.
     - Op Canvas inleveren voor zaterdagavond.
-  - Een [upgrade-opdracht](../vermogens/Upgrade-opdracht-template.md)
+  - Een [upgrade-opdracht](../vermogens/upgrade-opdracht-template.md)
 
 - **Als team**
   

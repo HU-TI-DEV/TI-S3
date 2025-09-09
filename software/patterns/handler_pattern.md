@@ -1,9 +1,8 @@
 # Handler pattern <!-- omit in toc -->
 
-Het grootste deel van deze pagina is vertaald naar het Nederlands en afkomstig van Wikipedia: 
+Het grootste deel van deze pagina is vertaald naar het Nederlands en afkomstig van Wikipedia:
 
 * [Chain of responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern).
-
 
 ## Inhoud <!-- omit in toc -->
 
@@ -14,16 +13,19 @@ Het grootste deel van deze pagina is vertaald naar het Nederlands en afkomstig v
 - [Referenties](#referenties)
 
 ## Introductie
+
 Het handler pattern wordt ook wel het *"Chain of Responsibility"* design pattern genoemd.
 Het handler pattern voorkomt dat de zender van een verzoek direct gekoppeld is aan de ontvanger van het verzoek.
 Door toepassing van het handler pattern is het mogelijk dat meer dan één ontvanger een verzoek kan afhandelen.
 
 ## UML voorbeeld (wikipedia)
+
 ![uml voorbeeld](https://upload.wikimedia.org/wikipedia/commons/6/6a/W3sDesign_Chain_of_Responsibility_Design_Pattern_UML.jpg)
 *Bron voorbeeld: [wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/W3sDesign_Chain_of_Responsibility_Design_Pattern_UML.jpg)
 
 ## Codevoorbeeld Handler pattern
-```c++
+
+```cpp
 #include <iostream>
 #include <memory>
 
@@ -121,11 +123,14 @@ int main() {
   button->handleHelp();
 }
 ```
+
 *Code example, taken from [wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern).*
 
 ## Andere design patterns
+
 Meer design patterns kun je vinden in het [overzicht van design patterns](README.md).
 
 ## Referenties
+
 - Wikipedia: [Chain of responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
-- Erich Gamma (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison Wesley. pp. 189 ff. ISBN 0-201-63361-2.
+* Erich Gamma (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison Wesley. pp. 189 ff. ISBN 0-201-63361-2.

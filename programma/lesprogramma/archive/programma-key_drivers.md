@@ -1,8 +1,11 @@
 # Programma Journalling, System Context Diagram, Stakeholders, Key Drivers, Application Drivers
 
+<!-- ARCHIVE: remove these two comments if you make this file active again -->
+<!-- markdown-link-check-disable -->
+
 ## Voorbereiding
 
-- Lees [reader-system-engineering, pg 15 tm 26](/onderwijsmateriaal/readers/reader-system-engineering.pdf).
+- Lees [reader-system-engineering, pg 15 tm 26](../onderwijsmateriaal/readers/reader-system-engineering.pdf).
 
 ### Topics
 
