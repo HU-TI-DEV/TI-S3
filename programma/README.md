@@ -89,7 +89,7 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**) |
-| di  | ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
+| di  |  9.00- 12.00 uur. Bezoek Electronics & Applications beurs. Jaarbeurs Utrecht. [Graag online aanmelden](https://fhi.nl/eabeurs/). Om 13.00 uur terug op de HU: ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Concurrency / synchronisatie](../software/) (**HS & BB**) |
 | do  | ${\color{green}\mathrm{Project}}$ Intro onderzoek opdracht (**TM & BB**) |
 
