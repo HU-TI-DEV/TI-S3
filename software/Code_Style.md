@@ -36,7 +36,6 @@ project-root/
 
 ## CMake Basis
 
-**Waarom belangrijk?**  
 CMake bepaalt welke bestanden gecompileerd worden en welke afhankelijkheden er zijn.  
 Fouten in CMake zorgen vaak voor **“undefined reference”** of ontbrekende headers.
 
@@ -130,6 +129,8 @@ Functie:
 ### Naamgeving
 - Klassen/bestanden: `PascalCase` → `Ili9341Display.hpp`  
 - Methoden/variabelen: `camelCase` → `initPanel()`  
+
+  Blijf consequent in het hoofdlettergebruik van bestandsnamen. Ook bij je includes van headers. Het besturingssysteem waar je op werkt kan wel eens hoofdlettergevoelig zijn!
 
 ### Inclusie-volgorde
 1. Eigen header `"Ili9341Display.hpp"`  
