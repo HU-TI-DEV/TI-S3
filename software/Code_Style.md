@@ -50,8 +50,10 @@ main/CMakeLists.txt:
 ```cmake
 idf_component_register(SRCS "main.cpp"
                       REQUIRES drivers core app)
+```
 
 Component `components/drivers/CMakeLists.txt`:
+```cmake
 idf_component_register(
   SRCS "Ili9341Display.cpp"
   INCLUDE_DIRS "."
