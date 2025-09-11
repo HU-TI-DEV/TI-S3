@@ -1,6 +1,6 @@
 # Code Style Richtlijnen (ESP-IDF v5.4)
 
-Deze richtlijn is bedoeld voor projecten met **ESP32** en **ESP-IDF v5.4**, geschreven in **C++17**.  
+Deze richtlijn is bedoeld voor TI-S3 projecten met **ESP32** en **ESP-IDF v5.4**, geschreven in **C++17**.  
 
 ---
 
@@ -8,7 +8,7 @@ Deze richtlijn is bedoeld voor projecten met **ESP32** en **ESP-IDF v5.4**, gesc
 
 Een vaste projectstructuur helpt overzicht te houden en maakt samenwerken eenvoudiger.  
 
-```
+```text
 project-root/
 ├─ CMakeLists.txt                 # top-level project
 ├─ sdkconfig.defaults             # standaard instellingen
@@ -28,31 +28,37 @@ project-root/
 ```
 
 **Richtlijnen:**
-- `.hpp` en `.cpp` bestanden staan in dezelfde map, geen aparte `include/` map.  
-- `main/` bevat alleen de minimale opstartcode (`main.cpp`).  
+
+- `.hpp` en `.cpp` bestanden staan in dezelfde map, we gebruiken geen aparte `include/` map.  
+- `main/main.cpp` bevat alleen de minimale opstartcode.  
 - Eigenlijke logica gaat altijd in `components/`. Dit maakt code herbruikbaar en testbaar.  
 
 ---
 
 ## CMake Basis
 
-CMake bepaalt welke bestanden gecompileerd worden en welke afhankelijkheden er zijn.  
+CMake bepaalt welke bestanden gecompileerd worden en welke afhankelijkheden er zijn.\
 Fouten in CMake zorgen vaak voor **“undefined reference”** of ontbrekende headers.
 
-Top-level `CMakeLists.txt`:
+Top-level CMake list `project-root/CMakeLists.txt`:
+
 ```cmake
 cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(my_app)
 ```
 
-main/CMakeLists.txt:
+Main CMake list `project-root/main/CMakeLists.txt`:
+
 ```cmake
-idf_component_register(SRCS "main.cpp"
-                      REQUIRES drivers core app)
+idf_component_register(
+  SRCS "main.cpp"
+  REQUIRES drivers core app
+)
 ```
 
-Component `components/drivers/CMakeLists.txt`:
+Component-specifieke CMake list `project-root/components/drivers/CMakeLists.txt`:
+
 ```cmake
 idf_component_register(
   SRCS "Ili9341Display.cpp"
@@ -62,6 +68,7 @@ idf_component_register(
 ```
 
 **Richtlijnen:**
+
 - Zet altijd `INCLUDE_DIRS "."` als `.hpp` en `.cpp` in dezelfde map staan.  
 - Gebruik `REQUIRES` om afhankelijkheden van andere components of IDF-modules aan te geven.  
 - Verwijder en herbouw (`idf.py fullclean build`) bij hardnekkige build-fouten.  
@@ -73,6 +80,7 @@ idf_component_register(
 Goed commentaar maakt de code begrijpelijk en genereert automatisch documentatie met Doxygen.
 
 Bestandshoofd:
+
 ```cpp
  /**
   * @file Ili9341Display.hpp
@@ -81,6 +89,7 @@ Bestandshoofd:
 ```
 
 Klasse:
+
 ```cpp
  /**
   * @class Ili9341Display
@@ -96,6 +105,7 @@ Klasse:
 ```
 
 Functie:
+
 ```cpp
  /**
   * @brief Converteer RGB naar RGB565.
@@ -112,38 +122,49 @@ Functie:
 ## Stijlregels
 
 ### Headers
+
 - Voorkeur heeft **`#pragma once`** in plaats van include guards.  
 
 ### Constante waarden
-- Gebruik **`constexpr`** in plaats van `#define`:
-  constexpr int kStackSmall = 2048;
+
+- Gebruik **`constexpr`** in plaats van `#define`:\
+  ```constexpr int kStackSmall = 2048;```
 
 ### Enumeraties
+
 - Gebruik **`enum class`** voor type-veiligheid:
   enum class Button { UP, DOWN, LEFT, RIGHT, FIRE, NONE };
 
 ### Types
+
 - Gebruik vaste breedte types (`uint32_t`, `int16_t`) voor voorspelbaarheid.  
 
 ### Exceptions
-- Exceptions zijn meestal uitgeschakeld in embedded. Gebruik **`esp_err_t`** of een `Result<T>` struct.  
+
+- Exceptions zijn meestal uitgeschakeld in embedded.\
+  Gebruik **`esp_err_t`** of een `Result<T>` struct.  
 
 ### Naamgeving
+
 - Klassen/bestanden: `PascalCase` → `Ili9341Display.hpp`  
 - Methoden/variabelen: `camelCase` → `initPanel()`  
 
-  Blijf consequent in het hoofdlettergebruik van bestandsnamen. Ook bij je includes van headers. Het besturingssysteem waar je op werkt kan wel eens hoofdlettergevoelig zijn!
+> Blijf consequent in het hoofdlettergebruik van bestandsnamen,
+> ook bij je includes van headers.\
+> De meeste besturingssystemen zijn hoofdlettergevoelig in bestands- en mapnamen.
+> Alleen Windows is dit niet (tenminste per standaardinstelling).
 
 ### Inclusie-volgorde
-1. Eigen header `"Ili9341Display.hpp"`  
-2. Project headers  
-3. IDF headers `<esp_log.h>`  
-4. STL headers `<array>`  
+
+1. Eigen header (`#include "Ili9341Display.hpp"`)
+2. Project headers
+3. IDF headers (`#include <esp_log.h>`)
+4. STL headers (`#include <array>`)
 
 ### Code opmaak
 
-For indentation we will use the same formatting as used in the arduino IDE. 
-In the arduino IDE you can force this by pressing ctrl+t. 
+For indentation we will use the same formatting as used in the arduino IDE.
+In the arduino IDE you can force this by pressing ctrl+t.
 
 ```cpp
 void loop() {
@@ -156,7 +177,7 @@ void loop() {
 ```
 
 For VS code we need to change some settings.
-Open Command Palette (ctrl+shift+p) → Preferences: Open User Settings (JSON) and add:
+Open Command Palette (CTRL+SHIFT+p) → Preferences: Open User Settings (JSON) and add:
 
 ```cpp
 {
@@ -169,8 +190,7 @@ Open Command Palette (ctrl+shift+p) → Preferences: Open User Settings (JSON) a
 Save the file and restart VSCode.
 
 Test it by opening a new cpp file and pressing the tab key. It should insert 2 spaces instead of a tab character.
-You can also press Shift+Alt+F to automatically format your file. 
-
+You can also press Shift+Alt+F to automatically format your file.
 
 ---
 
@@ -179,16 +199,19 @@ You can also press Shift+Alt+F to automatically format your file.
 FreeRTOS-taken kosten geheugen en CPU. Slecht gebruik leidt tot crashes of hoge latency.  
 
 **Richtlijnen:**
+
 - Maak **weinig taken**; gebruik queues of event groups voor communicatie.  
 - Kies **stackgrootte bewust**; meet met `uxTaskGetStackHighWaterMark()`.  
 - Gebruik `vTaskDelay()` in plaats van busy-loops.  
 
 **Trampoline-patroon voor klassetaken:**
+
 ```cpp
  static void taskTrampoline(void* arg) {
      auto* self = static_cast<MyClass*>(arg);
      self->run();
  }
+
  xTaskCreate(&MyClass::taskTrampoline, "task", 4096, &obj, 5, nullptr);
 ```
 
@@ -199,8 +222,11 @@ FreeRTOS-taken kosten geheugen en CPU. Slecht gebruik leidt tot crashes of hoge 
 Zonder goede logging is debugging bijna onmogelijk.
 
 **Richtlijnen:**
+
 - Gebruik duidelijke TAGs (`static const char* TAG = "Display";`).  
 - Log context bij fouten:
+
+  ```cpp
   inline bool checkOk(esp_err_t err, const char* msg) {
       if (err != ESP_OK) {
           ESP_LOGE("APP", "%s (%s)", msg, esp_err_to_name(err));
@@ -208,6 +234,8 @@ Zonder goede logging is debugging bijna onmogelijk.
       }
       return true;
   }
+  ```
+
 - Gebruik `ESP_ERROR_CHECK_WITHOUT_ABORT` in plaats van `ESP_ERROR_CHECK` bij niet-kritieke fouten.  
 
 ---
@@ -217,8 +245,10 @@ Zonder goede logging is debugging bijna onmogelijk.
 Microcontrollers hebben vaak beperkte RAM, verkeerd gebruik veroorzaakt instabiliteit.  
 
 **Richtlijnen:**
+
 - Vermijd `new`/`delete` in loops; gebruik statische of globale objecten.  
-- Grote buffers alloceren met:
-  uint8_t* buffer = (uint8_t*) heap_caps_malloc(size, MALLOC_CAP_DMA);
+- Grote buffers alloceren met:\
+  ```uint8_t* buffer = (uint8_t*) heap_caps_malloc(size, MALLOC_CAP_DMA);```
 - Altijd vrijgeven in de destructor of via RAII (`std::unique_ptr`).  
-- Voor constante data zoals tabellen of sprites: gebruik `constexpr` of `const` zodat ze in flash geheugen geplaatst worden.  
+- Voor constante data zoals tabellen of sprites: gebruik `constexpr` of `const` zodat ze in flash geheugen geplaatst worden.\
+  (Voor sommige microcontrollers heb je nog een extra macro of pragma nodig, bv. Arduino Uno gebruikt PROGMEM of F(variabele).)
