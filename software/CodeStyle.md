@@ -69,7 +69,7 @@ idf_component_register(
 
 **Richtlijnen:**
 
-- Zet altijd `INCLUDE_DIRS "."` als `.hpp` en `.cpp` in dezelfde map staan.  
+- Zet altijd `INCLUDE_DIRS "."` als `.hpp` en `.cpp` in dezelfde map.  
 - Gebruik `REQUIRES` om afhankelijkheden van andere components of IDF-modules aan te geven.  
 - Verwijder en herbouw (`idf.py fullclean build`) bij hardnekkige build-fouten.  
 
@@ -150,7 +150,7 @@ Functie:
 - Methoden/variabelen: `camelCase` → `initPanel()`  
 
 > Blijf consequent in het hoofdlettergebruik van bestandsnamen,
-> ook bij je includes van headers.\
+> ook bij je includes van headers.
 > De meeste besturingssystemen zijn hoofdlettergevoelig in bestands- en mapnamen.
 > Alleen Windows is dit niet (tenminste per standaardinstelling).
 
