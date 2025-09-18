@@ -141,14 +141,14 @@ Herfstvakantie
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](../software/) (**RV & HS**)  |
 | di  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
-| wo  |  MENIK |
+| wo  |  Feedback mogelijkheid (MV, HS en BB) |
 | do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
 
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
-| di  |  MENIK |
+| di  |  Feedback mogelijkheid (MV, HS en BB) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Web pages  (**HP**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
