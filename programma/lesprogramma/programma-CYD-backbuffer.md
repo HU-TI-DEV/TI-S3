@@ -35,4 +35,4 @@ Bij deze opdracht is weer een [voorbeeld project](../../software/CYD/LCD_backbuf
 
 ### Optioneel
 
--
+- Waarom zou je `MALLOC_CAP_8BIT` en niet bijvoorbeeld `MALLOC_CAP_8BIT` in bovenstaande opdracht?
