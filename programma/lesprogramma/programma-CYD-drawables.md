@@ -19,7 +19,7 @@ De 2.8-inch TFT LCD op de CYD heeft een ILI9341 driver chip voor het weergeven v
 - Krijg je theorie over het tekenen van pixels en lijnen
 - Implementeer je de drawables uitbreiding voor de Ili9341 Display wrapper
 - Je kunt de volgende figuren tekenen: lijn, rechthoek, vierkant
-- Lever relvante code en een screenshots in bij de Canvas opdracht **ESP32 LCD Drawables**
+- Lever relvante code en een screenshots in bij de Canvas opdracht **ESP32 CYD Drawables**
 
 ### Optioneel
 
