@@ -23,10 +23,10 @@ De 2.8-inch TFT LCD op de CYD heeft een ILI9341 driver chip voor het weergeven v
 
 ### Optioneel
 
-- De drawables uitbreiden met de volgende primitives: cirkel en driehoek
+- De drawables uitbreiden met de volgende primitive: driehoek
 - Implementeer een fill voor de figuren
 - Verhelp de compiler warnings voor de SPI configuratie
 
 ### De volgende les
 
-In het vervolg van deze les leer je over het maken van een backbuffer, tekenen van sprites en het tonen van fonts.
+In de volgende les leer je over het maken van een backbuffer, tekenen van sprites en het tonen van fonts.
