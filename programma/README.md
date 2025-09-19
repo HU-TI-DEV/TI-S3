@@ -96,7 +96,7 @@ De docenten zijn:
 ### Onderwijsweek A5 (29-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\mathrm{ESP}}$ [keypad](./lesprogramma/programma-keypad.md) (**HS & BB**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [keypad](./lesprogramma/programma-keypad.md) en ADC (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Concurrency / synchronisatie](../software/) (**HS & BB**)  |
 | do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [1e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
