@@ -104,7 +104,7 @@ De docenten zijn:
 ### Onderwijsweek A6 (06-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../software/) (**HS & BB**)|
+| ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HS & BB**)|
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Beep (pwm) & Sound](../software/) (**HS & BB**)|
 | do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) |
