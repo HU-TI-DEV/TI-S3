@@ -10,7 +10,7 @@ Lees over [algorithmes en het tekenen van lijnen](https://en.wikipedia.org/wiki/
 
 Bij deze opdracht is weer een [voorbeeld project](../../software/CYD/LCD_drawables/). Een aantal onderdelen ontbreken. Deze implementer je zelf. Het project heeft al deels de structuur die we ook bij de Game-opdracht verwachten.
 
-  Je zal merken dat de kleuren nog niet helemaal correct werken. De code is alleen geoptimaliseerd voor CYD3.2. De Backlight is aangesloten op verschillende pinnen dit moet je dus mogelijk aanpassen. Met het voorbeeld dat je krijgt kan jeen pixel op het LCD scherm tekenen.
+  Je zal merken dat de kleuren nog niet helemaal correct werken. De code is alleen geoptimaliseerd voor CYD3.2. De Backlight is aangesloten op verschillende pinnen dit moet je dus mogelijk aanpassen. Met het voorbeeld dat je krijgt kan je een pixel op het LCD scherm tekenen.
 
 De 2.8-inch TFT LCD op de CYD heeft een ILI9341 driver chip voor het weergeven van beelden. We maken gebruik van de [Espressif implementatie voor de esp_lcd component](https://components.espressif.com/components/espressif/esp_lcd_ili9341/versions/2.0.1/readme). Bekijk in het voorbeeldproject hoe de Espressif ILI9341 driver is toegevoegd via managed components aan het project door het aanmaken van een idf_component.yml bestand. Voeg de `managed_components/` folder toe aan je `.gitignore` bestand!
 
