@@ -16,7 +16,7 @@ De 2.8-inch TFT LCD op de CYD heeft een ILI9341 driver chip voor het weergeven v
 
 ## Tijdens en na de les
 
-- Krijg je theorie over het tekenen van lijnen en cirkels
+- Krijg je [theorie](./files/Bresenham’s Line and Circle Algorithm.ppt) over het tekenen van lijnen en cirkels 
 - Implementeer je de drawables uitbreiding voor de Ili9341 Display wrapper
 - Je kunt de volgende figuren tekenen: lijn, rechthoek, vierkant en cirkel
 - Lever relvante code en screenshots in bij de Canvas opdracht **ESP32 CYD Drawables**
