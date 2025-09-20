@@ -30,3 +30,7 @@ De 2.8-inch TFT LCD op de CYD heeft een ILI9341 driver chip voor het weergeven v
 ### De volgende les
 
 In de volgende les leer je over het maken van een backbuffer, tekenen van sprites en het tonen van fonts.
+
+## Referenties
+
+- Voor de volledige wiskunde bekijk de volgende video: [Bresenham's Line Algorithm - Demystified Step by Step](https://www.youtube.com/watch?v=CceepU1vIKo) en [The Midpoint Circle Algorithm Explained Step by Step](https://www.youtube.com/watch?v=hpiILbMkF9w)
