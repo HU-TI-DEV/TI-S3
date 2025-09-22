@@ -127,7 +127,7 @@ De opdracht:
 2) Pas de stappen van blz 53 toe om je code aan te passen. Let op! Niet alle pinnen van de ESP32 kun je gebruiken. Zoek dat ook uit.  
 3) Test je programma, laat de demo aan de docent zien.
 
-Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul je deze variant ook moeten uploaden op canvas.
+Als je klaar bent sla dan je code & STD op. Bij programma STD <-> Code -II zul je deze variant ook moeten uploaden op canvas (STD <-> code Introduction).
 
 
 # Programma STD <-> code - II
@@ -237,5 +237,5 @@ Dan kunnen we de vlag zetten (in de switch case) met:
 - maak de code zo dat de knoppen via aparte tasks worden uitgelezen.
 
 ### Canvas
-Upload je werk naar canvas. Zie de canvas opdracht hoe je dat precies moet doen.
+Upload je werk naar canvas (STD <-> code Introduction). Zie de canvas opdracht hoe je dat precies moet doen.
 
