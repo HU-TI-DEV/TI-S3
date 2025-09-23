@@ -11,11 +11,33 @@
 ![K845037](./images/K845037-board.png)
    
 ## Tijdens de les
-- aan de slag met de opdracht! 
-  
+Tijdens de les kan ADC uitlezen met eerder geschreven code. Deze waarden (raw values) kan je gebruiken om keypad [template project](../../software/CYD/AnalogButtonReader/) aan te vullen.
+
+In de main introduceren we een lambda functie. Een lambda is een inline anonieme functie. We zouden een functie kunnen schrijven:
+```cpp
+void myButtonHandler(Button button) {
+    // the switch case
+}
+```
+
+En dit vervolgens zo doorgeven:
+```cpp
+buttons.setCallback(myButtonHandler);
+``` 
+
+Een lambda geeft ons de mogelijkheid om gedrag direct bij de aanroep te defineren:
+```cpp
+buttons.setCallback([&](Button button) {
+    switch (button) {
+        // etc.
+    }
+});
+```
+Waarom gebruiken we & in de capture? Is het in dit geval strict noodzakelijk? Wanneer zou dit nuttig zijn?
+
 **Opdracht Keypad**
 - Experimenteer eerst met het bordje. Meet welke spanningen je krijgt als je een knopje indrukt. Klopt het met wat je verwacht/berekend had?
-- Er is bij deze opdracht een template project. Vul de relevante code aan, de treshold values in de cpp en maak een correcte switch case in main.cpp.
+- Er is bij deze opdracht een [template project](../../software/CYD/AnalogButtonReader/). Vul de relevante code aan, de treshold values in de `AnalogButtonReader.cpp` en maak een correcte switch case in main.cpp.
 - Geef voor elke knop die wordt ingedrukt de naam van de knop weer in een console output.   
 - Zorg dat er relevant doxygen commentaar aan je code is toegevoegd. 
 
