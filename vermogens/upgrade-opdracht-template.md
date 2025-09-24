@@ -1,4 +1,4 @@
-`` (haal de cues tussen backticks achteraf weg) In dit document documenteer je een **individueel** methodologisch verantwoord (verbeter-)onderzoekje en de implementatie van het eruitvoortkomende advies. Typisch kun je dat gaan doen nadat er een werkend prototype is. Kies je onderwerp in overleg met teamgenoten en docent. Het kan een performance optimalisatie zijn of het toevoegen van niet-triviale, nieuwe functionaliteit. Verder belangrijk: zorg dat het een logisch, makkelijk leesbaar geheel wordt. Voeg daarom bij figuren of plaatjes ook begeleidende tekst toe.``
+`` (haal de cues tussen backticks achteraf weg) In dit document documenteer je een **individueel** methodologisch verantwoord onderzoekje .  Kies je onderwerp in overleg met teamgenoten en docent. Het is vaak iets wat je uit wilt zoeken voor het project. Verder belangrijk: zorg dat het een logisch, makkelijk leesbaar geheel wordt. Voeg daarom bij figuren of plaatjes ook begeleidende tekst toe.``
 
 # Upgrade-opdracht ``naam van wat je gaat verbeteren``
 Door ``je naam``
@@ -25,9 +25,6 @@ Door ``je naam``
 
 # Conclusie
 `` Beantwoord hier de hoofdvraag met behulp van de antwoorden op de deelvragen. De conclusie hoort logisch voort te vloeien uit wat eerder is onderzocht. Het bevat geen nieuwe gegevens. ``
-
-# Implementatie
-`` De aanwezigheid van dit hoofdstuk maakt van wat anders een zuivere onderzoeksopdracht zou zijn, een upgrade-opdracht. Implementeer het antwoord op de hoofdvraag. Neem hier een lijstje op met links naar de van toepassing zijnde hardware, code en testsresultaten.``
 
 # Aanbevelingen
 `` Formuleer op deze plek aanbevelingen voor eventueel verder onderzoek ``

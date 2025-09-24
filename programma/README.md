@@ -91,7 +91,7 @@ De docenten zijn:
 | ma  | ${\color{blue}\mathrm{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**HS & BB**) |
 | di  |  9.00- 12.00 uur. Bezoek Electronics & Applications beurs. Jaarbeurs Utrecht. [Graag online aanmelden](https://fhi.nl/eabeurs/). Om 13.00 uur terug op de HU: ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & BB**) |
-| do  | ${\color{green}\mathrm{Project}}$ Intro onderzoek opdracht (**TM & BB**) |
+| do  | ${\color{green}\mathrm{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**TM & BB**) |
 
 ### Onderwijsweek A5 (29-09-2025)
 | Dag | Project & Kennissessie |
