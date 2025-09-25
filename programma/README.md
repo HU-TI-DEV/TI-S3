@@ -106,7 +106,7 @@ De docenten zijn:
 | --- |  --- |
 | ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HS & BB**)|
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| wo  | ${\color{blue}\mathrm{ESP}}$ [Beep (pwm) & Sound](../software/) (**HS & BB**)|
+| wo  | ${\color{blue}\mathrm{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HS & BB**)|
 | do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) |
 
 ### Onderwijsweek A7 (13-10-2025)
@@ -114,7 +114,7 @@ De docenten zijn:
 | --- |  --- |
 | ma  |  Fourier & Equalizer (**BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Klassendiagram](./lesprogramma/programma-klassediagram-intro.md)   (**MV**) |
-| wo  |  ${\color{red}\mathrm{SW~Architecture}}$    [Listener patterns](./lesprogramma/programma-klassediagram-observer.md) (**MV**) |
+| wo  |  ${\color{red}\mathrm{SW~Architecture}}$ [Listener patterns](./lesprogramma/programma-klassediagram-observer.md) (**MV**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
 ### Onderwijsweek A8 (20-10-2025)
@@ -139,7 +139,7 @@ Herfstvakantie
 ### Onderwijsweek B1 (10-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](../software/) (**RV & HS**)  |
+| ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RV & HS**)  |
 | di  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
 | wo  |  Feedback mogelijkheid (MV, HS en BB) |
 | do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
