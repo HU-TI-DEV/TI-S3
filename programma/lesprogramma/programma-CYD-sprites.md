@@ -29,7 +29,7 @@ In `main.cpp` maken we een speler aan:
 ```
 Wat doet dit stukje code? Leg deze drie regels code stap voor stap uit.
 
-De speler is één specifieke Entity. Via een handle krijgr player twee dingen:
+De speler is één specifieke Entity. Via een handle krijgt player twee dingen:
 `player.entity` de te registreren entiteit.
 `player.input` een input dat iets kan ontvangen. In dit geval de knoppen van de keypad.
 
