@@ -107,7 +107,7 @@ De docenten zijn:
 | ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HS & BB**)|
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HS & BB**)|
-| do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) |
+| do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) **Einde Sprint 1**|
 
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
@@ -126,7 +126,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
 | di  |   ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**)|
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
+| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Srint 2**|
 
 ### Onderwijsweek A10 (03-11-2025)
 | Dag | Project & Kennissessie |
@@ -142,7 +142,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RV & HS**)  |
 | di  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
 | wo  |  Feedback mogelijkheid (MV, HS en BB) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
+| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 3** |
 
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
@@ -159,7 +159,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Patterns etc... (**HP**) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
+| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 4**|
 
 ### Onderwijsweek B4 (01-12-2025)
 | Dag | Project & Kennissessie |
@@ -175,7 +175,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen diagrammen (**MV**) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) |
+| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 5** |
 
 ### Onderwijsweek B6 (15-12-2025)
 | Dag | Project & Kennissessie |
@@ -214,5 +214,6 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
 
