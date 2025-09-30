@@ -112,7 +112,7 @@ De docenten zijn:
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  Fourier & Equalizer (**BB**) |
+| ma  |  [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Klassendiagram](./lesprogramma/programma-klassediagram-intro.md)   (**MV**) |
 | wo  |  ${\color{red}\mathrm{SW~Architecture}}$ [Listener patterns](./lesprogramma/programma-klassediagram-observer.md) (**MV**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
