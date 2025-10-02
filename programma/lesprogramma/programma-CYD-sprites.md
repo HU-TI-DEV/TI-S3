@@ -1,6 +1,6 @@
 # Programma CYD Sprites
 
-Deze les gaat over het maken en tonen van [sprites](https://youtu.be/cT_FB_8f3ps?si=sZvbhYq1M5cYqEuM).
+Deze les gaat over het maken en tonen van sprite.
 
 ## Voorbereiding
 
@@ -49,7 +49,7 @@ De daadwerkelijke game-loop komt je waarschijnlijk bekend voor. Alleen is `vTask
 
 ## Tijdens en na de les
 
-- Krijg je les over de werking en het ontstaan van sprites
+- Krijg je les over de werking en het ontstaan van [sprites](https://youtu.be/cT_FB_8f3ps?si=sZvbhYq1M5cYqEuM).
 - Lever relevante code en screenshots in bij de Canvas opdracht **ESP32 CYD Sprites**
 
 ### Optioneel
