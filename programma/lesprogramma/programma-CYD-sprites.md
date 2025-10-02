@@ -1,6 +1,6 @@
 # Programma CYD Sprites
 
-Deze les gaat over het maken en tonen van sprites.
+Deze les gaat over het maken en tonen van [sprites](https://youtu.be/cT_FB_8f3ps?si=sZvbhYq1M5cYqEuM).
 
 ## Voorbereiding
 
