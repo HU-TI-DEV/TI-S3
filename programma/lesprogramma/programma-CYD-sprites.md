@@ -49,7 +49,7 @@ De daadwerkelijke game-loop komt je waarschijnlijk bekend voor. Alleen is `vTask
 
 ## Tijdens en na de les
 
-- Krijg je les over de werking en het ontstaan van [sprites](https://youtu.be/cT_FB_8f3ps?si=sZvbhYq1M5cYqEuM).
+- Krijg je les over de werking en het ontstaan van [games](https://youtu.be/dzN2pgL0zeg?si=HyszYZOeC7fJc9En) & [sprites](https://youtu.be/cT_FB_8f3ps?si=sZvbhYq1M5cYqEuM).
 - Lever relevante code en screenshots in bij de Canvas opdracht **ESP32 CYD Sprites**
 
 ### Optioneel
