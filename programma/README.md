@@ -149,7 +149,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |  Feedback mogelijkheid (MV, HS en BB) |
-| wo  |  ${\color{orange}\mathrm{C++}}$ Web pages  (**HP**) |
+| wo  |  ${\color{orange}\mathrm{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
 
@@ -159,7 +159,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Patterns etc... (**HP**) |
-| do  |${\color{green}\mathrm{Project}}$ (**TM**) Gomoku (**HS**) **Einde Sprint 4**|
+| do  |${\color{green}\mathrm{Project}}$ (**TM**)  **Einde Sprint 4**|
 
 ### Onderwijsweek B4 (01-12-2025)
 | Dag | Project & Kennissessie |
@@ -175,7 +175,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen diagrammen (**MV**) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 5** |
+| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 5** |
 
 ### Onderwijsweek B6 (15-12-2025)
 | Dag | Project & Kennissessie |
