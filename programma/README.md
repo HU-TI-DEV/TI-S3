@@ -107,7 +107,7 @@ De docenten zijn:
 | ma  | ${\color{blue}\mathrm{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HS & BB**)|
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HS & BB**)|
-| do  | ${\color{green}\mathrm{Project}}$ Gomoku (**HS & TM**) **Einde Sprint 1**|
+| do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 1**|
 
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
@@ -159,7 +159,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Patterns etc... (**HP**) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 4**|
+| do  |${\color{green}\mathrm{Project}}$ (**TM**) Gomoku (**HS**) **Einde Sprint 4**|
 
 ### Onderwijsweek B4 (01-12-2025)
 | Dag | Project & Kennissessie |
