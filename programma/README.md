@@ -126,7 +126,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
 | di  |   ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**)|
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Srint 2**|
+| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Srint 2**|
 
 ### Onderwijsweek A10 (03-11-2025)
 | Dag | Project & Kennissessie |
@@ -142,7 +142,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RV & HS**)  |
 | di  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
 | wo  |  Feedback mogelijkheid (MV, HS en BB) |
-| do  |${\color{green}\mathrm{Project}}$ NOG IETS KIEZEN (**TM**) **Einde Sprint 3** |
+| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
 
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
