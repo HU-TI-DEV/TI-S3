@@ -40,4 +40,4 @@ Bij deze opdracht is weer een [voorbeeld project](../../software/CYD/Game_move/)
 ### Optioneel
 
 - Kan je ook versnelling van het object implementeren?
-- Waarom zou je `MALLOC_CAP_8BIT` en niet bijvoorbeeld `MALLOC_CAP_8BIT` in bovenstaande opdracht gebruiken?
+- Waarom zou je `MALLOC_CAP_DMA` en niet bijvoorbeeld `MALLOC_CAP_8BIT` in bovenstaande opdracht gebruiken?
