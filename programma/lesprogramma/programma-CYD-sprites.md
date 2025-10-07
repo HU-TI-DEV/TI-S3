@@ -16,7 +16,7 @@ Ja maakt tijdens deze opdracht:
   - Een eigen speler (entity)
   - Deze afbeelding zet je om naar een C-array met behulp van de ([LVGL tool](https://lvgl.io/tools/imageconverter))
   - Integreer de sprite in het voorbeeld project
-  - Game-play: Voeg een speelveld toe waar je karakter kan botsen met andere entities (Heb je een ander idee dan mag dat ook). Log en laat in de console in ieder geval een score zien.
+  - Game-play: Voeg een speelveld toe waar je karakter entities kan vernietigen (Heb je een ander idee dan mag dat ook). Log en laat in de console in ieder geval een score zien.
   - Beantwoord de vragen in de opdracht
 
 We introduceren een entiteit (Entity) een abstract basis-object met minimaal `update(dt, width, height)` en `draw(display)`. Elke game-entiteit (speler, vis, kogel, etc.) weet zelf hoe hij beweegt (in update) en hoe hij getekend wordt (in draw).
