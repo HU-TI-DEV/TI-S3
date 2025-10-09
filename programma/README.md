@@ -126,7 +126,7 @@ Herfstvakantie
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
 | di  |   ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
 | wo  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**)|
-| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Srint 2**|
+| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 2**|
 
 ### Onderwijsweek A10 (03-11-2025)
 | Dag | Project & Kennissessie |
@@ -214,6 +214,7 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
 
 
