@@ -131,7 +131,7 @@ Herfstvakantie
 ### Onderwijsweek A10 (03-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\mathrm{ESP}}$ [IO expander](../software/) (**HS & BB**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**MV**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Inheritance/compositie  (**HP**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [2e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
