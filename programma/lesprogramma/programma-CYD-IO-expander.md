@@ -1,4 +1,4 @@
-# Programma CYD Sprites
+# Programma CYD I2C (met een IO expander)
 
 Deze les gaat over I2C interfacing.
 
