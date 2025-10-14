@@ -113,8 +113,8 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
-| di  | ${\color{red}\mathrm{SW~Architecture}}$ [Klassendiagram](./lesprogramma/programma-klassediagram-intro.md)   (**MV**) |
-| wo  |  ${\color{red}\mathrm{SW~Architecture}}$ [Listener patterns](./lesprogramma/programma-klassediagram-observer.md) (**MV**) |
+| di  | ${\color{red}\mathrm{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
+| wo  |  ${\color{red}\mathrm{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
 ### Onderwijsweek A8 (20-10-2025)
