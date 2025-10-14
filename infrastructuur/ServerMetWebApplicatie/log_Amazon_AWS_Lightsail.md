@@ -31,13 +31,13 @@ xxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxx:xxx
 (NB: ik betaal niet voor een vaste IP, dus dat kan theoretisch gaan varieren **(toevoeging 10 maanden later: het is nog steeds hetzelfde ip adres)**)  
 
 Ik kan het volgende kiezen:  
-<img src="./images/2023-12-17-10-38-58-image.png" title="" alt="" width="101">  
+![](./images/2023-12-17-10-38-58-image.png)
 
 Verder kan ik ook via een knopje de prompt openen:  
-![](.\images\2023-12-17-10-41-42-image.png)
+![](./images/2023-12-17-10-41-42-image.png)
 
 Via "Manage" zie ik:  
-![](.\images\2023-12-17-10-44-46-image.png)
+![](./images/2023-12-17-10-44-46-image.png)
 
 Bij de eerste tab kan ik mijn default SSH key "for this region (**Frankfurt**)" downloaden.  
 
@@ -183,7 +183,7 @@ Het blijkt dat docker-compose nog geinstalleer moet worden.
 (Achteraf gezien: ben ik waarschijnlijk hierboven vergeten)  
 Ik kies voor:  
 
-```
+```bash
 sudo apt  install docker-compose
 ```
 

@@ -1,14 +1,14 @@
 # Programma WebApp Flask Docker MongoDB
 Tijdens dit semester gaan jullie als onderdeel van het project een **webapplicatie** ontwikkelen op basis van **Flask, Vanilla Javascript, HTML, CSS en MongoDB**.  
 
-De webapplicatie wordt gehost op een set docker containers, welke met een enkel **docker-compose** commando opgezet kunnen worden. In combinatie met het gebruik van GitHub zorgt dat ervoor dat de webapplicatie eenvoudig naar believen op verschillende servers kan worden opgezet.
+De webapplicatie wordt gehost op een set docker containers, welke met een enkel **docker-compose** commando opgezet kunnen worden. In combinatie met het gebruik van GitHub zorgt dat ervoor dat de webapplicatie eenvoudig op verschillende servers kan worden opgezet.
 
-Ook de **ESP32s** van jullie project zullen communiceren met het bijbehorende backend.
+Ook de **ESP32s** van jullie project gaan communiceren met het bijbehorende backend.
 
 ## Voorbeeld WebApp
 Bij het opzetten van zo'n webapplicatie komt veel kijken. 
 
-Om jullie op weg te helpen hebben we een **voorbeeld van zo'n webapplicatie** voor jullie gemaakt (een 5 op een rij spel).
+Om jullie op weg te helpen hebben we een **voorbeeld van een webapplicatie** voor jullie gemaakt (een 5 op een rij spel).
 
 ## Voorbereiding
 Scan alvast wat door:  
@@ -19,7 +19,7 @@ Scan alvast wat door:
 en/of kijk [deze inleidende video](https://youtu.be/P6nkv4Sgedo)
 
 ## Tijdens en na de les
-Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht.  
+Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht:  
 
 ### Canvas Opdracht "Ontwikkelserver met Webapplicatie"
 Gebruik voor deze opdracht het materiaal uit de voorbereiding.  

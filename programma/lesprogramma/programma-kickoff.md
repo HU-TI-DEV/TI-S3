@@ -2,29 +2,22 @@
 
 ## Voorbereiding
 
-- Bestudeer [Leeruitkomsten](../../README.md)
-- Bestudeer [Werkwijze](../../organisatorisch/README.md)
-- Bestudeer: [Key drivers (pg 24-25)](../../onderwijsmateriaal/readers/reader-system-engineering.pdf)
+- Bestudeer de [Leeruitkomsten](../../README.md).
+- Zorg dat je je laptop meeneemt. 
+- Zorg dat je laptop voldoende diskruimte heeft, minimaal 10Gb.
 
 ## Introductie van S3
 
 - Docenten stellen zich voor
 - S3: Professioneel gedrag = key
-- De structuur van S3
-- Doorvragen naar key-drivers (- maak notities)
-- Opdrachtgevers vertellen over de opdrachten en hun bedrijf
-- Voorkeuren aangeven via e-mail
+- De structuur van S3 (grove weekindeling)
 
-## Opdracht (nodig voor de volgende dag)
+## Aan de slag
 
-- Notities maken van wat de opdrachtgevers verteld hebben over de opdracht. Met name van de key-drivers.
-
-## Opdracht projectkeuze (inleveren voor 13:00 uur)
-
-- Stuur een lege mail naar bart.bozon@hu.nl met in de subjectregel:
-  - je voornaam + eerste letter van je achternaam, gevolgd door de eerste voorkeuren als subject-regel. Dus komma gescheiden.
-- Zonder of bij te late inlevering kan er geen rekening met je voorkeur worden gehouden.
+We gaan aan de slag met [Journalling](../../organisatorisch/journaliseren.md).  
+We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
 
 ## Canvas Opdracht
-
+- Maak de canvas opdracht "Journalling".
+- Maak de canvas opdracht "ESP32 idf installatie".
 - Maak de canvas opdracht "Voornemens".

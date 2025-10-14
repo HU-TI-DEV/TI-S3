@@ -6,7 +6,7 @@ Deze les gaat over het ontwerpen van een STD (State Transition Diagram) en het v
 
 - Lees blz 47 tm blz 52 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) door.
 - Check het [State Transition Diagram (STD) van KlikAanKlikUit](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-klik-aan-klik-uit/KlikAan-KlikUit-1.png).
-- Kijk in de code van test_lasergame_2 -> apps -> KlikAanKlikUit
+- Kijk in de code van S3-Template -> apps -> [KlikAanKlikUit](https://github.com/HU-TI-DEV/S3-Template/tree/main/apps/KlikAanKlikUit) 
 
 ## Tijdens en na de les
 

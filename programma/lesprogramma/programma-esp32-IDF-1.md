@@ -45,13 +45,13 @@ Je krijgt aan het begin van de les van Harm de ieder één ESP32 devkits:
 
 - Installeer de ESP-IDF bouwomgeving, inclusief arduino-ide component en test er je ESP32 mee (HelloWorld).
   - Windows: volg graag [het Windows ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
-  - Mac OS X: volg graag [het Mac OS X ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS-X.md).
+  - Mac OS X: volg graag [het Mac OS ESP32-IDF logboek](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Mac-OS.md).
 
-### Lasergame Template installeren
+### S3-Template installeren
 
-- Installeer `lasergame_template_2` (een aantal utility libraries en CleanRTOS)
+- Installeer `S3-Template` (https://github.com/HU-TI-DEV/S3-Template.git) dit zijn een aantal utility libraries en CleanRTOS.
   - Windows: volg graag dat zelfde ESP32-IDF logboek.
-  - Mac OS X: volg graag [het Mac OS X lasergame logboek](../../infrastructuur/ESP32-IDF-opzet/Other-OS-X-examples/lasergame_template_2-Mac-OS-X.md).
+  - Mac OS: volg graag [het Mac OS S3-Template logboek](../../infrastructuur/ESP32-IDF-opzet/Other-Mac-OS-examples/S3-Template-Mac-OS.md).
 
 ### Aanbevolen
 

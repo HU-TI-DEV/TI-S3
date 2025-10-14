@@ -1,0 +1,6 @@
+```plantuml
+@startuml
+(wachten op bericht) -->(decoderen bericht): bericht ontvangen
+
+@enduml
+```

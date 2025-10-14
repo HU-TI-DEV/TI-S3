@@ -13,3 +13,10 @@ software/c++/oop-concepten/klassen/04-07-rectangle/rectangle.hpp
 software/c++/oop-concepten/overerving/virtual-abstract.md
 .Programma_for_export_html.drawio
 .DS_Store
+# Ignore build folder
+build/
+build_*_*/
+managed_components/
+
+# Ignore VScode
+.vscode

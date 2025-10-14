@@ -11,8 +11,11 @@
 - Open **een prompt in de specifieke WSL** met:
   - wsl -d U2204_RollatorNavigatie
 
-Ik zie dan deze prompt:  
+Ik zie dan deze prompt:
+
+```bash
 root@Marius2022:/mnt/d/WSL/U2204_RollatorNavigatie#
+```
 
 Ook zul je zien dat in de Windows verkenner helemaal links een "Linux" schijf bestaat met een subfolder met de naam "U2204_RollatorNavigatie".
 
@@ -70,7 +73,7 @@ Dat werkte het wel.
 
 Binnen die docker folder gaan we nu subfolders maken voor bij elkaar horende docker containers. Die containers kunnen dan vanuit de desbetreffende subfolders in een keer gestart of gestopt worden via een "docker-compose" commando. 
 
-Volg daarvoor de beschrijving in [log_Opzetten_van_Server_en_Webapplicatie.md](./log_Opzetten_van_Server_en_Webapplicatie.md).
+Volg daarvoor [deze beschrijving](./log_Amazon_AWS_Lightsail.md).
 
 # Appendix: WSL ports openzetten voor toegang vanaf buiten
 Als je een WSL applicatie van buiten wilt benaderen (dus via het ip nummer van je machine in plaats van via localhost), dan is er een en ander nodig om de windows firewall open te zetten:

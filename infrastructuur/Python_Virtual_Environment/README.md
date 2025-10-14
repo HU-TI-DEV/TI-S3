@@ -14,7 +14,7 @@ python3 -m venv ./venv
 ls
 ```
 
-You will have a folder called venv in your projectfolder. The folder venv is a commonly accepted name. You can not install all packages you need for your project. To start using the virtual environment we have to activate it.
+You will have a folder called venv in your projectfolder. The folder venv is a commonly accepted name. You can now install all packages you need for your project. To start using the virtual environment we have to activate it.
 
 ```bash
 source venv/bin/activate
@@ -30,4 +30,85 @@ To quit a virtual environment use:
 
 ```bash
 (venv) $ deactivate
+```
+
+## Python processes
+
+To view all running Python processes you can do the following.
+
+```bash
+ps -ef | grep python
+```
+
+If needed you can kill them by their process id. Example given, killing Python process with id 2430.
+
+```bash
+kill -9 2430
+```
+
+## Run as a service
+
+When your system is depending on your Python software it is wise to run these components as a service. In case of a restart service can than be configured to start automatically.
+
+First create a service file.
+
+```bash
+[Unit]
+Description=My application
+After=network.target
+
+[Service]
+ExecStart=/path/to/your/virtualenv/bin/python3 /path/to/your/my_application.py
+WorkingDirectory=/path/to/your/project/directory
+Restart=always
+User=your_user_name
+
+[Install]
+WantedBy=multi-user.target
+```
+
+To find the path of your Python binary use.
+
+```bash
+which python  # While your virtual environment is active
+```
+
+Save it in the following directory '/etc/systemd/system/my_application.service'
+
+Reload systemd.
+
+```bash
+sudo systemctl daemon-reload
+```
+
+Enable the service.
+
+```bash
+sudo systemctl enable my_application.service
+```
+
+Start the service.
+
+```bash
+sudo systemctl start my_application.service
+```
+
+Show the status of the service.
+
+```bash
+sudo systemctl status my_application.service
+```
+
+## View logs
+
+Show the logs of your application.
+
+```bash
+journalctl -u my_application.service
+```
+
+Only log messages from the current boot.
+
+```bash
+journalctl -u my_application.service -b
 ```

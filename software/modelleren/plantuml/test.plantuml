@@ -1,0 +1,22 @@
+```plantuml
+@startuml
+
+
+[*] --> BlueLedOn : /knipperled
+
+
+BlueLedOn : entry/ gpio_set_level((gpio_num_t)pinLED,1);
+BlueLedOff : entry/ gpio_set_level((gpio_num_t)pinLED,0);
+
+state c1 <<choice>>
+state c2 <<choice>>
+
+BlueLedOn --> c1 
+c1 --> BlueLedOff : after(200ms) [btnKlik.isPressed()]
+c1 ---> BlueLedOn : after(200ms) [else]
+BlueLedOff --> c2 
+c2 ---> BlueLedOn : after(200ms)[btnKlik.isPressed()]
+c2 ---> BlueLedOff : after(200ms) [else]
+
+@enduml
+```
