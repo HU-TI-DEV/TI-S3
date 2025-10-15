@@ -1,4 +1,4 @@
-# Programma CYD Sprites
+# Programma CYD I2C (met een IO expander)
 
 Deze les gaat over I2C interfacing.
 
@@ -22,4 +22,5 @@ Ja maakt tijdens deze opdracht:
 
 ## Referenties
 
-- https://en.wikipedia.org/wiki/Sprite_(computer_graphics)
+- https://en.wikipedia.org/wiki/I%C2%B2C
+
