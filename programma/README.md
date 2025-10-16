@@ -112,10 +112,10 @@ De docenten zijn:
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
+| ma  | [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
-| wo  |  ${\color{red}\mathrm{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**) |
-| do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
+| wo  | ${\color{red}\mathrm{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**) |
+| do  | ${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
 
 ### Onderwijsweek A8 (20-10-2025)
 Herfstvakantie
@@ -123,10 +123,10 @@ Herfstvakantie
 ### Onderwijsweek A9 (27-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
-| di  |   ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
-| wo  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**)|
-| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 2**|
+| ma  | ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
+| di  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**) _to_be_confirmed_ |
+| wo  | ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
+| do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 2** |
 
 ### Onderwijsweek A10 (03-11-2025)
 | Dag | Project & Kennissessie |
@@ -140,18 +140,17 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RV & HS**)  |
-| di  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
-| wo  |  Feedback mogelijkheid (MV, HS en BB) |
-| do  |${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
+| di  |  Feedback mogelijkheid (MV, HS en BB) _to_be_confirmed_ |
+| wo  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
+| do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
 
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
-| di  |  Feedback mogelijkheid (MV, HS en BB) |
+| di  |  Feedback mogelijkheid (**MV**, **HS** en **BB**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
-
 
 ### Onderwijsweek B3 (24-11-2025)
 | Dag | Project & Kennissessie |
