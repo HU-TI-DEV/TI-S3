@@ -23,5 +23,5 @@ Ja maakt tijdens deze opdracht:
 
 ## Referenties
 
-- https://en.wikipedia.org/wiki/I%C2%B2C
+- [wiki](https://en.wikipedia.org/wiki/I%C2%B2C)
 
