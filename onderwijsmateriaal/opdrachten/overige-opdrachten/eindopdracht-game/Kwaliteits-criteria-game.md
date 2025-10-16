@@ -8,7 +8,7 @@
 | Code richtlijnen| De [code richtlijnen](../../../../software/CodeStyle.md) zijn toegepast, inclusief doxygen commentaar.|
 | Functioneel I | De game is uitgevoerd met externe sensoren en/of actuatoren (display/build in leds tellen NIET als actuator).|
 | Functioneel II | De game is niet triviaal, oftwel er zit enige mate van complexitiet in de gameplay. Dit is afgestemd met de docent.|
-| Functioneel III | Game statistieken moeten gecommuniceerd kunnen worden via BLE (Bluetooth Low Energy) met het centrale scorebord.|
+| Functioneel III | Game statistieken moeten gecommuniceerd kunnen worden via BLE (Bluetooth Low Energy) of wifi met het centrale scorebord. Er moet in ieder geval lokaal een scoreboard bijgehouden worden.|
 | Authenticiteit| De student kan elke letter code van de game uitleggen. Van externe libraries kunnen de gebruikte interfaces (de relevante stukken van de hpp file, niet de cpp) uitgelegd worden.| 
 
 Zie Canvas wat er ingeleverd moet worden. 
