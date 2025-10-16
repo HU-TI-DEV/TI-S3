@@ -1,7 +1,7 @@
 ``(haal de cues tussen backticks achteraf weg) In dit document documenteer je een **individueel** methodologisch verantwoord onderzoekje.  Kies je onderwerp in overleg met teamgenoten en docent. Het is vaak iets wat je uit wilt zoeken voor het project. Verder belangrijk: zorg dat het een logisch, makkelijk leesbaar geheel wordt. Voeg daarom bij figuren of plaatjes ook begeleidende tekst toe.``
 
 # Onderzoeks-opdracht ``naam van wat je gaat onderzoeken``
-''naam van het onderzoek ''
+``Naam van het onderzoek.``
 
 # Inhoudsopgave
 
