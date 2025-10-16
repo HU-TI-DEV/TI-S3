@@ -123,7 +123,7 @@ Herfstvakantie
 ### Onderwijsweek A9 (27-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](../software/) (**HS & BB**) |
+| ma  | ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**) _to_be_confirmed_ |
 | wo  | ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
 | do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 2** |
