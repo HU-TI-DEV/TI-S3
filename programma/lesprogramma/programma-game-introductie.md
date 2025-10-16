@@ -7,7 +7,7 @@
 ## Tijdens de les
 
 Tijdens de les gaan we:
-### Ronde 1- RUBRIC (30 min, max 5 min per persoon) 
+### Ronde 1- Rubric (30 min, max 5 min per persoon) 
 - Je pitcht je game aan je teamgenoten. 
 - Je teamgenoten geven aan per item van de rubric (zie [canvas](https://canvas.hu.nl/courses/50166/assignments/366453)) hoe ze je game zouden beoordelen (0-1-2) en waarom. Schrijf de feedback op (dit moet je ook inleveren op canvas). 
 
@@ -25,4 +25,4 @@ Tijdens de les gaan we:
 - Upload je werk op canvas. 
 
 ## Canvas
-Zie canvas DRAFT GAME
+Zie canvas opdracht: draft game
