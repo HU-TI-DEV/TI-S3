@@ -13,7 +13,7 @@ Bij deze opdracht is er weer een [voorbeeld project](../../software/CYD/I2C/).
 Alleen read and write register is geimplementeerd. In de main lezen we ter controle alleen de chip ID uit. Implementeer een interface voor de pcf8574. Je kunt voor deze opdracht eerder gemaakte code uit Semester 2 hergebruiken. 
 
 Ja maakt tijdens deze opdracht: 
-  - Een interface voor de pcf8591 (we gebruiken het bordje pcf8591 module)
+  - Een interface voor de pcf8574 (we gebruiken de pcf8574 module). 
   - Lever je code in op Canvas bij de opdracht ESP32 IO Expander 
 
 ### Optioneel
