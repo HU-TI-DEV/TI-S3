@@ -17,7 +17,7 @@ Tijdens de les gaan we:
   - Wat zou stap 1 zijn in de ontwikkeling? En stap 2? En de volgende stappen?
 
 ### Ronde 3 - Ontwikkeldocument
-- Deze ronde is individueel, je maakt een ontwikkeldocument aan voor je game (als je dat niet al gedaan hebt) en gaat werken aan de volgende items:
+- Deze ronde is individueel, je maakt een [ontwikkeldocument](../../software/Ontwikkeldocument-template.md) aan voor je game (als je dat niet al gedaan hebt) en gaat werken aan de volgende items (voor de game slaan we een paar items aan het begin over zoals requirements en context diagram, dit toetsen we met het project):
   - Keydrivers / usescases of activity diagram (1 van de 2, je mag kiezen) / object model / eventueel HW schema
 
 ## Na de les
