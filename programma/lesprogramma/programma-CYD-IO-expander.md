@@ -14,7 +14,7 @@ Alleen read and write register is geimplementeerd. In de main lezen we ter contr
 
 Ja maakt tijdens deze opdracht: 
   - Een interface voor de pcf8574 (we gebruiken de pcf8574 module).
-  - Stuur twee extern ledjes aan via je pcf8574.  
+  - Stuur twee extern ledjes aan via je pcf8574, laat ze om de beurt aan gaan. 
   - Lever je code in op Canvas en een foto bij de opdracht ESP32 IO Expander 
 
 ### Optioneel
