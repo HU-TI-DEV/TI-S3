@@ -125,7 +125,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | ${\color{blue}\mathrm{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**) |
-| wo  | ${\color{orange}\mathrm{C++}}$ Interrupt memory management etc.  (**HP**) |
+| wo  | ${\color{orange}\mathrm{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
 | do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 2** |
 
 ### Onderwijsweek A10 (03-11-2025)
