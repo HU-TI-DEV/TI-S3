@@ -1,6 +1,6 @@
 # Memory Management
 
-Bron: Eigen materiaal, CPSE2 reader v1.8 (2023-2024-V2CPSE2-reader_v1.8.pdf, p.39-47 )
+Bron: Eigen materiaal, CPSE2 reader v1.8 (2023-2024-V2CPSE2-reader_v1.8.pdf, p.39-47)
 
 ## Overzicht
 
@@ -24,7 +24,7 @@ Er zijn programmeertalen die het geheugenmanagement voor jij doen, bijvoorbeeld:
 Programmeertalen die geen geheugenmanagement ingebouwd hebben zijn bijvoorbeeld:
 
 - C/C++
-- Assembler
+- Assembly Language
 
 Of een taal met 'ingebouwd' geheugenmanagement kan worden gebruikt of niet hangt ook af van de ontwikkelplatform die je gebruikt.
 
@@ -42,20 +42,24 @@ Verder zijn er industriestandards voor de ontwikkeling, bijvoorbeeld:
 
 ### Hardware
 
-Sommige platformen / processorchips / SoCs hebben hardware-ondersteuning voor het bijhouden van gebruikte RAM en ter bescherming van ongewenste verandering of toegang. Meestal zijn dit 'grotere' platformen met (potentieel) veel RAM. Voorbeelden:
+Sommige platformen / processorchips / SoCs hebben hardware-ondersteuning voor het bijhouden van gebruikte RAM en ter bescherming van ongewenste verandering of toegang. Meestal zijn dit 'grotere' platformen met (potentieel) veel RAM.
+
+Voorbeelden:
 
 - Intel/AMD x64 architectuur
 - Motorola 68K architectuur
+- Power ISA (instruction set architecture)
 
 ### Software
 
-Voor programmeertalen die zelf geen geheugenmanagement hebben zijn meestal libraries (bibliotheken) beschikbaar om het werk voor de ontwikkelaar makkelijker te maken. Voor C++ heeft de Standard Template Library (STL) bijvoorbeeld ondersteuning in vorm van 'smart pointers'. Daarop gaan we in het gevolg dieper in.
+Voor programmeertalen die zelf geen geheugenmanagement hebben zijn meestal libraries (bibliotheken) beschikbaar om het werk voor de ontwikkelaar makkelijker te maken. Voor C++ heeft de `Standard Template Library (STL)` bijvoorbeeld ondersteuning in vorm van 'smart pointers'. Daarop gaan we in het gevolg dieper in.
 
 ## De Heap
 
 Behandelde begrippen en technieken:
 
-- Heap, new
+- Heap
+- malloc(), free()
 - new, new[], delete, delete[]
 - Garbage collection
 - Regel van drie
@@ -125,15 +129,15 @@ het geheugen niet meer nodig hebt roep je free() aan met de pointer.
 
 ```c
 struct person {
-   ...
+   /* ... */
 };
 
-...
+/* ... */
 
 person *p = malloc(sizeof(person));
-//
-// gebruik *p
-//
+/*
+ *  gebruik *p
+ */
 free(p);
 ```
 
@@ -329,7 +333,6 @@ dat is niet gegarandeerd.
 ```cpp
 class name {
    public:
-
       char * p;
 
       name( const char * s ){
@@ -348,11 +351,15 @@ class name {
 }; // end class name
 
 int main() {
-   name w( "Wouter" );
-   name q( w );
+   name w("Wouter");
+   name q(w);
+
    std::cout << w.p << " " << q.p << "\n"; // Wouter Wouter
-   w.p[ 0 ] = 'J';
+
+   w.p[0] = 'J';
+
    std::cout << w.p << " " << q.p << "\n"; // Jouter Jouter (laatste is onverwacht!)
+
    return 0;
 }
 ```
@@ -364,8 +371,8 @@ letters van de naam van de parameter daarheen kopiëren.
 
 ```cpp
       // copy constructor allocating its own memory
-      name( const name & rhs ){
-         p = new char[std::strlen( rhs.p ) + 1 ]; // +1 for the ‘\0’
+      name(const name & rhs){
+         p = new char[std::strlen(rhs.p) + 1 ]; // +1 for the ‘\0’ at the end of a string
          std::strcpy( p, rhs.p );
       }
 ```
@@ -382,7 +389,7 @@ Daarmee is de copy constructor teruggebracht tot een minimum:
 
 ```cpp
       // copy constructor using constructor delegation
-      name( const name & rhs ):name( rhs.p ){}
+      name(const name & rhs):name(rhs.p){}
 ```
 
 **Assignment operator**
@@ -416,8 +423,8 @@ naam, en die kopiëren.
       // naïve assignment operator
       name & operator=(const name & rhs) {
          delete[] p;
-         p = new char[ std::strlen(rhs.p) + 1 ];
-         std::strcpy( p, rhs.p );
+         p = new char[std::strlen(rhs.p) + 1];
+         std::strcpy(p, rhs.p);
          return *this;
       }
 ```
@@ -438,8 +445,8 @@ Beide methoden voldoen.
       name & operator=(const name & rhs) {
          auto old_p = p;
          auto rhs_p = rhs.p;
-         p = new char[ std::strlen(rhs_p) + 1 ];
-         std::strcpy( p, rhs_p );
+         p = new char[std::strlen(rhs_p) + 1];
+         std::strcpy(p, rhs_p);
          delete[] old_p;
          return *this;
       }
@@ -450,8 +457,8 @@ Beide methoden voldoen.
       name & operator=(const name & rhs) {
          if (&rhs != this) {
             delete[] p;
-            p = new char[ std::strlen(rhs.p) + 1 ];
-            std::strcpy( p, rhs.p );
+            p = new char[std::strlen(rhs.p) + 1];
+            std::strcpy(p, rhs.p);
          }
          return *this;
       }
@@ -492,7 +499,7 @@ De kern van het probleem is eigenaarschap: Wie is de eigenaar van het gealloceer
 dus verantwoordelijk voor het vrijgeven?
 
 Bij code die op deze manier werkt (bijvoorbeeld een functie die een pointer naar gealloceerd geheugen teruggeeft)
-moet heel duidelijk in de documentatie staan dat het eigenaarschap van dat geheugen wordt overgedragen 
+moet heel duidelijk in de documentatie staan dat het eigenaarschap van dat geheugen wordt overgedragen
 naar de aanroeper van de functie.
 
 Nog beter is het een ‘smart pointer’ te gebruiken, zie de volgende paragraaf.
@@ -507,8 +514,11 @@ maar flappy niet, want die is op de heap aangemaakt, en er staat nergens een ‘
 
 ```cpp
 class bird{
+   private:
+      std::string name;
+
    public:
-      bird( const char *name ): name( name ){
+      bird(const char *name):name(name){
          std::cout << "bird " << name << " created\n";
       }
       ~bird(){
@@ -517,14 +527,11 @@ class bird{
       void fly(){
          std::cout << "bird " << name << " flies\n";
       }
-   
-   private:
-      std::string name;
 };
 
 void test(){
-   bird c( "calimero" );
-   bird * p = new bird( "flappy" );
+   bird c("calimero");
+   bird * p = new bird("flappy");
 
    c.fly();
    p->fly();
@@ -533,9 +540,196 @@ void test(){
 
 *Flappy wordt niet opgeruimd*
 
+In het terminal venster zien we dan ook:
+
+```text
+bird calimero created
+bird flappy created
+bird calimero flies
+bird flappy flies
+bird calimero destructed
+```
+
 Als wij de enige ‘eigenaar’ zijn van het object waar de pointer naar wijst zou het heel handig zijn als
 het geregeld kon worden dat dit wel automatisch gebeurt. Dat kan door in plaats van een pointer
 een ‘pointer-achtig ding’ te maken: een object dat zich gedraagt als een pointer, maar in zijn
 destructor ook dat waar hij naar wijst verwijdert.
 
-#TODO continue
+**Benodigde operaties**
+
+Wat voor operaties hebben we nodig van zo’n ‘smart pointer’?
+
+- Het moet een `template` zijn, want we willen zulke pointers voor ieder basistype kunnen maken.
+- We moeten er één kunnen aanmaken, dus `construeren`, op grond van een gewone pointer.
+- In zijn `destructor` moet hij die pointer verwijderen.
+- Verder is de belangrijkste operatie van een pointer het dereferencen, en dat levert het object op
+waarnaar wordt gewezen. Dat moet de `operator*` dus ook doen.
+- In C++ is de `operator->` (de combinatie van *dereference* en het benaderen van een onderdeel) een aparte operator, die gek genoeg niet het object maar een pointer naar het object moet teruggegeven. Die operator moeten we dus ook hebben.
+
+```cpp
+template<typename T> 
+class remover {
+    private: 
+       T *p;
+    
+    public: 
+       remover(T* p):  
+          p( p ){} 
+     
+       ~remover(){  
+          delete p;  
+       } 
+     
+       T & operator*() const {  
+          return *p;  
+       } 
+     
+       T * operator->() const {  
+          return p;  
+       } 
+}; 
+```
+
+*Een pointer wrapper die (in zijn destructor) het onderliggende object vrijgeeft*
+
+Hiermee hebben we een werkende ‘smart pointer’ die het object waar hij naar wijst verwijdert op het moment dat hij zelf wordt weggegooid.
+
+```cpp
+void test(){ 
+    bird c("calimero"); 
+    remover<bird> p(new bird("flappy")); 
+ 
+    c.fly(); 
+    (*p).fly(); 
+    p->fly(); 
+} 
+```
+
+*Nu wordt flappy ook opgeruimd*
+
+In het terminal venster zien we dan ook:
+
+```text
+bird calimero created
+bird flappy created
+bird calimero flies
+bird flappy flies
+bird flappy flies
+bird flappy destructed
+bird calimero destructed
+```
+
+Er zijn nog wel wat losse eindjes: bijvoorbeeld de assignment en de copy constructor moeten zorgen dat er maar één exemplaar van de pointer bestaat.
+
+Een dergelijke smart pointer is beschikbaar in de Standard Template Library (STL) library als std::unique_ptr<>.
+
+**std::unique_ptr<>**
+
+De naam verwijst ernaar dat er altijd maar zo’n 1 pointer naar het heap object zal zijn.
+Als die pointer gewist wordt dan wordt dus ook het heap object gewist.
+
+> Een unique_ptr heeft wel een assignment operator en een copy constructor,
+> maar die maken de ‘source’ pointer leeg (zetten deze op nullptr).
+
+```cpp
+#include<memory> 
+void test(){ 
+    bird c("calimero"); 
+    std::unique_ptr<bird> p(new bird( "flappy" )); 
+
+    c.fly(); 
+    (*p).fly(); 
+    p->fly(); 
+} 
+```
+
+*Gebruik van een std::unique_ptr<>*
+
+**std::make_unique**
+
+In de vorige code wordt bij het alloceren het type (`bird`) twee keer genoemd.
+Als dat een  ingewikkelde type expressie is, is het handiger om de (template) functie std::make_unique te
+gebruiken. Een andere reden is dat je dan het expliciet gebruik van `new` in je code kan vermijden.
+Dit  maakt het makkelijker om met tooling te verifiëren dat alle heap allocaties in smart pointers worden opgeborgen.
+
+```cpp
+#include<memory>
+
+auto p = std::make_unique<bird>("flappy");
+```
+
+*`std::make_unique<>` verbergt ook een `new` aanroep*
+
+**std::shared_ptr<>**
+
+Een andere smart pointer die vaak handig is heet `std::shared_ptr<>`. Een `shared_ptr` kun je
+toewijzen, en er kunnen meerdere van deze pointers naar hetzelfde object wijzen. De `shared_ptr`’s
+die naar hetzelfde object wijzen houden bij met hoeveel ze zijn, en als de laatste ophoudt met naar
+dat object te wijzen (omdat hij zelf gewist wordt, of omdat hij naar een ander object gaat wijzen, of
+omdat hij gereset wordt en dus naar niets gaat wijzen), dan delete hij het object.  
+
+```cpp
+#include<memory> 
+void test(){ 
+    std::shared_ptr<bird> p1(new bird("flappy")); 
+    std::shared_ptr<bird> p2; 
+    p2 = p1; 
+    p1.reset(); 
+    p2.reset(); 
+} 
+```
+
+*Een std::shared_ptr<> kun je delen met anderen*
+
+```text
+bird flappy created
+bird flappy destructed
+```
+
+**De klasse `name` met een `unique_ptr`**
+
+Met een `unique_ptr` kunnen we de `name` klasse iets eenvoudiger maken.
+
+De destructor is overbodig, want de door de compiler-gegenereerde destructor roept de destructor van de unique pointer aan, en die zorgt ervoor dat het geheugen wordt vrijgegeven.
+
+De gewone constructor, copy constructor en assignment operator zijn nog wel nodig, maar in de assignment hoef je het oude geheugen niet meer vrij te geen, want dit gebeurt automatisch als je de unique pointer naar een nieuw stuk geheugen laat wijzen.
+
+```cpp
+    class name { 
+        private: 
+            std::unique_ptr< char[] > p;
+
+        public: 
+            name(const char * s) { 
+                p = std::make_unique<char[]>(std::strlen(s) + 1); 
+                std::strcpy(p.get(), s); 
+            }
+
+            name(const name & rhs) : name(rhs.p.get()) {} 
+            
+            name & operator=(const name & rhs) { 
+                auto temp = new char[std::strlen(rhs.p.get()) + 1]; 
+                std::strcpy( temp, rhs.p.get() ); 
+                p.reset(temp); 
+                return *this; 
+            } 
+            
+            // no destructor needed 
+    }; 
+```
+
+*De `name` klasse met gebruik van een `std::unique_ptr<>`*
+
+## Opdracht
+
+- Schrijf een eigen programma
+  - dat alle memory management technieken toont
+  - en de constructie/destructie van de objecten zichtbaar maakt\
+    (dat mag ook in een logfile als je bijvoorbeeld voor een spel
+     geen afleidende uitvoer op het scherm wil hebben).
+- Verwerk dit in jouw portfolio / verantwoordingsdocument.
+
+Veel plezier en succes!
+
+----
+EOF
