@@ -139,7 +139,7 @@ Herfstvakantie
 ### Onderwijsweek B1 (10-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RV & HS**)  |
+| ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RvdV & BB & HS**)  |
 | di  |  Feedback mogelijkheid (MV, HS en BB) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
 | do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
@@ -213,6 +213,7 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
 
 
