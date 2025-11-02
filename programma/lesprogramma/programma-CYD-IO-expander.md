@@ -23,5 +23,6 @@ Ja maakt tijdens deze opdracht:
 
 ## Referenties
 
-- [wiki](https://en.wikipedia.org/wiki/I%C2%B2C)
+- [I2C wiki](https://en.wikipedia.org/wiki/I%C2%B2C)
+- PCF8574 data sheet: <https://www.ti.com/lit/ds/symlink/pcf8574.pdf>
 
