@@ -10,7 +10,7 @@ Deze les gaat over I2C interfacing.
 
 Bij deze opdracht is er weer een [voorbeeld project](../../software/CYD/I2C/). 
 
-Alleen read and write register is geimplementeerd. In de main lezen we ter controle alleen de chip ID uit. Implementeer een interface voor de pcf8574. Je kunt voor deze opdracht eerder gemaakte code uit Semester 2 hergebruiken. 
+Alleen read and write register is geimplementeerd. In de main lezen we ter controle alleen de chip ID uit. Implementeer een interface voor de pcf8574. De pcf8574 heeft **geen interne registers**. De template code is dus niet direct bruikbaar de pcf8574 verwacht alleen een data byte! Je kunt voor deze opdracht eerder gemaakte code uit Semester 2 hergebruiken. 
 
 Ja maakt tijdens deze opdracht: 
   - Een interface voor de pcf8574 (we gebruiken de pcf8574 module).
