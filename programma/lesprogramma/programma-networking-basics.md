@@ -15,8 +15,6 @@ Bestudeer het volgende:
 - [Sheets](../../onderwijsmateriaal/presentaties/Communication_Protocols_v1.0.pptx)
 
 ## Tijdens de les
-Krijg je een template project voor Bluetooth Low Energie(BLE) om een client server connectie te kunnen maken.
-
 Maak individueel de oefenopdracht [Networking Basics](../../onderwijsmateriaal/opdrachten/oefenopdrachten/networking-basics/networking-basics.md).
 
 Oefen met de ESP32 en het S3-Template het [GET en POST voorbeeld](https://github.com/HU-TI-DEV/S3-Template/tree/main/apps/http_led_control). 

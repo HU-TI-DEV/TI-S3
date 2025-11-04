@@ -139,7 +139,7 @@ Herfstvakantie
 ### Onderwijsweek B1 (10-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [WIFI & BLE](./lesprogramma/programma-networking-basics.md) networking basics  (**RvdV & BB & HS**)  |
+| ma  |  ${\color{blue}\mathrm{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**BB & HS**)  |
 | di  |  Feedback mogelijkheid (MV, HS en BB) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
 | do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
