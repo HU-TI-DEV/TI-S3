@@ -10,7 +10,7 @@ Kijk de eerste 5 minuten van [deze video](https://www.youtube.com/watch?v=lj99N6
 
 ## De opdracht
 
-Bij deze opdracht zijn twee [voorbeeld projecten](../../software/Bluetooth/). Je hebt twee ESP32 devices nodig (hoeft geen CYD te zijn een ESP32 WROOM kan ook). Eén ESP richt je in als server de ander als client. Laat in de console zien dat je data kunt uitwisslen.
+Bij deze opdracht zijn twee [voorbeeld projecten](../../software/CYD/Bluetooth/). Je hebt twee ESP32 devices nodig (hoeft geen CYD te zijn een ESP32 WROOM kan ook). Eén ESP richt je in als server de ander als client. Laat in de console zien dat je data kunt uitwisslen.
 
 ## Tijdens en na de les
 
