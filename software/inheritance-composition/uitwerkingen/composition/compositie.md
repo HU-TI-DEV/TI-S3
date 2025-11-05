@@ -6,10 +6,10 @@
 ---
 | Onderzoekers | Schrijvers | Presentatoren | Github |
 |--------------|------------|---------------|--------|
-| Vigo         | Emma       |               | Tess   |
-| Luuk         | Erin       |               | Sarah  |
-| Alea         | Jente      |               | Ryan   |
-| Jorn         | Amira      |               | Joni   |
+| Vigo         | Emma       | Luuk          | Tess   |
+| Luuk         | Erin       | Maud          | Sarah  |
+| Alea         | Jente      | Jente         | Ryan   |
+| Jorn         | Amira      | Emma          | Joni   |
 | Nathaniel    | Maud       |               | Ruben  |
 | Laurens      |            |               |        |
 | Ying         |            |               |        |
