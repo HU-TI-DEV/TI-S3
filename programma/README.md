@@ -133,7 +133,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | ${\color{blue}\mathrm{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**MV**) |
-| wo  |  ${\color{orange}\mathrm{C++}}$ Inheritance/compositie (**HP**)+ 16:00 bezoek SRON aan de HU, elke groep mag 10 minuten vragen stellen  (**BB**) |
+| wo  |  ${\color{orange}\mathrm{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) + 16:00 bezoek SRON aan de HU, elke groep mag 10 minuten vragen stellen  (**BB**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [2e Peilmoment](../Verantwoordingsdocument_TI_S3.md) |
 
 ### Onderwijsweek B1 (10-11-2025)
