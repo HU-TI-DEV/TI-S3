@@ -17,7 +17,7 @@ Bij deze opdracht zijn twee [voorbeeld projecten](../../software/CYD/Bluetooth/)
 - Samen met een mede student configureer je een BLE server en BLE client.
 - Wissel data tussen server en client uit.
 - Maak een eenvoudige rekenmachine (Bijvoorbeeld 3 + 5 = 8). De client stuurt de operatie (ADD) en twee parameters (a=3, b=5). De server stuurt het resultaat terug. 
-- Lever relvante code en screenshots in bij de Canvas opdracht **ESP32 CYD BLE**
+- Lever relevante code en screenshots in bij de Canvas opdracht **ESP32 CYD BLE**
 
 ### Optioneel
 
