@@ -141,7 +141,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  |  ${\color{blue}\mathrm{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**BB & HS**)  |
 | di  |  Feedback mogelijkheid (MV, HS en BB) |
-| wo  |  ${\color{orange}\mathrm{C++}}$ Lambda's const express etc  (**HP**)|
+| wo  |  ${\color{orange}\mathrm{C++}}$ Lambda, constexpr, templates (**HP**)|
 | do  | ${\color{green}\mathrm{Project}}$ (**TM**) **Einde Sprint 3** |
 
 ### Onderwijsweek B2 (17-11-2025)
