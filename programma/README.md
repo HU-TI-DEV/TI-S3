@@ -195,7 +195,7 @@ Demonstratie van project en Game.
 | --- |  --- |
 | ma  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
-| wo  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) & 13:00 DEMO SRON |
+| wo  | DEMO MARKT 13:00 aanvang , jullie gaan al je projecten demonstreren! & ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
 | do  | **4e Peilmoment**  |
 
 50 studenten x 20 minuten = 17 uur
@@ -213,6 +213,7 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
 
 
