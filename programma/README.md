@@ -147,7 +147,7 @@ Herfstvakantie
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
+| ma  | Leeruitkomst 4 - realiseren - Hoe test je nu eigenlijk? (**BB**) ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
 | di  |  Feedback mogelijkheid (**MV**, **HS** en **BB**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
@@ -213,6 +213,7 @@ Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk 
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
 
 
 
