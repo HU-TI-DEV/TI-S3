@@ -147,7 +147,7 @@ Herfstvakantie
 ### Onderwijsweek B2 (17-11-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Leeruitkomst 4 - realiseren - Hoe test je nu eigenlijk? (**BB**) ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) (**HS & BB**) |
+| ma  | [Testen](./lesprogramma/programma-testen.md) (**HS & BB**) + werken aan Game |
 | di  |  Feedback mogelijkheid (**MV**, **HS** en **BB**) |
 | wo  |  ${\color{orange}\mathrm{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | do  |${\color{green}\mathrm{Project}}$ Show & tell + Verantwoordingsdocument check (**TM & BB & HS & MV**) |
