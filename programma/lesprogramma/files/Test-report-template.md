@@ -27,7 +27,7 @@ Bv:
 3) Start de logging to file van de terminal (zie bla bla )
 4) etc.. bla bla 
 
-# Meetresultaten (& en discussie)
+# Meetresultaten (& discussie)
 De resultaten. Liefst in grafieken of tabellen als het kan. Je kan er ook een stuk discussie aan toevoegen. 
 
 # Conclusies
