@@ -1,5 +1,5 @@
 # Testen
-Testen is een belangrijk componenten van de leeruitkosmt realiseren in S3. Hoe weet je nu of je product goed is? Hoe weet je nu waar de fout zit? 
+Testen is een belangrijk componenten van de leeruitkomst realiseren in S3. Hoe weet je nu of je product goed is? Hoe weet je nu waar de fout zit? 
 
 ## Voorbereiding
 - Google eens op hardware testing. Wat kom je tegen?
