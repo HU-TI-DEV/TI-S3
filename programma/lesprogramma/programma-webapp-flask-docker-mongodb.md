@@ -40,3 +40,11 @@ Haal na het uploaden feedback op, en upload die feedback ook in de opdracht. (up
 
 ### Ruim plannen
 Evenals het opzetten van de ESP32 omgeving kan het opzetten van de webapplicatie omgeving meer tijd kosten dan je denkt. **Plan daarom ruim in**, en begin op tijd. Dan moet het mogelijk zijn om het voor de deadline klaar te hebben.
+
+  Stappenplan cloud server
+  1) Installeer een Virtual Machine (met Linux ubuntu 22.04) op [Azure](https://github.com/kwintex/Azure4StudentProjects/blob/master/Documentation/UserManual.md#students)
+  2) [Installeer nano](../../infrastructuur/Azure_Virtual_Machine/README.md)
+  3) [Installeer Docker op Ubuntu](../../infrastructuur/Azure_Virtual_Machine/Docker_on_Ubuntu.md)
+  4) [Installeer Docker Compose](../../infrastructuur/Azure_Virtual_Machine/Docker_Compose_on_Ubuntu.md)
+  5) [Installeer de WebApp Gomoku](../../infrastructuur/ServerMetWebApplicatie/README.md)
+  6) Speel een spelletje
