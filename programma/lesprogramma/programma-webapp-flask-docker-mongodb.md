@@ -47,4 +47,4 @@ Evenals het opzetten van de ESP32 omgeving kan het opzetten van de webapplicatie
   3) [Installeer Docker op Ubuntu](../../infrastructuur/Azure_Virtual_Machine/Docker_on_Ubuntu.md)
   4) [Installeer Docker Compose](../../infrastructuur/Azure_Virtual_Machine/Docker_Compose_on_Ubuntu.md)
   5) [Installeer de WebApp Gomoku](../../infrastructuur/ServerMetWebApplicatie/README.md)
-  6) Speel een spelletje
+  6) [Speel een spelletje](http://9.163.104.14:5001/gomoku/start)
