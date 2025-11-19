@@ -117,7 +117,7 @@ Op AWS Lightsail bleek git al geinstalleerd. In de WSL en op de Raspberry PI doe
 
 - sudo apt install python3 python3-pip
 
-Ik kies ervoor om "pakketten bij elkaar horende docker containers" in subdirectories van een folder genaamd "docker" in mijn home/username directory te zetten. Die bij elkaar horende containers kunnen dan vanuit de desbetreffende subfolders in een keer gestart of gestopt worden via een "docker-compose" commando.
+Ik kies ervoor om "pakketten bij elkaar horende docker containers" in subdirectories van een folder genaamd "docker" in mijn home/username directory te zetten. Die bij elkaar horende containers kunnen dan vanuit de desbetreffende subfolders in een keer gestart of gestopt worden via een "docker compose" commando.
 
 ### Docker subfolders
 
@@ -149,7 +149,7 @@ als je daar ls intypt, zie je een docker-compose.yml file.
 Die beschrijft welke containers er gestart moeten worden en hoe ze met elkaar verbonden zijn.
 Start die containers met:
 
-- docker-compose up --build -d   
+- docker compose up --build -d   
   .. of zonder --build als je niet opnieuw wilt builden.  
   (de meest cleane build is met --no-cache, maar dat duurt veel langer)
 
@@ -163,17 +163,17 @@ Je kunt de log van een container zien met:
 
 Je kunt de containers stoppen met:  
 
-- docker-compose down
+- docker compose down
 
 Net zoals dat je soms bij embedded software middels een fullclean met een frisse lei begint, kun je dat ook doen met docker containers:
 
-- docker-compose down
-- docker-compose build --no-cache
-- docker-compose up -d
+- docker compose down
+- docker compose build --no-cache
+- docker compose up -d
 
 Optioneel kun je eerst ook nog alle images verwijderen (die moeten dan allemaal opnieuw gedownload worden):
 
-- docker-compose down --rmi all
+- docker compose down --rmi all
 
 Wacht even tot alle containers opgestart zijn.  
 Als je **WSL** gebruikt, draait het op dezelfde machine als je windows desktop en kun je in je browser naar **localhost:5001/gomoku/** gaan om te zien of de webapplicaties werken.
@@ -187,7 +187,7 @@ Docker containers zijn een soort **virtuele machines** die je kunt starten en st
 
 Een docker container is een soort **image**. Een image is een soort **snapshot** van een besturingssysteem met daarop geinstalleerde software. Je kunt een image **starten** en **stoppen**. Als je een image start, krijg je een container. Een container is een **instantie** van een image. Je kunt meerdere containers van een image starten. Elke container heeft zijn eigen **file system** en **netwerk**. Containers kunnen met elkaar communiceren via het netwerk.
 
-Een **docker-compose.yml** file beschrijft welke containers er gestart moeten worden en hoe ze met elkaar verbonden zijn. Je kunt met een **docker-compose** commando alle containers in een keer starten of stoppen. Je kunt ook (een deel van-) de beschrijvingen van die docker-containers zetten in een **Dockerfile**. Vanuit de docker-compose.yml file kun je dan verwijzen naar die Dockerfile. 
+Een **docker-compose.yml** file beschrijft welke containers er gestart moeten worden en hoe ze met elkaar verbonden zijn. Je kunt met een **docker compose** commando alle containers in een keer starten of stoppen. Je kunt ook (een deel van-) de beschrijvingen van die docker-containers zetten in een **Dockerfile**. Vanuit de docker-compose.yml file kun je dan verwijzen naar die Dockerfile. 
 
 ### Zelf een docker image maken
 
