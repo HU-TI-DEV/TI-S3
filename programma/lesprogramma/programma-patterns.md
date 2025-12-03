@@ -212,6 +212,8 @@ In het vak CPSE2 hadden we twee opdrachten met verplicht gebruik van Factory, Co
 
 Laat me graag weten als je iets daarvan wil gebruiken ter oefening.
 
+Op verzoek: [Link naar de oefenopdrachten](../../onderwijsmateriaal/opdrachten/oefenopdrachten/design-patterns/design-patterns-oo.md)
+
 Alternatief optie:
 
 - patterns zichtbaar gebruiken in jouw project code-inleveringen
