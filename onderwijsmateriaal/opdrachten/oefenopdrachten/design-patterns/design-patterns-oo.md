@@ -7,7 +7,12 @@ Oorspronkelijk werden voor de oefeningen BMPTK, HWLIB en SFML gebruikt (dit zie 
 Het CPSE2 repository met voorbeeldcode vind je hier:\
 <https://github.com/HU-TI-DEV/v2cpse2-examples>
 
+Als je de originele ontwikkelomgeving wil gebruiken vind je hier een installatiescript:\
+<https://github.com/HU-TI-DEV/installers>
+
 Deze opdrachten gaan over gebruik van design patterns:
 
 - [Oefenopdracht Factory](./oefenopdracht-factory.md)
-- [Oefenopdracht Tic-Tac-Toe] ***TODO***
+- [Oefenopdracht Tic-tac-toe](./oefenopdracht-tictactoe.md)
+
+Succes en plezier met het maken ven deze opdrachten!
