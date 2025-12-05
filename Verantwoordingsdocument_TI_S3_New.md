@@ -16,22 +16,22 @@ Onderwerp | Graag invullen | Opmerking
 *Studentnummer* | `studentnummer` | 
 *Datum* | `datum van oplevering` | dd-mm-jjjj 
 
-Dit is het verantwoordingsdocument waarin je op vier verschillende momenten in het semester aangeeft in hoeverre je voortgang hebt laten zien met betrekking tot de leeruitkomsten van het semester. Voor elk peilmoment maak je een overzicht van de nieuwe portfolioitems die je in de periode hebt gemaakt. Een portfolioitem is een stuk werk met daaraan gekoppeld de feedback die je hebt gekregen. Vervolgens geef je per leeruitkomst aan wat de onderbouwing voor de leeruikomt is op basis van de portfolioitems en de feedback die je hebt gekregen. De semester leeruitkomsten en de indicatoren kun je hier vinden: 
+Dit is het verantwoordingsdocument waarin je op vier verschillende momenten in het semester aangeeft in hoeverre je voortgang hebt laten zien met betrekking tot de leeruitkomsten van het semester. Voor elk peilmoment maak je een overzicht van de nieuwe portfolioitems die je in de periode hebt gemaakt. Een portfolioitem is een stuk werk met daaraan gekoppeld de feedback die je hebt gekregen. Vervolgens geef je per leeruitkomst aan wat de onderbouwing voor de leeruikomt is op basis van de portfolioitems en de feedback die je hebt gekregen. Je kan een item voor meerdere leeruitkomsten gebruiken. De semester leeruitkomsten en de indicatoren kun je hier vinden: 
 [link naar leeruitkomsten](Leeruitkomsten.md)
 
 Vanaf peilmoment wordt op Canvas weergegeven wat de algehele voortgang is op alle leeruitkomsten. Dit wordt besproken en vastgelegd in de peilmoment gesprekken. In het algemene deel kan je aangeven waar je tegenaan bent gelopen en wat je graag nog wil gaan leren dit semester.
 
 ## Verantwoording Peilmoment 1
 
-Item | link | Feedback
--- | -- | --
-Leeruitkomsten Overzicht | [leeruitkomsten](https://github.com/HU-TI-DEV/TI-S3/Leeruitkomsten.md) | Hier bescrhijf je de feedback die je hebt gekregen. 
+Nr. | Item | link | Feedback
+-- |-- | -- | --
+1 |Leeruitkomsten Overzicht | [leeruitkomsten](https://github.com/HU-TI-DEV/TI-S3/Leeruitkomsten.md) | Hier bescrhijf je de feedback die je hebt gekregen. 
 
 Leeruitkomst | Beschrijving
 --|--
-LU1| 
+LU1| In item 1 staat X daarmee toon ik Y aan. Met item 2 en 3 toon ik aan etc. 
 LU2|
-LU3|
+LU3| Met item 1 toon ik aan dat ik X kan. 
 LU4|
 LU5|
 LU6|
@@ -39,7 +39,7 @@ LU7|
 LU8|
 LU9|
 
-## Algemeen
+### Algemeen
 
 *Waar ik het meest trots op ben:*
     
@@ -71,7 +71,7 @@ LU7|
 LU8|
 LU9|
 
-## Algemeen
+### Algemeen
 
 *Waar ik het meest trots op ben:*
     
@@ -103,7 +103,7 @@ LU7|
 LU8|
 LU9|
 
-## Algemeen
+### Algemeen
 
 *Waar ik het meest trots op ben:*
     
@@ -135,7 +135,7 @@ LU7|
 LU8|
 LU9|
 
-## Algemeen
+### Algemeen
 
 *Waar ik het meest trots op ben:*
     
