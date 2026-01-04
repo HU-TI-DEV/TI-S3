@@ -1,7 +1,7 @@
 # State Transition Diagram (STD)
 Document met eigen (deel van) een State Transition Diagram.
 ## Criteria 
-- Het implementeert de stappen uit de bijbehorende **use case beschrijving** of **state transition diagram**.
+- Het implementeert de stappen uit de bijbehorende **use case beschrijving** of **activity diagram**.
 - Er is onderscheid gemaakt tussen het **interface deel** en het implementatie deel.
 - De **publieke operaties** uit het klassendiagram zijn terug te vinden in het interface deel.
 - Alle **synchronisatiemechanismen** uit het interface deel komen als **event** terug in het **implementatiedeel**.
