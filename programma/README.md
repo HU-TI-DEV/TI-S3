@@ -221,7 +221,7 @@ Demonstratie van project en Game.
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-|  ma  | SW Architecture Reviewen game <-> diagrammen (MV, BB, Jan Halsema) & DEMO MARKT 14:00 aanvang lokaal HL15-1.096, jullie gaan al je projecten demonstreren!
+|  ma  | SW Architecture Reviewen game <-> diagrammen (MV, BB, Jan Halsema) & DEMO MARKT 14:00 uur aanvang lokaal HL15-1.096, jullie gaan al je projecten demonstreren!
 |  di  | SW Architecture Reviewen game <-> diagrammen (MV, BB, HS)
 |  wo  | SW Architecture Reviewen game <-> diagrammen (MV)
 
