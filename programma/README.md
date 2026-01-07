@@ -214,12 +214,16 @@ Demonstratie van project en Game.
 | --- |  --- |
 | ma  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
-| wo  | DEMO MARKT 13:00 aanvang , jullie gaan al je projecten demonstreren! & ${\color{red}\mathrm{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV**) |
+|  wo  | uitgesteld wegens code oranje |
 | do  | **4e Peilmoment**  |
 
-50 studenten x 20 minuten = 17 uur
-
 ### Onderwijsweek B10 (12-01-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+|  ma  | SW Architecture Reviewen game <-> diagrammen (MV, BB, Jan Halsema) & DEMO MARKT 14:00 aanvang lokaal HL15-1.096, jullie gaan al je projecten demonstreren!
+|  di  | SW Architecture Reviewen game <-> diagrammen (MV, BB, HS)
+|  wo  | SW Architecture Reviewen game <-> diagrammen (MV)
 
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
