@@ -187,7 +187,7 @@ Meivakantie
 | ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen (**MV**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 5** |
+| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 5**  IN LOKAAL S4, 1.096|
 
 ### Onderwijsweek D8 (01-06-2026)
 
@@ -196,7 +196,7 @@ Meivakantie
 | ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 | wo  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) |
+| do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D9 (08-06-2026)
 
