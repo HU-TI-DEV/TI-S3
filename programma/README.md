@@ -69,7 +69,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  ${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) (**BB**) <br> (teamvorming)|
+| ma  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  ${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) (**BB**) <br> (teamvorming)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**HK**) |
 | wo  | ${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**)  |
 | do  | ${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|
@@ -78,9 +78,9 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB**) |
+| ma  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB**) |
 | di  | ${\color{blue}\text{ESP}}$ Korte introductie [Kwaliteitscriteria Game](../onderwijsmateriaal/opdrachten/overige-opdrachten/eindopdracht-game/Kwaliteits-criteria-game.md) (**BB**) +<br> ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
+| wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek C6 (09-03-2026)
