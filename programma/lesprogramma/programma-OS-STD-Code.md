@@ -5,10 +5,9 @@
 - Je hoeft je voor dit stukje niet voor te bereiden. In dit notebook wordt beschreven hoe we operating systems werken, hoe je ze moet coderen en hoe je STD's moet maken. 
 
 ## Tijdens de les
-
-DIT IS EEN BUG!!! LIJKT HET!!!
-De ppt van de les (deze zal meerdere keren gebruikt worden):
--
+De powerpoint:
+[OS.ppt](./files/Operating Systems.pptx)
+- 
 
 De code voorbeelden + STD's:
 -
