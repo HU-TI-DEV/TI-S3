@@ -35,9 +35,9 @@ De contacturen zijn (subject to change):
 
 |dag|van  |tot  | lokaal     |
 |---|---  |---  | ---        |
-|ma |13:00|15:00| HL15-5.080 |
-|di |09:00|12:00| HL15-5.080 |
-|wo |13:00|17:00| HL15-5.080 |
+|ma |13:00|16:00| HL15-5.080 |
+|di |13:00|16:00| HL15-5.080 |
+|wo |09:00|12:00| HL15-5.080 |
 |do |13:00|17:00| HL15-5.068 of 1.096 (S4) |
 
 De docenten en begeleiders zijn:
