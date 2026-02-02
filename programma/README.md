@@ -178,7 +178,7 @@ Meivakantie
 | ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) + feedback ophalen (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ [3e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
+| do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ [3e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D7 (25-05-2026)
 
