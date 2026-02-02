@@ -6,7 +6,6 @@
 
 - [Organisatie](#organisatie)
 - [Programma](#programma)
-  - [TODO: PLAN 2026 Blok A (22-09-2026 t/m 25-09-2026)](#todo-plan-2026-blok-a-22-09-2026-tm-25-09-2026)
   - [Onderwijsweek C2 (09-02-2026)](#onderwijsweek-c2-09-02-2026)
   - [Onderwijsweek C3 (16-02-2026)](#onderwijsweek-c3-16-02-2026)
   - [Onderwijsweek C4 (23-02-2026)](#onderwijsweek-c4-23-02-2026)
