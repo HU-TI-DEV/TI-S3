@@ -34,6 +34,6 @@ Verdeel de use cases onder de leden van het team.
 Zorg dat elk teamlid tenminste 1 tabel met een usecase uitwerkt.
 Als er minder use cases zijn dan teamleden, laat dan sommige teamleden individueel dezelfde usecase uitwerken.
 
-Ieder upload zijn inidividuele resultaat naar de **Canvas opdracht "Individuele Projectbijdragen" -> "Use Case Beschrijvingen"**.
+Ieder upload zijn inidividuele resultaat naar de **Canvas opdracht "Use Case Beschrijvingen"**.
 
 Voeg na elkaar feedback te hebben gegeven ([criteria](../../leerdoelen/portfolio-items/use-case-beschrijving.md)) de resulterende usecase beschrijvingen toe aan het ontwikkeldocument, en verwerk de feedback als "team feedback" bij de zojuist genoemde Canvas opdracht. Upload ook de versie met de verwerkte feedback.
