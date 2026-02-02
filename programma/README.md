@@ -42,11 +42,9 @@ De contacturen zijn (subject to change):
 
 De docenten en begeleiders zijn:
 
-- (**TM**) Teun Pieter Moddermann
+- (**HP**) Hagen Patzke
 - (**MV**) Marius Versteegen
 - (**BB**) Bart Bozon
-- (**HP**) Hagen Patzke
-- (**HS**) Harm Snippe
 - (**LB**) Len Bunte
 
 ## Programma
