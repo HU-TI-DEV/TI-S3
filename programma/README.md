@@ -52,9 +52,6 @@ De docenten en begeleiders zijn:
 
 ## Programma
 
-### TODO: PLAN 2026 Blok A (22-09-2026 t/m 25-09-2026)
-Bezoek **WoTS** (World of Industry, Technology & Science) 2026. Jaarbeurs Utrecht. [Graag online aanmelden](https://fhi.nl/wots/).
-
 ### Onderwijsweek C2 (09-02-2026)
 
 | Dag | Project & Kennissessie |
