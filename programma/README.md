@@ -53,7 +53,7 @@ De docenten en begeleiders zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md)  (**BB & LB**) <br> [Journalling](../organisatorisch/journaliseren.md) (**HP**)<br> ${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB**) |
+| ma  |[NSE](https://github.com/HU-TI-DEV/TI-S2/blob/main/programma/lesprogramma/programma-NSE.md)<br> [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md)  (**BB & LB**) <br> [Journalling](../organisatorisch/journaliseren.md) (**HP**)<br> ${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB**) |
 | di  |[Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> Intro keydrivers/functional requirements <br> ${\color{blue}\text{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**BB**) |
 | wo  | ${\color{green}\text{Project}}$ Opdrachtgever bezoek (**BB**) |
 | do  | ${\color{red}\text{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**HP**) |
