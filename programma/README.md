@@ -153,7 +153,7 @@ Meivakantie
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
 | di  | Game Assessment (**MV**, en **BB**) |
-| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)|
+| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  |
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
 ### Onderwijsweek D5 (11-05-2026)
@@ -163,7 +163,7 @@ Meivakantie
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5**|
+| do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5** Onderzoek draft|
 
 ### Onderwijsweek D6 (18-05-2026)
 
