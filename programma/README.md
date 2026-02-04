@@ -121,7 +121,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | (*2e Paasdag*) |
-| di  | ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**) |
+| di  | ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**) |
 | wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2**|
 | do  | ${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
 
@@ -130,7 +130,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  |
-| di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**MV**) |
+| di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
 | wo  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) |
 | do  | [2e Peilmoment](../Verantwoordingsdocument_TI_S3.md)<br> Value sensitive design workshop IN LOKAAL S4, 1.096|
 
