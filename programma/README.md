@@ -105,7 +105,7 @@ Krokusvakantie
 | ma  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HP**)|
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 1**|
+| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2**|
 
 ### Onderwijsweek C9 (30-03-2026)
 
