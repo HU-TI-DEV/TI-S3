@@ -78,7 +78,7 @@ Krokusvakantie
 | ma  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 | wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
-| do  | ${\color{green}\text{Project}}$ Einde sprint 1. Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
+| do  | ${\color{green}\text{Project}}$ **Einde sprint 1**. Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek C6 (09-03-2026)
 
@@ -122,7 +122,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | (*2e Paasdag*) |
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**) |
-| wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2**|
+| wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 3**|
 | do  | ${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
 
 ### Onderwijsweek D1 (13-04-2026)
@@ -140,7 +140,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
-| wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 3**|
+| wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 4**|
 | do  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
 
 ### Onderwijsweek D3 (27-04-2026)
@@ -163,7 +163,7 @@ Meivakantie
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 4**|
+| do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5**|
 
 ### Onderwijsweek D6 (18-05-2026)
 
@@ -181,7 +181,7 @@ Meivakantie
 | ma  | ${\color{green}\text{Project}}$ Werken aan project(**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 5**  IN LOKAAL S4, 1.096|
+| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 6**  IN LOKAAL S4, 1.096|
 
 ### Onderwijsweek D8 (01-06-2026)
 
