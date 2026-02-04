@@ -152,7 +152,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| di  | Feedback mogelijkheid (**MV**, en **BB**) |
+| di  | Game Assessment (**MV**, en **BB**) |
 | wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)|
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
@@ -160,7 +160,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 4**|
@@ -169,7 +169,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) + feedback ophalen (**HP**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ [3e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  IN LOKAAL S4, 1.096 |
@@ -178,18 +178,18 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project(**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen (**MV**) |
+| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 5**  IN LOKAAL S4, 1.096|
 
 ### Onderwijsweek D8 (01-06-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
-| wo  | ${\color{blue}\text{ESP}}$ [werken aan game](../software/) (**HP**) |
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D9 (08-06-2026)
@@ -202,12 +202,11 @@ Demonstratie van project en Game.
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{red}\text{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV & BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV & BB**) |
-| wo  | ${\color{green}\text{Project DEMO MARKT}}$ 13:00 aanvang, jullie gaan al je projecten demonstreren! + <br> ${\color{red}\text{SW~Architecture}}$  Reviewen game <-> diagrammen, 20 min per student (**MV & BB**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project |
+| di  | ${\color{green}\text{Project}}$ Werken aan project |
+| wo  | Reviewen verantwoordingsdocument (**HP & BB**) |
 | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S3.md)** (**BB**)  |
 
-50 studenten x 20 minuten = 17 uur
 
 ### Onderwijsweek D11 (22-06-2026)
 
