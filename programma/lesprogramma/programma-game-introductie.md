@@ -2,7 +2,7 @@
 
 ## Voorbereiding
 
-- Zorg dat je goed nadenkt over je game idee(-en). Check voor jezelf of ze voldoen aan de eisen in de rubric (zie [canvas](https://canvas.hu.nl/courses/50166/assignments/366453)). 
+- Zorg dat je goed nadenkt over je game idee(-en). Check voor jezelf of ze voldoen aan de eisen in de rubric (zie canvas opdracht game).
 
 ## Tijdens de les
 
