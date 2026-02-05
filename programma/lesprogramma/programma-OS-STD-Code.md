@@ -48,10 +48,15 @@ Unzip de volgende file in de apps folder van je s3-template:
 1) kopieer de code van main2.cpp naar main.cpp. 
 2) Snap je wat er gebeurt?
 
+#### Timer
+Unzip de volgende file in de apps folder van je s3-template:  
+[xTimerCreate.zip](./files/xTimerCreate.zip)
+1) verander de "auto reload timer" naar pdFALSE
+2) Snap je wat er gebeurt?
 
-
--
--
+#### Template
+Unzip de volgende file in de apps folder van je s3-template:  
+[StateMachineTemplate.zip](./files/StateMachineTemplate.zip)
 
 
 ## Na de les
