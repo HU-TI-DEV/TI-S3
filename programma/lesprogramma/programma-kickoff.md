@@ -23,3 +23,4 @@ We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-o
 - Maak de canvas opdracht "Voornemens".
 
 
+
