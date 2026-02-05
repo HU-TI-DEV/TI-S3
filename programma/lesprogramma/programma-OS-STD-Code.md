@@ -10,12 +10,14 @@ De powerpoint:
 [Operating systems, STD en code](./files/Operating_Systems.pptx)
 
 #### vTaskDelay
+Unzip de volgende file in de apps folder van je s3-template
 [vTaskDelay.zip](./files/vTaskDelay.zip)
 1) Varieer de tijd die je meegeeft aan de taak als je hem initieert. 
 2) Maak de tijd extreem lang...
 3) Maak nog een extra taak aan. 
 
 #### EventGroup
+Unzip de volgende file in de apps folder van je s3-template
 [EventGroup.zip](./files/EventGroup.zip)
 1) Wat doet dit stukje in de constructor? 
    ```
@@ -36,8 +38,11 @@ Teken op een papier wanneer de taak zijn kans krijgt en wat hij dan doet?
 (je kan ook dit stukje overnemen in een .md file en er dan in cursief bij zetten als hij zijn kans grijpt...)
 
 #### Queue
+Unzip de volgende file in de apps folder van je s3-template
 [Queue.zip](./files/EventGroup.zip)
 1) Voeg een Vtask delay van 2500ms toe aan de consumertask (voor de closing } van de for loop). Snap je wat er gebeurt?
+
+#### 
 
 
 -
