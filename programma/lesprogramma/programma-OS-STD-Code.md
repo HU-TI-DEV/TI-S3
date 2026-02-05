@@ -7,7 +7,7 @@
 ### Tijdens de les
 
 De powerpoint:
-[Operating systems, STD en code](./files/Operating Systems.pptx)
+[Operating systems, STD en code](./files/Operating_Systems.pptx)
 
 #### vTaskDelay
 [vTaskDelay.zip](./files/vTaskDelay.zip)
@@ -21,7 +21,7 @@ De powerpoint:
    ```
    uint32_t waitMs = 5000????? 
    ```
-2) Kijk in de logging hoe de taak op de verschillende onderstaande situatie reageerd...
+2) Kijk in de logging hoe de taak op de verschillende onderstaande situaties reageerd...
 ```
         ESP_LOGI("APP_MAIN","set BIT_0 and BIT_4");
         xEventGroupSetBits(myEventGroup, BIT_0); 
@@ -34,6 +34,10 @@ De powerpoint:
 ```
 Teken op een papier wanneer de taak zijn kans krijgt en wat hij dan doet? 
 (je kan ook dit stukje overnemen in een .md file en er dan in cursief bij zetten als hij zijn kans grijpt...)
+
+#### Queue
+[Queue.zip](./files/EventGroup.zip)
+1) Voeg een Vtask delay van 2500ms toe aan de consumertask (voor de closing } van de for loop). Snap je wat er gebeurt?
 
 
 -
