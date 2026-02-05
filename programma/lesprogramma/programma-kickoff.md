@@ -10,7 +10,7 @@
 - Docenten stellen zich voor
 - S3: Professioneel gedrag = key
 - De structuur van S3 (grove weekindeling)
-- [kick off presentatie](../files/Aftrap S3.pptx)
+- [kick off presentatie](../files/AftrapS3.pptx)
 
 ## Aan de slag
 
@@ -21,6 +21,7 @@ We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-o
 - Maak de canvas opdracht "Journalling".
 - Maak de canvas opdracht "ESP32 idf installatie".
 - Maak de canvas opdracht "Voornemens".
+
 
 
 
