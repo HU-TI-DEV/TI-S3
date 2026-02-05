@@ -102,7 +102,7 @@ De docenten zijn:
 | ma  | ${\color{blue}\mathrm{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
 | wo  | ${\color{blue}\mathrm{ESP}}$ [Concurrency / synchronisatie](./files/Concurrency.pptx) (**BB**)  |
-| do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + [1e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
+| do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + 1e Peilmoment  |
 
 ### Onderwijsweek A6 (06-10-2025)
 
@@ -142,7 +142,7 @@ Herfstvakantie
 | ma  | ${\color{blue}\mathrm{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HS & BB**) |
 | di  | ${\color{red}\mathrm{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**MV**) |
 | wo  | ${\color{orange}\mathrm{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) + 16:00 bezoek SRON aan de HU, elke groep mag 10 minuten vragen stellen  (**BB**) |
-| do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [2e Peilmoment](../Verantwoordingsdocument_TI_S3.md) |
+| do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ 2e Peilmoment |
 
 ### Onderwijsweek B1 (10-11-2025)
 
@@ -178,7 +178,7 @@ Herfstvakantie
 | ma  | ${\color{blue}\mathrm{ESP}}$ [werken aan game](../software/) + feedback ophalen (**HS & BB**) |
 | di  | ${\color{green}\mathrm{Project}}$ Werken aan project (**TM**) |
 | wo  | ${\color{green}\mathrm{Project}}$ Werken aan project (**HS**) |
-| do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ [3e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
+| do  | ${\color{green}\mathrm{Project}}$ Show & tell (**TM**)+ 3e Peilmoment |
 
 ### Onderwijsweek B5 (08-12-2025)
 

@@ -96,7 +96,7 @@ Krokusvakantie
 | ma  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)|
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
 | wo  | ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**)  |
-| do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + [1e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  |
+| do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + 1e Peilmoment |
 
 ### Onderwijsweek C8 (23-03-2026)
 
@@ -132,7 +132,7 @@ Krokusvakantie
 | ma  |  |
 | di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
 | wo  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) |
-| do  | [2e Peilmoment](../Verantwoordingsdocument_TI_S3.md)<br> Value sensitive design workshop IN LOKAAL S4, 1.096|
+| do  | 2e Peilmoment<br> Value sensitive design workshop IN LOKAAL S4, 1.096|
 
 ### Onderwijsweek D2 (20-04-2026)
 
@@ -172,7 +172,7 @@ Meivakantie
 | ma  | ${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ [3e Peilmoment](../Verantwoordingsdocument_TI_S3.md)  IN LOKAAL S4, 1.096 |
+| do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ 3e Peilmoment IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D7 (25-05-2026)
 
@@ -205,7 +205,7 @@ Demonstratie van project en Game.
 | ma  | ${\color{green}\text{Project}}$ Werken aan project |
 | di  | ${\color{green}\text{Project}}$ Werken aan project |
 | wo  | Reviewen verantwoordingsdocument (**HP & BB**) |
-| do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S3.md)** (**BB**)  |
+| do  | **4e Peilmoment** (**BB**)  |
 
 
 ### Onderwijsweek D11 (22-06-2026)

@@ -131,7 +131,7 @@ Week C7.
 | ma  | | |
 | di  | | |
 | wo  | | |
-| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | |
+| do  | **1e Peilmoment** | |
 
 ### Onderwijsweek C8 (24-03-2025)
 
