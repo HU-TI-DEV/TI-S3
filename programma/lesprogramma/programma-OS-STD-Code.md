@@ -8,10 +8,16 @@
 
 De powerpoint:
 [Operating systems, STD en code](./files/Operating Systems.pptx)
-- 
 
-De code voorbeelden + STD's:
--
+#### vTaskDelay
+[vTaskDelay.zip](./files/vTaskDelay.zip)
+1) Varieer de tijd die je meegeeft aan de taak als je hem initieert. 
+2) Maak de tijd extreem lang...
+3) Maak nog een extra taak aan. 
+
+ 
+
+
 -
 -
 
