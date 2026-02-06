@@ -12,7 +12,7 @@ Document met eigen (deel van) een State Transition Diagram.
 - Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions. Meerdere guards of actions worden via ; van elkaar gescheiden:
 ```
   event [guard] / action  
-'''
+```
 **Event**
 Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt. Dit is in de voltooid verleden tijd geformuleerd (after is de uitzondering):
 Dat kan bijvoorbeeld zijn: 
@@ -26,7 +26,7 @@ Een guard is een if statement die instantaan wordt uitgevoerd. Dit resulteert va
 
 **Action**
 Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transistion. HET KAN OOK EEN FUNCTIEAANROEP VAN EEN ANDERE KLASSE ZIJN??? COMMAND?
- 
+
 WAT IS EEN COMMAND DAN? IS DAT EEN ACTION?
 Command
 Show/Sound, gebiedende wijs
