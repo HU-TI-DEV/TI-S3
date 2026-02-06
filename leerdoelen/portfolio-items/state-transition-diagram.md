@@ -14,7 +14,7 @@ Document met eigen (deel van) een State Transition Diagram.
   event [guard] / action  
 ```
 **Event**
-Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt. Dit is in de voltooid verleden tijd geformuleerd (after is de uitzondering):
+Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt. Dit is in de voltooid verleden tijd geformuleerd (after is de uitzondering).  
 Dat kan bijvoorbeeld zijn: 
 - after()               (vTaskDelay)
 - buttonPressed()       (eventBit)
