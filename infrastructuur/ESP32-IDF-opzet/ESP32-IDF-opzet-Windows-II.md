@@ -104,6 +104,7 @@ Run het voorbeeld met:
 Klopt de output met wat je had verwacht?
 **Sla dit screenshot op in je logboek**
 
+# HET VOLGENDE STUK SLAAN WE EVEN OVER VOOR NU. WE GAAN EERST DOOR MET FREERTOS VOORBEELDEN (ZIE: [programma-OS-STD-Code](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-OS-STD-Code.md) )
 
 # Clean RTOS voorbeelden
 
