@@ -1,6 +1,6 @@
-# State Transition Diagram (STD)
-Document met eigen (deel van) een State Transition Diagram.
-## Criteria 
+# State Transition Diagram (STD) criteria
+
+## Algemeen 
 - Het implementeert de stappen uit de bijbehorende **use case beschrijving** of **activity diagram**.
 - Er is onderscheid gemaakt tussen het **interface deel** en het implementatie deel.
 - De **publieke operaties** uit het klassendiagram zijn terug te vinden in het interface deel.
@@ -8,11 +8,13 @@ Document met eigen (deel van) een State Transition Diagram.
 - Er zijn **geneste toestanden** toegepast als dat het design vereenvoudigt.
 - Er zijn **geen pseudotoestanden** gecreerd. Dus **geen** events op **uitgaande pijlen** van decision nodes en de initial node.
 
-### Overgangen
-- Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions. Meerdere guards of actions worden via ; van elkaar gescheiden:
+## Overgangen
+Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions:
 ```
   event [guard] / action  
 ```
+Meerdere guards of actions worden via ; van elkaar gescheiden. Ze hoeven niet allemaal voor te komen
+
 **Event**
 Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt. Dit is in de voltooid verleden tijd geformuleerd (after is de uitzondering).  
 Dat kan bijvoorbeeld zijn: 
@@ -22,30 +24,29 @@ Dat kan bijvoorbeeld zijn:
 - temperatureUpdated()  (Queue)
 
 **Guard**
-Een guard is een if statement die instantaan wordt uitgevoerd. Dit resulteert vaak in een decision node (ALTIJD?)
+Een guard is een if statement die instantaan wordt uitgevoerd. Dit resulteert in een decision node 
 
 **Action**
-Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transistion. HET KAN OOK EEN FUNCTIEAANROEP VAN EEN ANDERE KLASSE ZIJN??? COMMAND?
+Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transistion. Het kan ook een functie aanroep van een andere klasse zijn.
 
-WAT IS EEN COMMAND DAN? IS DAT EEN ACTION?
-Command
-Show/Sound, gebiedende wijs
- Zet een event bit
-Potentieel ook waarde met queue meegeven
-Vragen, zetten geen vlag, bv query
-Get (waarde)
-Is (boolean?)
-Query (vraag, kan lang duren voordat antwoord er is, dus duurt voordat antwoord er is dus hier wel vlag of que zet!!)
-Dus Marius roept publieke functie van database aan.
-Bart roetp Marius publikee fungctie met : antwoor dis bla, en marius zijn publike functie szet MARIUS zijn vlag en zet data in quueue.
-Medeling (voltooide tijd), vlag wordt gezet.
-Pressed  (bv button)
-Updated, waarde gezet. (bv counterUpdated)
-Measured /deteceted, etc…
+## Naamgeving communicatiemechanismen
+De naamgeving van functies waarmee objecten met elkaar praten is gestandaardiseerd. Hieronder de regels.
 
+| # | Type  | Voorbeelden     | Implementatie |
+|-|-|-|-|
+| 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms) | **vTaskDelay()**   |
+| 2 | Doorgeven "event" is gebeurd. <br> Naamgeving: het "ding" + voltooid tijd werkwoord.| bootButtonPressed() <br> lightDetected() | Het zetten van bitjes in **xEventGroupSetBits**. |
+| 3 | Doorgeven waarde. <br> Naamgeving: het "ding" + "Updated".| counterUpdated()  | Het doorgeven van een waarde in een **Queue**.  |
+| 4| Doorgeven "iets" moet worden uitgevoerd.<br> Naamgeving: gebiedende wijs werkwoord + "ding"  | playSound()<br> showScore() |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
+| 5| Opvragen van een waarde met is"ding" of get"waardevanding" | isBootButtonPressed()<br>getLightLevel(lightLevel)| De "is" met een **Queue** **MARIUS: VAN WELKE TAAK IS DE QUEUEU?** van lengte 1 van het type boolean. <br> De "get" met een **Queue** van lengte 1 van een ander datatype.|
+|6| Opvragen van een waarde(s) dat langer duurt voordat het antwoord er is.<br> Naamgeving: query"ding"|queryPersonalData(idNumber)|De eerste taak stuurt het ding waar hij informatie over wil met een **Queue** en zet een vlag met **xEventGroupSetBits**(van die andere taak) zodat de andere taak weet dat hij aan de slag moet. De tweede taak zet een vlag met **xEventGroupSetBits** (van de eerste taak) en vult een **Queue** (met de informatie) zodat de eerste taak weet dat de informatie er is. | 
 
+## Mapping Communicatiemechanismen
 
-TODO 
+De bovenstaande communicatiemechanismen mogen op de volgende plekken voorkomen in de overgangen.
+|event |[guard]| / action|
+|-|-|-|
+|(1)(2)(6)|(5)  |(3)(4)| 
 
 
 
