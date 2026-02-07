@@ -35,9 +35,9 @@ De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is ges
 | # | Type  | Naam in het STD | Functienaam | Implementatie |
 |-|-|-|-|-|
 | 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay()**   |
-| 2 | Doorgeven "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+ voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected|bootButtonPressed() <br> lightDetected()|  Het zetten van bitjes in **xEventGroupSetBits**. |
+| 2 | Doorgeven "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected|bootButtonPressed() <br> lightDetected()|  Het zetten van bitjes in **xEventGroupSetBits**. |
 | 3 | Doorgeven waarde. <br> *Naam STD:*<br> eventBit+"ding"+Set.| eventBitCounterSet |counterSet()  | Het doorgeven van een waarde in een **Queue** en daarna zetten van bitjes in **xEventGroupSetBits**.  |
-| 4 | Doorgeven waarde zonder te alarmeren. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting("naam Queue") > 0 |counterUpdated()  | Het doorgeven van een waarde in een **Queue**.  |
+| 4 | Doorgeven waarde zonder te alarmeren. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting ("naam Queue") > 0 |counterUpdated()  | Het doorgeven van een waarde in een **Queue**.  |
 | 5| Doorgeven "iets" moet worden uitgevoerd.<br> *Naam STD:*<br>eventBit+gebiedendewijswerkwoord+"ding"  |eventBitPlaySound<br>eventBitShowScore |playSound()<br> showScore() |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
 | 6| Opvragen van een waarde.<br> *Naam STD:*<br>queue+met "ding" of "waardevanding"<br>*Naam functie:*<br>is+"ding" of <br> get+"waardevanding" |queueBootButtonPressed<br>queueLightLevel |isBootButtonPressed()<br>getLightLevel(lightLevel)| De "is" met een **Queue** **MARIUS: VAN WELKE TAAK IS DE QUEUEU?** van lengte 1 van het type boolean. <br> De "get" met een **Queue** van lengte 1 van een ander datatype.|
 |7| Opvragen van een waarde(s) dat langer duurt voordat het antwoord er is.<br> *Naam STD:*<br> query"ding"|queuePersonalData| queryPersonalData(id)|De eerste taak stuurt het ding waar hij informatie over wil met een **Queue** en zet een vlag met **xEventGroupSetBits**(van die andere taak) zodat de andere taak weet dat hij aan de slag moet. De tweede taak zet een vlag met **xEventGroupSetBits** (van de eerste taak) en vult een **Queue** (met de informatie) zodat de eerste taak weet dat de informatie er is. | 
@@ -47,7 +47,7 @@ De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is ges
 De bovenstaande communicatiemechanismen mogen op de volgende plekken voorkomen in de overgangen.
 |event |[guard]| / action|
 |-|-|-|
-|(1)(2)(6)|(5)  |(3)(4)| 
+|(1)(2)(3)|(4)(6)(7)  |(5)(6)(7) | 
 
 
 
