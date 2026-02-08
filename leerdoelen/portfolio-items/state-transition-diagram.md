@@ -36,7 +36,7 @@ De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is ges
 
 | # | Type  | Naam in het STD | Functienaam | Implementatie |
 |-|-|-|-|-|
-| 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay<sup>2</sup>**   |
+| 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay<sup>2</sup>**<br> hij mag door als de tijd verstreken is.   |
 | 2 | "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected<br>eventbitPlaySound|bootButtonPressed()<sup>1</sup> <br> lightDetected()<sup>1</sup><br> playSound()<sup>1</sup>|De state wacht op: **xEventGroupWaitBits<sup>2</sup>**<br> hij mag door als: **xEventGroupSetBits<sup>3</sup>**. |
 | 3 | Er is een waarde door gegeven van een andere taak. <br> *Naam STD:*<br> eventBit+"ding"+Set.| eventBitCounterSet |counterSet()<sup>1</sup>  | De state wacht op: **xEventGroupWaitBits<sup>2</sup>** <br> Hij mag door als: <br> Het doorgeven van een waarde in een **Queue<sup>3</sup>** en daarna zetten van bitjes in **xEventGroupSetBits<sup>3</sup>**.  |
 | 4 | Checken of er een waarde is door gegeven. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting ("naam Queue") > 0 |counterUpdated()<sup>1</sup>  | Het doorgeven van een waarde in een **Queue<sup>3</sup>**.  |
