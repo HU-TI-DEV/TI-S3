@@ -7,6 +7,7 @@
 - Alle **synchronisatiemechanismen** uit het interface deel komen als **event** terug in het **implementatiedeel**.
 - Er zijn **geneste toestanden** toegepast als dat het design vereenvoudigt.
 - Er zijn **geen pseudotoestanden** gecreerd. Dus **geen** events op **uitgaande pijlen** van decision nodes en de initial node.
+- Moet er **gepollt** worden? vergeet dan niet tussendoor steeds te **wachten** (met after(1s) of door te wachten op een expliciet timerEvent).
 
 ## Overgangen
 Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions:
@@ -37,10 +38,10 @@ De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is ges
 | # | Type  | Naam in het STD | Functienaam | Implementatie |
 |-|-|-|-|-|
 | 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay<sup>2</sup>**<br> hij mag door als de tijd verstreken is.   |
-| 2 | "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected<br>eventbitPlaySound|bootButtonPressed()<sup>1</sup> <br> lightDetected()<sup>1</sup><br> playSound()<sup>1</sup>|De state wacht op: **xEventGroupWaitBits<sup>2</sup>**<br> hij mag door als: **xEventGroupSetBits<sup>3</sup>**. |
-| 3 | Er is een waarde door gegeven van een andere taak. <br> *Naam STD:*<br> eventBit+"ding"+Set.| eventBitCounterSet |counterSet()<sup>1</sup>  | De state wacht op: **xEventGroupWaitBits<sup>2</sup>** <br> Hij mag door als: <br> Het doorgeven van een waarde in een **Queue<sup>3</sup>** en daarna zetten van bitjes in **xEventGroupSetBits<sup>3</sup>**.  |
+| 2 | "event" is gebeurd. <br>*Naam functie:*<br> "ding"+voltooidtijdwerkwoord. <br><br>Andere taak heeft opdracht gegeven om iets te doen. <br>*Naam functie:*<br>gebiedendewijswerkwoord+"ding"  | eventBitBootButtonPressed <br> eventBitLightDetected<br><br>eventbitPlaySound<br>eventBitshowScore|bootButtonPressed()<sup>1</sup> <br> lightDetected()<sup>1</sup><br><br> playSound()<sup>1</sup><br>showScore()<sup>1</sup>|De state wacht op: **xEventGroupWaitBits<sup>2</sup>**<br> hij mag door als: **xEventGroupSetBits<sup>3</sup>**. |
+| 3 | Er is een waarde door gegeven van een andere taak. <br> *Naam functie:*<br> "ding"+Set.| eventBitCounterSet |counterSet()<sup>1</sup>  | De state wacht op: **xEventGroupWaitBits<sup>2</sup>** <br> Hij mag door als: <br> Het doorgeven van een waarde in een **Queue<sup>3</sup>** en daarna zetten van bitjes in **xEventGroupSetBits<sup>3</sup>**.  |
 | 4 | Checken of er een waarde is door gegeven. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting ("naam Queue") > 0 |counterUpdated()<sup>1</sup>  | Het doorgeven van een waarde in een **Queue<sup>3</sup>**.  |
-| 5| Doorgeven "iets" moet worden uitgevoerd in een andere STD/taak.<br> *Naam functie:*<br>gebiedendewijswerkwoord+"ding"  |*classname*.playSound<br>*classname*.showScore |playSound()<sup>4</sup><br> showScore(score)<sup>4</sup> |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
+| 5| Doorgeven "iets" moet worden uitgevoerd in een andere STD/taak.<br> *Naam functie:*<br>gebiedendewijswerkwoord+"ding"<br><br> Doorgeven "iets" is gebeurd. <br>*Naam functie:*<br> "ding"+voltooidtijdwerkwoord.<br><br> |*classname*.playSound<br>*classname*.showScore<br><br> *classname*.BootButtonPressed <br> *classname*.LightDetected|playSound()<sup>4</sup><br> showScore(score)<sup>4</sup><br><br>BootButtonPressed()<sup>4</sup> <br> LightDetected()<sup>4</sup> |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
 | 6| Opvragen van een waarde van een andere taak.<br> *Naam functie:*<br>is+"ding" of <br> get+"waardevanding" | *classname*.isBootButtonPressed()<br>*classname*.getLightLevel(lightLevel)|isBootButtonPressed()<sup>4</sup><br>getLightLevel(lightLevel<sup>4</sup>|  De "is" met een **Queue**<sup>5</sup> van lengte 1 van het type boolean. Hij geeft een boolean als return value terug. <br> De "get" met een **Queue**<sup>5</sup> van lengte 1 van een ander datatype. De function past de waarde van de parameter aan (die als refernce is meegegeven). |
 
 
@@ -60,8 +61,3 @@ De bovenstaande communicatiemechanismen mogen op de volgende plekken voorkomen i
 (4), (5) en (6) kunnen ook worden gebruikt in de body van de state (als een entry / event).
 
 
-- De **events** in de STD kunnen, zijn alleen van een van de volgende types:  
-  - 
-  **entry**, **do**, **exit**, **after()**, **when()**, **timerBla**, **flagBla**, of **bla=channelBla.read()**.
-- Correcte verwerking van **EABs (Event Action Blocks)**.
-- Moet er **gepollt** worden? vergeet dan niet tussendoor steeds te **wachten** (met after(1s) of door te wachten op een expliciet timerEvent).
