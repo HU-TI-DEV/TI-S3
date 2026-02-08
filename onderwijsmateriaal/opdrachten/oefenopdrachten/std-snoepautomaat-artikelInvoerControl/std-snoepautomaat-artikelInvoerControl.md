@@ -17,7 +17,7 @@ Gegeven is de volgende usecase beschrijving van de ArtikelVerkoopController:
 
 NB: je mag ervan uitgaan dat ArtikelInvoerController een eigen taak heeft. Hij wacht dus op het bericht startInvoer om een nieuwe invoer te starten en doet **vervolgens pas** het bovenstaande.
 
-Werk nu op basis van het bovenstaande een **State Transition Diagram** voor de klasse ArtikelInvoerController uit. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf). 
+Werk nu op basis van het bovenstaande een **State Transition Diagram** voor de klasse ArtikelInvoerController uit. Gebruik de methode zoals voorgedaan in [STD hoofdstuk van deze ppt](../../../../programma/lesprogramma/files/Operating_Systems.pptx). 
 
 Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/state-transition-diagram.md).
 

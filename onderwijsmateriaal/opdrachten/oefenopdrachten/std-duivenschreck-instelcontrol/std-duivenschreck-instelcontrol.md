@@ -12,6 +12,6 @@ Beschouw het onderstaande klasse diagram en de de use case "Instellen" van de du
 
 ## State Transition Diagram
 
-Werk nu een **State Transition Diagram** voor de klasse InstelControl uit op basis van deze Klassediagram en usecase beschrijving. Gebruik de methode zoals voorgedaan in [Design like a Robot!](../../../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf). 
+Werk nu een **State Transition Diagram** voor de klasse InstelControl uit op basis van deze Klassediagram en usecase beschrijving. Gebruik de methode zoals voorgedaan in [STD hoofdstuk van deze ppt](../../../../programma/lesprogramma/files/Operating_Systems.pptx). 
 
 Let daarbij op deze [criteria](../../../../leerdoelen/portfolio-items/state-transition-diagram.md).
