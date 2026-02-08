@@ -30,7 +30,7 @@ Een guard zijn de condities van een if statement die instantaan wordt uitgevoerd
   2) Als enkele pijl, in dat geval gaat de state opnieuw uitgevoerd worden als aan de condities niet voldaan wordt. Deze manier kan enkel in de vorm ```event [guard]``` aangezien de state anders "blocking" zou worden (de state moet altijd de macht uit handen geven). 
 
 **Action**
-Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transistion. Het kan ook een functie aanroep van een andere klasse zijn.
+Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transition. Het kan ook een functie aanroep van een andere klasse zijn.
 
 ## Naamgeving communicatiemechanismen
 De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is gestandaardiseerd. Hieronder de regels.
