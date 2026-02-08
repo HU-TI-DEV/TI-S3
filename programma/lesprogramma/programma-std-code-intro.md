@@ -1,4 +1,4 @@
-# Programma STD <-> code - I
+# Programma STD <-> code
 
 Deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De naam zegt het al, het is een diagram dat laat zien in welke toestanden een taak zich kan bevinden. Daarnaast laat het zien onder welke voorwaarden een toestand kan overgaan in een andere toestand. Deze les gaat tevens over het vertalen van een STD naar code.
 
