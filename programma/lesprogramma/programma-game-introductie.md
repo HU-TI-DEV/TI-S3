@@ -9,7 +9,7 @@
 Tijdens de les gaan we:
 ### Ronde 1- Rubric (30 min, max 5 min per persoon) 
 - Je pitcht je game aan je teamgenoten. 
-- Je teamgenoten geven aan per item van de rubric (zie [canvas](https://canvas.hu.nl/courses/50166/assignments/366453)) hoe ze je game zouden beoordelen (0-1-2) en waarom. Schrijf de feedback op (dit moet je ook inleveren op canvas). 
+- Je teamgenoten geven aan per item van de rubric (zie [canvas](https://canvas.hu.nl/courses/50161/assignments/392239)) hoe ze je game zouden beoordelen (0-1-2) en waarom. Schrijf de feedback op (dit moet je ook inleveren op canvas). 
 
 ### Ronde 2 - Schaalbaar/stappenplan (30 min, max 5 min per persoon)
 - per persoon gaan jullie als groepje brainstormen over
