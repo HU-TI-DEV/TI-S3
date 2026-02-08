@@ -63,34 +63,11 @@ Unzip de volgende file in de apps folder van je s3-template:
 4) Bekijk de Counter_std.png en de MachineControl_std.png in de root van de zip....
 5) TO BE CONTINUED!!!   
 
-
-#### Use Case Beschrijving — Verkeerslichtcontroller (Systeemperspectief)
-
-
-##### Primaire Externe Signalen  
-- **Detectie van knop A** (voetgangersaanvraag)  
-- **Detectie van voertuig via lusdetector (knop B)**  
-
-##### Preconditions  
-- De verkeerslichtcontroller is operationeel.  
-- Het verkeerslicht ondersteunt drie toestanden: **Groen**, **Geel/Oranje**, **Rood**.  
-- De standaardtoestand is **Groen**.
-
-##### Scenario
-
-1. Het systeem zet het verkeerslicht in de standaardtoestand **Groen**.
-2. Wanneer het systeem detecteert dat **Knop A** is ingedrukt zet het systeem het stoplicht op **Geel/Oranje** voor **3 seconden**. 
-3. Na die 3 seconden schakelt het systeem van:**Geel/Oranje** naar **Rood**.  
-4. Wanneer het systeem een voertuig op de lus detecteert (**knop B**) start het een Duitse knippertransitiemodus.  
-5. Het systeem voert **5 knippercycli** uit, waarbij elke cyclus bestaat uit:
-   - **Geel/Oranje gedurende 0,5 seconden**
-   - **Rood gedurende 0,5 seconden**
-6.  Na het voltooien van **5 cycli** schakelt het systeem van **Rood** naar **Groen**, en hervat het normale verkeersverloop.
+Mocht je hier al aan zijn gekomen, dan kun je verder gaan met [programma-std-code-introductie](./programma-std-code-intro.md)
 
 ## Na de les
 
 - werk verder aan de opdrachten als je het nog niet af hebt.
 
 ## Canvas
-
-- 
+Er zijn geen specifieke opdrachten die je hoeft in te leveren. Zorg wel dat je alles goed verwerkt in je logboek. 
