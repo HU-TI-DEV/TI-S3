@@ -7,7 +7,8 @@ Ook deze les staat het ontwerpen van een STD (State Transition Diagram) centraal
 - Bestudeer de [STD kwaliteits criteria](../../leerdoelen/portfolio-items/state-transition-diagram.md)
 
 ## Tijdens en na de les
-Maak individueel de oefenopdracht [STD Snoepautomaat ArtikelInvoerControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-snoepautomaat-artikelInvoerControl/std-snoepautomaat-artikelInvoerControl.md). Upload je resultaat naar de **Canvas oefenopdracht "STD_SA_ArtikelInvoer"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
+Maak individueel de oefenopdracht [STD Snoepautomaat ArtikelInvoerControl](../../onderwijsmateriaal/opdrachten/oefenopdrachten/std-snoepautomaat-artikelInvoerControl/std-snoepautomaat-artikelInvoerControl.md).  
+Upload je resultaat naar de **Canvas oefenopdracht "STD_SA_ArtikelInvoer"**. Bij een serieuze effort krijg je de uitwerkingen. Kijk jezelf daarmee na en vat samen wat je daarvan nog hebt opgestoken.
 
 ## Extra oefenopdrachten
 Om het maximale uit deze opleiding te halen is ook het maken van de extra oefenopdrachten voor het maken van object modellen aanbevolen (die hebben geen deadline, en kun je doen als het eens uitkomt):
