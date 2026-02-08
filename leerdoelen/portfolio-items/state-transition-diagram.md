@@ -16,15 +16,17 @@ Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, gua
 Meerdere guards of actions worden via ; van elkaar gescheiden. Ze hoeven niet allemaal voor te komen
 
 **Event**
-Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt. Dit is in de voltooid verleden tijd geformuleerd (after is de uitzondering).  
+Een event is een synchronisatie mechanisme van het OS waar op gewacht wordt.  
 Dat kan bijvoorbeeld zijn: 
 - after()               (vTaskDelay)
 - buttonPressed()       (eventBit)
 - spikeDetected()       (eventBit)
-- temperatureUpdated()  (Queue)
+- temperatureSet()      (Queue & eventBit)
 
 **Guard**
-Een guard is een if statement die instantaan wordt uitgevoerd. Dit resulteert in een decision node 
+Een guard zijn de condities van een if statement die instantaan wordt uitgevoerd. Dit kan op twee manieren worden toegepast:
+  1) Als uitgangen van een decision node.
+  2) Als enkele pijl, in dat geval gaat de state opnieuw uitgevoerd worden als aan de condities niet voldaan wordt. Deze manier kan enkel in de vorm ```event [guard]``` aangezien de state anders "blocking" zou worden (de state moet altijd de macht uit handen geven). 
 
 **Action**
 Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transistion. Het kan ook een functie aanroep van een andere klasse zijn.
@@ -34,20 +36,25 @@ De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is ges
 
 | # | Type  | Naam in het STD | Functienaam | Implementatie |
 |-|-|-|-|-|
-| 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay()**   |
-| 2 | Doorgeven "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected|bootButtonPressed() <br> lightDetected()|  Het zetten van bitjes in **xEventGroupSetBits**. |
-| 3 | Doorgeven waarde. <br> *Naam STD:*<br> eventBit+"ding"+Set.| eventBitCounterSet |counterSet()  | Het doorgeven van een waarde in een **Queue** en daarna zetten van bitjes in **xEventGroupSetBits**.  |
-| 4 | Doorgeven waarde zonder te alarmeren. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting ("naam Queue") > 0 |counterUpdated()  | Het doorgeven van een waarde in een **Queue**.  |
-| 5| Doorgeven "iets" moet worden uitgevoerd.<br> *Naam STD:*<br>eventBit+gebiedendewijswerkwoord+"ding"  |eventBitPlaySound<br>eventBitShowScore |playSound()<br> showScore(score) |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
-| 6| Opvragen van een waarde.<br> *Naam STD:*<br>queue+"ding" of "waardevanding"<br>*Naam functie:*<br>is+"ding" of <br> get+"waardevanding" |queueBootButtonPressed<br>queueLightLevel |isBootButtonPressed()<br>getLightLevel(lightLevel)| De "is" met een **Queue** **MARIUS: VAN WELKE TAAK IS DE QUEUEU?** van lengte 1 van het type boolean. <br> De "get" met een **Queue** van lengte 1 van een ander datatype.|
-|7| Opvragen van een waarde(s) dat langer duurt voordat het antwoord er is.<br> *Naam STD:*<br> query"ding"|queuePersonalData| queryPersonalData(id)|De eerste taak stuurt het ding waar hij informatie over wil met een **Queue** en zet een vlag met **xEventGroupSetBits**(van die andere taak) zodat de andere taak weet dat hij aan de slag moet. De tweede taak zet een vlag met **xEventGroupSetBits** (van de eerste taak) en vult een **Queue** (met de informatie) zodat de eerste taak weet dat de informatie er is. | 
+| 1 |Aangeven dat een taak pas na *x* ms weer gestoord mag worden. |after(*x* ms)|vTaskDelay() | **vTaskDelay<sup>2</sup>**   |
+| 2 | "event" is gebeurd. <br>*Naam STD:*<br> eventBit+"ding"+voltooidtijdwerkwoord.  | eventBitBootButtonPressed <br> eventBitLightDetected<br>eventbitPlaySound|bootButtonPressed()<sup>1</sup> <br> lightDetected()<sup>1</sup><br> playSound()<sup>1</sup>|De state wacht op: **xEventGroupWaitBits<sup>2</sup>**<br> hij mag door als: **xEventGroupSetBits<sup>3</sup>**. |
+| 3 | Er is een waarde door gegeven van een andere taak. <br> *Naam STD:*<br> eventBit+"ding"+Set.| eventBitCounterSet |counterSet()<sup>1</sup>  | De state wacht op: **xEventGroupWaitBits<sup>2</sup>** <br> Hij mag door als: <br> Het doorgeven van een waarde in een **Queue<sup>3</sup>** en daarna zetten van bitjes in **xEventGroupSetBits<sup>3</sup>**.  |
+| 4 | Checken of er een waarde is door gegeven. <br> *Naam functie:*<br> "ding" +Updated.| Je kan een guard zetten of er iets in de queue is aangekomen: uxQueueMessagesWaiting ("naam Queue") > 0 |counterUpdated()<sup>1</sup>  | Het doorgeven van een waarde in een **Queue<sup>3</sup>**.  |
+| 5| Doorgeven "iets" moet worden uitgevoerd in een andere STD/taak.<br> *Naam functie:*<br>gebiedendewijswerkwoord+"ding"  |*classname*.playSound<br>*classname*.showScore |playSound()<sup>5</sup><br> showScore(score)<sup>5</sup> |  Het zetten van bitjes in **xEventGroupSetBits** van de andere taak.<br> Indien ook een waarde wordt meegegeven, dan die meegeven via een **Queue** van de andere taak (vlak voor het zetten van de **eventBit**).|
+| 6| Opvragen van een waarde van een andere taak.<br> *Naam STD:*<br>queue+"ding" of "waardevanding"<br>*Naam functie:*<br>is+"ding" of <br> get+"waardevanding" | *classname*.isBootButtonPressed()<br>*classname*.getLightLevel(lightLevel)|**MARIUS: VAN WELKE TAAK IS DE QUEUEU?** |**MARIUS: VAN WELKE TAAK IS DE QUEUEU?**  De "is" met een **Queue** van lengte 1 van het type boolean. <br> De "get" met een **Queue** van lengte 1 van een ander datatype.|
+
+
+**<sup>1</sup>** Dit zijn publieke functies van **deze** std/taak. Ze worden benoemd in de << interface >> van **deze** std. Ze worden aangeroepen in een **andere** std/task.  
+**<sup>2</sup>** Uitgevoerd in de state van de klasse van **deze** std/taak. Meestal aan het eind van de case van de switchcase.  
+**<sup>3</sup>** Een **andere** klasse (met een andere std/taak) roept een publieke functie aan in de klasse van **deze** std/taak. Deze publieke functie staat in de << interface >> van **deze** std. In de functie worden eventbits gezet of queues gevuld.
+**<sup>5</sup>** Dit zijn publieke functies van een **andere** std/taak. Ze worden benoemd in de << interface >> van de **andere** std. Ze worden aangeroepen in **deze** std/task.
 
 ## Mapping Communicatiemechanismen
 
 De bovenstaande communicatiemechanismen mogen op de volgende plekken voorkomen in de overgangen.
 |event |[guard]| / action|
 |-|-|-|
-|(1)(2)(3)|(4)(6)(7)  |(5)(6)(7) | 
+|(1)(2)(3)|(4)(6)  |(5)(6) | 
 
 
 
