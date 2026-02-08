@@ -35,7 +35,7 @@ Gelukkig hebben we al wel een RGB led.
 ### De opdracht
 1) Maak een STD van het verkeerslicht (mag in plantUML of in drawIO)  
 2) Laat je STD aftekenen bij de docent.
-3) Start met het StateMachineTemplate (zie [statemachinetemplate.zip](./files/StateMachineTemplate.zip).
+3) Start met het StateMachineTemplate (zie [statemachinetemplate.zip](./files/StateMachineTemplate.zip).)
 4) Pas de code aan (of begin helemaal opnieuw, wat je het prettigst vind) en zorg dat de code en STD 1-op-1 hetzelfde zijn.
 5) Run het programma, en laat het runnende programma ook aftekenen bij de docent. 
 
