@@ -2,7 +2,11 @@
 
 ## Voorbereiding
 
-- Je hoeft je voor dit stukje niet voor te bereiden. In dit notebook wordt beschreven hoe operating systems werken, hoe je ze moet coderen en hoe je STD's moet maken. 
+Bekijk de volgende video's:
+- [video 1](https://youtu.be/kP-pP6FEu8I?si=E8p51WUj5l8jayeM)
+- [video 2](https://youtu.be/WQGAs9MwXno?si=u5gYhdr_75saWNnz)
+
+In dit notebook wordt beschreven hoe operating systems werken, hoe je ze moet coderen en hoe je STD's moet maken. 
 
 ### Tijdens de les
 
