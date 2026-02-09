@@ -194,10 +194,6 @@ De `vTaskDelay` is je eerste instructie van het RTOS (Real Time Operating System
 Een handig uitgangspunt van je project is het onderstaande S3-Template project:
 
 - Alles wordt gebouwd op dezelfde build folder, met dezelfde main file.
-- De CleanRTOS libraries zijn toegevoegd, evenals enkele Arduino-IDE libraries.
-- Het heeft voorbeeld applicaties in een apps subfolder, die het gebruik van [CleanRTOS](../CleanRTOS/README.md) demonstreren en hoe iets zowel gebouwd kan worden in Arduino-IDE als in ESP-IDF.
-- Het heeft een ClockPin class - welke superhandig is voor het schrijven van frequency-chopped communicaties zoals IR-communicatie.
-- Voor de liefhebber is er ook support voor ILI-touchscreen displays (alleen is dat nog niet compatibel met zigbee).
 
 Okee, dat project zet ik ook maar in dezelfde folder, dus:
 
@@ -285,11 +281,9 @@ Nog wat algemene informatie over het idee achter S3-Template:
 -  Voor wat betreft dat laatste voorkomt het dat je zelf het wiel opnieuw hoeft uit te vinden.
 -  Eigen applicaties worden ook via ".ino" files geinclude, op dezelfde manier als arduino-ide examples. 
   Dat zorgt ervoor je het evt ook zou kunnen bouwen met arduino-ide ipv via de esp32-IDF.
-  (zelf vind ik dat een leuke feature, omdat, als je bijvoorbeeld een library ontwikkelt (zoals CleanRTOS),
+  (zelf vind ik dat een leuke feature, omdat, als je bijvoorbeeld een library ontwikkelt,
   dat je die zonder aanpassing van een letter code kunt publiceren als library die in de Arduino-IDE wereldwijd 
   gevonden en gebruikt kan worden).
-- Zoals je wellicht opvalt, staat dat alles compleet los van CleanRTOS.
-- CleanRTOS is gewoon een van de beschikbare libraries. Eentje die je kunt gebruiken als freertos wrapper.
 
 
 ## (B) Als dit resulteert in een error

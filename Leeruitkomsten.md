@@ -39,7 +39,7 @@ Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden
 - Bekwaamheid in het schrijven van : 
   - code voor gebruik van MongoDB.
   - flask, Javascript, HTML en CSS code.
-  - code met CleanRTOS.
+  - code met RTOS.
 - Bekwaamheid in het ontwerpen van Webapp architectuur.
 - Bekwaamheid in het ontwerpen van programma voor een PLC.
 - Bekwaamheid in het toepassen van Oberver Pattern, Handler Pattern en Templating.
@@ -69,7 +69,7 @@ Student zet een professionele ontwikkelomgeving op. Hij debugt daarmee zijn soft
 - Bekwaamheid in het opzetten van een operating system.
 - Bekwaamheid in het opzetten van een docker en docker-compose.
 - Bekwaamheid in het opzetten van flask server, reverse proxy, mongodb.
-- Bekwaamheid in het opzetten van ESP32-IDF, Mesh update en CleanRTOS.
+- Bekwaamheid in het opzetten van ESP32-IDF, Mesh update en RTOS.
 - Bekwaamheid in het debuggen op de diverse platforms.
 
 ---

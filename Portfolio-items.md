@@ -70,7 +70,7 @@ Onderstaand vind je een lijst met aanbevolen portfolio items, ruwweg gegroepeerd
 - **Zelf** geschreven goed gestructureerde **[code](./leerdoelen/portfolio-items/code.md)** die gebruik maakt van **MongoDB**.
 - **Zelf** geschreven goed gestructureerde **[flask](./leerdoelen/portfolio-items/code.md)**, **[javascript](./leerdoelen/portfolio-items/code.md)**, **html** en **CSS** code.
 - **Zelf** gemaakt (deel van een-) **webapp architectuur**.
-- **Zelf** geschreven **[code](./leerdoelen/portfolio-items/code.md) met CleanRTOS**.
+- **Zelf** geschreven **[code](./leerdoelen/portfolio-items/code.md) met RTOS**.
 - **Zelf** geschreven **programma voor een PLC**.
 - **Zelf** geschreven **overige [code](./leerdoelen/portfolio-items/code.md)**.
 - **Zelf** toegepaste refactoring, toevoeging van een **Observer Pattern**, **Handler Pattern** of **templating**.
@@ -104,7 +104,7 @@ Onderstaand vind je een lijst met aanbevolen portfolio items, ruwweg gegroepeerd
 
 - **Zelf** geschreven **[journaal](./organisatorisch/journaliseren.md)** tijdens/over het **opzetten** en **testen** van de **eigen WSL-linux test-server, met docker, docker-compose, flask server, reverse proxy, mongodb**, voorzien van goede, begrijpelijke uitleg.
 - **Zelf** geschreven **verslagje** van hoe een taak om een bepaalde lastige **bug** in zo'n omgeving op te lossen is aangepakt en opgelost (extract uit een Journaal).
-- **Zelf** geschreven **journaal** tijdens/over het opzetten en testen van de **ESP32-IDF, Mesh update en CleanRTOS** (extract uit een Journaal).
+- **Zelf** geschreven **journaal** tijdens/over het opzetten en testen van de **ESP32-IDF, Mesh update en RTOS** (extract uit een Journaal).
 
 ### Voor Leeruitkomst 6 : Onderzoekend Vermogen
 
