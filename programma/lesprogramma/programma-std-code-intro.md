@@ -14,7 +14,6 @@ Als eerste gaan we de use case van het verkeerslicht bekijken.
 >- **Detectie van knop A** (voetgangersaanvraag)  
 >- **Detectie van voertuig via lusdetector (knop B)**  
 >### Preconditions  
->- De verkeerslichtcontroller is operationeel.  
 >- Het verkeerslicht ondersteunt drie toestanden: **Groen**, **Geel/Oranje**, **Rood**.  
 >- De standaardtoestand is **Groen**.
 >### Scenario

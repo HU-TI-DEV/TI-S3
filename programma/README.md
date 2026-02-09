@@ -66,7 +66,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | teamvorming <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
+| ma  | teamvorming en **Start sprint**  <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**HK**) |
 | wo  | ${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**)  |
 | do  | ${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|
@@ -84,7 +84,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) +<br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**) |
+| ma  | **Start sprint** <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) +<br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**) |
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB, HP**) |
 | do  | ${\color{green}\text{Project}}$ TBD (**BB**)|
@@ -111,7 +111,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
+| ma  | **Start sprint** <br>[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | wo  | ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
@@ -123,7 +123,7 @@ Krokusvakantie
 | ma  | (*2e Paasdag*) |
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**) |
 | wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 3**|
-| do  | ${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
+| do  | **Start sprint** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
 
 ### Onderwijsweek D1 (13-04-2026)
 
@@ -141,7 +141,7 @@ Krokusvakantie
 | ma  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
 | wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 4**|
-| do  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
+| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
 
 ### Onderwijsweek D3 (27-04-2026)
 
@@ -169,7 +169,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
+| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ 3e Peilmoment IN LOKAAL S4, 1.096 |
@@ -187,7 +187,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
