@@ -26,12 +26,12 @@ Dat kan bijvoorbeeld zijn:
 - temperatureSet()      (Queue & eventBit)
 
 **Guard**
-Een guard zijn de condities van een if statement die instantaan wordt uitgevoerd. Dit kan op twee manieren worden toegepast:
+Een guard zijn de condities van een if statement die direct (zonder dat er ergens op gewacht wordt) wordt uitgevoerd. Dit kan op twee manieren worden toegepast:
   1) Als uitgangen van een decision node.
-  2) Als enkele pijl, in dat geval gaat de state opnieuw uitgevoerd worden als aan de condities niet voldaan wordt. Deze manier kan enkel in de vorm ```event [guard]``` aangezien de state anders "blocking" zou worden (de state moet altijd de macht uit handen geven). 
+  2) Als enkele pijl,  Deze manier kan enkel in de vorm ```event [guard]``` aangezien de state anders "blocking" zou worden (de state moet altijd de macht uit handen geven).
 
 **Action**
-Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transition. Het kan ook een functie aanroep van een andere klasse zijn. Cruciaal is dat een action instantaan wordt uitgevoerd, zonder wacht toestanden. 
+Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transition. Het kan ook een functie aanroep van een andere klasse zijn. Cruciaal is dat een action direct wordt uitgevoerd, zonder wacht toestanden. 
 
 ## Naamgeving communicatiemechanismen
 De naamgeving van functies/mechanismen waarmee objecten met elkaar praten is gestandaardiseerd. Hieronder de regels.
