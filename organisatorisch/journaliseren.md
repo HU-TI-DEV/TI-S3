@@ -23,6 +23,8 @@ Typisch maak je in een overzichtelijke **mappenstructuur** een persoonlijk **ken
 
 - **Copernic Desktop** werkt heel fijn op Windows (maar is niet gratis).
 - **Master Seeker** werkt iets minder gebruiksvriendelijk, maar is wel gratis.
+- **Obsidian** is gratis, als je `sync` en `publish` wil gebruiken kosten deze apps iets.
+- **Visual Studio Code (VScode)** heeft een redelijk snelle text-zoekmaschine ingebouwd, dit werkt goed binnen een map-boom.
 
 ## Wat Journaliseren
 
