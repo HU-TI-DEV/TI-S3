@@ -1,13 +1,55 @@
-# STD en code 
+@startuml
+state StateA
+StateA --> StateB : eventBitButton1
+StateA --> StateC : eventBitButton2
+@enduml
 
 @startuml
-mainframe **std** MachineControl
-state Ready
-Ready : entry / setLEDColor(Color::Green)
-Error : entry / setLEDColor(Color::Red)
-Ready --> Error              : after(2000ms)[execCounter>3]
-
+state StateA
+StateA --> StateB : eventBitButton1
+StateA --> StateB : eventBitButton2
 @enduml
+
+@startuml
+state StateA
+StateA --> StateB : eventBitButton1, eventBitButton2
+@enduml
+
+@startuml
+state StateA
+StateA --> StateB : eventBitButton1 + eventBitButton2
+@enduml
+
+@startuml
+state StateA
+StateA --> StateB : eventBitCounterSet [xQueueReceive(dataQueue, &val, 0); val>3]
+@enduml
+
+@startuml
+state StateA
+StateA --> StateB : eventBitCounterSet [counter>3]
+@enduml
+
+
+@startuml
+state StateA : entry / counter++
+state c1 <<choice>>
+[*] --> StateA :/ counter = 0
+StateA --> c1 : eventBitButton1
+c1 --> StateA : [counter <3]
+c1 --> StateB : [else]
+@enduml
+
+
+@startuml
+state StateA 
+state c1 <<choice>>
+[*] --> StateA :/ counter = 0
+StateA --> c1 : eventBitButton1
+c1 --> StateA : [counter <3] / counter++
+c1 --> StateB : [else]
+@enduml
+
 
 
 ```c++
