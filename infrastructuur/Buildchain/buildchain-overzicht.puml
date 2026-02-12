@@ -1,0 +1,33 @@
+@startuml
+' !theme cyborg (disable for now)
+actor "Developer" as DEV
+
+rectangle "Source Code\n\nmain.cc" as SRC
+rectangle "Preprocessed code\n\nmain.ii" as PRE
+rectangle "Assembly\n\nmain.s" as ASM
+rectangle "Object code\n\nmain.o" as OBJ
+rectangle "Executable\n\nmain.exe" as EXE
+rectangle "Libraries\n\notherlibrary.lib" as OBJ1
+rectangle "Object modules\n\nothermodule.o" as OBJ2
+rectangle "Include files\n\nsfml/graphics.hpp\nin_stream.hpp\nsome_math.hpp" as INC1
+
+(Preprocessor\n\nvervang tekst voor\n #includes\n #macros\n #defines) AS TOOL_PP
+(Compiler\n\nvertaald\nC/C++ tekst\nnaar\nAssembly tekst) AS TOOL_GCC
+(Assembler\n\nvertaald\nAssembly tekst\nnaar binair\nObject code) AS TOOL_AS
+(Linker\n\nzoekt symbolen\nen linkt\nObject code\nvan meerdere bestanden) AS TOOL_LNK
+
+DEV -d-> SRC : schrijf code
+SRC -r-> TOOL_PP : input
+TOOL_PP -r-> PRE : output
+PRE -u-> TOOL_GCC : input
+TOOL_GCC -u-> ASM : output
+ASM -r-> TOOL_AS : input
+TOOL_AS -r-> OBJ : output
+OBJ -d-> TOOL_LNK : input
+TOOL_LNK -d-> EXE : output
+
+OBJ1 -r-> TOOL_LNK : input
+OBJ2 -l-> TOOL_LNK : input
+INC1 -d-> TOOL_PP : input
+
+@enduml

@@ -67,7 +67,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | teamvorming en **Start sprint**  <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**HK**) |
+| di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**) |
 | wo  | ${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**)  |
 | do  | ${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|
 
@@ -87,7 +87,7 @@ Krokusvakantie
 | ma  | **Start sprint** <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) +<br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**) |
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB, HP**) |
-| do  | ${\color{green}\text{Project}}$ TBD (**BB**)|
+| do  | ${\color{green}\text{Project}}$ review (**BB**)|
 
 ### Onderwijsweek C7 (16-03-2026)
 
@@ -95,7 +95,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) **--- UITZONDERING: Ochtendles in 5.068**|
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
-| wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) **--- TODO:CHECK** |
+| wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)  |
 | do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + 1e Peilmoment |
 
 ### Onderwijsweek C8 (23-03-2026)
