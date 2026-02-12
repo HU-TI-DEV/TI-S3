@@ -8,7 +8,7 @@ Als iets in jouw Integrated Development Environment (bv VSCode met plugins) niet
 
   * [TI-S4 presentatie "Een applicatie bouwen" (slidev bron)](https://github.com/HU-TI-DEV/TI-S4/blob/main/_slidev/les-infrastructuur-desktop-environment.md)
 
-    PDF en PPTX-exports van deze presentatie zijn op MS Teams geplaatst (op verzoek van de klas).
+  * [TI-S4 presentatie "Een applicatie bouwen" (PDF export met tussenstappen)](https://github.com/HU-TI-DEV/TI-S4/infrastructuur/desktop_environment/files/les-full-infrastructuur-desktop-environment.pdf)
 
   * [The four stages of the gcc compiler: preprocessor, compiler, assembler, linker.](https://medium.com/@gpradinett/the-four-stages-of-the-gcc-compiler-preprocessor-compiler-assembler-linker-3dec8714bb9c)
 
@@ -38,9 +38,13 @@ Als iets in jouw Integrated Development Environment (bv VSCode met plugins) niet
   * (-) Oefening met objdump
   * (-) Opzetten van een system-independent toolchain in een container of op een remote system
 
+## Overzicht
+
+![Overzicht Buildchain](../../infrastructuur/Buildchain/buildchain-overzicht.png)
+
 ----
 
-* Oefeningen (voor jezelf, zonder inlevering)
+## Oefeningen (voor jezelf, zonder inlevering)
 
   * Check in een eigen project met meerdere bestanden wat preprocessor, compiler, assembler en linker als output geven.
     (Om de linker output in te zien gebruik je objdump.)
