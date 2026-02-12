@@ -8,7 +8,7 @@ Als iets in jouw Integrated Development Environment (bv VSCode met plugins) niet
 
   * [TI-S4 presentatie "Een applicatie bouwen" (slidev bron)](https://github.com/HU-TI-DEV/TI-S4/blob/main/_slidev/les-infrastructuur-desktop-environment.md)
 
-  * [TI-S4 presentatie "Een applicatie bouwen" (PDF export met tussenstappen)](https://github.com/HU-TI-DEV/TI-S4/infrastructuur/desktop_environment/files/les-full-infrastructuur-desktop-environment.pdf)
+  * [TI-S4 presentatie "Een applicatie bouwen" (PDF export met tussenstappen)](https://github.com/HU-TI-DEV/TI-S4/blob/main/infrastructuur/desktop_environment/files/les-full-infrastructuur-desktop-environment.pdf)
 
   * [The four stages of the gcc compiler: preprocessor, compiler, assembler, linker.](https://medium.com/@gpradinett/the-four-stages-of-the-gcc-compiler-preprocessor-compiler-assembler-linker-3dec8714bb9c)
 
