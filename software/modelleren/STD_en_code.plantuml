@@ -1,23 +1,23 @@
 @startuml
-state StateA
-StateA --> StateB : eventBitButton1
-StateA --> StateC : eventBitButton2
+state StateC
+StateC --> StateD : eventBitButton1Pressed
+StateC --> StateE : eventBitButton2Pressed
 @enduml
 
 @startuml
 state StateA
-StateA --> StateB : eventBitButton1
-StateA --> StateB : eventBitButton2
+StateA --> StateB : eventBitButton1Pressed
+StateA --> StateB : eventBitButton2Pressed
 @enduml
 
 @startuml
-state StateA
-StateA --> StateB : eventBitButton1, eventBitButton2
+state StateB
+StateB --> StateC : eventBitButton1Pressed,\neventBitButton2Pressed
 @enduml
 
 @startuml
-state StateA
-StateA --> StateB : eventBitButton1 + eventBitButton2
+state StateB
+StateB --> StateC : eventBitButton1Pressed + \neventBitButton2Pressed   
 @enduml
 
 @startuml
@@ -32,23 +32,19 @@ StateA --> StateB : eventBitCounterSet [counter>3]
 
 
 @startuml
-state StateA : entry / counter++
+state StateF : entry / counter++
 state c1 <<choice>>
-[*] --> StateA :/ counter = 0
-StateA --> c1 : eventBitButton1
-c1 --> StateA : [counter <3]
-c1 --> StateB : [else]
+[*] --> StateF :/ counter = 0
+StateF --> c1 : eventBitButton1Pressed
+c1 --> StateF : [counter <3]
+c1 --> StateG : [else]
 @enduml
-
 
 @startuml
-state StateA 
-state c1 <<choice>>
-[*] --> StateA :/ counter = 0
-StateA --> c1 : eventBitButton1
-c1 --> StateA : [counter <3] / counter++
-c1 --> StateB : [else]
+state StateG 
+StateG --> StateH : eventBitCounterSet[counter>3]
 @enduml
+
 
 
 
