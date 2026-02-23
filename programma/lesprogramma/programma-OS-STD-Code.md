@@ -74,7 +74,7 @@ Unzip de volgende file in de apps folder van je s3-template:
 [StateMachineTemplate.zip](./files/StateMachineTemplate.zip)
 1) Run doxygen om te kijken wat de template eigenlijk doet.
 2) Run de code om te kijken wat het eigenlijk doet (tip: blijf meerdere keren op de boot button knop drukken).
-3) Berander #define kEnableLog 0 in #define kEnableLog 1 (in counter.cpp) en run hem nog een keer.
+3) Verander #define kEnableLog 0 in #define kEnableLog 1 (in counter.cpp) en run hem nog een keer.
 4) Bekijk de Counter_std.png en de MachineControl_std.png in de root van de zip....
 5) TO BE CONTINUED!!!   
 
