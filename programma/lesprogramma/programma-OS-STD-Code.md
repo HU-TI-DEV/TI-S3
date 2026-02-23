@@ -54,7 +54,7 @@ Teken op een papier wanneer de taak zijn kans krijgt en wat hij dan doet?
 
 #### Queue
 Unzip de volgende file in de apps folder van de s3-template:  
-[Queue.zip](./files/EventGroup.zip)
+[Queue.zip](./files/Queue.zip)
 1) Voeg een Vtask delay van 2500ms toe aan de consumertask (voor de closing } van de for loop). Snap je wat er gebeurt?
 
 #### Mutex
