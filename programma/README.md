@@ -66,7 +66,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | teamvorming en **Start sprint**  <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
+| ma  | teamvorming en **Start sprint**  <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**) |
 | wo  | ${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**)  |
 | do  | ${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|
@@ -75,9 +75,9 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB**) |
+| ma  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
 | do  | ${\color{green}\text{Project}}$ **Einde sprint 1**. Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek C6 (09-03-2026)
@@ -95,7 +95,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) **--- UITZONDERING: Ochtendles in 5.068**|
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md)     (**MV**) |
-| wo  | [Operating systems, State-Transistion-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)  |
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)  |
 | do  | [HBO-I event](https://mcusercontent.com/582f2b12ed6e8ab6cbdbaccec/files/bf9478cc-5573-49be-049b-3bbb832b529b/Flyer_NL.pdf) Graag aanmelden als student + 1e Peilmoment |
 
 ### Onderwijsweek C8 (23-03-2026)
