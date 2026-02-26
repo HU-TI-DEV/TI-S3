@@ -122,7 +122,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | (*2e Paasdag*) |
 | di  | IICT Carrièredag|
-| wo  |  ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**)${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 3**|
+| wo  |  ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**)  **Einde Sprint 3**|
 | do  | **Start sprint** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
 
 ### Onderwijsweek D1 (13-04-2026)
