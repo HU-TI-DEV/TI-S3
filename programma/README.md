@@ -82,9 +82,11 @@ Krokusvakantie
 
 ### Onderwijsweek C6 (09-03-2026)
 
+<!--- <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) --->
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint** <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) +<br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**) |
+| ma  | **Start sprint** <br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**TM**) |
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB, HP**) |
 | do  | ${\color{green}\text{Project}}$ review (**BB**)|
