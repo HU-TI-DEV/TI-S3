@@ -88,8 +88,8 @@ Krokusvakantie
 | --- |  --- |
 | ma  | **Start sprint** <br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**TM**) |
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
-| wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB, HP**) |
-| do  | ${\color{green}\text{Project}}$ review (**BB**)|
+| wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HP & HS**) |
+| do  | ${\color{green}\text{Project}}$ review (**HS**)|
 
 ### Onderwijsweek C7 (16-03-2026)
 
