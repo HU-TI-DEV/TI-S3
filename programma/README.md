@@ -98,7 +98,7 @@ Krokusvakantie
 | ma  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |
 | wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) |
-| do  | ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) |
+| do  | ${\color{blue}\text{ESP}}$ Peilmoment 1 bijwerken & inleveren (**geen docent**)  |
 
 ### Onderwijsweek C8 (23-03-2026)
 
@@ -107,7 +107,7 @@ Krokusvakantie
 | ma  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HP**)|
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2**|
+| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2** [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)|
 
 ### Onderwijsweek C9 (30-03-2026)
 
