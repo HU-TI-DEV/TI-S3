@@ -20,7 +20,7 @@
 # Methoden 
 ``Per deelvraag een sub-hoofdstuk. Geef per deelvraag de methode van je gegevensverzameling aan. Bijvoorbeeld bronnen raadplegen (boek, link, datasheet, interview). Geef aan welke. Bijvoorbeeld experimenteren. Beschrijf het beoogde experiment.``
 
-# Bevindingen
+# Analyse
 ``Presenteer per deelvraag de gegevens die je hebt verzameld en de berekeningen die je eventueel hebt gedaan.``
 
 # Conclusie
