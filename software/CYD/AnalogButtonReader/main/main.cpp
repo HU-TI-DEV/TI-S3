@@ -4,8 +4,9 @@ static const char* TAG = "MAIN";
 
 extern "C" void app_main() {
     // Analog keypad
-    AnalogButtonReader buttons(ADC1_CHANNEL_7, GPIO_NUM_35, 200); // 200 ms poll
-
+    //AnalogButtonReader buttons(ADC1_CHANNEL_7, GPIO_NUM_35, 200); // 200 ms poll
+    AnalogButtonReader buttons(ADC2_CHANNEL_7, GPIO_NUM_27, 200); // 200 ms poll
+    ESP_LOGI(TAG, "MAIN analog button reader");
     buttons.setCallback([&](Button button){ // How do we call this function and why do we use it here?
         //switch (button) {
             // implement this switch case

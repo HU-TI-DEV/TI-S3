@@ -23,7 +23,8 @@ enum class Button {
 
 class AnalogButtonReader {
 public:
-    AnalogButtonReader(adc1_channel_t channel, gpio_num_t pin, uint32_t interval_ms);
+    //AnalogButtonReader(adc1_channel_t channel, gpio_num_t pin, uint32_t interval_ms);
+    AnalogButtonReader(adc2_channel_t channel, gpio_num_t pin, uint32_t interval_ms);
     ~AnalogButtonReader();
 
     void start();
@@ -32,7 +33,8 @@ public:
     void setCallback(std::function<void(Button)> callback);
 
 private:
-    adc1_channel_t adc_channel_;
+    //adc1_channel_t adc_channel_;
+    adc2_channel_t adc_channel_;
     gpio_num_t gpio_pin_;
     uint32_t interval_ms_;
     TaskHandle_t task_handle_;

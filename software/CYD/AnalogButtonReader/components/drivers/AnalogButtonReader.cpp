@@ -16,19 +16,21 @@ struct ButtonThreshold {
 
 // this vector is incomplete
 static const std::vector<ButtonThreshold> button_thresholds = {
-    {0, 0, Button::UP},
-    {0, 0, Button::DOWN},
-    {0, 0, Button::RIGHT},
-    {0, 0, Button::LEFT},
-    {0, 0, Button::FIRE},
+    {100, 200, Button::UP},
+    {300, 400, Button::DOWN},
+    {500, 600, Button::RIGHT},
+    {700, 800, Button::LEFT},
+    {900, 999, Button::FIRE},
 };
 
-AnalogButtonReader::AnalogButtonReader(adc1_channel_t channel, gpio_num_t pin, uint32_t interval_ms)
+//AnalogButtonReader::AnalogButtonReader(adc1_channel_t channel, gpio_num_t pin, uint32_t interval_ms)
+AnalogButtonReader::AnalogButtonReader(adc2_channel_t channel, gpio_num_t pin, uint32_t interval_ms)
     : adc_channel_(channel), gpio_pin_(pin), interval_ms_(interval_ms),
       task_handle_(nullptr), running_(false), button_callback_(nullptr) {
 
-    adc1_config_width(ADC_WIDTH_BIT_11);
-    adc1_config_channel_atten(adc_channel_, ADC_ATTEN_DB_12);
+    //adc1_config_width(ADC_WIDTH_BIT_11);
+    //adc1_config_channel_atten(adc_channel_, ADC_ATTEN_DB_12);
+    adc2_config_channel_atten(adc_channel_, ADC_ATTEN_DB_12);
 }
 
 AnalogButtonReader::~AnalogButtonReader() {
@@ -65,7 +67,10 @@ void AnalogButtonReader::run() {
     Button lastButton = Button::NONE;
 
     while (running_) {
-        int raw = adc1_get_raw(adc_channel_);
+        //int raw = adc1_get_raw(adc_channel_);
+        int raw = 123456;
+        esp_err_t ex = adc2_get_raw(adc_channel_, ADC_WIDTH_BIT_11, &raw);
+        ESP_LOGI(TAG, "Button ADC Raw: %d", raw);
         Button currentButton = detectButton(raw);
 
         if (currentButton != lastButton) {
