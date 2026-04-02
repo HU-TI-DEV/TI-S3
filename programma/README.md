@@ -133,8 +133,8 @@ Krokusvakantie
 | --- |  --- |
 | ma  |  |
 | di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
-| wo  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) |
-| do  | 2e Peilmoment<br> Value sensitive design workshop IN LOKAAL S4, 1.096|
+| wo  | Value sensitive design workshop (**BB**) |
+| do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) 2e Peilmoment<br> |
 
 ### Onderwijsweek D2 (20-04-2026)
 
