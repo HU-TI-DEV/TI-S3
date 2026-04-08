@@ -60,13 +60,6 @@ De naamgeving van functies en synchronisatiemechanismen waarmee objecten met elk
 **<sup>4</sup>** Dit zijn publieke functies van een **andere** std/taak. Ze worden benoemd in de << interface >> van de **andere** std. De instantiatie van een object van die andere STD/taal wordt in het schema aangegeven met **objectName**. Ze worden aangeroepen in **deze** std/task.  
 **<sup>5</sup>** De queue "is" van de **andere** std/taak.
 
-## Mapping Communicatiemechanismen
 
-De bovenstaande communicatiemechanismen mogen op de volgende plekken voorkomen in de overgangen.
-|event |[guard]| / action|
-|-|-|-|
-|(1)(2)(3)|(4)(6)  |(5)(6) | 
-
-(4), (5) en (6) kunnen ook worden gebruikt in de body van de state (als een entry / event).
 
 
