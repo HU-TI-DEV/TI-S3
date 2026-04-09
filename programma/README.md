@@ -131,7 +131,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  |
+| ma  | Werken aan game (**BB**) |
 | di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
 | wo  | Value sensitive design workshop (**BB**) |
 | do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) 2e Peilmoment<br> |
