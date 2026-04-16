@@ -163,8 +163,8 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  |  Game Assessment (**MV**, en **BB**) |
-| wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
+| di  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
+| wo  | Game Assessment (**MV**, en **BB**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5** Onderzoek draft|
 
 ### Onderwijsweek D6 (18-05-2026)
