@@ -154,7 +154,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| di  | Game Assessment (**MV**, en **BB**) |
+| di  | Bevrijdingsdag|
 | wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  |
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
@@ -163,7 +163,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| di  |  Game Assessment (**MV**, en **BB**) |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5** Onderzoek draft|
 
