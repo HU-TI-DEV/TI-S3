@@ -153,9 +153,9 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
+| ma  | Feedback op game (**MV**)|
 | di  | Bevrijdingsdag|
-| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  |
+| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
 ### Onderwijsweek D5 (11-05-2026)
