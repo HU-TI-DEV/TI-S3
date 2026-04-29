@@ -1,10 +1,10 @@
-/*! \brief Headerfile for Ili9341 Display wrapper
- * A series of projects to create a basic game-loop. Based on ./LCD/Drawables example code.
+/*! \brief Headerfile for Ili9341 Display wrapper.
+ *
+ *   A series of projects to create a basic game-loop. Based on ./LCD/Drawables example code.
  *
  *  - Let the primitives make use of the backbuffer
- *  - Added a present() function to flus backbuffer to the screen
- *  - Added a Moving rectangle.
- *  - Added analog key input
+ *  - Added a present() function to flush the backbuffer to the screen
+ *  - Added Analog key input
  * 
  *  Use a backbuffer to reduce flickering, present the whole frame at once, and smooth motion (when combined with frame timer)
  * 
@@ -27,8 +27,6 @@
 #include "Triangle.hpp"
 #include <vector>
 
-// #include "MovingRect.hpp"
-
 class Ili9341Display {
 public:
     Ili9341Display(int mosi, int sclk, int cs, int dc, int rst, int bl);
@@ -44,7 +42,7 @@ public:
     void backlightOff();
     void diagnostics();
     void diagnostics_drawables();
-    uint16_t rbg565(uint8_t r, uint8_t b, uint8_t g);
+    uint16_t rgb565(uint8_t r, uint8_t g, uint8_t b);
 
     // Drawing Primitives
     void drawPixel(int x, int y, uint16_t color);
@@ -58,7 +56,7 @@ public:
 
     void present(); // push the backbuffer to the LCD panel
 private:
-    static constexpr const char* TAG = "Game_move";
+    static constexpr const char* TAG = "Game_sprites";
 
     void setupSPI();
     void setupPanel();
