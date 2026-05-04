@@ -155,7 +155,7 @@ Meivakantie
 | --- |  --- |
 | ma  | Feedback op game (**MV**)|
 | di  | Bevrijdingsdag|
-| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
+| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
 ### Onderwijsweek D5 (11-05-2026)
@@ -224,3 +224,10 @@ Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of
 Verbeterweek 2
 
 Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
+\
+
+
+
+
+${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**)
