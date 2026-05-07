@@ -180,8 +180,8 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project(**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project(**BB**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 6**  IN LOKAAL S4, 1.096|
 
@@ -189,8 +189,8 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
