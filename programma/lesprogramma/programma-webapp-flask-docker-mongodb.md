@@ -19,7 +19,7 @@ Scan alvast wat door:
 en/of kijk [deze inleidende video](https://youtu.be/P6nkv4Sgedo)
 
 ## Tijdens en na de les
-Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht:  
+Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende opdracht:  
 
 ### Canvas Opdracht "Ontwikkelserver met Webapplicatie"
 Gebruik voor deze opdracht het materiaal uit de voorbereiding.  
