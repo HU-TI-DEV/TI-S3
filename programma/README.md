@@ -143,7 +143,7 @@ Krokusvakantie
 | ma  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
 | wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 4**|
-| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
+| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ [Lambda](../software/lambdas/), [constexpr](../software/constexpr/), [templates](../software/templates/) (**HP**)|
 
 ### Onderwijsweek D3 (27-04-2026)
 
