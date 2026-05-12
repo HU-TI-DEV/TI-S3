@@ -1,4 +1,4 @@
-# constexpr <!-- omit in toc -->
+# C++ constexpr <!-- omit in toc -->
 
 * Bron: V2CPSE1 reader, TI, HU.nl
 * Voorbeelden: [v2cpse1-examples](https://github.com/HU-TI-DEV/v2cpse1-examples)
@@ -305,12 +305,12 @@ class sine_lookup {
         values{}
         {
             for( int i = 0; i < 360; ++i ){
-            values[ i ] = scaled_sine_from_degrees( i );
+                values[ i ] = scaled_sine_from_degrees( i );
+            }
         }
 
         constexpr int get( int n ) const {
             return values[ n ];
-        }
         }
 };
 
