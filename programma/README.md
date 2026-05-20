@@ -143,7 +143,7 @@ Krokusvakantie
 | ma  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
 | wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 4**|
-| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
+| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ [Lambda](../software/lambdas/), [constexpr](../software/constexpr/), [templates](../software/templates/) (**HP**)|
 
 ### Onderwijsweek D3 (27-04-2026)
 
@@ -153,9 +153,9 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**) & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| di  | Game Assessment (**MV**, en **BB**) |
-| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  |
+| ma  | Feedback op game (**MV**)|
+| di  | Bevrijdingsdag|
+| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
 | do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
 
 ### Onderwijsweek D5 (11-05-2026)
@@ -163,8 +163,8 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
+| di  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
+| wo  | Game Assessment (**MV**, en **BB**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5** Onderzoek draft|
 
 ### Onderwijsweek D6 (18-05-2026)
@@ -180,8 +180,8 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project(**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| ma  | Vrij - Pinksteren |
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 6**  IN LOKAAL S4, 1.096|
 
@@ -189,8 +189,8 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
@@ -224,3 +224,10 @@ Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of
 Verbeterweek 2
 
 Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
+\
+
+
+
+
+${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**)

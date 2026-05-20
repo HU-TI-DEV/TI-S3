@@ -19,7 +19,7 @@ Scan alvast wat door:
 en/of kijk [deze inleidende video](https://youtu.be/P6nkv4Sgedo)
 
 ## Tijdens en na de les
-Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende Canvas opdracht:  
+Tijdens en na de les zet ieder zijn individuele ontwikkelserver met webapplicatie op. Dat komt neer op de volgende opdracht:  
 
 ### Canvas Opdracht "Ontwikkelserver met Webapplicatie"
 Gebruik voor deze opdracht het materiaal uit de voorbereiding.  
@@ -45,6 +45,5 @@ Evenals het opzetten van de ESP32 omgeving kan het opzetten van de webapplicatie
   1) Installeer een Virtual Machine (met Linux ubuntu 22.04) op [Azure](https://github.com/kwintex/Azure4StudentProjects/blob/master/Documentation/UserManual.md#students)
   2) [Installeer nano](../../infrastructuur/Azure_Virtual_Machine/README.md)
   3) [Installeer Docker op Ubuntu](../../infrastructuur/Azure_Virtual_Machine/Docker_on_Ubuntu.md)
-  4) [Installeer Docker Compose](../../infrastructuur/Azure_Virtual_Machine/Docker_Compose_on_Ubuntu.md)
-  5) [Installeer de WebApp Gomoku](../../infrastructuur/ServerMetWebApplicatie/README.md)
-  6) [Speel een spelletje](http://9.163.104.14:5001/gomoku/start)
+  4) [Installeer de WebApp Gomoku](../../infrastructuur/ServerMetWebApplicatie/README.md)
+  5) [Speel een spelletje](http://9.163.104.14:5001/gomoku/start)
