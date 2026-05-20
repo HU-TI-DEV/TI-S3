@@ -16,7 +16,7 @@
   - Color bit-order:
     - `FEDCBA9876543210` - bit position
     - `gggRRRrrBBBbbGGG` - color
-    - -> this is RGB, but byte-swapped
+    - -> this is *RGB*, but byte-swapped
 - R21: LDR on front side
 - LED1: RGB LED on back side
 - RST button (black)
@@ -49,10 +49,10 @@ MAC: ec:e3:34:1f:01:70
   - ILI9341 display controller
   - Backlight-pin: **IO27**
   - Color: **inverted**
-  - Color bit-order:
+  - Color bit-order (when tested with LCD_RGB_ELEMENT_ORDER_RGB settings):
     - `FEDCBA9876543210` - bit position
     - `ggxBBBbbRRRrrGGG` - color (x=grey)
-    - -> this is BGR, but byte-swapped
+    - -> this is *BGR*, but byte-swapped, if we use 'LCD_RGB_ELEMENT_ORDER_BGR' we can re-use the RGB colors
 - LED1: RGB LED on **front** side
 - R21: LDR on front side
 - SW1 switch (power-on from battery?)

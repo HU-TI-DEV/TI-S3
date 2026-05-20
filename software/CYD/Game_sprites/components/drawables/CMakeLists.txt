@@ -7,5 +7,5 @@ idf_component_register(
         "Circle.cpp"
         "Triangle.cpp"
     INCLUDE_DIRS "."
-    REQUIRES main
+    REQUIRES ili9341_display
 )
