@@ -27,6 +27,9 @@
 #include "Triangle.hpp"
 #include <vector>
 
+// comment this out for the 2.4 inch display (or change it to DISPLAY24)
+#define DISPLAY28
+
 class Ili9341Display {
 public:
     Ili9341Display(int mosi, int sclk, int cs, int dc, int rst, int bl);

@@ -1,7 +1,7 @@
 /*! \brief Implementation for Ili9341 Display wrapper
  *
  *  This is a demonstration of a more game-loop-ready implementation of the
- * display wrapper
+ *  display wrapper
  *
  */
 #include "Ili9341Display.hpp"
@@ -32,92 +32,123 @@ Ili9341Display::~Ili9341Display() {
 void Ili9341Display::init() {
   setupSPI();
   setupPanel();
-  // Allocate full-screen backbuffer that we can use
+  // Allocate full-screen backbuffer
   backbuffer_len_ = WIDTH * HEIGHT;
   size_t sz_buffer = backbuffer_len_ * sizeof(uint16_t);
   backbuffer_ =
       static_cast<uint16_t*>(heap_caps_malloc(sz_buffer, MALLOC_CAP_DMA));
   if (!backbuffer_) {
     ESP_LOGE(TAG, "Failed to allocate %d-byte backbuffer", (int)(sz_buffer));
-  } else {
-    ESP_LOGI(TAG, "Backbuffer OK: %d bytes", (int)(sz_buffer));
   }
   backlightOn();
 }
 
-void Ili9341Display::setupSPI() {
-  spi_bus_config_t buscfg = {.mosi_io_num = _mosi,
-                             .miso_io_num = -1,
-                             .sclk_io_num = _sclk,
-                             .quadwp_io_num = -1,
-                             .quadhd_io_num = -1,
-                             .data4_io_num = -1,
-                             .data5_io_num = -1,
-                             .data6_io_num = -1,
-                             .data7_io_num = -1,
-                             .data_io_default_level = false,
-                             .max_transfer_sz = WIDTH * HEIGHT * 2 + 8,
-                             .flags = SPICOMMON_BUSFLAG_MASTER,
-                             .isr_cpu_id = ESP_INTR_CPU_AFFINITY_AUTO,
-                             .intr_flags = 0};
-  ESP_LOGI(TAG, "Setup SPI");
-  ESP_ERROR_CHECK(spi_bus_initialize(_host, &buscfg, SPI_DMA_CH_AUTO));
+void Ili9341Display::setupSPI()
+{
+    spi_bus_config_t buscfg = {
+        .mosi_io_num = _mosi,
+        .miso_io_num = -1,
+        .sclk_io_num = _sclk,
+        .quadwp_io_num = -1,
+        .quadhd_io_num = -1,
+        .data4_io_num = -1,
+        .data5_io_num = -1,
+        .data6_io_num = -1,
+        .data7_io_num = -1,
+        .data_io_default_level = false,
+        .max_transfer_sz = WIDTH * HEIGHT * 2 + 8,
+        .flags = SPICOMMON_BUSFLAG_MASTER,
+        .isr_cpu_id = ESP_INTR_CPU_AFFINITY_AUTO,
+        .intr_flags = 0
+    };
 
-  esp_lcd_panel_io_spi_config_t io_config = {
-      .cs_gpio_num = _cs,
-      .dc_gpio_num = _dc,
-      .spi_mode = 0,
-      .pclk_hz = 30 * 1000 * 1000,  // 30 MHz
-      .trans_queue_depth = 10,
-      .on_color_trans_done = NULL,
-      .user_ctx = NULL,
-      .lcd_cmd_bits = 8,
-      .lcd_param_bits = 8,
-      .cs_ena_pretrans = 0,
-      .cs_ena_posttrans = 0,
-      .flags = {.dc_high_on_cmd = 0,
-                .dc_low_on_data = 0,
-                .dc_low_on_param = 0,
-                .octal_mode = 0,
-                .quad_mode = 0,
-                .sio_mode = 0,
-                .lsb_first = 0,
-                .cs_high_active = 0}};
-  ESP_LOGI(TAG, "Setup LCD panel I/O to SPI");
-  ESP_ERROR_CHECK(esp_lcd_new_panel_io_spi(_host, &io_config, &_io));
+    ESP_LOGI(TAG, "Setup SPI");
+    ESP_ERROR_CHECK(spi_bus_initialize(_host, &buscfg, SPI_DMA_CH_AUTO));
+
+    esp_lcd_panel_io_spi_config_t io_config = {
+        .cs_gpio_num = _cs,
+        .dc_gpio_num = _dc,
+        .spi_mode = 0,
+        .pclk_hz = 30 * 1000 * 1000, // 30 MHz
+        .trans_queue_depth = 10,
+        .on_color_trans_done = NULL,
+        .user_ctx = NULL,
+        .lcd_cmd_bits = 8,
+        .lcd_param_bits = 8,
+        .cs_ena_pretrans = 0,
+        .cs_ena_posttrans = 0,
+        .flags = {
+            .dc_high_on_cmd = 0,
+            .dc_low_on_data = 0,
+            .dc_low_on_param = 0,
+            .octal_mode = 0,
+            .quad_mode = 0,
+            .sio_mode = 0,
+            .lsb_first = 0,
+            .cs_high_active = 0
+        }
+    };
+
+    ESP_LOGI(TAG, "Setup LCD panel io to SPI");
+    ESP_ERROR_CHECK(esp_lcd_new_panel_io_spi(_host, &io_config, &_io));
 }
 
 void Ili9341Display::setupPanel() {
+
+#ifdef DISPLAY28 // 2.8 inch display
+  const bool SWAP_AXES = true;
+  const bool MIRROR_X = true;
+  const bool MIRROR_Y = true;
+  const bool INVERT_COLOR = true;
+  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_RGB
+#else // 2.4 inch display
+  const bool SWAP_AXES = true;
+  const bool MIRROR_X = false;
+  const bool MIRROR_Y = true;
+  const bool INVERT_COLOR = false;
+  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_BGR
+#endif
+
   esp_lcd_panel_dev_config_t panel_config = {
       .reset_gpio_num = _rst,
-      .rgb_ele_order = LCD_RGB_ELEMENT_ORDER_BGR,
-      .data_endian = LCD_RGB_DATA_ENDIAN_BIG,
+      .rgb_ele_order = LCD_ELEMENT_ORDER,
+      .data_endian = LCD_RGB_DATA_ENDIAN_BIG, //changing this seems to have no effect
       .bits_per_pixel = 16,
       .flags = {.reset_active_high = 0},
       .vendor_config = NULL};
 
-  // Create raw panel object without auto init
-  ESP_ERROR_CHECK(esp_lcd_new_panel_ili9341(_io, &panel_config, &_panel));
-  ESP_ERROR_CHECK(esp_lcd_panel_reset(_panel));
-  ESP_ERROR_CHECK(esp_lcd_panel_init(_panel));
-  // Landscape, origin top-left:
-  ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(_panel, true));
-  // 'mirror' parameters are mirror_x and mirror_y
-  ESP_ERROR_CHECK(esp_lcd_panel_mirror(_panel, true, true));
-  // No gaps between content and borders
-  ESP_ERROR_CHECK(esp_lcd_panel_set_gap(_panel, 0, 0));
-  // invert color
-  ESP_ERROR_CHECK(esp_lcd_panel_invert_color(_panel, 1));
-  ESP_LOGI(TAG, "ESP LCD panel setup is done.");
+    // Create raw panel object without auto init
+    ESP_ERROR_CHECK(esp_lcd_new_panel_ili9341(_io, &panel_config, &_panel));
+
+    ESP_ERROR_CHECK(esp_lcd_panel_reset(_panel));
+    ESP_ERROR_CHECK(esp_lcd_panel_init(_panel));
+
+    // Landscape, origin top-left, invert colors if necessary
+    ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(_panel, SWAP_AXES));
+    ESP_ERROR_CHECK(esp_lcd_panel_mirror(_panel, MIRROR_X, MIRROR_Y));
+    ESP_ERROR_CHECK(esp_lcd_panel_set_gap(_panel, 0, 0));
+    ESP_ERROR_CHECK(esp_lcd_panel_invert_color(_panel, INVERT_COLOR));
+
+    ESP_LOGI(TAG, "ESP LCD-panel setup complete.");
 }
 
-// Push the current backbuffer (frame) to the LCD panel
+/*! \brief convert 24-bit RGB into 16-bit RGB565 format
+ *
+ *  RGB565 is commonly used in LCD displays
+ */
+uint16_t Ili9341Display::rgb565(uint8_t r, uint8_t g, uint8_t b)
+{
+    // RGB colors are byte-swapped
+    return ((g & 0x1C) << 11) | ((r & 0xF8) << 5) | ((b & 0xF8) >> 0) | ((g & 0xE0) >> 5);
+}
+
+/// @brief Push the current backbuffer (frame) to the LCD panel
 void Ili9341Display::present() {
   if (!_panel) {
     ESP_LOGE(TAG, "present: _panel is NULL");
     return;
   }
-  // Push the backbuffer to the panel
+  // Trasnfer the backbuffer to the panel
   esp_err_t err =
       esp_lcd_panel_draw_bitmap(_panel, 0, 0, WIDTH, HEIGHT, backbuffer_);
   // slight delay before new draw transfer is done.
@@ -128,7 +159,7 @@ void Ili9341Display::present() {
   }
 }
 
-// Fill the screen buffer with a single color
+/// @brief Fill the screen buffer with a single color
 void Ili9341Display::fillScreen(uint16_t color) {
   if (!hasBuffer()) {
     ESP_LOGE(TAG, "fillScreen: backbuffer not allocated");
@@ -164,21 +195,10 @@ void Ili9341Display::backlightOff() {
   ESP_LOGI(TAG, "backlightOff: OK");
 }
 
-/*! \brief Convert 24-bit RGB into 16-bit RGB565 format.
- *
- *  RGB565 is commonly used in LCD displays
- */
-uint16_t Ili9341Display::rgb565(uint8_t r, uint8_t g, uint8_t b) {
-  uint16_t color = ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3);
-  // swap the color bytes
-  // (LCD_RGB_DATA_ENDIAN_BIG seems not to have any effect)
-  return ((color >> 8) & 0xFF) | ((color & 0xFF) << 8);
-}
-
 void Ili9341Display::diagnostics() {
-  uint16_t red = rgb565(0xFF, 0x00, 0x00);
-  uint16_t green = rgb565(0x00, 0xFF, 0x00);
-  uint16_t blue = rgb565(0x00, 0x00, 0xFF);
+  uint16_t red     = rgb565(0xFF, 0x00, 0x00);
+  uint16_t green   = rgb565(0x00, 0xFF, 0x00);
+  uint16_t blue    = rgb565(0x00, 0x00, 0xFF);
 
   ESP_LOGI(TAG, "Diagnostics Start");
   ESP_LOGI(TAG, "MOSI GPIO: %d", _mosi);
@@ -221,22 +241,22 @@ void Ili9341Display::diagnostics() {
   present();
   vTaskDelay(pdMS_TO_TICKS(1000));
 
-  ESP_LOGI(TAG, "top (y=0)");
+  ESP_LOGI(TAG, "BLUE top (y=0)");
   drawLine(0, 0, WIDTH - 1, 0, blue);
   present();
   vTaskDelay(pdMS_TO_TICKS(1000));
 
-  ESP_LOGI(TAG, "bottom");
+  ESP_LOGI(TAG, "BLUE bottom");
   drawLine(0, HEIGHT - 1, WIDTH - 1, HEIGHT - 1, blue);
   present();
   vTaskDelay(pdMS_TO_TICKS(1000));
 
-  ESP_LOGI(TAG, "left (x=0)");
+  ESP_LOGI(TAG, "BLUE left (x=0)");
   drawLine(0, 0, 0, HEIGHT - 1, blue);
   present();
   vTaskDelay(pdMS_TO_TICKS(1000));
 
-  ESP_LOGI(TAG, "right");
+  ESP_LOGI(TAG, "BLUE right");
   drawLine(WIDTH - 1, 0, WIDTH - 1, HEIGHT - 1, blue);
   present();
   vTaskDelay(pdMS_TO_TICKS(1000));
@@ -250,14 +270,14 @@ void Ili9341Display::diagnostics() {
 }
 
 void Ili9341Display::diagnostics_drawables() {
-  uint16_t red = rgb565(0xFF, 0x00, 0x00);
-  uint16_t green = rgb565(0x00, 0xFF, 0x00);
-  uint16_t blue = rgb565(0x00, 0x00, 0xFF);
-  uint16_t yellow = rgb565(0xFF, 0xFF, 0x00);
+  uint16_t red     = rgb565(0xFF, 0x00, 0x00);
+  uint16_t green   = rgb565(0x00, 0xFF, 0x00);
+  uint16_t blue    = rgb565(0x00, 0x00, 0xFF);
+  uint16_t yellow  = rgb565(0xFF, 0xFF, 0x00);
   uint16_t magenta = rgb565(0xFF, 0x00, 0xFF);
-  uint16_t cyan = rgb565(0x00, 0xFF, 0xFF);
-  uint16_t orange = rgb565(0xFF, 0xCC, 0x00);
-  uint16_t white = rgb565(0xFF, 0xFF, 0xFF);
+  uint16_t cyan    = rgb565(0x00, 0xFF, 0xFF);
+  uint16_t orange  = rgb565(0xFF, 0xCC, 0x00);
+  uint16_t white   = rgb565(0xFF, 0xFF, 0xFF);
 
   std::vector<Drawable*> shapes = {
       new Line(10, 10, 120, 10, red),
@@ -310,7 +330,7 @@ void Ili9341Display::drawPixel(int x, int y, uint16_t color) {
 }
 
 void Ili9341Display::drawLine(int x0, int y0, int x1, int y1, uint16_t color) {
-  // PLEASE IMPLEMENT THIS FUNCTION using the Bresenham Line Algorithm
+  // TODO: PLEASE IMPLEMENT THIS FUNCTION using the Bresenham Line Algorithm
 
   // Stopgap: horizontal and vertical lines (one direction only)
   if (y0 == y1) { // horizontal line (only left to right)
@@ -329,12 +349,10 @@ void Ili9341Display::drawLine(int x0, int y0, int x1, int y1, uint16_t color) {
 void Ili9341Display::drawRectangle(int x, int y, int w, int h, uint16_t color,
                                    bool fill) {
   if (fill) {
-    // 2026-03-10-Hagen-Patzke
     for (int o = 0; o <= h; o++) {
       drawLine(x, y + o, x + w, y + o, color);
     }
   } else {
-    // 2026-03-10-Hagen-Patzke
     drawLine(x, y, x + w, y, color);          // right
     drawLine(x + w, y, x + w, y + h, color);  // down
     drawLine(x + w, y + h, x, y + h, color);  // left
@@ -345,7 +363,7 @@ void Ili9341Display::drawRectangle(int x, int y, int w, int h, uint16_t color,
 void Ili9341Display::drawTriangle(int x0, int y0, int x1, int y1, int x2,
                                   int y2, uint16_t color, bool fill) {
   if (fill) {
-    // PLEASE IMPLEMENT THIS FUNCTION
+    // TODO: PLEASE IMPLEMENT THIS FUNCTION
   } else {
     drawLine(x0, y0, x1, y1, color);
     drawLine(x1, y1, x2, y2, color);
@@ -377,7 +395,7 @@ void Ili9341Display::drawCircle(int x0, int y0, int r, uint16_t color, bool fill
       }
     }
   } else {
-    // PLEASE IMPLEMENT THIS FUNCTION
+    // TODO: PLEASE IMPLEMENT THIS FUNCTION
   }
 }
 // end of Drawing Primitives
@@ -417,9 +435,9 @@ void Ili9341Display::drawBitmapRGB565(int x, int y, int w, int h, const uint8_t*
     uint16_t* dst = backbuffer_ + static_cast<size_t>(dstY) * dstRowPixels + dstX;
 
     // Compute source pointer (byte stream, little-endian RGB565)
-    const uint8_t* srow = src +
-                          (static_cast<size_t>(srcSkipY + row) * srcRowBytes) +
-                          static_cast<size_t>(srcSkipX) * 2;
+    const uint8_t* srow = src
+                          + (static_cast<size_t>(srcSkipY + row) * srcRowBytes)
+                          + (static_cast<size_t>(srcSkipX) * 2);
 
     // Copy one clipped scanline (copyW pixels -> copyW*2 bytes)
     std::memcpy(dst, srow, static_cast<size_t>(copyW) * 2);
