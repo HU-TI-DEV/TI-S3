@@ -182,8 +182,8 @@ Meivakantie
 | --- |  --- |
 | ma  | Vrij - Pinksteren |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 6**  IN LOKAAL S4, 1.096|
+| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen Game (**MV**) |
+| do  | ${\color{green}\text{Project}}$ (**TM**) **Einde Sprint 6** |
 
 ### Onderwijsweek D8 (01-06-2026)
 
@@ -191,7 +191,7 @@ Meivakantie
 | --- |  --- |
 | ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D9 (08-06-2026)

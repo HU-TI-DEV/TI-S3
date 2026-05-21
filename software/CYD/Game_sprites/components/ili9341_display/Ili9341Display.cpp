@@ -100,13 +100,13 @@ void Ili9341Display::setupPanel() {
   const bool MIRROR_X = true;
   const bool MIRROR_Y = true;
   const bool INVERT_COLOR = true;
-  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_RGB
+  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_BGR
 #else // 2.4 inch display
   const bool SWAP_AXES = true;
   const bool MIRROR_X = false;
   const bool MIRROR_Y = true;
   const bool INVERT_COLOR = false;
-  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_BGR
+  #define LCD_ELEMENT_ORDER LCD_RGB_ELEMENT_ORDER_RGB
 #endif
 
   esp_lcd_panel_dev_config_t panel_config = {
@@ -138,8 +138,13 @@ void Ili9341Display::setupPanel() {
  */
 uint16_t Ili9341Display::rgb565(uint8_t r, uint8_t g, uint8_t b)
 {
-    // RGB colors are byte-swapped
+#ifdef COLOR_ORDER_BGR
+    // if colors are byte-swapped BGR
     return ((g & 0x1C) << 11) | ((r & 0xF8) << 5) | ((b & 0xF8) >> 0) | ((g & 0xE0) >> 5);
+#else
+    // colors are byte-swapped RGB
+    return ((g & 0x1C) << 11) | ((b & 0xF8) << 5) | ((r & 0xF8) >> 0) | ((g & 0xE0) >> 5);
+#endif
 }
 
 /// @brief Push the current backbuffer (frame) to the LCD panel
