@@ -16,7 +16,8 @@
   - Color bit-order:
     - `FEDCBA9876543210` - bit position
     - `gggRRRrrBBBbbGGG` - color
-    - -> this is *RGB*, but byte-swapped
+    - -> this is byte-swapped *BGR*
+    - -> we can use the RGB bit order if we set the display driver to BGR
 - R21: LDR on front side
 - LED1: RGB LED on back side
 - RST button (black)
@@ -29,7 +30,7 @@
   - P3 (4pin): GND/IO35/IO22/IO21
   - P4 (2pin): SPK - Speaker 2 pin
 
-Terminal output (your MAC is different!):
+Terminal output (your MAC address is different!):
 
 ```text
 Chip is ESP32-D0WD-V3 (revision v3.1)
@@ -52,7 +53,7 @@ MAC: ec:e3:34:1f:01:70
   - Color bit-order (when tested with LCD_RGB_ELEMENT_ORDER_RGB settings):
     - `FEDCBA9876543210` - bit position
     - `ggxBBBbbRRRrrGGG` - color (x=grey)
-    - -> this is *BGR*, but byte-swapped, if we use 'LCD_RGB_ELEMENT_ORDER_BGR' we can re-use the RGB colors
+    - -> this is byte-swapped *RGB*
 - LED1: RGB LED on **front** side
 - R21: LDR on front side
 - SW1 switch (power-on from battery?)
@@ -66,7 +67,7 @@ MAC: ec:e3:34:1f:01:70
   - CN1 (4pin): GND/IO22/IO21/3.3V
   - P3 (4pin): GND/IO35/IO22/IO21
 
-Terminal output (your MAC is different!):
+Terminal output (your MAC address is different!):
 
 ```text
 Chip is ESP32-D0WD-V3 (revision v3.1)
