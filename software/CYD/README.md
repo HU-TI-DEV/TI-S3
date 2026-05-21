@@ -2,6 +2,10 @@
 
 "Cheap Yellow Display"
 
+> Note: The color-fix has been applied to the ESP32-project `Game_sprites`.\
+> You can select the 2.8 or 2.4 inch display variant in the file\
+> `Game_sprites/components/ili9341_display/Ili9341Display.hpp`
+
 ## ESP32-2432S028 (2.8 inch)
 
 [AliExpress-Link](https://nl.aliexpress.com/item/1005009214166473.html)
