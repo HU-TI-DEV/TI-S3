@@ -196,6 +196,8 @@ Meivakantie
 
 ### Onderwijsweek D9 (08-06-2026)
 
+| Dag | Project & Kennissessie |
+| --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project |
 | di  | Game demo |
 | wo  | Reviewen verantwoordingsdocument (**BB**) |
