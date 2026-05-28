@@ -199,7 +199,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Game demo (**MV&BB**)|
-| di  | Werken aan project |
+| di  | Werken aan project (**HP**) |
 | wo  | Reviewen verantwoordingsdocument (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Werken aan project |
 
@@ -209,10 +209,10 @@ Demonstratie van project en Game.
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project |
-| di  | ${\color{green}\text{Project}}$ Werken aan project |
-| wo  | Reviewen verantwoordingsdocument (**HP & BB**) |
-| do  | **4e Peilmoment** (**BB**)  |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| wo  | Demo dag (**HP & BB**) |
+| do  | **4e Peilmoment**   |
 
 ### Onderwijsweek D11 (22-06-2026)
 
