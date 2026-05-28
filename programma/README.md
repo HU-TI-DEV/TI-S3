@@ -189,17 +189,17 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project / game (**BB**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project /game (**HP**)|
+| wo  | ${\color{green}\text{Project}}$ Werken aan project /game (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D9 (08-06-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project |
-| di  | Game demo |
+| ma  | ${\color{green}\text{Project}}$ Game demo (**MV&BB**)|
+| di  | Werken aan project |
 | wo  | Reviewen verantwoordingsdocument (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Werken aan project |
 
