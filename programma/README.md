@@ -198,7 +198,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Game demo (**MV&BB**)|
+| ma  | Game demo (**MV&BB**)|
 | di  | Werken aan project |
 | wo  | Reviewen verantwoordingsdocument (**BB**) |
 | do  | ${\color{green}\text{Project}}$ Werken aan project |
