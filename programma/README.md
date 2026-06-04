@@ -201,7 +201,7 @@ Meivakantie
 | ma  | Game demo (**MV&BB**)|
 | di  | Werken aan project (**HP**) |
 | wo  | Reviewen verantwoordingsdocument (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Werken aan project |
+| do  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) IN LOKAAL S4, 1.096 |
 
 ### Onderwijsweek D10 (15-06-2026)
 
@@ -211,7 +211,7 @@ Demonstratie van project en Game.
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| wo  | Demo dag (**HP & BB**) |
+| wo  | Demo dag (**HP & BB**) om 09:00 in het lab|
 | do  | **4e Peilmoment**   |
 
 ### Onderwijsweek D11 (22-06-2026)
