@@ -205,11 +205,9 @@ Meivakantie
 
 ### Onderwijsweek D10 (15-06-2026)
 
-Demonstratie van project en Game.
-
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| ma  | Game demo (**MV&BB**)|
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 | wo  | Demo dag (**HP & BB**) om 09:00 in het lab|
 | do  | **4e Peilmoment**   |
