@@ -125,7 +125,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  |**Start sprint 4** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
 | di  | |
-| wo  |  ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**)  |
+| wo  |  ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**MV**)  |
 | do  | ${\color{green}\text{Project}}$ review <br> (**HS & TM**) |
 
 ### Onderwijsweek A10 (2-11-2026)
@@ -133,7 +133,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Werken aan game (**BB & HS**) |
-| di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
+| di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**MV**) |
 | wo  | Value sensitive design workshop (**TM**) + werken aan verantwoordingsdocument.|
 | do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) 2e Peilmoment<br> ${\color{green}\text{Project}}$ **Einde sprint 4**, Show & tell (**HS & TM**) |
 
