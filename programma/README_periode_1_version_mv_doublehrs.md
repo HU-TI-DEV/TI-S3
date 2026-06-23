@@ -183,7 +183,7 @@ Werken aan game (**BB & HS**)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | **Start sprint 7** <br>${\color{green}\text{Project}}$ Werken aan project(**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig. |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
