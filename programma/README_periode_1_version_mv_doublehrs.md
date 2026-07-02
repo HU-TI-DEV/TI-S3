@@ -112,7 +112,7 @@ De docenten en begeleiders zijn:
 | ma  | VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**TM**)|
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)|
-| do  ||
+| do  |Value sensitive design workshop (**TM**)|
 
 
 ### Onderwijsweek A8 (19-10-2026)
@@ -136,7 +136,7 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  |${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
-| wo  | Value sensitive design workshop (**TM**) + werken aan verantwoordingsdocument.|
+| wo  |  + werken aan verantwoordingsdocument.|
 | do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)<br> **2e Peilmoment**  |
 
 Werken aan game (**BB & HS**)
