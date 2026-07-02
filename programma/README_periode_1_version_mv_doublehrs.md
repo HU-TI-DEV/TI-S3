@@ -102,7 +102,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | **Einde sprint 2** Zelfstandig werken <!-- Studie dag docenten -->  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|**Einde sprint 2** Zelfstandig werken|
-| wo  | **Start sprint 3** <br> ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)| idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)| idem |
 | do  | |
 
 ### Onderwijsweek A7 (12-10-2026)
