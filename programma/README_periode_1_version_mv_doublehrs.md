@@ -100,7 +100,7 @@ De docenten en begeleiders zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)!
+| ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | **Einde sprint 2**  (**GP & TM**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
 | do  | Value sensitive design workshop (**TM**)|
