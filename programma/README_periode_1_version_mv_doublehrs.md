@@ -98,12 +98,12 @@ De docenten en begeleiders zijn:
 
 ### Onderwijsweek A6 (05-10-2026)
 
-| Dag | klas A | klas B|
-| --- |  --- | --- |
-| ma  | **Einde sprint 2** Zelfstandig werken <!-- Studie dag docenten -->  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|**Einde sprint 2** Zelfstandig werken|
-| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)| idem |
-| do  | Value sensitive design workshop (**TM**)|idem|
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)!
+| di  | **Einde sprint 2**  (**GP & TM**)|
+| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
+| do  | Value sensitive design workshop (**TM**)|
 
 ### Onderwijsweek A7 (12-10-2026)
 
