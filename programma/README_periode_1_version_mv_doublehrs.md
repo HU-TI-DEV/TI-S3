@@ -94,7 +94,7 @@ De docenten en begeleiders zijn:
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**GP**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**TM**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) |idem |
-| do  | **Peilmoment 1 inleveren** ||
+| do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |idem|
 
 ### Onderwijsweek A6 (05-10-2026)
 
@@ -109,7 +109,7 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
+| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) + pitch project (5 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**TM**)|
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)| idem|
 | do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
