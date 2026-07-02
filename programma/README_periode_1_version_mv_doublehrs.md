@@ -139,7 +139,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  **Einde sprint 4** sprint demo (**GP & TM**) ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
-| di  | Feedback mogelijkheid (**MV en BB**) |
+| di  |  Feedback op game, klassikaal bespreken (**MV**)|
 | wo  |  <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)| 
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
@@ -147,10 +147,10 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Feedback op game (**MV**)|
+| ma  | Game assessments (**MV en BB**)|
 | di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
-| wo  |  Verantwoordingsdocument check (**BB**)  & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| do  | <br> ${\color{green}\text{Project}}$ **Einde sprint 5**, Show & tell (**GP & TM**) |
+| wo  |  Game assessments (**MV en BB**) |
+| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**)|
 
 ### Onderwijsweek B3 (23-11-2026)
 
