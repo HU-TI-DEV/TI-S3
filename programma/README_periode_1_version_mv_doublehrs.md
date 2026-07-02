@@ -100,7 +100,7 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | **Einde sprint 2** Zelfstandig werken <|-- Studie dag docenten -->  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
+| ma  | **Einde sprint 2** Zelfstandig werken <!-- Studie dag docenten -->  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|**Einde sprint 2** Zelfstandig werken|
 | wo  | **Start sprint 3** <br> ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)| idem |
 | do  | |
@@ -183,7 +183,7 @@ Werken aan game (**BB & HS**)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | **Start sprint 7** <br>${\color{green}\text{Project}}$ Werken aan project(**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <|-- Studie dag docenten -->  |
+| di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
