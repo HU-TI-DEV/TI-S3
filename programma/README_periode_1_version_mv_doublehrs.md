@@ -72,8 +72,8 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | Team coachgesprek per team (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
-| di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)|  Team coachgesprek per team (20 min) (**TM**) |
+| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
+| di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**)| idem |
 | do  |${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|idem|
 
@@ -101,7 +101,7 @@ De docenten en begeleiders zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| di  | **Einde sprint 2**  (**GP & TM**)|
+| di  | **Einde sprint 2**  (**GP & TM**) 8 minuten pitch (presentatie) per project team aan hele klas |
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
 | do  | Value sensitive design workshop (**TM**)|
 
@@ -109,8 +109,8 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) + pitch project (5 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
-| di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**TM**)|
+| ma  | Team coachgesprek per team (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
+| di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|Team coachgesprek per team (20 min)  (**TM**)|
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)| idem|
 | do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
 
