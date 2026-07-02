@@ -141,19 +141,19 @@ Herfstvakantie
 | ma  |  **Einde sprint 4** sprint demo (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
 | wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| 
-| do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
+| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**)|
 
 ### Onderwijsweek B2 (16-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Game assessments (**MV en BB**)|
-| di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
-| wo  |  Game assessments (**MV en BB**) |
-| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**)|
+| di  | Game assessments (**MV en BB**)|
+| wo  | Game assessments (**MV en BB**)|
+| do  | Game assessments (**MV en BB**)|
 
 ### Onderwijsweek B3 (23-11-2026)
-
+ 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | **Start sprint 5** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
@@ -165,7 +165,7 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
+| ma  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | do  |${\color{green}\text{Project}}$ **Einde sprint 6**, Show & tell (**GP & TM**) <br>**3e Peilmoment** |
