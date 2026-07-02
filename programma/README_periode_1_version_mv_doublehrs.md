@@ -158,7 +158,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | **Einde sprint 5** |
 | di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**)|
+| wo  |  |
 | do  |${\color{green}\text{Project}}$ review  (**GP & TM**) <br> Onderzoek draft|
 
 ### Onderwijsweek B4 (30-11-2026)
@@ -176,7 +176,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | **Einde sprint 6** BLA TM GP |
 | di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
-| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
+| wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
 ### Onderwijsweek B6 (14-12-2026)
@@ -184,8 +184,8 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | BLA TM GP |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| di  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
+| wo  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
 | do  | ${\color{green}\text{Project}}$ **Einde sprint 7**, Show & tell (**GP & TM**)<br>  |
 
 ### Onderwijsweek B7 (21-12-2026)
