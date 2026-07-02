@@ -66,7 +66,6 @@ De docenten en begeleiders zijn:
 | di  | ${\color{green}\text{Project}}$ Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**)<br>POP (**LB**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB**)  |
 | do  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
-|
 
 ### Onderwijsweek A3 (14-09-2026)
 
@@ -85,7 +84,6 @@ De docenten en begeleiders zijn:
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo (**TM**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB**) | idem |
 | do  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS**)| idem |
-
 
 ### Onderwijsweek A5 (28-09-2026)
 
@@ -114,7 +112,6 @@ De docenten en begeleiders zijn:
 | wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)| idem|
 | do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
 
-
 ### Onderwijsweek A8 (19-10-2026)
 
 Herfstvakantie
@@ -123,12 +120,10 @@ Herfstvakantie
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | **Einde sprint 3** sprint demo (**GP**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
-| di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo (**TM**)  |
+| ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
+| di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
 | do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) | idem|
-
-
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -147,7 +142,6 @@ Herfstvakantie
 | di  | Feedback mogelijkheid (**MV en BB**) |
 | wo  |  <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)| 
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
-
 
 ### Onderwijsweek B2 (16-11-2026)
 
