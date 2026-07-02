@@ -103,7 +103,7 @@ De docenten en begeleiders zijn:
 | ma  | **Einde sprint 2** Zelfstandig werken <!-- Studie dag docenten -->  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|**Einde sprint 2** Zelfstandig werken|
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)| idem |
-| do  | |
+| do  | Value sensitive design workshop (**TM**)|idem|
 
 ### Onderwijsweek A7 (12-10-2026)
 
@@ -111,8 +111,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**GP**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|VERHAAL OVER GAME (ZOEK LINK OP) + pitch project (5 min) (**TM**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)|
-| do  |Value sensitive design workshop (**TM**)|
+| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)| idem|
+| do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
 
 
 ### Onderwijsweek A8 (19-10-2026)
@@ -126,7 +126,7 @@ Herfstvakantie
 | ma  | **Einde sprint 3** sprint demo (**GP**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo (**TM**)  |
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
-| do  | [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) | idem|
+| do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) | idem|
 
 **Start sprint 4** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) 
 
@@ -136,10 +136,8 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  |${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
-| wo  |  + werken aan verantwoordingsdocument.|
-| do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)<br> **2e Peilmoment**  |
-
-Werken aan game (**BB & HS**)
+| wo  | |${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| idem |
+| do  | <br> **2e Peilmoment**  |idem |
 
 ### Onderwijsweek B1 (09-11-2026)
 
@@ -147,7 +145,7 @@ Werken aan game (**BB & HS**)
 | --- |  --- |
 | ma  | <br>**Start sprint 5** <br> ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
-| wo  |${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)|
+| wo  |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
 
