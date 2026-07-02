@@ -132,7 +132,7 @@ Herfstvakantie
 | ma  | sessie met teamcoach (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
 | wo  | ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| idem |
-| do  | <br> **2e Peilmoment**  |idem |
+| do  |  ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) <br> **2e Peilmoment**  |idem |
 
 ### Onderwijsweek B1 (09-11-2026)
 
