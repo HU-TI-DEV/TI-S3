@@ -135,15 +135,15 @@ Herfstvakantie
 | Dag | klas A | klas B|
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
-| ma  |${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
-| wo  | |${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| idem |
+| ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
+| wo  | ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| idem |
 | do  | <br> **2e Peilmoment**  |idem |
 
 ### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | <br>**Start sprint 5** <br> ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
+| ma  |  **Einde sprint 4** sprint demo (**GP & TM**) ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
 | wo  |  <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)| 
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
@@ -162,7 +162,7 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint 6** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| ma  | **Start sprint 5** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | di  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
 | wo  | Game Assessment (**MV**, en **BB**) |
 | do  |${\color{green}\text{Project}}$ review  (**GP & TM**) <br> Onderzoek draft|
@@ -180,7 +180,7 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint 7** <br>${\color{green}\text{Project}}$ Werken aan project(**HP**) |
+| ma  | **Start sprint 6** <br>${\color{green}\text{Project}}$ Werken aan project(**HP**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
