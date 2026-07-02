@@ -156,7 +156,7 @@ Herfstvakantie
  
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint 5** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| ma  | **Einde sprint 5** |
 | di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
 | wo  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**)|
 | do  |${\color{green}\text{Project}}$ review  (**GP & TM**) <br> Onderzoek draft|
@@ -165,16 +165,16 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| ma  | BLA TM GP |
+| di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| do  |${\color{green}\text{Project}}$ **Einde sprint 6**, Show & tell (**GP & TM**) <br>**3e Peilmoment** |
+| do  | **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint 6** <br>${\color{green}\text{Project}}$ Werken aan project(**HP**) |
+| ma  | **Einde sprint 6** BLA TM GP |
 | di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
 | wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen project (**MV**) |
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
@@ -183,10 +183,10 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| ma  | BLA TM GP |
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| do  | ${\color{green}\text{Project}}$ **Einde sprint 7**, Show & tell (**GP & TM**)<br> Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
+| do  | ${\color{green}\text{Project}}$ **Einde sprint 7**, Show & tell (**GP & TM**)<br>  |
 
 ### Onderwijsweek B7 (21-12-2026)
 
@@ -202,7 +202,7 @@ Demonstratie van project.
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| ma  | BLA TM GP|
 | di  | ${\color{green}\text{Project}}$ Werken aan project (**GP**)|
 | wo  | Project demo (**TM & GP**) |
 | do  | **Eindbeslissing (4e peilmoment)** (**TM & GP**)  |
