@@ -123,7 +123,7 @@ Herfstvakantie
 | ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
-| do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) | idem|
+| do  | ${\color{orange}\text{C++}}$${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | idem|
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -131,16 +131,16 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**GP**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**TM**)|
-| wo  | ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| idem |
+| wo  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)| idem |
 | do  |  ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) <br> **2e Peilmoment**  |idem |
 
 ### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  **Einde sprint 4** sprint demo (**GP & TM**) ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
+| ma  |  **Einde sprint 4** sprint demo (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
-| wo  |  <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)| 
+| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| 
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
 ### Onderwijsweek B2 (16-11-2026)
@@ -157,8 +157,8 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | **Start sprint 5** <br>${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| wo  | Game Assessment (**MV**, en **BB**) |
+| di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
+| wo  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**)|
 | do  |${\color{green}\text{Project}}$ review  (**GP & TM**) <br> Onderzoek draft|
 
 ### Onderwijsweek B4 (30-11-2026)
