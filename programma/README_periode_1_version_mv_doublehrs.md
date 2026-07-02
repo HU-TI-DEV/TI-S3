@@ -91,7 +91,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**TM**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) |idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS**) |idem |
 | do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |idem|
 
 ### Onderwijsweek A6 (05-10-2026)
@@ -109,7 +109,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Team coachgesprek per team (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|Team coachgesprek per team (20 min)  (**GP**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB**)| idem|
+| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HP**)| idem|
 | do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
 
 ### Onderwijsweek A8 (19-10-2026)
