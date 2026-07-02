@@ -156,9 +156,9 @@ Werken aan game (**BB & HS**)
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Feedback op game (**MV**)|
-| di  | |
+| di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
 | wo  |  Verantwoordingsdocument check (**BB**)  & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)<br> ${\color{green}\text{Project}}$ **Einde sprint 5**, Show & tell (**GP & TM**) |
+| do  | <br> ${\color{green}\text{Project}}$ **Einde sprint 5**, Show & tell (**GP & TM**) |
 
 ### Onderwijsweek B3 (23-11-2026)
 
