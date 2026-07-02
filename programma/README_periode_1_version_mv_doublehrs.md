@@ -138,7 +138,7 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  **Einde sprint 4** sprint demo (**GP & TM**)  |
+| ma  |  **Einde sprint 4** sprint demo, MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
 | wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| 
 | do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**)|
@@ -156,16 +156,16 @@ Herfstvakantie
  
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Einde sprint 5** |
+| ma  | **Einde sprint 5** sprint demo, korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**) |
 | di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  |  |
-| do  |${\color{green}\text{Project}}$ review  (**GP & TM**) <br> Onderzoek draft|
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| do  |${\color{green}\text{Project}}$ Onderzoek draft reviewe (**BB**)|
 
 ### Onderwijsweek B4 (30-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | BLA TM GP |
+| ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
 | di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
 | wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
 | do  | **3e Peilmoment** |
@@ -174,19 +174,19 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Einde sprint 6** BLA TM GP |
+| ma  | **Einde sprint 6** MVP demo 10 minuten per groep (**GP & TM**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
+| do  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 
 ### Onderwijsweek B6 (14-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | BLA TM GP |
+| ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**)  |
 | di  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
 | wo  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
-| do  | ${\color{green}\text{Project}}$ **Einde sprint 7**, Show & tell (**GP & TM**)<br>  |
+| do  | **Einde sprint 7**, Review sprint (**GP & TM**)<br>  |
 
 ### Onderwijsweek B7 (21-12-2026)
 
@@ -202,10 +202,10 @@ Demonstratie van project.
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | BLA TM GP|
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**GP**)|
-| wo  | Project demo (**TM & GP**) |
-| do  | **Eindbeslissing (4e peilmoment)** (**TM & GP**)  |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| wo  | Project demo (**TM & GP & HP & BB**) |
+| do  | **Eindbeslissing (4e peilmoment)** |
 
 ### Onderwijsweek B10 (11-01-2027)
 
