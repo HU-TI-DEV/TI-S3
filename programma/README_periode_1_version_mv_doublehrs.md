@@ -93,7 +93,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**GP**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**TM**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) ||
+| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) |idem |
 | do  | **Peilmoment 1 inleveren** ||
 
 ### Onderwijsweek A6 (05-10-2026)
@@ -128,7 +128,7 @@ Herfstvakantie
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
 | do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) | idem|
 
-**Start sprint 4** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) 
+
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -145,7 +145,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | <br>**Start sprint 5** <br> ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
 | di  | Feedback mogelijkheid (**MV en BB**) |
-| wo  |
+| wo  |  <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)| 
 | do  | ${\color{green}\text{Project}}$ review  (**GP & TM**)|
 
 
