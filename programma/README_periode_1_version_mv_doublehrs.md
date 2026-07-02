@@ -53,7 +53,7 @@ De docenten en begeleiders zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md) (**GP**)<br> ${\color{blue}\text{ESP}}$ [Game opdracht introductie]([./lesprogramma/programma-game-introductie.md](https://canvas.hu.nl/courses/50161/assignments/392239)) (**TM**) <br> ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**) |
+| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md) (**GP**)<br> ${\color{blue}\text{ESP}}$ [Game opdracht introductie](https://canvas.hu.nl/courses/50161/assignments/392239) (**TM**) <br> ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**) |
 | di  |[Journalling](../organisatorisch/journaliseren.md)<br>${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB&HP**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>  ${\color{blue}\text{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**BB**) |
 | do  |${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**) |
