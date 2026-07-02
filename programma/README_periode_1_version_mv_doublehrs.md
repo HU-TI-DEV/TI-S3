@@ -167,7 +167,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
 | di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
 | do  | vraagbaak voor hulp bij verantwoordingsdocument **3e Peilmoment** (**BB**)|
 
 ### Onderwijsweek B5 (07-12-2026)
@@ -203,7 +203,7 @@ Demonstratie van project.
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 | wo  | Project demo (**TM & GP & HP & BB**) |
 | do  | **Eindbeslissing (4e peilmoment)** |
 
