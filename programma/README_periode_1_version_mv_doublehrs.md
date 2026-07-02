@@ -101,7 +101,7 @@ De docenten en begeleiders zijn:
 | ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | **Einde sprint 2**  (**GP & TM**) 8 minuten pitch (presentatie) per project team aan hele klas |
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
-| do  | Value sensitive design workshop (**TM**)|
+| do  | Value sensitive design workshop (**TM**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**) |
 
 ### Onderwijsweek A7 (12-10-2026)
 
@@ -141,7 +141,7 @@ Herfstvakantie
 | ma  |  **Einde sprint 4** sprint demo, MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
 | wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| 
-| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**)|
+| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**)|
 
 ### Onderwijsweek B2 (16-11-2026)
 
@@ -158,8 +158,8 @@ Herfstvakantie
 | --- |  --- |
 | ma  | **Einde sprint 5** sprint demo, korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**) |
 | di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| do  |${\color{green}\text{Project}}$ Onderzoek draft reviewe (**BB**)|
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| do  |${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**)|
 
 ### Onderwijsweek B4 (30-11-2026)
 
@@ -167,7 +167,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
 | di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HS**) |
 | do  | vraagbaak voor hulp bij verantwoordingsdocument **3e Peilmoment** (**BB**)|
 
 ### Onderwijsweek B5 (07-12-2026)
