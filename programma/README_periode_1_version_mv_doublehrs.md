@@ -109,7 +109,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Team coachgesprek per team (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|Team coachgesprek per team (20 min)  (**GP**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HP**)| idem|
+| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)| idem|
 | do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
 
 ### Onderwijsweek A8 (19-10-2026)
@@ -177,7 +177,7 @@ Herfstvakantie
 | ma  | **Einde sprint 6** MVP demo 10 minuten per groep (**GP & TM**) |
 | di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
 | wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| do  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| do  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 
 ### Onderwijsweek B6 (14-12-2026)
 
