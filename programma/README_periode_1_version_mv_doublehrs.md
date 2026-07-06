@@ -46,6 +46,9 @@ De docenten en begeleiders zijn:
 - (**MV**) Marius Versteegen
 - (**BB**) Bart Bozon
 - (**LB**) Len Bunte
+- (**HS**) Harm Snippe
+- (**GP**) Gera Pronk
+- (**TM**) Teun Pieter Modderman
 
 ## Programma
 
