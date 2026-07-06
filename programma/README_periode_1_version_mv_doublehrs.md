@@ -82,8 +82,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**TM**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB**) | idem |
-| do  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS**)| idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | idem |
+| do  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB & HS**)| idem |
 
 ### Onderwijsweek A5 (28-09-2026)
 
@@ -91,7 +91,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**TM**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS**) |idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS & HP**) |idem |
 | do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |idem|
 
 ### Onderwijsweek A6 (05-10-2026)
@@ -147,10 +147,10 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Game assessments (**MV en BB**)|
-| di  | Game assessments (**MV en BB**)|
-| wo  | Game assessments (**MV en BB**)|
-| do  | Game assessments (**MV en BB**)|
+| ma  | Game assessments (**MV en HS**)|
+| di  | Game assessments (**MV en HS**)|
+| wo  | Game assessments (**MV**)|
+| do  | Game assessments (**MV**)|
 
 ### Onderwijsweek B3 (23-11-2026)
  
