@@ -74,7 +74,7 @@ De docenten en begeleiders zijn:
 | ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**)| idem |
-| do  |${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|idem|
+| do  | ${\color{orange}\text{C++}}$[Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|idem|
 
 ### Onderwijsweek A4 (21-09-2026)
 
@@ -123,7 +123,7 @@ Herfstvakantie
 | ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
-| do  | ${\color{orange}\text{C++}}$${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | idem|
+| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | idem|
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -167,8 +167,8 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
 | di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HS**) |
-| do  | vraagbaak voor hulp bij verantwoordingsdocument **3e Peilmoment** (**BB**)|
+| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| do  | Peil document check (**BB & HS & HP**) **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
@@ -184,8 +184,8 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**)  |
-| di  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
-| wo  | Game herkansing (**BB & MV**) en zelfstandig werken aan project |
+| di  | Game herkansing (**HS & MV**) en zelfstandig werken aan project |
+| wo  | Game herkansing (**HS & MV**) en zelfstandig werken aan project |
 | do  | **Einde sprint 7**, Review sprint (**GP & TM**)<br>  |
 
 ### Onderwijsweek B7 (21-12-2026)
@@ -203,7 +203,7 @@ Demonstratie van project.
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 | wo  | Project demo (**TM & GP & HP & BB**) |
 | do  | **Eindbeslissing (4e peilmoment)** |
 
