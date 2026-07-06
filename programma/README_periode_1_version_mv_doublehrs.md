@@ -131,8 +131,8 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**GP**)|
-| wo  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)| idem |
-| do  |  ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) <br> **2e Peilmoment**  |idem |
+| wo  | ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| idem |
+| do  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |idem |
 
 ### Onderwijsweek B1 (09-11-2026)
 
