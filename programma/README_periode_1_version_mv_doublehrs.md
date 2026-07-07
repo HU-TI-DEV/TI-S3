@@ -69,9 +69,9 @@ De docenten en begeleiders zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**)<br>${\color{green}\text{Project}}$ Opdrachtgever bezoek (**GP & TM**)|
-| di  | ${\color{green}\text{Project}}$ Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**)<br>POP (**LB**) |
+| di  | ${\color{green}\text{Project}}$ Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB & HP**)  |
-| do  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
+| do  | <br>POP (**LB**)<br>${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
 
 ### Onderwijsweek A3 (14-09-2026)
 
