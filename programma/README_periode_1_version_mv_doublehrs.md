@@ -153,27 +153,27 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Game assessments (**MV en HS**)|
-| di  | Game assessments (**MV en HS**)|
-| wo  | Game assessments (**MV**)|
-| do  | Game assessments (**MV**)|
+| ma  | ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
+| di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
+| wo  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) |
+| do  |${\color{green}\text{Project}}$ Werken aan project (**HP**)|
 
 ### Onderwijsweek B3 (23-11-2026)
  
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Einde sprint 5** sprint demo, korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**) |
-| di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| do  |${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**)|
+| ma  | **Einde sprint 5** sprint demo, korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**)|
+| di  | Game assessments (**MV & TM**) (hele dag!)|
+| wo  | Game assessments (**MV & HS**) (hele dag!)|
+| do  | Game assessments (**MV & HS**) (hele dag!)|
 
 ### Onderwijsweek B4 (30-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
-| di  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| di  |  ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
+| wo  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
 | do  | Peil document check (**BB & HS & HP**) **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
@@ -190,7 +190,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**)  |
-| di  | Game herkansing (**HS & MV**) en zelfstandig werken aan project |
+| di  | Game herkansing (**TM & MV**) en zelfstandig werken aan project |
 | wo  | Game herkansing (**HS & MV**) en zelfstandig werken aan project |
 | do  | **Einde sprint 7**, Review sprint (**GP & TM**)<br>  |
 
