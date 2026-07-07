@@ -89,7 +89,7 @@ De docenten en begeleiders zijn:
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**TM**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | idem |
-| do  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**BB & HS**)| idem |
+| do  | WOTS in Utrecht| idem |
 
 ### Onderwijsweek A5 (28-09-2026)
 
@@ -97,7 +97,7 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**TM**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS & HP**) |idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) |idem |
 | do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |idem|
 
 ### Onderwijsweek A6 (05-10-2026)
@@ -106,8 +106,8 @@ De docenten en begeleiders zijn:
 | --- |  --- |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
 | di  | **Einde sprint 2**  (**GP & TM**) 8 minuten pitch (presentatie) per project team aan hele klas |
-| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
-| do  | Value sensitive design workshop (**TM**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**) |
+| wo  | ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS & HP**)|
+| do  | Value sensitive design workshop (**TM**)  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**) |
 
 ### Onderwijsweek A7 (12-10-2026)
 
