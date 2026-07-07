@@ -53,7 +53,7 @@ De docenten en begeleiders zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md) (**GP**)<br> ${\color{blue}\text{ESP}}$ [Game opdracht introductie](https://canvas.hu.nl/courses/50161/assignments/392239) (**TM**) <br>[DISC rollen](https://github.com/HU-TI-DEV/TI-S4/blob/main/vermogens/DISC_teamrollen/Teamrollen.md)<br> ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**) |
+| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md) (**GP**)<br> ${\color{blue}\text{ESP}}$ [Game opdracht introductie](https://canvas.hu.nl/courses/50161/assignments/392239) (**TM**) <br>[DISC rollen](https://github.com/HU-TI-DEV/TI-S4/blob/main/vermogens/DISC_teamrollen/Teamrollen.md)<br>  |
 | di  |[Journalling](../organisatorisch/journaliseren.md)<br>${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB&HP**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>  ${\color{blue}\text{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**BB & HP**) |
 | do  |${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**) |
@@ -62,7 +62,7 @@ De docenten en begeleiders zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Opdrachtgever bezoek (**GP & TM**)|
+| ma  | ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**)<br>${\color{green}\text{Project}}$ Opdrachtgever bezoek (**GP & TM**)|
 | di  | ${\color{green}\text{Project}}$ Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**)<br>POP (**LB**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB & HP**)  |
 | do  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
