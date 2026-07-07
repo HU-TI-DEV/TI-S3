@@ -33,9 +33,15 @@
 
 De contacturen zijn (subject to change):
 
-|dag|van  |tot  | lokaal     |
-|---|---  |---  | ---        |
-|ma || |||
+|dag|tijden | lokaal     |
+|---|---   | ---        |
+| ma | 09:00 - 12.00 uur (12.00 - 13.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)* |
+| di | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)* |
+| wo | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+| do | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+
+* Voor de lessen op 14, 15, 28 en 29 september wordt nog doorgegeven in welk lokaal groep B zit. Groep A blijft in het vaste lokaal HL15-1.096.
+Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
 
 De docenten en begeleiders zijn:
 
