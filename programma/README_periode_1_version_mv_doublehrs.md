@@ -146,8 +146,7 @@ De docenten en begeleiders zijn:
 | --- |  --- |
 | ma  |  **Einde sprint 4** sprint demo, Project MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
-| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**) <br>
-         ESP WiFi (**HS**) | 
+| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**) ESP WiFi (**HS**) | 
 | do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**)|
 
 ### Onderwijsweek B2 (16-11-2026)
