@@ -156,8 +156,8 @@ De docenten en begeleiders zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
-| di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) <br> Werken aan game (**BB**) |
+| di  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) <br> Werken aan game (**BB**) |
+| wo  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
 | do  |${\color{green}\text{Project}}$ Werken aan game (**HP & MV**) |
 
 ### Onderwijsweek B3 (23-11-2026)
