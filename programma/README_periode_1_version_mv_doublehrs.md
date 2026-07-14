@@ -120,7 +120,7 @@ De docenten en begeleiders zijn:
 
 ### Onderwijsweek A8 (19-10-2026)
 
-Herfstvakantie
+> Herfstvakantie
 
 ### Onderwijsweek A9 (26-10-2026)
 
@@ -129,7 +129,7 @@ Herfstvakantie
 | ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |
 | wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | (gezamenlijk met klas A)|
-| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | (gezamenlijk met klas A)|
+| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP & HS**) | (gezamenlijk met klas A)|
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -144,19 +144,22 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |  **Einde sprint 4** sprint demo, MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
+| ma  |  **Einde sprint 4** sprint demo, Project MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
 | di  |  Feedback op game, klassikaal bespreken (**MV**)|
-| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**)| 
+| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**) <br>
+         ESP WiFi (**HS**) | 
 | do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**)|
 
 ### Onderwijsweek B2 (16-11-2026)
+
+> code::dive donderdag 19-11-2026
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
 | di  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
-| wo  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) |
-| do  |${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| wo  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) <br> Werken aan game (**BB**) |
+| do  |${\color{green}\text{Project}}$ Werken aan game (**HP & MV**) |
 
 ### Onderwijsweek B3 (23-11-2026)
  
@@ -172,9 +175,9 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
-| di  |  ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| wo  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
-| do  | Peil document check (**BB & HS & HP**) **3e Peilmoment** |
+| di  | Game evaluatie / verbetering (**MV & BB**) |
+| wo  | [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
+| do  | Peil document check (**BB & HS & HP**) <br> **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
@@ -196,11 +199,11 @@ Herfstvakantie
 
 ### Onderwijsweek B7 (21-12-2026)
 
-Kerstvakantie
+> Kerstvakantie
 
 ### Onderwijsweek B8 (28-12-2026)
 
-Kerstvakantie
+> Kerstvakantie
 
 ### Onderwijsweek B9 (04-01-2027)
 
@@ -218,12 +221,17 @@ Demonstratie van project.
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
 ### Onderwijsweek B11 (18-01-2027)
-Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
+> Verbeterweek 1
+
+Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren.
+
+Als niet alle leeruitkomsten *Op Niveau* of *Boven Niveau* zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit.
+
+Excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van *Op Niveau* naar *Boven Niveau* te brengen.
 
 ### Onderwijsweek B12 (25-01-2027)
 
-Verbeterweek 2
-
+> Verbeterweek 2
 
 ${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**)
