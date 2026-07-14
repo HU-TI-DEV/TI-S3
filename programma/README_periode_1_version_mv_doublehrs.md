@@ -98,7 +98,7 @@ De docenten en begeleiders zijn:
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**TM**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) | (gezamenlijk met klas A) |
-| do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
+| do  | Last minutes tips over verantwoordingsdocument (**BB**) <br>  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br> **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
 
 ### Onderwijsweek A6 (05-10-2026)
 
