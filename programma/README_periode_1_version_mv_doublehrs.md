@@ -79,8 +79,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
-| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**)| idem |
-| do  | ${\color{orange}\text{C++}}$[Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|idem|
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB**)| (gezamenlijk met klas A) |
+| do  | ${\color{orange}\text{C++}}$[Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|(gezamenlijk met klas A)|
 
 ### Onderwijsweek A4 (21-09-2026)
 
@@ -88,8 +88,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**TM**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | idem |
-| do  | WOTS in Utrecht| idem |
+| wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | (gezamenlijk met klas A) |
+| do  | WOTS in Utrecht| (gezamenlijk met klas A) |
 
 ### Onderwijsweek A5 (28-09-2026)
 
@@ -97,8 +97,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Review in de klas van key drivers en (non-)functional requirements (**TM**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
-| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) |idem |
-| do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |idem|
+| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) | (gezamenlijk met klas A) |
+| do  | Last minutes tips over verantwoordingsdocument (**BB**) **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
 
 ### Onderwijsweek A6 (05-10-2026)
 
@@ -115,8 +115,8 @@ De docenten en begeleiders zijn:
 | --- |  --- | --- |
 | ma  | Team coachgesprek per team (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
 | di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|Team coachgesprek per team (20 min)  (**GP**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)| idem|
-| do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|idem|
+| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)| (gezamenlijk met klas A)|
+| do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|(gezamenlijk met klas A)|
 
 ### Onderwijsweek A8 (19-10-2026)
 
@@ -128,8 +128,8 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |
-| wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | idem|
-| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | idem|
+| wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | (gezamenlijk met klas A)|
+| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) | (gezamenlijk met klas A)|
 
 ### Onderwijsweek A10 (2-11-2026)
 
@@ -137,8 +137,8 @@ Herfstvakantie
 | --- |  --- | --- |
 | ma  | sessie met teamcoach (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
 | ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**GP**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| idem |
-| do  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |idem |
+| wo  | ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| (gezamenlijk met klas A) |
+| do  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |(gezamenlijk met klas A) |
 
 ### Onderwijsweek B1 (09-11-2026)
 
