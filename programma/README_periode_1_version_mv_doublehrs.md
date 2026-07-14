@@ -234,4 +234,4 @@ Excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van *Op Nive
 
 > Verbeterweek 2
 
-${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**)
+<!-- eof -->
