@@ -86,7 +86,7 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**TM**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**GP**)|
+| ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | (gezamenlijk met klas A) |
 | do  | WOTS in Utrecht| (gezamenlijk met klas A) |
