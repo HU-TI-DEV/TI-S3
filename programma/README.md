@@ -6,39 +6,42 @@
 
 - [Organisatie](#organisatie)
 - [Programma](#programma)
-  - [Onderwijsweek C2 (09-02-2026)](#onderwijsweek-c2-09-02-2026)
-  - [Onderwijsweek C3 (16-02-2026)](#onderwijsweek-c3-16-02-2026)
-  - [Onderwijsweek C4 (23-02-2026)](#onderwijsweek-c4-23-02-2026)
-  - [Onderwijsweek C5 (02-03-2026)](#onderwijsweek-c5-02-03-2026)
-  - [Onderwijsweek C6 (09-03-2026)](#onderwijsweek-c6-09-03-2026)
-  - [Onderwijsweek C7 (16-03-2026)](#onderwijsweek-c7-16-03-2026)
-  - [Onderwijsweek C8 (23-03-2026)](#onderwijsweek-c8-23-03-2026)
-  - [Onderwijsweek C9 (30-03-2026)](#onderwijsweek-c9-30-03-2026)
-  - [Onderwijsweek C10 (06-04-2026)](#onderwijsweek-c10-06-04-2026)
-  - [Onderwijsweek D1 (13-04-2026)](#onderwijsweek-d1-13-04-2026)
-  - [Onderwijsweek D2 (20-04-2026)](#onderwijsweek-d2-20-04-2026)
-  - [Onderwijsweek D3 (27-04-2026)](#onderwijsweek-d3-27-04-2026)
-  - [Onderwijsweek D4 (04-05-2026)](#onderwijsweek-d4-04-05-2026)
-  - [Onderwijsweek D5 (11-05-2026)](#onderwijsweek-d5-11-05-2026)
-  - [Onderwijsweek D6 (18-05-2026)](#onderwijsweek-d6-18-05-2026)
-  - [Onderwijsweek D7 (25-05-2026)](#onderwijsweek-d7-25-05-2026)
-  - [Onderwijsweek D8 (01-06-2026)](#onderwijsweek-d8-01-06-2026)
-  - [Onderwijsweek D9 (08-06-2026)](#onderwijsweek-d9-08-06-2026)
-  - [Onderwijsweek D10 (15-06-2026)](#onderwijsweek-d10-15-06-2026)
-  - [Onderwijsweek D11 (22-06-2026)](#onderwijsweek-d11-22-06-2026)
-  - [Onderwijsweek E1 (29-06-2026)](#onderwijsweek-e1-29-06-2026)
-  - [Onderwijsweek E2 (06-07-2026)](#onderwijsweek-e2-06-07-2026)
+  - [Onderwijsweek A1 (31-08-2026)](#onderwijsweek-a1-31-08-2026)
+  - [Onderwijsweek A2 (07-09-2026)](#onderwijsweek-a2-07-09-2026)
+  - [Onderwijsweek A3 (14-09-2026)](#onderwijsweek-a3-14-09-2026)
+  - [Onderwijsweek A4 (21-09-2026)](#onderwijsweek-a4-21-09-2026)
+  - [Onderwijsweek A5 (28-09-2026)](#onderwijsweek-a5-28-09-2026)
+  - [Onderwijsweek A6 (05-10-2026)](#onderwijsweek-a6-05-10-2026)
+  - [Onderwijsweek A7 (12-10-2026)](#onderwijsweek-a7-12-10-2026)
+  - [Onderwijsweek A8 (19-10-2026)](#onderwijsweek-a8-19-10-2026)
+  - [Onderwijsweek A9 (26-10-2026)](#onderwijsweek-a9-26-10-2026)
+  - [Onderwijsweek A10 (2-11-2026)](#onderwijsweek-a10-2-11-2026)
+  - [Onderwijsweek B1 (09-11-2026)](#onderwijsweek-b1-09-11-2026)
+  - [Onderwijsweek B2 (16-11-2026)](#onderwijsweek-b2-16-11-2026)
+  - [Onderwijsweek B3 (23-11-2026)](#onderwijsweek-b3-23-11-2026)
+  - [Onderwijsweek B4 (30-11-2026)](#onderwijsweek-b4-30-11-2026)
+  - [Onderwijsweek B5 (07-12-2026)](#onderwijsweek-b5-07-12-2026)
+  - [Onderwijsweek B6 (14-12-2026)](#onderwijsweek-b6-14-12-2026)
+  - [Onderwijsweek B7 (21-12-2026)](#onderwijsweek-b7-21-12-2026)
+  - [Onderwijsweek B8 (28-12-2026)](#onderwijsweek-b8-28-12-2026)
+  - [Onderwijsweek B9 (04-01-2027)](#onderwijsweek-b9-04-01-2027)
+  - [Onderwijsweek B10 (11-01-2027)](#onderwijsweek-b10-11-01-2027)
+  - [Onderwijsweek B11 (18-01-2027)](#onderwijsweek-b11-18-01-2027)
+  - [Onderwijsweek B12 (25-01-2027)](#onderwijsweek-b12-25-01-2027)
 
 ## Organisatie
 
 De contacturen zijn (subject to change):
 
-|dag|van  |tot  | lokaal     |
-|---|---  |---  | ---        |
-|ma |13:00|16:00| HL15-5.080 |
-|di |13:00|16:00| HL15-5.080 |
-|wo |09:00|12:00| HL15-5.080 |
-|do |13:00|17:00| HL15-5.068 of 1.096 (S4) |
+|dag|tijden | lokaal     |
+|---|---   | ---        |
+| ma | 09:00 - 12.00 uur (12.00 - 13.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
+| di | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
+| wo | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+| do | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+
+\* Voor de lessen op 14, 15, 28 en 29 september wordt nog doorgegeven in welk lokaal groep B zit. Groep A blijft in het vaste lokaal HL15-1.096.
+Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
 
 De docenten en begeleiders zijn:
 
@@ -46,191 +49,188 @@ De docenten en begeleiders zijn:
 - (**MV**) Marius Versteegen
 - (**BB**) Bart Bozon
 - (**LB**) Len Bunte
+- (**HS**) Harm Snippe
+- (**GP**) Gera Pronk
+- (**TM**) Teun Pieter Modderman
 
 ## Programma
 
-### Onderwijsweek C2 (09-02-2026)
+### Onderwijsweek A1 (31-08-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  |[NSE](https://github.com/HU-TI-DEV/TI-S2/blob/main/programma/lesprogramma/programma-NSE.md)<br> [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md)  (**BB**) <br> [Journalling](../organisatorisch/journaliseren.md) (**HP**)<br> ${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB**) |
-| di  |[Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> Intro keydrivers/functional requirements <br> ${\color{blue}\text{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**BB**) |
-| wo  | ${\color{green}\text{Project}}$ Opdrachtgever bezoek (**BB**) |
-| do  | ${\color{red}\text{SW~Architecture}}$ [system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**HP**) |
+| ma  | [Kickoff en Kennismaking](./lesprogramma/programma-kickoff.md) (**GP**)<br> ${\color{blue}\text{ESP}}$ [Game opdracht introductie](https://canvas.hu.nl/courses/50161/assignments/392239)  <br>[DISC rollen](https://github.com/HU-TI-DEV/TI-S4/blob/main/vermogens/DISC_teamrollen/Teamrollen.md)<br> Aanmaken persoonlijke repo's (**TM**) |
+| di  |[Journalling](../organisatorisch/journaliseren.md)<br>${\color{blue}\text{ESP}}$ [installatie I](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md) (**BB&HP**) |
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>  ${\color{blue}\text{ESP}}$  [installatie II](../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows-II.md) (**BB & HP**) |
+| do  |${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**) |
 
-### Onderwijsweek C3 (16-02-2026)
-
-Krokusvakantie
-
-### Onderwijsweek C4 (23-02-2026)
+### Onderwijsweek A2 (07-09-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | teamvorming en **Start sprint**  <br>${\color{blue}\text{ESP}}$ [Game opdracht introductie](./lesprogramma/programma-game-introductie.md) <br> [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md)  (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**) |
-| wo  | ${\color{orange}\text{C++}}$ [Buildchain](lesprogramma/programma-buildchain.md) + [Verdieping_OOP](lesprogramma/programma-verdieping-oop.md) (**HP**)  |
-| do  | ${\color{orange}\text{C++}}$ [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|
+| ma  | ${\color{red}\text{SW~Architecture}}$ [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**)<br>${\color{green}\text{Project}}$ Opdrachtgever bezoek (**GP & TM**)|
+| di  | ${\color{green}\text{Project}}$ Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**) |
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB & HP**)  |
+| do  | <br>POP (**LB**)<br>${\color{red}\text{SW~Architecture}}$  [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
 
-### Onderwijsweek C5 (02-03-2026)
+### Onderwijsweek A3 (14-09-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>${\color{blue}\text{ESP}}$ [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) & POP (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**)|
-| do  | ${\color{green}\text{Project}}$ **Einde sprint 1**. Show & tell (**HS**) + Verantwoordingsdocument check (**TM**) in HL15-5.068 |
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
+| di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
+| wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB & HS**)| (gezamenlijk met klas A) |
+| do  | ${\color{orange}\text{C++}}$[Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|(gezamenlijk met klas A)|
 
-### Onderwijsweek C6 (09-03-2026)
+### Onderwijsweek A4 (21-09-2026)
 
-<!--- <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) (**BB**) --->
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
+| di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
+| wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | (gezamenlijk met klas A) |
+| do  | WOTS in Utrecht| (gezamenlijk met klas A) |
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | **Start sprint** <br>  ${\color{green}\text{Project}}$ Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**TM**) |
-| di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
-| wo  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HP & HS**) |
-| do  | ${\color{green}\text{Project}}$ review (**HS**)|
+### Onderwijsweek A5 (28-09-2026)
 
-### Onderwijsweek C7 (16-03-2026)
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | Review in de klas van key drivers en (non-)functional requirements (**GP**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
+| di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
+| wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) | (gezamenlijk met klas A) |
+| do  | Last minutes tips over verantwoordingsdocument (**BB**) <br>  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br> **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |
-| wo  |  ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HP**) |
-| do  | Peilmoment 1 bijwerken & inleveren (**geen docent**)  |
-
-### Onderwijsweek C8 (23-03-2026)
+### Onderwijsweek A6 (05-10-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**)|
-| di  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**HP**)|
-| do  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 2** [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)|
+| ma  | ${\color{red}\text{SW~Architecture}}$  [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
+| di  | **Einde sprint 2**  (**GP & TM**) 8 minuten pitch (presentatie) per project team aan hele klas |
+| wo  | ${\color{blue}\text{ESP}}$ [keypad](./lesprogramma/programma-CYD-keypad.md) en ADC (**HS & HP**)|
+| do  | Value sensitive design workshop (**TM**)  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**) |
 
-### Onderwijsweek C9 (30-03-2026)
+### Onderwijsweek A7 (12-10-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | **Start sprint** <br>[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
-| wo  | ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | Team coachgesprek per team (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
+| di  | ${\color{red}\text{SW~Architecture}}$ [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|Team coachgesprek per team (20 min)  (**GP**)|
+| wo  | ${\color{blue}\text{ESP}}$ [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)| (gezamenlijk met klas A)|
+| do  |[Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|(gezamenlijk met klas A)|
 
-### Onderwijsweek C10 (06-04-2026)
+### Onderwijsweek A8 (19-10-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | (*2e Paasdag*) |
-| di  | IICT Carrièredag|
-| wo  |  ${\color{red}\text{SW~Architecture}}$    [STD](./lesprogramma//programma-std-1.md) (**BB**)  **Einde Sprint 3**|
-| do  | **Start sprint** <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**)  |
+> Herfstvakantie
 
-### Onderwijsweek D1 (13-04-2026)
+### Onderwijsweek A9 (26-10-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | Werken aan game (**BB**) |
-| di  | ${\color{red}\text{SW~Architecture}}$  [STD](./lesprogramma//programma-std-2.md)   (**BB**) |
-| wo  | Value sensitive design workshop (**BB**) + werken aan verantwoordingsdocument.|
-| do  | ${\color{orange}\text{C++}}$ [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**) 2e Peilmoment<br> |
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | **Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**TM**)  |${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|
+| di  | ${\color{red}\text{SW~Architecture}}$    [STD I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo, 20 minuten show en tell enkel aan docent (**GP**)  |
+| wo  |  ${\color{red}\text{SW~Architecture}}$ [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | (gezamenlijk met klas A)|
+| do  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP & HS**) | (gezamenlijk met klas A)|
 
-### Onderwijsweek D2 (20-04-2026)
+### Onderwijsweek A10 (2-11-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | ${\color{blue}\text{ESP}}$ [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP**) |
-| di  | Feedback mogelijkheid (**MV en BB**) |
-| wo  | ${\color{green}\text{Project}}$ (**BB**) **Einde Sprint 4**|
-| do  | **Start sprint** <br> ${\color{orange}\text{C++}}$ [Lambda](../software/lambdas/), [constexpr](../software/constexpr/), [templates](../software/templates/) (**HP**)|
+| Dag | klas A | klas B|
+| --- |  --- | --- |
+| ma  | sessie met teamcoach (20 min) (**TM**)|${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |
+| ma  | ${\color{red}\text{SW~Architecture}}$  [STD II](./lesprogramma//programma-std-2.md)   (**MV**)  |sessie met teamcoach (20 min) (**GP**)|
+| wo  | ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| (gezamenlijk met klas A) |
+| do  |  [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |(gezamenlijk met klas A) |
 
-### Onderwijsweek D3 (27-04-2026)
-
-Meivakantie
-
-### Onderwijsweek D4 (04-05-2026)
+### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Feedback op game (**MV**)|
-| di  | Bevrijdingsdag|
-| wo  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**)  & [Testen](./lesprogramma/programma-testen.md) (**BB**)  |
-| do  | ${\color{orange}\text{C++}}$ [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)  |
+| ma  |  **Einde sprint 4** sprint demo, Project MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
+| di  |  Feedback op game, klassikaal bespreken (**MV**)|
+| wo  |  ${\color{orange}\text{C++}}$ Lambda, constexpr, templates (**HP**) ESP WiFi (**HS**) | 
+| do  |  [Testen](./lesprogramma/programma-testen.md) (**BB**) + ${\color{blue}\text{ESP}}$ [Herhaling std-> code](./lesprogramma/programma-OS-STD-Code.md) (**HP**)|
 
-### Onderwijsweek D5 (11-05-2026)
+### Onderwijsweek B2 (16-11-2026)
 
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| di  |  ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
-| wo  | Game Assessment (**MV**, en **BB**) |
-| do  | ${\color{green}\text{Project}}$ (**BB**)  **Einde Sprint 5** Onderzoek draft|
-
-### Onderwijsweek D6 (18-05-2026)
+> code::dive donderdag 19-11-2026
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project+ feedback ophalen (**HP**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| wo  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell (**BB**)+ 3e Peilmoment IN LOKAAL S4, 1.096 |
+| ma  | ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
+| di  | ${\color{green}\text{Project}}$ Onderzoek draft reviewen (**BB**) <br> Werken aan game (**BB**) |
+| wo  | <br>${\color{orange}\text{C++}}$ [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
+| do  |${\color{green}\text{Project}}$ Werken aan game (**HP & MV**) |
 
-### Onderwijsweek D7 (25-05-2026)
+### Onderwijsweek B3 (23-11-2026)
+ 
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | **Einde sprint 5** sprint demo, korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**)|
+| di  | Game assessments (**MV & TM**) (hele dag!)|
+| wo  | Game assessments (**MV & HS**) (hele dag!)|
+| do  | Game assessments (**MV & HS**) (hele dag!)|
+
+### Onderwijsweek B4 (30-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Vrij - Pinksteren |
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**) |
-| wo  | ${\color{red}\text{SW~Architecture}}$  Reviewen diagrammen Game (**MV**) |
-| do  | ${\color{green}\text{Project}}$ (**TM**) **Einde Sprint 6** |
+| ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**) |
+| di  | Game evaluatie / verbetering (**MV & BB**) |
+| wo  | [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
+| do  | Peil document check (**BB & HS & HP**) <br> **3e Peilmoment** |
 
-### Onderwijsweek D8 (01-06-2026)
-
-| Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | **Start sprint** <br>${\color{green}\text{Project}}$ Werken aan project / game (**BB**) |
-| di  | ${\color{green}\text{Project}}$ Werken aan project / game (**HP**)|
-| wo  | ${\color{green}\text{Project}}$ Werken aan project / game (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Show & tell + Verantwoordingsdocument check (**BB**) IN LOKAAL S4, 1.096 |
-
-### Onderwijsweek D9 (08-06-2026)
+### Onderwijsweek B5 (07-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Game demo (**MV&BB**)|
-| di  | Werken aan project (**HP**) |
-| wo  | Reviewen verantwoordingsdocument (**BB**) |
-| do  | ${\color{green}\text{Project}}$ Werken aan project (**BB**) IN LOKAAL S4, 1.096 |
+| ma  | **Einde sprint 6** MVP demo 10 minuten per groep (**GP & TM**) |
+| di  | ${\color{green}\text{Project}}$ Werken aan project, zelfstandig.  <!-- Studie dag docenten -->  |
+| wo  | ${\color{orange}\text{C++}}$ [Patterns](./lesprogramma/programma-patterns.md) (**HP**) |
+| do  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
 
-### Onderwijsweek D10 (15-06-2026)
+### Onderwijsweek B6 (14-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Game demo (**MV&BB**)|
-| di  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
-| wo  | Demo dag (**HP & BB**) om 09:00 in het lab|
-| do  | **4e Peilmoment**   |
+| ma  | Teamcoach gesprek (20 minuten) per team (**GP & TM**)  |
+| di  | Game herkansing (**TM & MV**) en zelfstandig werken aan project |
+| wo  | Game herkansing (**HS & MV**) en zelfstandig werken aan project |
+| do  | **Einde sprint 7**, Review sprint (**GP & TM**)<br>  |
 
-### Onderwijsweek D11 (22-06-2026)
+### Onderwijsweek B7 (21-12-2026)
+
+> Kerstvakantie
+
+### Onderwijsweek B8 (28-12-2026)
+
+> Kerstvakantie
+
+### Onderwijsweek B9 (04-01-2027)
+
+Demonstratie van project.
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | ${\color{green}\text{Project}}$ Werken aan project (**HP**)|
+| di  | ${\color{green}\text{Project}}$ Werken aan project (**BB**)|
+| wo  | Project demo (**TM & GP & HP & BB**) |
+| do  | **Eindbeslissing (4e peilmoment)** |
+
+### Onderwijsweek B10 (11-01-2027)
 
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-### Onderwijsweek E1 (29-06-2026)
+### Onderwijsweek B11 (18-01-2027)
 
-Verbeterweek 1
+> Verbeterweek 1
 
-Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren.
 
-### Onderwijsweek E2 (06-07-2026)
+Als niet alle leeruitkomsten *Op Niveau* of *Boven Niveau* zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit.
 
-Verbeterweek 2
+Excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van *Op Niveau* naar *Boven Niveau* te brengen.
 
-Week E1 en E2 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+### Onderwijsweek B12 (25-01-2027)
 
-\
+> Verbeterweek 2
 
-
-
-
-${\color{blue}\text{ESP}}$ [BLE](./lesprogramma/programma-CYD-BLE.md) BLE & networking basics  (**HS**)
+<!-- eof -->
