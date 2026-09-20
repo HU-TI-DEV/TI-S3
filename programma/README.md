@@ -88,7 +88,7 @@ De docenten en begeleiders zijn:
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | (gezamenlijk met klas A) |
-| do  | WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (HP) of 9:30 uur receptie HL15, met tram (GP)| (gezamenlijk met klas A) |
+| do  | WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (**HS**) of 9:30 uur receptie HL15, met tram (**GP**)| (gezamenlijk met klas A) |
 
 ### Onderwijsweek A5 (28-09-2026)
 
