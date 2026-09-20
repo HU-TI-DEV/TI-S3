@@ -40,8 +40,7 @@ De contacturen zijn (subject to change):
 | wo | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
 | do | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
 
-\* Voor de lessen op 14, 15, 28 en 29 september wordt nog doorgegeven in welk lokaal groep B zit. Groep A blijft in het vaste lokaal HL15-1.096.
-Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
+\* Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
 
 De docenten en begeleiders zijn:
 
@@ -77,8 +76,8 @@ De docenten en begeleiders zijn:
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)|${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
-| di  | ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
+| ma  | [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)| HL15-1.092 ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
+| di  | HL15-3.068 ${\color{red}\text{SW~Architecture}}$ [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
 | wo  | [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> ${\color{blue}\text{ESP}}$ [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB & HS**)| (gezamenlijk met klas A) |
 | do  | ${\color{orange}\text{C++}}$[Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|(gezamenlijk met klas A)|
 
@@ -89,14 +88,14 @@ De docenten en begeleiders zijn:
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)   | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  |  ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br>[ADC & LDR](./lesprogramma/programma-CYD-LDR.md)<br> (**BB & HS**) | (gezamenlijk met klas A) |
-| do  | WOTS in Utrecht| (gezamenlijk met klas A) |
+| do  | WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (**HS**) of 9:30 uur receptie HL15, met tram (**GP**)| (gezamenlijk met klas A) |
 
 ### Onderwijsweek A5 (28-09-2026)
 
 | Dag | klas A | klas B|
 | --- |  --- | --- |
-| ma  | Review in de klas van key drivers en (non-)functional requirements (**GP**) | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
-| di  | ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
+| ma  | Review in de klas van key drivers en (non-)functional requirements (**GP**) |HL15-7.032 ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
+| di  |HL15-3.068 ${\color{red}\text{SW~Architecture}}$ [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |Review in de klas van key drivers en (non-)functional requirements (**GP**)|
 | wo  |  ${\color{blue}\text{ESP}}$ [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) | (gezamenlijk met klas A) |
 | do  | Last minutes tips over verantwoordingsdocument (**BB**) <br>  ${\color{blue}\text{ESP}}$ [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)<br> **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
 
