@@ -37,10 +37,10 @@ De contacturen zijn (subject to change):
 
 |dag|tijden | lokaal     |
 |---|---   | ---        |
-| ma | 09:00 - 12.00 uur (12.00 - 13.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
-| di | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
-| wo | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
-| do | 13:00 - 16.00 uur (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+| ma | 09:00 - 12.00 uur <br> (12.00 - 13.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
+| di | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
+| wo | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+| do | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
 
 \* Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
 
@@ -60,7 +60,7 @@ Markeringen voor de onderwerpen:
 
 - `ALG` Algemene onderwerpen in Technische Informatica
 - `C++` Software design, realisatie en test in C++ ('cee plus plus')
-- `ESP` ESP32, Hardware-Interfacing, Elektronica
+- `ESP` ESP32, Game Projekt, Hardware-Interfacing, Elektronica
 - `PRO` Projectwerk en alles wat erbij hoord (Plannen, Scrum, Git, Werkwijze, Ontwerp)
 - `SWA` Software Architecture
 - `INF` Infrastructuur (Opzetten toolchain(s), Docker, etc.)
@@ -82,8 +82,8 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | `SWA` [ Intro system context- key drivers, prioriteren](./lesprogramma/programma-systemcontext-keydrivers-applicationdrivers.md)  (**TM**)<br>`PRO` Opdrachtgever bezoek (**GP & TM**)|
 | di  | `PRO` Teamvorming & teamcontract, **Start sprint 1** (**GP & TM**) |
-| wo  | `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>`ESP` [LEDs](./lesprogramma/programma-CYD-LED.md) + [PWM](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB & HP**)  |
-| do  | `ALG` POP (**LB**)<br>`SWA` [functionele en niet-functionele requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
+| wo  | `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br>`ESP` [LEDs](./lesprogramma/programma-CYD-LED.md) + [Pulse Width Modulation (PWM)](./lesprogramma/programma-CYD-PWM-LEDS.md) (**BB & HP**)  |
+| do  | `ALG` POP (**LB**)<br>`SWA` [Functionele en Niet-Functionele Requirements](./lesprogramma/programma-requirements.md)  (**TM**)|
 
 ### Onderwijsweek A3 (14-09-2026)
 
@@ -91,7 +91,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- | --- |
 | ma  | `ESP` [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**TM**)| HL15-1.092 `SWA` [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| 
 | di  | HL15-3.068 `SWA` [Use Case Diagram, Use Case Beschrijvingen](./lesprogramma/programma-use-case.md) + [Activity diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/programma/lesprogramma/programma-activity-diagrammen.md) (**MV**)| `ESP` [Game ontwerp](../programma/lesprogramma/programma-game-introductie.md) (**GP**) |
-| wo  | `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> `ESP` [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br>Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB & HS**)| (gezamenlijk met klas A) |
+| wo  | `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) <br> `ESP` [Traffic light](../programma/lesprogramma/programma-std-code-intro.md) <br> `ALG` Intro [onderzoek opdracht](./lesprogramma/programma-persoonlijke-onderzoeksopdracht.md) (**BB & HS**)| (gezamenlijk met klas A) |
 | do  | `C++` [Verdieping_OOP (presentaties)](lesprogramma/programma-verdieping-oop.md) (**HP**)|(gezamenlijk met klas A)|
 
 ### Onderwijsweek A4 (21-09-2026)
@@ -100,7 +100,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- | --- |
 | ma  | **Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)   |  BOL101-2.020 `SWA` [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|
 | di  | HL15-1.096 `SWA` [Objectmodel](./lesprogramma/programma-object-model-1.md) (**MV**)|**Einde sprint 1** sprint demo, 20 minuten per groep (bereid 10 minuten presentatie voor) met enkel de docent (**GP**)|
-| wo  |  `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB & HS**)<br>`ESP` [ADC & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB & HS**) | (gezamenlijk met klas A) |
+| wo  |  `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md) (**BB & HS**)<br>`ESP` [Analog Digital Converter (ADC) & LDR](./lesprogramma/programma-CYD-LDR.md) (**BB & HS**) | (gezamenlijk met klas A) |
 | do  | `ALG` WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (**HS**) of 9:30 uur receptie HL15, met tram (**GP**)| (gezamenlijk met klas A) |
 
 ### Onderwijsweek A5 (28-09-2026)
@@ -116,8 +116,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `SWA` [Taakstructuring](./lesprogramma/programma-taakstructurering.md) (**MV**)|
-| di  | **Einde sprint 2**  (**GP & TM**) 8 minuten pitch (presentatie) per project team aan hele klas |
+| ma  | `SWA` [Taakstructurering](./lesprogramma/programma-taakstructurering.md) (**MV**)|
+| di  | **Einde sprint 2** <br> `PRO` 8 minuten pitch (presentatie) per project team aan hele klas (**GP & TM**) |
 | wo  | `ESP` [Keypad  en ADC](./lesprogramma/programma-CYD-keypad.md) (**HS & HP**)|
 | do  | `ALG` Value sensitive design workshop (**TM**) <br> `ESP` [SPI/scherm](../programma/lesprogramma/programma-CYD-backbuffer.md) backbuffer (**HP**) |
 
@@ -138,8 +138,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | klas A | klas B|
 | --- | :--- | --- |
-| ma  | **Einde sprint 3** sprint demo <br> `PRO` 20 minuten show en tell enkel aan docent (**TM**)  |`SWA` [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|
-| di  | `SWA` [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo <br> `PRO` 20 minuten show en tell enkel aan docent (**GP**)  |
+| ma  | **Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**TM**)  |`SWA` [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|
+| di  | `SWA` [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**GP**)  |
 | wo  |  `SWA` [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | (gezamenlijk met klas A)|
 | do  | `ESP` [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP & HS**) | (gezamenlijk met klas A)|
 
