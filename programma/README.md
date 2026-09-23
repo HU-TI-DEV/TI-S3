@@ -123,12 +123,13 @@ Markeringen voor de onderwerpen:
 
 ### Onderwijsweek A7 (12-10-2026)
 
-| Dag | klas A | klas B|
+# let op!!! deze week is anders ingedeeld!
+| Dag | sochtends | smiddags|
 | --- | :--- | --- |
-| ma  | `PRO` Team coachgesprek per team (20 min) (**TM**)|`SWA` [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |
-| di  | `SWA` [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|`PRO` Team coachgesprek per team (20 min)  (**GP**)|
-| wo  | `ESP` [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)| (gezamenlijk met klas A)|
-| do  | `ALG` [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|(gezamenlijk met klas A)|
+| ma  | geen les | geen les |
+| di  | geen les |`PRO` Team coachgesprek per team (20 min)  (**GP&TM**)|
+| wo  | `SWA` KLAS A in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |`ESP` ALLEBEI DE KLASSEN [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)|
+| do  | `SWA` KLAS B in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|`ALG` ALLEBEI DE KLASSEN [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|
 
 ### Onderwijsweek A8 (19-10-2026)
 
