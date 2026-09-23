@@ -128,8 +128,8 @@ Markeringen voor de onderwerpen:
 | --- | :--- | --- |
 | ma  | geen les | geen les |
 | di  | geen les |`PRO` Team coachgesprek per team (20 min)  (**GP&TM**)|
-| wo  | `SWA` KLAS A in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |`ESP` ALLEBEI DE KLASSEN [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)|
-| do  | `SWA` KLAS B in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|`ALG` ALLEBEI DE KLASSEN [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|
+| wo  | `SWA` **KLAS A** in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**) |`ESP` **ALLEBEI DE KLASSEN** [Sprites](./lesprogramma/programma-CYD-sprites.md) (**BB & HP**)|
+| do  | `SWA` **KLAS B** in hl15-3.066 [Observer pattern](./lesprogramma/programma-klassediagram-intro-observer.md)   (**MV**)|`ALG` **ALLEBEI DE KLASSEN** [Fourier & Equalizer](./lesprogramma/programma-sign-freq-filter.md) (**BB**)|
 
 ### Onderwijsweek A8 (19-10-2026)
 
