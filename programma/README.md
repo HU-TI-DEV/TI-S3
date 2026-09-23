@@ -148,7 +148,7 @@ Markeringen voor de onderwerpen:
 | Dag | klas A | klas B|
 | --- | :--- | --- |
 | ma  | `PRO` Sessie met teamcoach (20 min) (**TM**)|`SWA` [State Transition Diagrams II](./lesprogramma//programma-std-2.md)   (**MV**)  |
-| ma  | `SWA` [State Transition Diagrams II](./lesprogramma//programma-std-2.md)   (**MV**)  | `PRO` Sessie met teamcoach (20 min) (**GP**)|
+| di  | `SWA` [State Transition Diagrams II](./lesprogramma//programma-std-2.md)   (**MV**)  | `PRO` Sessie met teamcoach (20 min) (**GP**)|
 | wo  | `SWA` [Herhaling STD -> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| (gezamenlijk met klas A) |
 | do  |  `C++` [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |(gezamenlijk met klas A) |
 
