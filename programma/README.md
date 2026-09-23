@@ -51,7 +51,7 @@ De begeleiders zijn:
 | **LB** | Len Bunte             | ma, wo, do    | studieloopbaanbegeleider |
 | **BB** | Bart Bozon            | (tbd)         | vakdocent                |
 | **TM** | Teun Pieter Modderman | ma            | projectdocent            |
-| **GP** | Gera Pronk            | di, do        | vakdocent                |
+| **GP** | Gera Pronk            | ma,di         | projectdocent            |
 | **HP** | Hagen Patzke          | di, wo, do    | vakdocent                |
 | **HS** | Harm Snippe           | wo, do, vr    | semestercoördinator      |
 | **MV** | Marius Versteegen     | (tbd)         | vakdocent                |
