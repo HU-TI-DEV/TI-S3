@@ -110,7 +110,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- | --- |
 | ma  | `SWA` Review in de klas van key drivers en (non-)functional requirements (**GP**) |HL15-7.032 `SWA` [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) | 
 | di  |HL15-3.068 van 12.00 - 14.30 uur`SWA` [Objectmodel](./lesprogramma/programma-object-model-2.md) (**MV**) |`SWA` HL15-3.018 en HL15-1.096 van 12.00 - 14.30 uur Review in de klas van key drivers en (non-)functional requirements (**GP**)|
-Lezing Cern voor beide groepen in HL15-0.043 van 14.45 - 16.00 uur.
+| di  |Lezing Cern voor beide groepen in HL15-0.043 van 14.45 - 16.00 uur.
 | wo  |  `ESP` [SPI/scherm](../programma/lesprogramma/programma-CYD-drawables.md) drawables (**HS & HP**) | (gezamenlijk met klas A) |
 | do  | `ALG` Last minutes tips over verantwoordingsdocument (**BB**) <br>  `SWA` [Operating systems, State-Transition-Diagrams en Code](./lesprogramma/programma-OS-STD-Code.md)  (**BB**)<br> **Peilmoment 1 inleveren** |(gezamenlijk met klas A)|
 
