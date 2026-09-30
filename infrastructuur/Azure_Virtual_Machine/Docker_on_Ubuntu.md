@@ -43,5 +43,12 @@ Use Docker commands without typing sudo.
 sudo usermod -aG docker azureuser
 ```
 
-In Semester 2 we already worked with [Docker and its commands](https://github.com/HU-TI-DEV/TI-S2/blob/main/infrastructuur/Docker/README.md). It is also nice to have a tool like [Docker Compose](./Docker_Compose_on_Ubuntu.md) for automated installation of multiple Docker Containers that interact with each other. 
+In Semester 2 we already worked with [Docker and its commands](https://github.com/HU-TI-DEV/TI-S2/blob/main/infrastructuur/Docker/README.md). It is also nice to have a tool like Docker Compose for automated installation of multiple Docker Containers that interact with each other. Sometimes your application will consist of multiple Docker images that are dependent on each other. For this Docker Compose can help you simplify and make your deployment robust. Docker Compose is now pre-installed with Docker.
 
+To check you Docker Compose version: 
+
+```bash
+docker compose version
+```
+
+You now have all the tools to install [a server with Web Application](../ServerMetWebApplicatie/Gomoku_on_Ubuntu.md). 

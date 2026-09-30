@@ -8,13 +8,13 @@ Daarmee verkleint het de kans op teleurstelling achteraf en weet het ontwikkelte
 ## Voorbereiding
 
 - Lees van [Reader System Engineering](../../onderwijsmateriaal/readers/reader-system-engineering.pdf) het stukje over **use cases**, **use case diagrammen** en **use case beschrijvingen**, bladzijde 34 tm 40.
-- Bestudeer ook deze [sheets](../../onderwijsmateriaal/readers/sheets-use-cases.pdf)
+- Bestudeer ook deze [sheets](../../onderwijsmateriaal/presentaties/sheets-use-cases.pdf)
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video use cases](https://www.youtube.com/watch?v=KOnqXexY-1A)
 - En [Video voorbeeld Keukenweegschaal - UC diagram maken](https://youtu.be/lrKcsDOxHX0)
 
 ## Tijdens en na de les
 
-### Use Case diagram maken
+### Use Case diagram en Use Case beschrijvingen maken
 
 Bedenk samen wat de belangrijkste use cases zijn voor het systeem. Maak er vervolgens **individueel** een use case diagram van.
 Dat mag op kladpapier zijn.

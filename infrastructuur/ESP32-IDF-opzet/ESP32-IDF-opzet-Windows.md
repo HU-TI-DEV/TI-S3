@@ -168,7 +168,7 @@ testen:
 
 > (met de spatiebalk kun je de flow uit de monitor stil zetten)
 
-**Open de hello_world_main.c om te kijken wat het programma zou moeten doen:** 
+**Open de main.c om te kijken wat het programma zou moeten doen:** 
 ```c++
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"

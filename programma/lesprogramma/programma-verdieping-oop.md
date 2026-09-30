@@ -33,7 +33,7 @@ Doel is de herhaling en verdieping van in TI-S2 opgedane C++ kennis, met focus o
       * Wat moet er buiten de toevoeging worden veranderd/uitgebreid?
 
     * Interessante projecten zijn vaak vrij groot
-      (bijvoorbeeld [SerenetyOS](https://serenityos.org/))
+      (bijvoorbeeld [SerenityOS](https://serenityos.org/))
     * Daarom kies je van zo'n project een bewerkbaar onderdeel
       (bij SerenetyOS bijvoorbeeld [een van de filesystemen](https://github.com/SerenityOS/serenity/tree/master/Kernel/FileSystem),
        dan is de vraag hoe deze zijn geimplementeerd en wat je moet doen om een eigen filesysteem-variant toe te voegen).
@@ -52,13 +52,13 @@ Doel is de herhaling en verdieping van in TI-S2 opgedane C++ kennis, met focus o
 
 * Deliverables
   * Presentatie van de groep aan de klas (volgende week, ca. 15 minuten per groep).\
-    *Het feedback daarvan neem je op in je verantwoordingsdocument.*
+    _Het feedback daarvan neem je op in je verantwoordingsdocument._
   * Inlevering op Canvas
     * Presentatie (odp of pptx) bestand.
-    * PDF bestand met export van de presentatie met aantekeningen ("presenter notes", "handouts" of "notes pages", 
+    * PDF bestand met export van de presentatie met aantekeningen ("presenter notes", "handouts" of "notes pages",
       pagina's met een slide en aatekeningen).
       (Zie [het proefcollege van Hagen](https://hpatzke.nl/hu/2022-04-20-HU-TI-Huffman-Notes.pdf) als je niet weet hoe het uitziet.)
-    * Tekstbestand met de bronnen die je hebt gebruikt (links naar bekeken projecten), als je AI gebruikt ook de prompt, 
+    * Tekstbestand met de bronnen die je hebt gebruikt (links naar bekeken projecten), als je AI gebruikt ook de prompt,
       de response van het systeem, en hoe je de uitvvoer hebt verwerkt (wat je daarvan hebt gebruikt).
     * Inlevercommentaar met GitHub-link naar de (sub)sectie in je verantwoordingsdocument waar je jouw werk hebt opgenomen.
 

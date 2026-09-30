@@ -2,7 +2,7 @@
 
 - [Waarom een server opzetten?](#waarom-een-server-opzetten)
 - [Waarom Ubuntu?](#waarom-ubuntu)
-- [Waarom Ubuntu\_22.04\_LTS?](#waarom-ubuntu_2204_lts)
+- [Waarom Ubuntu\_24.04\_LTS?](#waarom-ubuntu_2404_lts)
 - [Ontwikkel server vs Productie server](#ontwikkel-server-vs-productie-server)
 - [WSL, Raspberry PI, cloud server](#wsl-raspberry-pi-cloud-server)
   - [WSL](#wsl)
@@ -12,8 +12,8 @@
 - [Server verder inrichten](#server-verder-inrichten)
   - [Nameservers instellen](#nameservers-instellen)
   - [update en upgrade](#update-en-upgrade)
-  - [git](#git)
-  - [python](#python)
+  - [Git](#git)
+  - [Python](#python)
   - [Docker subfolders](#docker-subfolders)
   - [Testen of het werkt](#testen-of-het-werkt)
 - [Iets meer over docker containers](#iets-meer-over-docker-containers)
@@ -37,9 +37,9 @@ We willen dat ieder **individueel** een development server opzet, zodat alle tea
 
 Ubuntu is een van de, of misschien wel de **meest gangbare** Linux variant van het moment. Daardoor is vrijwel alles wat je kunt bedenken ondersteund. Bijvoorbeeld ook de gebruiksvriendelijke MongoDatabase, waar ik geen support voor vond op Debian.
 
-## Waarom Ubuntu_22.04_LTS?
+## Waarom Ubuntu_24.04_LTS?
 
-Om **incompatibiliteitsproblemen** met je teamleden te **voorkomen**, is het een goed idee dezelfde Linux distributie te gebruiken. De specifiek gebruikte Docker images zijn immers vaak gelinkt aan specifieke Linux distributies. De **voorbeeld webapplicatie** die je dit semester krijgt, is gebaseerd op Ubuntu_22.04_LTS. Door dezelfde distributie te gebruiken ben je ervan verzekerd dat je een goed werkend voorbeeld hebt.
+Om **incompatibiliteitsproblemen** met je teamleden te **voorkomen**, is het een goed idee dezelfde Linux distributie te gebruiken. De specifiek gebruikte Docker images zijn immers vaak gelinkt aan specifieke Linux distributies. De **voorbeeld webapplicatie** die je dit semester krijgt, is gebaseerd op Ubuntu_24.04_LTS. Door dezelfde distributie te gebruiken ben je ervan verzekerd dat je een goed werkend voorbeeld hebt.
 
 ## Ontwikkel server vs Productie server
 
@@ -49,17 +49,17 @@ Je wilt je webapplicatie normaal gesproken op **meerdere servers** tegelijk kunn
 
 ### WSL
 
-Als je **windows11** hebt, is het handig om een Ubuntu_22.04_LTS instantie in WSL te maken die dient als **ontwikkelserver**. **WSL** staat voor **W**indows **S**ubsystem for **L**inux. Het laat je toe om binnen windows zoveel Linux (server-) instanties aan te maken als je maar wilt. 
+Als je **windows11** hebt, is het handig om een Ubuntu_24.04_LTS instantie in WSL te maken die dient als **ontwikkelserver**. **WSL** staat voor **W**indows **S**ubsystem for **L**inux. Het laat je toe om binnen windows zoveel Linux (server-) instanties aan te maken als je maar wilt. 
 
-In [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md) wordt beschreven hoe je de die installatie van Ubuntu_22.04_LTS in WSL kunt doen.
+In deze verouderde handleiding [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md) wordt beschreven hoe je de die installatie van Ubuntu_22.04_LTS in WSL kunt doen.
 
 ### Raspberry PI
 
-Het mooie van **Ubuntu_22.04_LTS** is dat het (tegenwoordig) ook op RPI4 en RPI5 ondersteund is. Direct vanuit de **Raspberry PI installer** kun je kiezen voor die distributie (de **command line versie** volstaat - je hebt geen desktop nodig). Let er (net als bij Semester 2) op dat je via **ssh** kunt inloggen op die server. Eenmaal ingelogd op (de command line) kun je voor zover ik me herinner 1-op-1 de ervaringen volgen van [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md#docker-installeren) vanaf het kopje **Docker installeren**.
+Het mooie van **Ubuntu_24.04_LTS** is dat het (tegenwoordig) ook op RPI4 en RPI5 ondersteund is. Direct vanuit de **Raspberry PI installer** kun je kiezen voor die distributie (de **command line versie** volstaat - je hebt geen desktop nodig). Let er (net als bij Semester 2) op dat je via **ssh** kunt inloggen op die server. Eenmaal ingelogd op (de command line) kun je voor zover ik me herinner 1-op-1 de ervaringen volgen van [log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md](./log_WSL_instantie_van_Ubuntu_22_04_LTS_opzetten.md#docker-installeren) vanaf het kopje **Docker installeren**.
 
 De centrale server (de **productie-server**) van je project-team zul je mogelijk op een Raspberry PI(4) maken. Voor alle teams is er een Raspberry Pi4 beschikbaar. Ook aantal intel-based (N100) machines waar Ubuntu op geinstalleerd kan worden zijn beschikbaar. Dus vraag als team eerst even na welke server het wordt.
 
-**Als je geen windows machine met windows 11 hebt** en wel een RPI4 of RPI5, is het een goed idee om zo je **persoonlijke** Ubuntu_22.04_LTS **ontwikkelserver** aan te maken.
+**Als je geen windows machine met windows 11 hebt** en wel een RPI4 of RPI5, is het een goed idee om zo je **persoonlijke** Ubuntu_24.04_LTS **ontwikkelserver** aan te maken.
 
 ### Cloud server
 
@@ -73,7 +73,7 @@ In dit semester werken we met een [VoorbeeldWebApp_Gomoku](https://github.com/HU
 
 ## Server verder inrichten
 
-**Zodra je een kale Ubuntu_22-04_LTS instantie op een van de 3 bovenstaande manieren hebt aangemaakt**, en er in bent ingelogd (via ssh, of indien via wsl: vanuit een powershell **met** administrator rights en een wsl-prompt), kun je **vervolgen** met installatie van wat verdere benodigdheden (zie **onderstaand**).
+**Zodra je een kale Ubuntu_24-04_LTS instantie op een van de 3 bovenstaande manieren hebt aangemaakt**, en er in bent ingelogd (via ssh, of indien via wsl: vanuit een powershell **met** administrator rights en een wsl-prompt), kun je **vervolgen** met installatie van wat verdere benodigdheden (zie **onderstaand**).
 
 ### Nameservers instellen
 
@@ -81,7 +81,9 @@ Zonder instellen van de nameservers van Google kan het zijn dat updates en derge
 
 Controleer dus eerst of de **google nameservers** (8.8.8.8 en 8.8.4.4) ingesteld zijn:
 
-- cat /etc/resolv.conf
+```bash
+cat /etc/resolv.conf
+```
 
 Zo niet, dan zou je ze kunnen toevoegen met sudo nano, maar dat wil je niet elke keer nadat je inlogt opnieuw doen.
 
@@ -89,11 +91,15 @@ Zo niet, dan zou je ze kunnen toevoegen met sudo nano, maar dat wil je niet elke
   
   ```bash
   sudo cp /etc/resolv.conf /etc/resolv.conf.backup
-  sudo rm /etc/resolv.conf
   sudo nano /etc/resolv.conf
-  dan toevoegen:
+  ```
+  Dan toevoegen:
+  ```bash
   nameserver 8.8.8.8
   nameserver 8.8.4.4
+  ```
+  Sla de wijzigingen op en sluit Nano.
+  ```bash
   sudo chattr +i /etc/resolv.conf
   ```
   
@@ -102,28 +108,51 @@ Zo niet, dan zou je ze kunnen toevoegen met sudo nano, maar dat wil je niet elke
 - Met sudo nano wordt in die plaats een echte file met die naam aangemaakt.
 - Met de laatste regel wordt het bestand onwijzigbaar (**i**mmutable) gemaakt (met zelfde commando, maar dan met -i is dat weer ongedaan te maken).
 
+      Krijg je een error zoals "sudo: unable to resolve host noharmVM: Temporary failure in name resolution"? Voeg dan aan je host tabel toe (sudo nano /etc/hosts) 127.0.1.1 <naam van je VM> in mijn geval noharmVM.
+
 ### update en upgrade
 
-- sudo apt update  
-- sudo apt upgrade
+```bash
+sudo apt update  
+sudo apt upgrade
+```
 
-### git
+### Git
 
 Op AWS Lightsail bleek git al geinstalleerd. In de WSL en op de Raspberry PI doen we het zelf even:
 
-- sudo apt install git
+Controleer of je Git hebt met:
+```bash
+git --version
+```
 
-### python
+Anders installeer Git:
 
-- sudo apt install python3 python3-pip
+```bash
+sudo apt install git
+```
 
-Ik kies ervoor om "pakketten bij elkaar horende docker containers" in subdirectories van een folder genaamd "docker" in mijn home/username directory te zetten. Die bij elkaar horende containers kunnen dan vanuit de desbetreffende subfolders in een keer gestart of gestopt worden via een "docker compose" commando.
+### Python
+
+Controleer of je Python hebt met:
+```bash
+python3 --version
+```
+
+Anders installeer Python:
+```bash
+sudo apt install python3 python3-pip
+```
+
+Ik kies ervoor om "pakketten bij elkaar horende docker containers" in subdirectories van een folder genaamd "docker" (`mkdir docker`) in mijn home/username directory te zetten. Die bij elkaar horende containers kunnen dan vanuit de desbetreffende subfolders in een keer gestart of gestopt worden via een "docker compose" commando.
 
 ### Docker subfolders
 
 Om te beginnen voeg ik zo'n subfolder toe met de VoorbeeldWebApp_Gomoku van dit semester:     
 
-- git clone https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku
+```bash
+git clone https://github.com/HU-TI-DEV/VoorbeeldWebApp_Gomoku
+```
 
 Het is handig om die als referentie te bewaren.     
 Verder is het handig als je **als team één enkele** (lege) repo aanmaakt, bijvoorbeeld "Rollatornavigatie", en die ook **cloned** in de docker folder. Je docker folder heeft dan dus twee subfolders: VoorbeeldWebApp_Gomoku en RollatorNavigatie.
@@ -149,36 +178,50 @@ als je daar ls intypt, zie je een docker-compose.yml file.
 Die beschrijft welke containers er gestart moeten worden en hoe ze met elkaar verbonden zijn.
 Start die containers met:
 
-- docker compose up --build -d   
+```bash
+docker compose up --build -d   
+```
   .. of zonder --build als je niet opnieuw wilt builden.  
   (de meest cleane build is met --no-cache, maar dat duurt veel langer)
 
 Je kunt de status van de containers zien met:  
 
-- docker ps
+```bash
+docker ps
+```
 
 Je kunt de log van een container zien met:
 
-- docker logs [container id]
+```bash
+docker logs [container id]
+```
 
 Je kunt de containers stoppen met:  
 
-- docker compose down
+```bash
+docker compose down
+```
 
 Net zoals dat je soms bij embedded software middels een fullclean met een frisse lei begint, kun je dat ook doen met docker containers:
 
-- docker compose down
-- docker compose build --no-cache
-- docker compose up -d
+```bash
+docker compose down
+docker compose build --no-cache
+docker compose up -d
+```
 
 Optioneel kun je eerst ook nog alle images verwijderen (die moeten dan allemaal opnieuw gedownload worden):
 
-- docker compose down --rmi all
+```bash
+docker compose down --rmi all
+```
 
 Wacht even tot alle containers opgestart zijn.  
 Als je **WSL** gebruikt, draait het op dezelfde machine als je windows desktop en kun je in je browser naar **localhost:5001/gomoku/** gaan om te zien of de webapplicaties werken.
 
 Als je remote bent ingelogd op een Rasberry PI of Amazon server, vervang je **localhost** door het ip nummer van die machine.
+
+    Vaak moet je ook nog een poortregel toevoegen als je een VM hebt. Bij Azure voeg je poort 5001 toe onder > netwerken > netwerkinstellingen + poortregelmaken > Inkomende beveiligingsregel toevoegen
 
 ## Iets meer over docker containers
 
@@ -236,7 +279,7 @@ Helaas werkt het niet met Amazon Lightsail. Het probleem is dat VSCode een serve
 
 ### VSCode via WSL
 
-Als je op een **Windows 11** machine werkt, kun je ook via **WSL** inloggen op je **Ubuntu_22.04_LTS** machine. Je kunt dan in je editor werken alsof je lokaal op die machine werkt.
+Als je op een **Windows 11** machine werkt, kun je ook via **WSL** inloggen op je **Ubuntu_24.04_LTS** machine. Je kunt dan in je editor werken alsof je lokaal op die machine werkt.
 
 Installeer in VSCode daartoe de **Remote-WSL** extension.
 Helaas heb ik daar geen log van bijgehouden. Dus dat is iets om zelf uit te zoeken.   

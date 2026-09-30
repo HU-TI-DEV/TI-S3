@@ -11,16 +11,19 @@
 - S3: Professioneel gedrag = key
 - De structuur van S3 (grove weekindeling)
 - [kick off presentatie](../files/AftrapS3.pptx)
+- Introductie van de Game opdracht
+- Maak een DISC profiel
 
-## Aan de slag
+## Deze week
 
 We gaan aan de slag met [Journalling](../../organisatorisch/journaliseren.md).  
-We gaan aan de slag met de  [ESP32 installatie](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
+We gaan aan de slag met de [ESP32 installatie](../../infrastructuur/ESP32-IDF-opzet/ESP32-IDF-opzet-Windows.md).
 
 ## Canvas Opdracht
-- Maak de canvas opdracht "Journalling".
-- Maak de canvas opdracht "ESP32 idf installatie".
-- Maak de canvas opdracht "Voornemens".
+- Maak de Canvas opdracht "DISC profiel"
+- Maak de Canvas opdracht "Journalling".
+- Maak de Canvas opdracht "ESP32 idf installatie".
+- Maak de Canvas opdracht "Voornemens".
 
 
 
