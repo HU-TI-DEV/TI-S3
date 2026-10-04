@@ -63,14 +63,14 @@ class Strava
   ...
 
   void nieuweGpsGelezen(const GpsLocatie& gpsLocatie){
-    xQueueSend(queueGpsLocatie, &gpsLocatie, portMAX_DELAY);
+    queueGpsLocatie.write(gpsLocatie);
+    xQueueSend(keyTypedQueue, &character, portMAX_DELAY);
   }
 
   void main(){
     while(true){
       gpsMeter.meetGpsLocatie();        // bestel nieuwe meting
-      xQueueReceive(queueGpsLocatie, &gpsLocatie, portMAX_DELAY);
-                                        // wacht op het resultaat
+      gpsLocatie=queueGpsLocatie.read();// wacht op het resultaat
       database.slaOp(gpsLocatie);       // sla op in de database
     }
   }
@@ -80,27 +80,21 @@ class GpsMeter
 {
   ...
 
-  // callback van I2c readBytes functie
   void i2cByteRead(uint8_t byte){
-    xQueueSend(queueBytes, &queueBytes, portMAX_DELAY);
+    queueBytes.write(byte);
   }
-
   void meetGpsLocatie(){
-    xEventGroupSetBits(eventGroup, eventBitMeetGpsLocatie)
+    flagMeetGpsLocatie.set();
   }
 
   void main(){
     while(true){
-      (void) xEventGroupWaitBits(eventGroup,eventBitMeetGpsLocatie, 
-                                 pdTRUE, pdFALSE, portMAX_DELAY);
-                             // Wacht op opdracht om gps locatie te meten
-      ...
-      i2c.readBytes(0x8a,3); // zend bericht naar i2c bus om uit 
+      wait(flagMeetGpsLocatie);// Wacht op opdracht om gps locatie te meten
+      i2c.readBytes(0x8a,3);   // zend bericht naar i2c bus om uit 
                              // register 0x8a 3 bytes te lezen
-                             // wacht op antwoord van i2c bus
-      xQueueReceive(queueBytes, &x, portMAX_DELAY);
-      xQueueReceive(queueBytes, &y, portMAX_DELAY);
-      xQueueReceive(queueBytes, &z, portMAX_DELAY);
+      x = queueBytes.read();   // wacht op antwoord van i2c bus
+      y = queueBytes.read();
+      z = queueBytes.read();
       strava.nieuweGpsGelezen(gpsLocatie(x,y,z));
     }
   }  
@@ -110,8 +104,10 @@ class GpsMeter
 Na taaksamenvoeging zou de code er zo uit kunnen zien:
 
 ```c
+```c
 class Strava
 {
+  ...
   void main()
   {
     while(true){
@@ -124,8 +120,8 @@ class Strava
 class GpsMeter
 {
   ...
+  GpsMeter(Task* pTaskMaster):m_pTask(pTaskMaster){}
 
-  // callback van I2c readBytes functie
   void i2cByteRead(uint8_t byte)
   {
     m_pTask->queueBytes.write(byte);
@@ -133,13 +129,11 @@ class GpsMeter
 
   GpsLocatie meetGpsLocatie()
   {
-    ...
-    i2c.readBytes(0x8a,3); // zend bericht naar i2c bus om uit 
+    i2c.readBytes(0x8a,3);   // zend bericht naar i2c bus om uit 
                              // register 0x8a 3 bytes te lezen
-                             // wacht op antwoord van i2c bus
-    xQueueReceive(queueBytes, &x, portMAX_DELAY);
-    xQueueReceive(queueBytes, &y, portMAX_DELAY);
-    xQueueReceive(queueBytes, &z, portMAX_DELAY);
+    x = m_pTask->queueBytes.read();   // wacht op antwoord van i2c bus
+    y = m_pTask->queueBytes.read();
+    z = m_pTask->queueBytes.read();
     return gpsLocatie(x,y,z);
   }
 
@@ -153,7 +147,7 @@ class GpsMeter
 
 - De waitables voor de communicatie tussen master en slave (queueGpsLocatie en flagMeetGpsLocatie) zijn niet meer nodig.
 
-- GpsMeter heeft nog wel waitables nodig voor communicatie met andere taken.  
+- GpsMeter heeft nog wel waitables nodig voor communicatie met andere taken.  Die lopen nu via de taak waarmee is samengevoegd (de taak van Strava, in dit geval). Om dat mogelijk te maken wordt pointer naar die taak via de constructor meegegeven.
 
 ### Kanttekening: Sensors zenden normaalgesproken
 
