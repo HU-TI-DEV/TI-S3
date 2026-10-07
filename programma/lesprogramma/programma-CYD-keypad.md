@@ -11,7 +11,7 @@
 ![K845037](./images/K845037-board.png)
    
 ## Tijdens de les
-Tijdens de les kan ADC uitlezen met eerder geschreven code. Deze waarden (raw values) kan je gebruiken om keypad [template project](../../software/CYD/AnalogButtonReader/) aan te vullen.
+Tijdens de les ga je de ADC uitlezen met eerder geschreven code. Deze waarden (raw values) kan je gebruiken om keypad [template project](../../software/CYD/AnalogButtonReader/) aan te vullen.
 
 In de main introduceren we een lambda functie. Een lambda is een inline anonieme functie. We zouden een functie kunnen schrijven:
 ```cpp
