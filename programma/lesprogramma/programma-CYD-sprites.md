@@ -1,6 +1,6 @@
 # Programma CYD Sprites
 
-Deze les gaat over het maken en tonen van sprite.
+Deze les gaat over het maken en tonen van een sprite.
 
 ## Voorbereiding
 
@@ -10,7 +10,7 @@ Deze les gaat over het maken en tonen van sprite.
 
 Bij deze opdracht is er weer een [voorbeeld project](../../software/CYD/Game_sprites/). 
 
-Dit template is de basis waar later game-play elementen aan toe kunnen worden gevoegd. Dit is het laatste template dat we geven. Vanaf hier maak je zelf het eindproduct, je persoonlijke Game. Er volgen wel nog ESP32 lessen waar je elementen van kan gebruiken. Veel van de code in dit template is gegeven. Vul onderdelen die je in vorige opdrachten hebt gemaakt aan zoals `primitives` en `keyinput`. Je game mag ook gebruik maken van andere gebruikersinput zoals een joystick. Voor deze opdracht is dat nog geen vereiste.
+Dit template is de basis waar later game-play elementen aan toe kunnen worden gevoegd. Veel van de code in dit template is gegeven. Vul onderdelen die je in vorige opdrachten hebt gemaakt aan zoals `primitives` en `keyinput`. Je game mag ook gebruik maken van andere gebruikersinput zoals een joystick. Voor deze opdracht is dat nog geen vereiste.
 
 Ja maakt tijdens deze opdracht: 
   - Een eigen speler (entity)
