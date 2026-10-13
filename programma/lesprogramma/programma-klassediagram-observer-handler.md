@@ -1,4 +1,4 @@
-# Programma Klassediagram + Observer Pattern + Handler Pattern
+# Programma Klassediagram Observer Pattern + Handler Pattern
 
 Deze les staat het omzetten van een object model naar een klassediagram centraal. We daarbij ook op herbruikbaarheid, door het Observer Pattern te gebruiken waar het van toepassing is. We passen waar mogelijk ook temporele cohesie toe, via het Handler Pattern.
 
