@@ -39,5 +39,5 @@ Voor de web-applicaties krijg je bij een latere les wat voorbeelden (inclusief c
 Als voorschot daarop kan ik al van twee webapplicaties een model tonen.
 Dan heb je een idee van hoe je het ontwerp (en het resultaat) van zo'n web-applicatie in een model zou kunnen weergeven.
 
-- [Object Model van Gomoku Web Applicatie](img/cbe3718e7b43463dac9eb9d34813efde29d367f8.svg)
-- [Object Model van Teambuilder Web Applicatie](img/b72bafbba921788650df88c06f5deb609802d306.svg)
+- [Model van Gomoku Web Applicatie](img/cbe3718e7b43463dac9eb9d34813efde29d367f8.svg)
+- [Model van Teambuilder Web Applicatie](img/b72bafbba921788650df88c06f5deb609802d306.svg)
