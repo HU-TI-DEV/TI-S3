@@ -20,9 +20,11 @@ En het nut van dit alles!:
   
 ## Tijdens en na de les
 
-1) Bart legt DFT uit.
+1) Bart legt DFT uit (zie ook dit [programma](../files/mic_scope_slider.py)
 
-2) Upload de volgende code naar je arduino uno.
+2) Maak de Signals, Fourier en Filters opdracht op canvas
+  
+3) Upload de volgende code naar je arduino uno.
 
 ```c++
 // 50 Hz detector – 1024 samples, 8-bit storage
