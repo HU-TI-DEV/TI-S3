@@ -143,7 +143,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- | --- |
 | ma  | **Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**TM**)  |`SWA` HL15-1.080 [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|
 | di  | `SWA` HL15-2.012 [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**GP**)  |
-| wo  |  `SWA` [Handler pattern](./lesprogramma/programma-klassediagram-handler.md) (**MV**)   | (gezamenlijk met klas A)|
+| wo  |  `SWA` [Pong Modding Workshop](./lesprogramma/programma-pong-game-modding-workshop.md) (**MV**)   | (gezamenlijk met klas A)|
 | do  | `ESP` [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP & HS**) | (gezamenlijk met klas A)|
 
 ### Onderwijsweek A10 (2-11-2026)
