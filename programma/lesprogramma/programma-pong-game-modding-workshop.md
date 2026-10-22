@@ -1,6 +1,7 @@
 # Programma Pong game modding Workshop
 
 **Neem voor deze les je CYD mee!**
+
 Deze les ga je een kleine mod maken voor een bestaande pong-game. Iets met een eigen toestandsmachine. Een muur die zich verplaatst, een object waartegen geketsts kan worden dat om de zoveel tijd naar een nieuwe positie schuift, bedenk het maar.
 
 Het doen van deze workshop zal je waardevolle ervaring geven voor het afronden van je eigen game.
