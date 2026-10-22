@@ -11,9 +11,9 @@
 - Er zijn **geen pseudotoestanden** gecreerd. Dus **geen** events op **uitgaande pijlen** van decision nodes en de initial node.
 - Moet er **gepollt** worden? vergeet dan niet tussendoor steeds te **wachten** (met after(1s) of door te wachten op een expliciet timerEvent).
 
-## Overgangen
+## Toestandsovergangen
 
-Langs een overgangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions :
+Langs een toestandsovergangspijl wordt de volgende volgorde aangehouden, voor events, guard en actions :
 
 ```
   event [guard] / action  
@@ -40,9 +40,43 @@ Een guard bestaat uit de condities van een if statement die direct (zonder dat e
 **Action**
 Een action kan een stuk code zijn dat uitgevoerd wordt bij de state transition. Die code kan bijvoorbeeld een functie aanroep van een andere klasse zijn. (Op die manier communiceren taken met elkaar - door de publieke functies van elkaars klassen aan te roepen). Cruciaal is dat een action direct wordt uitgevoerd, zonder wacht toestanden. 
 
+### Uitgebreid (template-) voorbeeld van STD met alle mogelijke toestandsovergangen
+
+Een uitgebreid template- voorbeeld van een STD en bijbehorende code, waar alle mogelijke toestandsovergangen gedemonstreerd worden is hier te vinden:
+
+[StateMachineTemplatePro.zip](../../programma/lesprogramma/files/StateMachineTemplatePro.zip)
+
+## Toestandsmachine
+
+Zorg in de uiteindelijke code van je std dat de toestandsovergangen allemaal terug te vinden zijn op het hoogste niveau (van de toestands-switch van de thread).
+
+## Private functies
+
+Zorg dat code die binnen je STD wordt uitgevoerd, voor een bepaald afgebakend doel, zoals je geleerd hebt, mooi wordt gegroepeerd in een aparte private functie.
+
+Verkas echter geen toestandsovergangen (state = NewState; oid) naar private functies (zie vorige paragraaf).
+
+De private functie kan dan worden aangeroepen als onderdeel van een action. Om de STD flow goed te begrijpen, moet (een toelichting van-) de private functie worden toegevoegd in de vorm van een note/comment in de STD. 
+
+Of de functie header en een (pseudo code-) toelichting volstaat, of dat een kopie van de hele functie in de comment nodig is hangt van het volgende af.
+Voeg een kopie van de volledige private functie toe in een note (comment) van de STD als:
+
+- Er binnen de functie dingen worden veranderd die direct van invloed zijn op de toestandsflow. Bijvoorbeeld het verhogen van een counter, die elders in de STD een decision node beslissing bepaalt.
+
+- En/of er binnen de functie synchronisatie-items worden gebruikt (queue, eventbit, timer)
+
+- En/of er binnen de functie met andere objecten wordt gecommuniceerd op een manier die direct de toestandsflow beinvloedt. Bijvoorbeeld counter=anderObject.getCounter(), en elders gebruikt een decision node counter. Tegenvoorbeeld: display.ShowBackground() beinvloedt meestal niet direct de toestandsflow.
+
+Om het STD zo duidelijk mogelijk te houden, wil je dit soort functies, welke geheel opgenomen worden in de note van een STD, zo klein mogelijk houden. Dat kun je doen door van die functies zo groot mogelijke stukken code die niet aan een van bovenstaande 3 criteria voldoen, af te splisten naar andere private functies.
+Voor die andere private functies volstaat dan weer een korte toelichting. 
+
+Voorbeelden met bovenstaande toegepast kun je zien in bijvoorbeeld [de modellen van super_pong_frt](https://github.com/nepbuur1/test_lasergame_2_rework_CleanGUI_godmode/tree/main/apps_frt/pong_super_frt/models).
+
 ## Naamgeving communicatiemechanismen
 
-De naamgeving van functies en synchronisatiemechanismen waarmee objecten met elkaar praten is gestandaardiseerd. Onderstaand vind je de regels. In de eerste kolom staat wat de taak wil bereiken, en welk type functienaam daarbij betrokken is. In de tweede kolom zie je wat er voor dat doel in de STD langs een pijl staat. In de derde kolom zie je wat voorbeelden van de genoemde functienamen. In de vierde kolom zie je welke freeRTOS code ermee gemoeid is.
+De naamgeving van functies en synchronisatiemechanismen waarmee objecten met elkaar praten is gestandaardiseerd. Die namen kies je al bij het maken van een Object Model. Er zijn 3 smaken: commando's, mededelingen en opvragen. Grosso modo doen sensor objecten mededelingen, en geven de control objecten van je usecases (de big bosses) commando's en vragen dingen op bij andere objecten.
+
+Onderstaand vind je de regels. In de eerste kolom staat wat de taak wil bereiken, en welk type functienaam daarbij betrokken is. In de tweede kolom zie je wat er voor dat doel in de STD langs een pijl staat. In de derde kolom zie je wat voorbeelden van de genoemde functienamen. In de vierde kolom zie je welke freeRTOS code ermee gemoeid is.
 
 | #   | Wat wil de taak bereiken                                                                                                                                                                                                                                                                        | Wat staat er langs de pijl                                                                                                                                                                                                                        | Voorbeelden Functienamen                                                                                                                                                                                                            | Implementatie in code                                                                                                                                                                                                                                                                                                                                                                              |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,7 +93,3 @@ De naamgeving van functies en synchronisatiemechanismen waarmee objecten met elk
 **<sup>3</sup>** Een **andere** klasse (met een andere std/taak) roept een publieke functie aan in de klasse van **deze** std/taak. Deze publieke functie staat in de << interface >> van **deze** std. In de functie worden eventbits gezet of queues gevuld.  
 **<sup>4</sup>** Dit zijn publieke functies van een **andere** std/taak. Ze worden benoemd in de << interface >> van de **andere** std. De instantiatie van een object van die andere STD/taal wordt in het schema aangegeven met **objectName**. Ze worden aangeroepen in **deze** std/task.  
 **<sup>5</sup>** De queue "is" van de **andere** std/taak.
-
-
-
-
