@@ -3,7 +3,8 @@
 Ook deze les staat het ontwerpen van een STD (State Transition Diagram) centraal. De ervaring leert dat dit een onderwerp is dat veel oefening nodig heeft om het in de vingers te krijgen. Vandaar deze extra les.
 
 ## Voorbereiding
-- Bestudeer het STD hoofdstuk van deze [ppt](./files/Operating_Systems.pptx).
+- Bestudeer het STD hoofdstuk van deze [Operating_Systems.pptx](./files/Operating_Systems.pptx).
+- Bestudeer nog eens [STDs-1_freertos.pptx](../../onderwijsmateriaal/presentaties/STDs-1_freertos.pptx)
 - Bestudeer de [STD kwaliteits criteria](../../leerdoelen/portfolio-items/state-transition-diagram.md)
 
 ## Tijdens en na de les
