@@ -76,6 +76,7 @@ De UML-diagram laat dus zien hoe inheritance wordt toegepast.
 
 ## Bronnen
 
+<!-- markdown-link-check-disable -->
 - https://www.uml-diagrams.org/inherited-property.html  
 - https://en.cppreference.com/book/intro/inheritance  
 - https://www.geeksforgeeks.org/cpp/inheritance-in-c  
@@ -84,3 +85,4 @@ De UML-diagram laat dus zien hoe inheritance wordt toegepast.
 - https://stackoverflow.com/questions/418308/what-does-the-symbol-mean-in-a-uml-class-diagram  
 - https://stackoverflow.com/questions/406081/why-should-i-avoid-multiple-inheritance  
 - ChatGPT & andere generatieve AI
+<!-- markdown-link-check-enable -->

@@ -10,6 +10,7 @@ Als iets in jouw Integrated Development Environment (bv VSCode met plugins) niet
 
   * [TI-S4 presentatie "Een applicatie bouwen" (PDF export met tussenstappen)](https://github.com/HU-TI-DEV/TI-S4/blob/main/infrastructuur/desktop_environment/files/les-full-infrastructuur-desktop-environment.pdf)
 
+<!-- markdown-link-check-disable-next-line -->
   * [The four stages of the gcc compiler: preprocessor, compiler, assembler, linker.](https://medium.com/@gpradinett/the-four-stages-of-the-gcc-compiler-preprocessor-compiler-assembler-linker-3dec8714bb9c)
 
   * [A Dive to the Build Process - What Goes On When You Press the Play Button](https://zakuarbor.github.io/blog/building-code/)
