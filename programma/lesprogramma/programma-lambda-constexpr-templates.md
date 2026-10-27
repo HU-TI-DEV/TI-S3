@@ -17,6 +17,7 @@ Lesmateriaal over de onderwerpen:
 
 Externe bronnen:
 
+- Lees hier over [C++ Lambda Functions](https://www.w3schools.com/cpp/cpp_functions_lambda.asp) (w3schools, dank aan Myrthe Matthee).
 - Lees hier over [constexpr in C++](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-cpp/).
 - Kijk deze [video over Templates](https://www.youtube.com/watch?v=I-hZkUa9mIs)
 - En eventueel nog [deze video van Marius Versteegen over constexpr en Templates](https://youtu.be/yaPNw6C1fYg)
