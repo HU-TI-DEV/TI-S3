@@ -141,8 +141,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | klas A | klas B|
 | --- | :--- | --- |
-| ma  | **Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**TM**)  |`SWA` HL15-1.080 [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|
-| di  | `SWA` HL15-2.012 [State Transition Diagrams I](./lesprogramma//programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**GP**)  |
+| ma  | **Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**TM**)  |`SWA` HL15-1.080 [State Transition Diagrams I](./lesprogramma/programma-std-1.md) (**MV**)|
+| di  | `SWA` HL15-2.012 [State Transition Diagrams I](./lesprogramma/programma-std-1.md) (**MV**)|**Einde sprint 3** sprint demo <br> `PRO` 20 minuten *show & tell* enkel aan docent (**GP**)  |
 | wo  |  `SWA` [Pong Modding Workshop](./lesprogramma/programma-pong-game-modding-workshop.md) (**MV**)   | (gezamenlijk met klas A)|
 | do  | `ESP` [IO expander](./lesprogramma/programma-CYD-IO-expander.md) (**HP & HS**) | (gezamenlijk met klas A)|
 
@@ -150,8 +150,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | klas A | klas B|
 | --- | :--- | --- |
-| ma  | `PRO` Game diagrammen (**TM & BB**)|`SWA` HL15-1.056 [State Transition Diagrams II](./lesprogramma//programma-std-2.md)   (**MV**)  |
-| di  | `SWA` HL15-1.086 [State Transition Diagrams II](./lesprogramma//programma-std-2.md)   (**MV**)  | `PRO` Game diagrammen  (**TM & BB**)|
+| ma  | `PRO` Game diagrammen (**TM & BB**)|`SWA` HL15-1.056 [State Transition Diagrams II](./lesprogramma/programma-std-2.md)   (**MV**)  |
+| di  | `SWA` HL15-1.086 [State Transition Diagrams II](./lesprogramma/programma-std-2.md)   (**MV**)  | `PRO` Game diagrammen  (**TM & BB**)|
 | wo  | `SWA` [Herhaling STD -> code](./lesprogramma/programma-OS-STD-Code.md) (**BB**)| (gezamenlijk met klas A) |
 | do  |  `C++` [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |(gezamenlijk met klas A) |
 
