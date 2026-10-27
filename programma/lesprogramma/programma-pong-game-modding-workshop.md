@@ -10,6 +10,7 @@ Het doen van deze workshop zal je waardevolle ervaring geven voor het afronden v
 
 Neem voor deze les je CYD mee. 
 Download en bestudeer als het even kan alvast wat de volgende repo: [https://github.com/nepbuur1/test_lasergame_2_rework_CleanGUI_godmode](https://github.com/nepbuur1/test_lasergame_2_rework_CleanGUI_godmode)
+
 Bekijk daarvan de app apps_frt/pong_simple_frt.
 
 ## Tijdens en na de les
