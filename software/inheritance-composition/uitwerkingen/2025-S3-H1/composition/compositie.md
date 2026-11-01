@@ -241,6 +241,7 @@ Aggregatie heeft ook geen eigenaarschap op een object, dit zorgt ervoor dat een 
 ---
 ### Bronvermelding
 
+<!-- markdown-link-check-disable -->
 - [Composition and Aggregation](https://www.youtube.com/watch?v=pDlEvmawN9g)
 
 - [Composition vs inheritance](https://www.adservio.fr/post/composition-vs-inheritance#:~:text=The%20difference%20between%20inheritance%20and,class%2C%20thus%20breaking%20your%20code.)
@@ -264,3 +265,4 @@ Aggregatie heeft ook geen eigenaarschap op een object, dit zorgt ervoor dat een 
 - [What is aggregation and composition](https://www.conradbock.org/compkind.html)
 
 - [Stack difference between aggregation and composition](https://stackoverflow.com/questions/885937/what-is-the-difference-between-association-aggregation-and-composition)
+<!-- markdown-link-check-enable -->

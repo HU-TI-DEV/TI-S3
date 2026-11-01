@@ -4,6 +4,9 @@
 
 Source: [https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html)
 
+
+Note 28-10-2026. The following installation has been tested until Python version 3.13.1.
+
 Make a workspace:
 
 ```bash
