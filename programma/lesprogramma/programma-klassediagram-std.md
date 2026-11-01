@@ -4,7 +4,7 @@ In deze les willen we een klassediagram omzetten naar een STD (State Transition 
 
 ## Voorbereiding
 
-- Lees blz 56 tm blz 59 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+- Lees blz 56 tm blz 59 van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf).
 - Lees blz 11 en 12 van [Design like a Robot! rulebook](../../onderwijsmateriaal/readers/Design%20like%20a%20Robot!_rulebook.pdf)
 
 ## Use case Verkeerslicht

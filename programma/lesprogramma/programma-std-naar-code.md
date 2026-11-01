@@ -3,7 +3,7 @@
 De les van vandaag staat in het teken van het omzetten van STD naar code.
 
 ## Voorbereiding
-- Lees blz 53 tm blz 65 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) nog eens door.
+- Lees het hoofdstuk over van STD naar Code van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf) nog eens door.
 - Bestudeer ook het [voorbeeld op basis van een keukenweegschaal in video-vorm](https://youtu.be/ZrFaFRu1rKw).
 
 ## Tijdens en na de les

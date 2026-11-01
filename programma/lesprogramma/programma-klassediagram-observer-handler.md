@@ -3,7 +3,7 @@
 Deze les staat het omzetten van een object model naar een klassediagram centraal. We daarbij ook op herbruikbaarheid, door het Observer Pattern te gebruiken waar het van toepassing is. We passen waar mogelijk ook temporele cohesie toe, via het Handler Pattern.
 
 ## Voorbereiding
-- Lees blz 31 tm blz 46 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) door.
+- Lees blz 31 tm blz 46 van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf) door.
 
 - Bestudeer het [handler pattern - pptx sheets](../../onderwijsmateriaal/presentaties/Temporele-cohesie.pptx). en bekijk eventueel [meer design patterns](../../software/patterns/README.md).
 

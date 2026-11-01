@@ -3,7 +3,7 @@
 Een Object Model is een diagram dat laat zien hoe software objecten met afgebakende, eigen verantwoordelijkheden met elkaar samenwerken, zodanig dat requirements waargemaakt worden.
 
 ## Voorbereiding
-- Lees tm blz 22 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf)
+- Lees tm blz 22 van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf)
 - Wat highlights kun je ook in video-vorm bestuderen: [Video Keukenweegschaal - Object Model maken](https://youtu.be/HQtPEt8f9As)
 
 ## Tijdens en na de les

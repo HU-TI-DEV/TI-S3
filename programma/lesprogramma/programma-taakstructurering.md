@@ -4,7 +4,7 @@ Taakstructurering bestaat uit 2 delen:
 - Het **samenvoegen** van zoveel mogelijk taken (voor zover dat niet tot onoverzichtelijkheid leidt) in een **Taaksamenvoegingstabel**, om het aantal taken en daarmee de kosten van task-switching te beperken.
 
 ## Voorbereiding
-- Lees blz 23 tm blz 26 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf).
+- Lees de paragrafen over taakstructurering van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf).
 - Lees ook de [criteria van taakstructurering](../../leerdoelen/portfolio-items/taakstructurering.md) door.
 - Hoe dat is toegepast bij het ontwerp van een keukenweegschaal zie je in de volgende videos:
   - [Keukenweegschaal - Deadlines en prioriteiten](https://youtu.be/wCvsCxmSr6k)

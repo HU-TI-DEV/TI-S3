@@ -3,7 +3,7 @@
 Deze les staat het omzetten van een object model naar een klassediagram centraal. En passant letten we daarbij ook op herbruikbaarheid, door het Observer Pattern te gebruiken waar van toepassing.
 
 ## Voorbereiding
-- Lees blz 31 tm blz 46 van [Design like a robot!](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!.pdf) door.
+- Lees blz 31 tm blz 46 van [Design like a robot! FreeRTOS](../../onderwijsmateriaal/readers/Design%20Like%20a%20Robot!_freertos.pdf) door.
 - Bestudeer ook het [voorbeeld op basis van een keukenweegschaal in video-vorm](https://youtu.be/Y_XEEnh0C0Y).
 - Voor wie hem gemist had: [Tijdelijke Nieuwsflits: Vooruitblik](../../onderwijsmateriaal/temp/vooruitblik-web-dev/vooruitblik-web-dev.md)
 
