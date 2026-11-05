@@ -11,7 +11,13 @@ Een tabel met de eigenschappen van een use case.
 
 - De zo **afgesplitse use cases** linken aan de bron use case in het use case diagram via **extend** of **include** relaties.
 
-- Alternatief kan een reden zijn usecases af te splitsen als er dingen "**parallel**" moeten gebeuren. Want uiteindelijk wil je dat het scenario van een enkele usecase door een enkele taak uitgevoerd kan worden.
+- Alternatief kan een reden zijn usecases af te splitsen als er complexere dingen "**parallel**" moeten gebeuren. Want uiteindelijk wil je dat het scenario van een enkele usecase door een enkele taak uitgevoerd kan worden.
+  - NB: als parallele flows maar 1 wachtstap hebben, kunnnen ze prima samen blijven in een usecase:
+        het wachten op 5 dingen tegelijk kan prima in 1 taak is geen reden voor opsplitsen.
+  - NB: aan de andere kant: als een van de flows meerdere stappen heeft, dan ligt afsplitsen ervan wel voor de hand.
+  - NB: Een usecase die alleen maar wacht op iets, en dat vervolgens meteen weer doorgeeft, had dat waarschijnlijk ook zonder
+        wachten kunnen doorgeven, en als nergens op gewacht wordt, is er geen eigen thread voor nodig en hoeft er geen 
+        usecase afgesplitst te worden.
 
 - Stapsgewijze beschrijving van scenario(s) -
   Doe alsof het systeem al bestaat en **beschrijf vanuit het systeem** de interacties met de actors, en welke stappen het doorloopt.
@@ -19,6 +25,12 @@ Een tabel met de eigenschappen van een use case.
 - **Nummer** de stappen bij voorkeur.
 
 - Houd de stappen **klein en concreet**. Dus NIET: "kan met knopjes worden ingesteld", maar "1. wacht op een knopdruk".    "2. als het de spatie was, dan .. , als het .. ", etc.
+
+- Zorg dat elke stap een van de volgende 4 is: 
+  - Wacht op .. (en evt meer dingen tegelijk)
+  - Doe iets
+  - Als ... doe dit (en evt anders .. doe dat)
+  - goto ...
 
 - Voldoende **gedetailleerd** - zodat duidelijk is wat / welk gedrag er gemaakt moet gaan worden.
 
