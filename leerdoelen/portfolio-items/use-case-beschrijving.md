@@ -14,7 +14,7 @@ Een tabel met de eigenschappen van een use case.
 - Alternatief kan een reden zijn usecases af te splitsen als er complexere dingen "**parallel**" moeten gebeuren. Want uiteindelijk wil je dat het scenario van een enkele usecase door een enkele taak uitgevoerd kan worden.
   - NB: als parallele flows maar 1 wachtstap hebben, kunnnen ze prima samen blijven in een usecase:
         het wachten op 5 dingen tegelijk kan prima in 1 taak is geen reden voor opsplitsen.
-  - NB: aan de andere kant: als een van de flows meerdere stappen heeft, dan ligt afsplitsen ervan wel voor de hand.
+  - NB: aan de andere kant: als een van de flows meerdere wachtstappen heeft, dan ligt afsplitsen ervan wel voor de hand.
   - NB: Een usecase die alleen maar wacht op iets, en dat vervolgens meteen weer doorgeeft, had dat waarschijnlijk ook zonder
         wachten kunnen doorgeven, en als nergens op gewacht wordt, is er geen eigen thread voor nodig en hoeft er geen 
         usecase afgesplitst te worden.
