@@ -207,9 +207,9 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | `PRO` Teamcoach gesprek (20 minuten) per team (**GP & TM**)  |
-| di  | `ESP` Game herkansing (**TM & MV**) en zelfstandig werken aan project |
+| di  |  SRON Excursie|
 | wo  | `ESP` Game herkansing (**HS & MV**) en zelfstandig werken aan project |
-| do  | **Einde sprint 7**, Review sprint (**GP & TM**)<br>  |
+| do  | `ESP` Game herkansing (**TM & MV**) en zelfstandig werken aan project  |
 
 ### Onderwijsweek B7 (21-12-2026)
 
