@@ -190,6 +190,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | `PRO` Teamcoach gesprek (20 minuten) per team (**GP & TM**) <br> SRON online vragenuur |
 | di  | `ESP` Game evaluatie / verbetering (**MV & BB**) |
+| wo  | `ALG` [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
 | do  | `ALG` Peil document check (**BB & HS & HP**) <br> **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
