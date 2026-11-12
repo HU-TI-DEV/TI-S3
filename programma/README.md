@@ -40,7 +40,7 @@ De contacturen zijn (subject to change):
 | ma | 09:00 - 12.00 uur <br> (12.00 - 13.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
 | di | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 (op sommige dagen wordt de groep gesplitst en zijn er extra lokalen)\* |
 | wo | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
-| do | 13:00 - 16.00 uur <br> (16.00 - 17.00 uur zelfwerktijd) | HL15-1.096 |
+| do | 14:00 - 16.00 uur <br> (17.00 - 18.00 uur zelfwerktijd) | HL15-1.096 | Dit betreft een wijziging in starttijd vanaf donderdag 12 november tot aan het eind van het semester.
 
 \* Voor de team/coachgesprekken op maandagen en dinsdagen en tijdens alle lessen zijn de volgende kleine ruimtes beschikbaar: HL15-1.093/1.094/1.095/1.098.
 
@@ -156,7 +156,7 @@ Markeringen voor de onderwerpen:
 | do  |  `C++` [Inheritance/Compositie](../software/inheritance-composition/README.md) (**HP**)  <br> **2e Peilmoment**  |(gezamenlijk met klas A) |
 
 ### Onderwijsweek B1 (09-11-2026)
-
+vanaf deze week op donderdagmiddag vanaf 14.00 uur les
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | **Einde sprint 4** sprint demo <br> `PRO` Project MVP idee pitchen aan hele klas (10 min per groep) (**GP & TM**)  |
