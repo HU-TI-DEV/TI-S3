@@ -181,7 +181,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | **Einde sprint 5** sprint demo <br> `PRO` korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**)|
 | di  | `ESP` Game assessments (**MV & TM**) (hele dag!)|
-| wo  | `ESP` Game assessments (**MV & HS**) (hele dag!)|
+| wo  | `ESP` Game assessments (**MV & HS**) (hele dag!) &  `PRO` Onderzoek draft spreekuur (**BB**) <br> |
 | do  | `ESP` Game assessments (**MV & HS**) (hele dag!)|
 
 ### Onderwijsweek B4 (30-11-2026)
@@ -190,7 +190,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | `PRO` Teamcoach gesprek (20 minuten) per team (**GP & TM**) <br> SRON online vragenuur |
 | di  | `ESP` Game evaluatie / verbetering (**MV & BB**) |
-| wo  | `PRO` Onderzoek draft reviewen (**BB**) <br> `ALG` [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
+| wo  |`ALG` [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
 | do  | `ALG` Peil document check (**BB & HS & HP**) <br> **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
