@@ -171,7 +171,7 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | `PRO` Ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
-| di  | `PRO` Onderzoek draft reviewen (**BB**) <br> `ESP` Werken aan game (**BB**) |
+| di  |  `ESP` Werken aan game (**GP**) |
 | wo  | `C++` [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
 | do  | `ESP` Werken aan game (**HP & MV**) |
 
@@ -190,7 +190,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | `PRO` Teamcoach gesprek (20 minuten) per team (**GP & TM**) <br> SRON online vragenuur |
 | di  | `ESP` Game evaluatie / verbetering (**MV & BB**) |
-| wo  | `ALG` [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
+| wo  | `PRO` Onderzoek draft reviewen (**BB**) <br> `ALG` [Gomoku](./lesprogramma/programma-webapp-flask-docker-mongodb.md) (**HS**)|
 | do  | `ALG` Peil document check (**BB & HS & HP**) <br> **3e Peilmoment** |
 
 ### Onderwijsweek B5 (07-12-2026)
