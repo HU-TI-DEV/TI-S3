@@ -170,8 +170,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Ophalen feedback over project documenten voor leeruitkomsten  (**GP & TM**) |
-| di  |  `ESP` Werken aan game (**GP**) |
+| ma  | `ESP` Werken aan game & reviewen diagrammen (**GP & TM**) |
+| di  | `ESP` Werken aan game (**GP**) |
 | wo  | `C++` [Memory management](./lesprogramma/programma-memory-management.md) en Interrupts (**HP**) |
 | do  | `ESP` Werken aan game (**HP & MV**) |
 
