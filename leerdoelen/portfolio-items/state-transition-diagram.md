@@ -70,7 +70,8 @@ Voeg een kopie van de volledige private functie toe in een note (comment) van de
 Om het STD zo duidelijk mogelijk te houden, wil je dit soort functies, welke geheel opgenomen worden in de note van een STD, zo klein mogelijk houden. Dat kun je doen door van die functies zo groot mogelijke stukken code die niet aan een van bovenstaande 3 criteria voldoen, af te splisten naar andere private functies.
 Voor die andere private functies volstaat dan weer een korte toelichting. 
 
-Voorbeelden met bovenstaande toegepast kun je zien in bijvoorbeeld [de modellen van super_pong_frt](https://github.com/nepbuur1/test_lasergame_2_rework_CleanGUI_godmode/tree/main/apps_frt/pong_super_frt/models).
+Voorbeelden met bovenstaande toegepast kun je zien in bijvoorbeeld [de modellen van super_pong_frt](https://github.com/HU-TI-DEV/freertos-pong-lasergame-2/tree/main/apps_frt/pong_super_frt/models).\
+Zie graag ook de pagina [Programma Pong game modding Workshop](../../programma/lesprogramma/programma-pong-game-modding-workshop.md)
 
 ## Naamgeving communicatiemechanismen
 
