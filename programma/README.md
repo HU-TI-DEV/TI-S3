@@ -181,7 +181,7 @@ vanaf deze week op donderdagmiddag vanaf 14.00 uur les
 | --- | :--- |
 | ma  | **Einde sprint 5** sprint demo <br> `PRO` korte show en tell (per deelklas) en review scrumboarden ytd (gezamelijk) (**GP & TM**)|
 | di  | `ESP` Game assessments (**MV & TM**) (hele dag!)|
-| wo  | `ESP` Game assessments (**MV & HS**) (hele dag!) &  `PRO` Onderzoek draft spreekuur (**BB**) <br> |
+| wo  | `ESP` Game assessments (**MV & HS**) (hele dag!) &  `PRO` Onderzoek draft spreekuur (**BB**, HL15-4.056 van 13:00-16:00) <br> |
 | do  | `ESP` Game assessments (**MV & HS**) (hele dag!)|
 
 ### Onderwijsweek B4 (30-11-2026)
