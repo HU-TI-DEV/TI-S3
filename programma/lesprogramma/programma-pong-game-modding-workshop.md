@@ -15,6 +15,10 @@ Download en bestudeer als het even kan alvast wat de volgende repo:
 
 Lees daarvan de README.md en bekijk daarvan de app apps_frt/pong_simple_frt en app/StateMachineTemplatePro.
 
+Kijk als/zodra het lukt deze uitleg video's:
+* [Pong ontwerpproces uitleg](https://youtu.be/WP86miiFkww)
+* [StateMachineTemplatePro uitleg](https://youtu.be/cyRbRZ2psdA)
+
 ## Tijdens en na de les
 
 Deze les ga je een mod maken voor een bestaande pong-game:
